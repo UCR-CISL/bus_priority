@@ -1,0 +1,2 @@
+sim_time,vehicle_id,vehicle_type,tls_id,lane_id,position,speed,priority_granted,phase_index,note,actual_delay
+18,car2.0,DEFAULT_VEHTYPE,GS_cluster_7059565448_7059565449_7464757604_939854561,755844260#0_0,24.968842250576355,0.00017688686713151662,yes,4,green granted after 8s,8

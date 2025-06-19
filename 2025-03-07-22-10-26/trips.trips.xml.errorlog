@@ -1,0 +1,17 @@
+Warning: At actuated tlLogic '122793092', linkIndex 11,12,13 has no controlling detector.
+Warning: At actuated tlLogic '5703666296', linkIndex 15,16,17 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1166628477_2761920333', linkIndex 12,13,14 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_122966911_7059565450', linkIndex 13,14,15,16 has no controlling detector.
+Warning: busStop '4224873296' on lane '406215616#0_0' is too short for vehicle '0_bus_Green:0'.
+Warning: No connection between edge '1149567881#0' and edge '406232664#0' found.
+Warning: Vehicle '0_bus_Green:0' has no valid route from edge '1149567881#0' to stop edge '406232664#0'.
+Warning: No connection between edge '1149567881#1' and edge '405546357#2' found.
+Warning: Vehicle '0_bus_Green:0' has no valid route from edge '1149567881#1' to stop edge '405546357#2'.
+Warning: No connection between edge '187986237' and edge '406215616#0' found.
+Warning: Vehicle '0_bus_Green:0' has no valid route from edge '187986237' to stop edge '406215616#0'.
+Warning: Teleporting vehicle '0_bus_Green:0'; waited too long (wrong lane), lane='1149567881#0_0', time=687.00.
+Warning: Vehicle '0_bus_Green:0' ends teleporting on edge '406232664#0', time=687.00.
+Warning: Teleporting vehicle '0_bus_Green:0'; waited too long (wrong lane), lane='1149567881#1_0', time=1281.00.
+Warning: Vehicle '0_bus_Green:0' ends teleporting on edge '405546357#2', time=1281.00.
+Warning: Teleporting vehicle '0_bus_Green:0'; waited too long (wrong lane), lane='187986237_0', time=1979.00.
+Warning: Vehicle '0_bus_Green:0' ends teleporting on edge '406215616#0', time=1979.00.

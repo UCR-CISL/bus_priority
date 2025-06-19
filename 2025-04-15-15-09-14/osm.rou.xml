@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-15 16:17:18 by Eclipse SUMO netedit Version 1.22.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="bus" vClass="bus"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="bus" type="bus" depart="0.00" from="612785328#0" to="7194835#1" via="643274771 643274772#0 7211352#0 1369937006#1 -474901194 -474901196#1 -474901195#1 -474901193 -474635936 7194835#0"/>
+</routes>

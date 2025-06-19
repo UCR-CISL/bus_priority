@@ -1,0 +1,2 @@
+vehicle_id,vehicle_type,tls_id,wait_start_time,wait_end_time,wait_duration
+car2.0,DEFAULT_VEHTYPE,GS_cluster_7059565448_7059565449_7464757604_939854561,15,18,3

@@ -1,0 +1,33 @@
+<additional>
+    <inductionLoop id="det_-1369937006#0_0" lane="-1369937006#0_0" pos="73.38" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-253276528_0" lane="-253276528_0" pos="27.68" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-253276528_1" lane="-253276528_1" pos="27.68" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-253276528_2" lane="-253276528_2" pos="27.68" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-474635936_0" lane="-474635936_0" pos="9.34" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-474635936_1" lane="-474635936_1" pos="9.34" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-474901185_0" lane="-474901185_0" pos="15.739999999999998" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-474901185_1" lane="-474901185_1" pos="15.739999999999998" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-474901185_2" lane="-474901185_2" pos="15.739999999999998" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-7194835#0_0" lane="-7194835#0_0" pos="78.01" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-7194835#0_1" lane="-7194835#0_1" pos="78.01" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-7194835#2_0" lane="-7194835#2_0" pos="73.41" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_-7194835#2_1" lane="-7194835#2_1" pos="73.41" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_1350632644#0_0" lane="1350632644#0_0" pos="84.94" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_1350632644#0_1" lane="1350632644#0_1" pos="84.94" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_1371024191#0_0" lane="1371024191#0_0" pos="82.73" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_1371024191#0_1" lane="1371024191#0_1" pos="82.73" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_474901189_0" lane="474901189_0" pos="22.65" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_474901189_1" lane="474901189_1" pos="22.65" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_474901189_2" lane="474901189_2" pos="22.65" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_643274765#0_0" lane="643274765#0_0" pos="29.93" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_643274765#0_1" lane="643274765#0_1" pos="29.93" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_643274765#0_2" lane="643274765#0_2" pos="29.93" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_643274772#0_0" lane="643274772#0_0" pos="79.31" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_643274772#0_1" lane="643274772#0_1" pos="79.31" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_654626175#1_0" lane="654626175#1_0" pos="83.68" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_654626175#1_1" lane="654626175#1_1" pos="83.68" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_7194835#0_0" lane="7194835#0_0" pos="78.02" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_7194835#0_1" lane="7194835#0_1" pos="78.02" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_7194835#1_0" lane="7194835#1_0" pos="73.46" freq="60" file="detector_output.xml"/>
+    <inductionLoop id="det_7194835#1_1" lane="7194835#1_1" pos="73.46" freq="60" file="detector_output.xml"/>
+</additional>

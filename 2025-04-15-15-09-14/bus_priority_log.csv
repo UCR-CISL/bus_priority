@@ -1,0 +1,1394 @@
+sim_time,vehicle_id,tls_id,lane_id,eta,speed,priority_granted,phase_index,note
+0.05,bus,N/A,612785328#0_0,N/A,0.0,no,N/A,No TLS ahead
+0.1,bus,N/A,612785328#0_0,N/A,0.06,no,N/A,No TLS ahead
+0.15,bus,N/A,612785328#0_0,N/A,0.12,no,N/A,No TLS ahead
+0.2,bus,N/A,612785328#0_0,N/A,0.17,no,N/A,No TLS ahead
+0.25,bus,N/A,612785328#0_0,N/A,0.23,no,N/A,No TLS ahead
+0.3,bus,N/A,612785328#0_0,N/A,0.29,no,N/A,No TLS ahead
+0.35,bus,N/A,612785328#0_0,N/A,0.34,no,N/A,No TLS ahead
+0.4,bus,N/A,612785328#0_0,N/A,0.4,no,N/A,No TLS ahead
+0.45,bus,N/A,612785328#0_0,N/A,0.44,no,N/A,No TLS ahead
+0.5,bus,N/A,612785328#0_0,N/A,0.5,no,N/A,No TLS ahead
+0.55,bus,N/A,612785328#0_0,N/A,0.56,no,N/A,No TLS ahead
+0.6,bus,N/A,612785328#0_0,N/A,0.61,no,N/A,No TLS ahead
+0.65,bus,N/A,612785328#0_0,N/A,0.66,no,N/A,No TLS ahead
+0.7,bus,N/A,612785328#0_0,N/A,0.71,no,N/A,No TLS ahead
+0.75,bus,N/A,612785328#0_0,N/A,0.76,no,N/A,No TLS ahead
+0.8,bus,N/A,612785328#0_0,N/A,0.8,no,N/A,No TLS ahead
+0.85,bus,N/A,612785328#0_0,N/A,0.86,no,N/A,No TLS ahead
+0.9,bus,N/A,612785328#0_0,N/A,0.9,no,N/A,No TLS ahead
+0.95,bus,N/A,612785328#0_0,N/A,0.94,no,N/A,No TLS ahead
+1.0,bus,N/A,612785328#0_0,N/A,0.98,no,N/A,No TLS ahead
+1.05,bus,N/A,612785328#0_0,N/A,1.02,no,N/A,No TLS ahead
+1.1,bus,N/A,612785328#0_0,N/A,1.06,no,N/A,No TLS ahead
+1.15,bus,N/A,612785328#0_0,N/A,1.11,no,N/A,No TLS ahead
+1.2,bus,N/A,612785328#0_0,N/A,1.15,no,N/A,No TLS ahead
+1.25,bus,N/A,612785328#0_0,N/A,1.2,no,N/A,No TLS ahead
+1.3,bus,N/A,612785328#0_0,N/A,1.23,no,N/A,No TLS ahead
+1.35,bus,N/A,612785328#0_0,N/A,1.29,no,N/A,No TLS ahead
+1.4,bus,N/A,612785328#0_0,N/A,1.32,no,N/A,No TLS ahead
+1.45,bus,N/A,612785328#0_0,N/A,1.35,no,N/A,No TLS ahead
+1.5,bus,N/A,612785328#0_0,N/A,1.39,no,N/A,No TLS ahead
+1.55,bus,N/A,612785328#0_0,N/A,1.45,no,N/A,No TLS ahead
+1.6,bus,N/A,612785328#0_0,N/A,1.49,no,N/A,No TLS ahead
+1.65,bus,N/A,612785328#0_0,N/A,1.54,no,N/A,No TLS ahead
+1.7,bus,N/A,612785328#0_0,N/A,1.58,no,N/A,No TLS ahead
+1.75,bus,N/A,612785328#0_0,N/A,1.64,no,N/A,No TLS ahead
+1.8,bus,N/A,612785328#0_0,N/A,1.68,no,N/A,No TLS ahead
+1.85,bus,N/A,612785328#0_0,N/A,1.72,no,N/A,No TLS ahead
+1.9,bus,N/A,612785328#0_0,N/A,1.78,no,N/A,No TLS ahead
+1.95,bus,N/A,612785328#0_0,N/A,1.84,no,N/A,No TLS ahead
+2.0,bus,N/A,612785328#0_0,N/A,1.88,no,N/A,No TLS ahead
+2.05,bus,N/A,612785328#0_0,N/A,1.91,no,N/A,No TLS ahead
+2.1,bus,N/A,612785328#0_0,N/A,1.96,no,N/A,No TLS ahead
+2.15,bus,N/A,612785328#0_0,N/A,2.01,no,N/A,No TLS ahead
+2.2,bus,N/A,612785328#0_0,N/A,2.07,no,N/A,No TLS ahead
+2.25,bus,N/A,612785328#0_0,N/A,2.12,no,N/A,No TLS ahead
+2.3,bus,N/A,612785328#0_0,N/A,2.16,no,N/A,No TLS ahead
+2.35,bus,N/A,612785328#0_0,N/A,2.2,no,N/A,No TLS ahead
+2.4,bus,N/A,612785328#0_0,N/A,2.24,no,N/A,No TLS ahead
+2.45,bus,N/A,612785328#0_0,N/A,2.29,no,N/A,No TLS ahead
+2.5,bus,N/A,612785328#0_0,N/A,2.35,no,N/A,No TLS ahead
+2.55,bus,N/A,612785328#0_0,N/A,2.4,no,N/A,No TLS ahead
+2.6,bus,N/A,612785328#0_0,N/A,2.45,no,N/A,No TLS ahead
+2.65,bus,N/A,612785328#0_0,N/A,2.48,no,N/A,No TLS ahead
+2.7,bus,N/A,612785328#0_0,N/A,2.52,no,N/A,No TLS ahead
+2.75,bus,N/A,612785328#0_0,N/A,2.57,no,N/A,No TLS ahead
+2.8,bus,N/A,612785328#0_0,N/A,2.62,no,N/A,No TLS ahead
+2.85,bus,N/A,612785328#0_0,N/A,2.65,no,N/A,No TLS ahead
+2.9,bus,N/A,612785328#0_0,N/A,2.71,no,N/A,No TLS ahead
+2.95,bus,N/A,612785328#0_0,N/A,2.76,no,N/A,No TLS ahead
+3.0,bus,N/A,612785328#0_0,N/A,2.81,no,N/A,No TLS ahead
+3.05,bus,N/A,612785328#0_0,N/A,2.86,no,N/A,No TLS ahead
+3.1,bus,N/A,612785328#0_0,N/A,2.89,no,N/A,No TLS ahead
+3.15,bus,N/A,612785328#0_0,N/A,2.93,no,N/A,No TLS ahead
+3.2,bus,N/A,612785328#0_0,N/A,2.97,no,N/A,No TLS ahead
+3.25,bus,N/A,612785328#0_0,N/A,3.01,no,N/A,No TLS ahead
+3.3,bus,N/A,612785328#0_0,N/A,3.06,no,N/A,No TLS ahead
+3.35,bus,N/A,612785328#0_0,N/A,3.12,no,N/A,No TLS ahead
+3.4,bus,N/A,612785328#0_0,N/A,3.16,no,N/A,No TLS ahead
+3.45,bus,N/A,612785328#0_0,N/A,3.21,no,N/A,No TLS ahead
+3.5,bus,N/A,612785328#0_0,N/A,3.24,no,N/A,No TLS ahead
+3.55,bus,N/A,612785328#0_0,N/A,3.28,no,N/A,No TLS ahead
+3.6,bus,N/A,612785328#0_0,N/A,3.33,no,N/A,No TLS ahead
+3.65,bus,N/A,612785328#0_0,N/A,3.39,no,N/A,No TLS ahead
+3.7,bus,N/A,612785328#0_0,N/A,3.44,no,N/A,No TLS ahead
+3.75,bus,N/A,612785328#0_0,N/A,3.5,no,N/A,No TLS ahead
+3.8,bus,N/A,612785328#0_0,N/A,3.55,no,N/A,No TLS ahead
+3.85,bus,N/A,612785328#0_0,N/A,3.61,no,N/A,No TLS ahead
+3.9,bus,N/A,612785328#0_0,N/A,3.66,no,N/A,No TLS ahead
+3.95,bus,N/A,612785328#0_0,N/A,3.71,no,N/A,No TLS ahead
+4.0,bus,N/A,612785328#0_0,N/A,3.75,no,N/A,No TLS ahead
+4.05,bus,N/A,612785328#0_0,N/A,3.79,no,N/A,No TLS ahead
+4.1,bus,N/A,612785328#0_0,N/A,3.83,no,N/A,No TLS ahead
+4.15,bus,N/A,612785328#0_0,N/A,3.89,no,N/A,No TLS ahead
+4.2,bus,N/A,612785328#0_0,N/A,3.93,no,N/A,No TLS ahead
+4.25,bus,N/A,612785328#0_0,N/A,3.97,no,N/A,No TLS ahead
+4.3,bus,N/A,612785328#0_0,N/A,4.03,no,N/A,No TLS ahead
+4.35,bus,N/A,612785328#0_0,N/A,4.07,no,N/A,No TLS ahead
+4.4,bus,N/A,612785328#0_0,N/A,4.13,no,N/A,No TLS ahead
+4.45,bus,N/A,612785328#0_0,N/A,4.17,no,N/A,No TLS ahead
+4.5,bus,N/A,612785328#0_0,N/A,4.2,no,N/A,No TLS ahead
+4.55,bus,N/A,612785328#0_0,N/A,4.23,no,N/A,No TLS ahead
+4.6,bus,N/A,612785328#0_0,N/A,4.29,no,N/A,No TLS ahead
+4.65,bus,N/A,612785328#0_0,N/A,4.32,no,N/A,No TLS ahead
+4.7,bus,N/A,612785328#0_0,N/A,4.36,no,N/A,No TLS ahead
+4.75,bus,N/A,612785328#0_0,N/A,4.41,no,N/A,No TLS ahead
+4.8,bus,N/A,612785328#0_0,N/A,4.44,no,N/A,No TLS ahead
+4.85,bus,N/A,612785328#0_0,N/A,4.49,no,N/A,No TLS ahead
+4.9,bus,N/A,612785328#0_0,N/A,4.52,no,N/A,No TLS ahead
+4.95,bus,N/A,612785328#0_0,N/A,4.56,no,N/A,No TLS ahead
+5.0,bus,N/A,612785328#0_0,N/A,4.6,no,N/A,No TLS ahead
+5.05,bus,N/A,612785328#0_0,N/A,4.66,no,N/A,No TLS ahead
+5.1,bus,N/A,612785328#0_0,N/A,4.71,no,N/A,No TLS ahead
+5.15,bus,N/A,612785328#0_0,N/A,4.75,no,N/A,No TLS ahead
+5.2,bus,N/A,612785328#0_0,N/A,4.79,no,N/A,No TLS ahead
+5.25,bus,N/A,612785328#0_0,N/A,4.85,no,N/A,No TLS ahead
+5.3,bus,N/A,612785328#0_0,N/A,4.9,no,N/A,No TLS ahead
+5.35,bus,N/A,612785328#0_0,N/A,4.94,no,N/A,No TLS ahead
+5.4,bus,N/A,612785328#0_0,N/A,4.98,no,N/A,No TLS ahead
+5.45,bus,N/A,612785328#0_0,N/A,5.03,no,N/A,No TLS ahead
+5.5,bus,N/A,612785328#0_0,N/A,5.08,no,N/A,No TLS ahead
+5.55,bus,N/A,612785328#0_0,N/A,5.13,no,N/A,No TLS ahead
+5.6,bus,N/A,612785328#0_0,N/A,5.18,no,N/A,No TLS ahead
+5.65,bus,N/A,612785328#0_0,N/A,5.23,no,N/A,No TLS ahead
+5.7,bus,N/A,612785328#0_0,N/A,5.28,no,N/A,No TLS ahead
+5.75,bus,N/A,612785328#0_0,N/A,5.33,no,N/A,No TLS ahead
+5.8,bus,N/A,612785328#0_0,N/A,5.39,no,N/A,No TLS ahead
+5.85,bus,N/A,612785328#0_0,N/A,5.42,no,N/A,No TLS ahead
+5.9,bus,N/A,612785328#0_0,N/A,5.48,no,N/A,No TLS ahead
+5.95,bus,N/A,612785328#0_0,N/A,5.52,no,N/A,No TLS ahead
+6.0,bus,N/A,612785328#0_0,N/A,5.57,no,N/A,No TLS ahead
+6.05,bus,N/A,612785328#0_0,N/A,5.62,no,N/A,No TLS ahead
+6.1,bus,N/A,612785328#0_0,N/A,5.66,no,N/A,No TLS ahead
+6.15,bus,N/A,612785328#0_0,N/A,5.7,no,N/A,No TLS ahead
+6.2,bus,N/A,612785328#0_0,N/A,5.73,no,N/A,No TLS ahead
+6.25,bus,N/A,612785328#0_0,N/A,5.77,no,N/A,No TLS ahead
+6.3,bus,N/A,612785328#0_0,N/A,5.8,no,N/A,No TLS ahead
+6.35,bus,N/A,612785328#0_0,N/A,5.85,no,N/A,No TLS ahead
+6.4,bus,N/A,612785328#0_0,N/A,5.89,no,N/A,No TLS ahead
+6.45,bus,N/A,612785328#0_0,N/A,5.93,no,N/A,No TLS ahead
+6.5,bus,N/A,612785328#0_0,N/A,5.99,no,N/A,No TLS ahead
+6.55,bus,N/A,612785328#0_0,N/A,6.03,no,N/A,No TLS ahead
+6.6,bus,N/A,612785328#0_0,N/A,6.07,no,N/A,No TLS ahead
+6.65,bus,N/A,612785328#0_0,N/A,6.13,no,N/A,No TLS ahead
+6.7,bus,N/A,612785328#0_0,N/A,6.18,no,N/A,No TLS ahead
+6.75,bus,N/A,612785328#0_0,N/A,6.22,no,N/A,No TLS ahead
+6.8,bus,N/A,612785328#0_0,N/A,6.25,no,N/A,No TLS ahead
+6.85,bus,N/A,612785328#0_0,N/A,6.3,no,N/A,No TLS ahead
+6.9,bus,N/A,612785328#0_0,N/A,6.36,no,N/A,No TLS ahead
+6.95,bus,N/A,612785328#0_0,N/A,6.39,no,N/A,No TLS ahead
+7.0,bus,N/A,612785328#0_0,N/A,6.42,no,N/A,No TLS ahead
+7.05,bus,N/A,612785328#0_0,N/A,6.47,no,N/A,No TLS ahead
+7.1,bus,N/A,612785328#0_0,N/A,6.51,no,N/A,No TLS ahead
+7.15,bus,N/A,612785328#0_0,N/A,6.57,no,N/A,No TLS ahead
+7.2,bus,N/A,612785328#0_0,N/A,6.63,no,N/A,No TLS ahead
+7.25,bus,N/A,612785328#0_0,N/A,6.69,no,N/A,No TLS ahead
+7.3,bus,N/A,612785328#0_0,N/A,6.75,no,N/A,No TLS ahead
+7.35,bus,N/A,612785328#0_0,N/A,6.79,no,N/A,No TLS ahead
+7.4,bus,N/A,612785328#0_0,N/A,6.84,no,N/A,No TLS ahead
+7.45,bus,N/A,612785328#0_0,N/A,6.89,no,N/A,No TLS ahead
+7.5,bus,N/A,612785328#0_0,N/A,6.93,no,N/A,No TLS ahead
+7.55,bus,N/A,612785328#0_0,N/A,6.99,no,N/A,No TLS ahead
+7.6,bus,N/A,612785328#0_0,N/A,7.03,no,N/A,No TLS ahead
+7.65,bus,N/A,612785328#0_0,N/A,7.09,no,N/A,No TLS ahead
+7.7,bus,N/A,612785328#0_0,N/A,7.14,no,N/A,No TLS ahead
+7.75,bus,N/A,612785328#0_0,N/A,7.18,no,N/A,No TLS ahead
+7.8,bus,N/A,612785328#0_0,N/A,7.22,no,N/A,No TLS ahead
+7.85,bus,N/A,612785328#0_0,N/A,7.26,no,N/A,No TLS ahead
+7.9,bus,N/A,612785328#0_0,N/A,7.31,no,N/A,No TLS ahead
+7.95,bus,N/A,612785328#0_0,N/A,7.36,no,N/A,No TLS ahead
+8.0,bus,N/A,612785328#0_0,N/A,7.42,no,N/A,No TLS ahead
+8.05,bus,N/A,612785328#0_0,N/A,7.45,no,N/A,No TLS ahead
+8.1,bus,N/A,612785328#0_0,N/A,7.48,no,N/A,No TLS ahead
+8.15,bus,N/A,612785328#0_0,N/A,7.52,no,N/A,No TLS ahead
+8.2,bus,N/A,612785328#0_0,N/A,7.57,no,N/A,No TLS ahead
+8.25,bus,N/A,612785328#0_0,N/A,7.62,no,N/A,No TLS ahead
+8.3,bus,N/A,612785328#0_0,N/A,7.65,no,N/A,No TLS ahead
+8.35,bus,N/A,612785328#0_0,N/A,7.7,no,N/A,No TLS ahead
+8.4,bus,N/A,612785328#0_0,N/A,7.75,no,N/A,No TLS ahead
+8.45,bus,N/A,612785328#0_0,N/A,7.79,no,N/A,No TLS ahead
+8.5,bus,N/A,612785328#0_0,N/A,7.83,no,N/A,No TLS ahead
+8.55,bus,N/A,612785328#0_0,N/A,7.88,no,N/A,No TLS ahead
+8.6,bus,N/A,612785328#0_0,N/A,7.92,no,N/A,No TLS ahead
+8.65,bus,N/A,612785328#0_0,N/A,7.96,no,N/A,No TLS ahead
+8.7,bus,N/A,612785328#0_0,N/A,8.0,no,N/A,No TLS ahead
+8.75,bus,N/A,612785328#0_0,N/A,8.04,no,N/A,No TLS ahead
+8.8,bus,N/A,612785328#0_0,N/A,8.1,no,N/A,No TLS ahead
+8.85,bus,N/A,612785328#0_0,N/A,8.16,no,N/A,No TLS ahead
+8.9,bus,N/A,612785328#0_0,N/A,8.21,no,N/A,No TLS ahead
+8.95,bus,N/A,612785328#0_0,N/A,8.24,no,N/A,No TLS ahead
+9.0,bus,N/A,612785328#0_0,N/A,8.29,no,N/A,No TLS ahead
+9.05,bus,N/A,612785328#0_0,N/A,8.34,no,N/A,No TLS ahead
+9.1,bus,N/A,612785328#0_0,N/A,8.38,no,N/A,No TLS ahead
+9.15,bus,N/A,612785328#0_0,N/A,8.43,no,N/A,No TLS ahead
+9.2,bus,N/A,612785328#0_0,N/A,8.47,no,N/A,No TLS ahead
+9.25,bus,N/A,612785328#0_0,N/A,8.5,no,N/A,No TLS ahead
+9.3,bus,N/A,612785328#0_0,N/A,8.56,no,N/A,No TLS ahead
+9.35,bus,N/A,612785328#0_0,N/A,8.6,no,N/A,No TLS ahead
+9.4,bus,N/A,612785328#0_0,N/A,8.64,no,N/A,No TLS ahead
+9.45,bus,N/A,612785328#0_0,N/A,8.68,no,N/A,No TLS ahead
+9.5,bus,N/A,612785328#0_0,N/A,8.72,no,N/A,No TLS ahead
+9.55,bus,N/A,612785328#0_0,N/A,8.77,no,N/A,No TLS ahead
+9.6,bus,N/A,612785328#0_0,N/A,8.83,no,N/A,No TLS ahead
+9.65,bus,N/A,612785328#0_0,N/A,8.87,no,N/A,No TLS ahead
+9.7,bus,N/A,612785328#0_0,N/A,8.93,no,N/A,No TLS ahead
+9.75,bus,N/A,612785328#0_0,N/A,8.97,no,N/A,No TLS ahead
+9.8,bus,N/A,612785328#0_0,N/A,9.03,no,N/A,No TLS ahead
+9.85,bus,N/A,612785328#0_0,N/A,9.09,no,N/A,No TLS ahead
+9.9,bus,N/A,612785328#0_0,N/A,9.13,no,N/A,No TLS ahead
+9.95,bus,N/A,612785328#0_0,N/A,9.16,no,N/A,No TLS ahead
+10.0,bus,N/A,612785328#0_0,N/A,9.19,no,N/A,No TLS ahead
+10.05,bus,N/A,612785328#0_0,N/A,9.23,no,N/A,No TLS ahead
+10.1,bus,N/A,612785328#0_0,N/A,9.28,no,N/A,No TLS ahead
+10.15,bus,N/A,612785328#0_0,N/A,9.33,no,N/A,No TLS ahead
+10.2,bus,N/A,612785328#0_0,N/A,9.38,no,N/A,No TLS ahead
+10.25,bus,N/A,612785328#0_0,N/A,9.43,no,N/A,No TLS ahead
+10.3,bus,N/A,:6054077470_0_0,N/A,9.48,no,N/A,No TLS ahead
+10.35,bus,N/A,:6054077470_0_0,N/A,9.52,no,N/A,No TLS ahead
+10.4,bus,N/A,:6054077470_0_0,N/A,9.55,no,N/A,No TLS ahead
+10.45,bus,N/A,:6054077470_0_0,N/A,9.6,no,N/A,No TLS ahead
+10.5,bus,N/A,:6054077470_0_0,N/A,9.63,no,N/A,No TLS ahead
+10.55,bus,N/A,:6054077470_0_0,N/A,9.67,no,N/A,No TLS ahead
+10.6,bus,N/A,:6054077470_0_0,N/A,9.71,no,N/A,No TLS ahead
+10.65,bus,N/A,:6054077470_0_0,N/A,9.77,no,N/A,No TLS ahead
+10.7,bus,N/A,:6054077470_0_0,N/A,9.82,no,N/A,No TLS ahead
+10.75,bus,N/A,:6054077470_0_0,N/A,9.87,no,N/A,No TLS ahead
+10.8,bus,N/A,:6054077470_0_0,N/A,9.91,no,N/A,No TLS ahead
+10.85,bus,N/A,:6054077470_0_0,N/A,9.97,no,N/A,No TLS ahead
+10.9,bus,N/A,:6054077470_0_0,N/A,10.02,no,N/A,No TLS ahead
+10.95,bus,N/A,:6054077470_0_0,N/A,10.08,no,N/A,No TLS ahead
+11.0,bus,N/A,:6054077470_0_0,N/A,10.13,no,N/A,No TLS ahead
+11.05,bus,N/A,:6054077470_0_0,N/A,10.17,no,N/A,No TLS ahead
+11.1,bus,N/A,:6054077470_0_0,N/A,10.22,no,N/A,No TLS ahead
+11.15,bus,N/A,643274771_0,N/A,10.26,no,N/A,No TLS ahead
+11.2,bus,N/A,643274771_0,N/A,10.31,no,N/A,No TLS ahead
+11.25,bus,N/A,643274771_0,N/A,10.35,no,N/A,No TLS ahead
+11.3,bus,N/A,643274771_0,N/A,10.4,no,N/A,No TLS ahead
+11.35,bus,N/A,643274771_0,N/A,10.46,no,N/A,No TLS ahead
+11.4,bus,N/A,643274771_0,N/A,10.49,no,N/A,No TLS ahead
+11.45,bus,N/A,643274771_0,N/A,10.53,no,N/A,No TLS ahead
+11.5,bus,N/A,643274771_0,N/A,10.56,no,N/A,No TLS ahead
+11.55,bus,N/A,643274771_0,N/A,10.61,no,N/A,No TLS ahead
+11.6,bus,N/A,643274771_0,N/A,10.66,no,N/A,No TLS ahead
+11.65,bus,N/A,643274771_0,N/A,10.7,no,N/A,No TLS ahead
+11.7,bus,N/A,643274771_0,N/A,10.73,no,N/A,No TLS ahead
+11.75,bus,N/A,643274771_0,N/A,10.78,no,N/A,No TLS ahead
+11.8,bus,N/A,643274771_0,N/A,10.83,no,N/A,No TLS ahead
+11.85,bus,N/A,643274771_0,N/A,10.88,no,N/A,No TLS ahead
+11.9,bus,N/A,643274771_0,N/A,10.92,no,N/A,No TLS ahead
+11.95,bus,N/A,643274771_0,N/A,10.98,no,N/A,No TLS ahead
+12.0,bus,N/A,643274771_0,N/A,11.03,no,N/A,No TLS ahead
+12.05,bus,N/A,643274771_0,N/A,11.06,no,N/A,No TLS ahead
+12.1,bus,N/A,643274771_0,N/A,11.12,no,N/A,No TLS ahead
+12.15,bus,N/A,643274771_0,N/A,11.16,no,N/A,No TLS ahead
+12.2,bus,N/A,643274771_0,N/A,11.21,no,N/A,No TLS ahead
+12.25,bus,N/A,643274771_0,N/A,11.25,no,N/A,No TLS ahead
+12.3,bus,N/A,643274771_0,N/A,11.3,no,N/A,No TLS ahead
+12.35,bus,N/A,643274771_0,N/A,11.35,no,N/A,No TLS ahead
+12.4,bus,N/A,643274771_0,N/A,11.41,no,N/A,No TLS ahead
+12.45,bus,N/A,643274771_0,N/A,11.47,no,N/A,No TLS ahead
+12.5,bus,N/A,643274771_0,N/A,11.51,no,N/A,No TLS ahead
+12.55,bus,N/A,643274771_0,N/A,11.55,no,N/A,No TLS ahead
+12.6,bus,N/A,643274771_0,N/A,11.58,no,N/A,No TLS ahead
+12.65,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,11.64,no,N/A,No TLS ahead
+12.7,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,11.67,no,N/A,No TLS ahead
+12.75,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,11.7,no,N/A,No TLS ahead
+12.8,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,11.74,no,N/A,No TLS ahead
+12.85,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,11.79,no,N/A,No TLS ahead
+12.9,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,11.85,no,N/A,No TLS ahead
+12.95,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,11.89,no,N/A,No TLS ahead
+13.0,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,11.92,no,N/A,No TLS ahead
+13.05,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,11.97,no,N/A,No TLS ahead
+13.1,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.01,no,N/A,No TLS ahead
+13.15,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.05,no,N/A,No TLS ahead
+13.2,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.09,no,N/A,No TLS ahead
+13.25,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.13,no,N/A,No TLS ahead
+13.3,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.18,no,N/A,No TLS ahead
+13.35,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.23,no,N/A,No TLS ahead
+13.4,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.26,no,N/A,No TLS ahead
+13.45,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.32,no,N/A,No TLS ahead
+13.5,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.37,no,N/A,No TLS ahead
+13.55,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.42,no,N/A,No TLS ahead
+13.6,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.45,no,N/A,No TLS ahead
+13.65,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.49,no,N/A,No TLS ahead
+13.7,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.55,no,N/A,No TLS ahead
+13.75,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.61,no,N/A,No TLS ahead
+13.8,bus,N/A,:cluster_54667234_6133907625_6_0,N/A,12.65,no,N/A,No TLS ahead
+13.85,bus,GS_cluster_54513042_6133907621,643274772#0_0,6.29,12.71,no,N/A,ETA too high (6.3s)
+13.9,bus,GS_cluster_54513042_6133907621,643274772#0_0,6.22,12.76,no,N/A,ETA too high (6.2s)
+13.95,bus,GS_cluster_54513042_6133907621,643274772#0_0,6.15,12.8,no,N/A,ETA too high (6.2s)
+14.0,bus,GS_cluster_54513042_6133907621,643274772#0_0,6.07,12.86,no,N/A,ETA too high (6.1s)
+14.05,bus,GS_cluster_54513042_6133907621,643274772#0_0,6.01,12.9,no,N/A,ETA too high (6.0s)
+14.1,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.94,12.94,no,N/A,ETA too high (5.9s)
+14.15,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.87,12.98,no,N/A,ETA too high (5.9s)
+14.2,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.79,13.04,no,N/A,ETA too high (5.8s)
+14.25,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.73,13.07,no,N/A,ETA too high (5.7s)
+14.3,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.66,13.12,no,N/A,ETA too high (5.7s)
+14.35,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.59,13.16,no,N/A,ETA too high (5.6s)
+14.4,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.52,13.21,no,N/A,ETA too high (5.5s)
+14.45,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.44,13.26,no,N/A,ETA too high (5.4s)
+14.5,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.38,13.31,no,N/A,ETA too high (5.4s)
+14.55,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.3,13.37,no,N/A,ETA too high (5.3s)
+14.6,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.24,13.39,no,N/A,ETA too high (5.2s)
+14.65,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.19,13.4,no,N/A,ETA too high (5.2s)
+14.7,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.15,13.38,no,N/A,ETA too high (5.1s)
+14.75,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.09,13.41,no,N/A,ETA too high (5.1s)
+14.8,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.05,13.38,no,N/A,ETA too high (5.0s)
+14.85,bus,GS_cluster_54513042_6133907621,643274772#0_0,5.0,13.38,yes,0,Priority granted (ETA=5.0s)
+14.9,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.94,13.41,no,N/A,Cooldown active
+14.95,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.89,13.4,no,N/A,Cooldown active
+15.0,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.84,13.4,no,N/A,Cooldown active
+15.05,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.79,13.4,no,N/A,Cooldown active
+15.1,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.74,13.41,no,N/A,Cooldown active
+15.15,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.69,13.39,no,N/A,Cooldown active
+15.2,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.64,13.41,no,N/A,Cooldown active
+15.25,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.59,13.41,no,N/A,Cooldown active
+15.3,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.54,13.4,no,N/A,Cooldown active
+15.35,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.49,13.4,no,N/A,Cooldown active
+15.4,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.44,13.41,no,N/A,Cooldown active
+15.45,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.39,13.4,no,N/A,Cooldown active
+15.5,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.34,13.4,no,N/A,Cooldown active
+15.55,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.29,13.4,no,N/A,Cooldown active
+15.6,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.24,13.4,no,N/A,Cooldown active
+15.65,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.19,13.39,no,N/A,Cooldown active
+15.7,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.14,13.39,no,N/A,Cooldown active
+15.75,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.09,13.41,no,N/A,Cooldown active
+15.8,bus,GS_cluster_54513042_6133907621,643274772#0_0,4.04,13.4,no,N/A,Cooldown active
+15.85,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.99,13.39,no,N/A,Cooldown active
+15.9,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.94,13.41,no,N/A,Cooldown active
+15.95,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.89,13.39,no,N/A,Cooldown active
+16.0,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.85,13.38,no,N/A,Cooldown active
+16.05,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.79,13.4,no,N/A,Cooldown active
+16.1,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.74,13.41,no,N/A,Cooldown active
+16.15,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.69,13.38,no,N/A,Cooldown active
+16.2,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.64,13.39,no,N/A,Cooldown active
+16.25,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.59,13.39,no,N/A,Cooldown active
+16.3,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.54,13.4,no,N/A,Cooldown active
+16.35,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.49,13.39,no,N/A,Cooldown active
+16.4,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.44,13.4,no,N/A,Cooldown active
+16.45,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.39,13.39,no,N/A,Cooldown active
+16.5,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.34,13.39,no,N/A,Cooldown active
+16.55,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.29,13.4,no,N/A,Cooldown active
+16.6,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.24,13.4,no,N/A,Cooldown active
+16.65,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.19,13.4,no,N/A,Cooldown active
+16.7,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.14,13.4,no,N/A,Cooldown active
+16.75,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.09,13.4,no,N/A,Cooldown active
+16.8,bus,GS_cluster_54513042_6133907621,643274772#0_0,3.04,13.4,no,N/A,Cooldown active
+16.85,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.99,13.4,yes,0,Priority granted (ETA=3.0s)
+16.9,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.94,13.41,no,N/A,Cooldown active
+16.95,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.89,13.41,no,N/A,Cooldown active
+17.0,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.84,13.41,no,N/A,Cooldown active
+17.05,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.79,13.4,no,N/A,Cooldown active
+17.1,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.74,13.38,no,N/A,Cooldown active
+17.15,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.69,13.4,no,N/A,Cooldown active
+17.2,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.64,13.4,no,N/A,Cooldown active
+17.25,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.59,13.4,no,N/A,Cooldown active
+17.3,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.54,13.41,no,N/A,Cooldown active
+17.35,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.49,13.39,no,N/A,Cooldown active
+17.4,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.44,13.39,no,N/A,Cooldown active
+17.45,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.39,13.39,no,N/A,Cooldown active
+17.5,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.34,13.4,no,N/A,Cooldown active
+17.55,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.29,13.41,no,N/A,Cooldown active
+17.6,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.24,13.4,no,N/A,Cooldown active
+17.65,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.19,13.4,no,N/A,Cooldown active
+17.7,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.14,13.4,no,N/A,Cooldown active
+17.75,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.09,13.38,no,N/A,Cooldown active
+17.8,bus,GS_cluster_54513042_6133907621,643274772#0_0,2.04,13.39,no,N/A,Cooldown active
+17.85,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.99,13.4,no,N/A,Cooldown active
+17.9,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.94,13.39,no,N/A,Cooldown active
+17.95,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.89,13.4,no,N/A,Cooldown active
+18.0,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.84,13.4,no,N/A,Cooldown active
+18.05,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.79,13.39,no,N/A,Cooldown active
+18.1,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.74,13.4,no,N/A,Cooldown active
+18.15,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.69,13.38,no,N/A,Cooldown active
+18.2,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.64,13.4,no,N/A,Cooldown active
+18.25,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.59,13.39,no,N/A,Cooldown active
+18.3,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.54,13.4,no,N/A,Cooldown active
+18.35,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.49,13.4,no,N/A,Cooldown active
+18.4,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.44,13.38,no,N/A,Cooldown active
+18.45,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.39,13.4,no,N/A,Cooldown active
+18.5,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.34,13.4,no,N/A,Cooldown active
+18.55,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.29,13.39,no,N/A,Cooldown active
+18.6,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.24,13.39,no,N/A,Cooldown active
+18.65,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.19,13.38,no,N/A,Cooldown active
+18.7,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.14,13.38,no,N/A,Cooldown active
+18.75,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.09,13.4,no,N/A,Cooldown active
+18.8,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.04,13.41,no,N/A,Cooldown active
+18.85,bus,GS_cluster_54513042_6133907621,643274772#0_0,1.0,13.34,no,N/A,Cooldown active
+18.9,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.96,13.14,yes,0,Priority granted (ETA=1.0s)
+18.95,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.93,12.94,no,N/A,Cooldown active
+19.0,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.89,12.74,no,N/A,Cooldown active
+19.05,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.85,12.54,no,N/A,Cooldown active
+19.1,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.82,12.35,no,N/A,Cooldown active
+19.15,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.78,12.15,no,N/A,Cooldown active
+19.2,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.74,11.95,no,N/A,Cooldown active
+19.25,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.71,11.75,no,N/A,Cooldown active
+19.3,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.67,11.55,no,N/A,Cooldown active
+19.35,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.63,11.35,no,N/A,Cooldown active
+19.4,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.59,11.15,no,N/A,Cooldown active
+19.45,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.55,10.95,no,N/A,Cooldown active
+19.5,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.51,10.75,no,N/A,Cooldown active
+19.55,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.47,10.55,no,N/A,Cooldown active
+19.6,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.43,10.35,no,N/A,Cooldown active
+19.65,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.39,10.15,no,N/A,Cooldown active
+19.7,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.35,9.95,no,N/A,Cooldown active
+19.75,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.31,9.75,no,N/A,Cooldown active
+19.8,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.26,9.55,no,N/A,Cooldown active
+19.85,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.22,9.35,no,N/A,Cooldown active
+19.9,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.17,9.15,no,N/A,Cooldown active
+19.95,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.13,8.95,no,N/A,Cooldown active
+20.0,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.08,8.75,no,N/A,Cooldown active
+20.05,bus,GS_cluster_54513042_6133907621,643274772#0_0,0.03,8.55,no,N/A,Cooldown active
+20.1,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.35,no,N/A,No TLS ahead
+20.15,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.35,no,N/A,No TLS ahead
+20.2,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.34,no,N/A,No TLS ahead
+20.25,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.32,no,N/A,No TLS ahead
+20.3,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+20.35,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.32,no,N/A,No TLS ahead
+20.4,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.34,no,N/A,No TLS ahead
+20.45,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.34,no,N/A,No TLS ahead
+20.5,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.32,no,N/A,No TLS ahead
+20.55,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+20.6,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.34,no,N/A,No TLS ahead
+20.65,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.32,no,N/A,No TLS ahead
+20.7,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+20.75,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.32,no,N/A,No TLS ahead
+20.8,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+20.85,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.34,no,N/A,No TLS ahead
+20.9,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.35,no,N/A,No TLS ahead
+20.95,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.0,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.34,no,N/A,No TLS ahead
+21.05,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.1,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.34,no,N/A,No TLS ahead
+21.15,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.2,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.35,no,N/A,No TLS ahead
+21.25,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.3,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.35,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.34,no,N/A,No TLS ahead
+21.4,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.45,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.32,no,N/A,No TLS ahead
+21.5,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.32,no,N/A,No TLS ahead
+21.55,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.34,no,N/A,No TLS ahead
+21.6,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.34,no,N/A,No TLS ahead
+21.65,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.7,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.75,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.8,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.85,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.9,bus,N/A,:cluster_54513042_6133907621_9_0,N/A,8.33,no,N/A,No TLS ahead
+21.95,bus,N/A,7211352#0_0,N/A,8.34,no,N/A,No TLS ahead
+22.0,bus,N/A,7211352#0_0,N/A,8.4,no,N/A,No TLS ahead
+22.05,bus,N/A,7211352#0_0,N/A,8.46,no,N/A,No TLS ahead
+22.1,bus,N/A,7211352#0_0,N/A,8.52,no,N/A,No TLS ahead
+22.15,bus,N/A,7211352#0_0,N/A,8.58,no,N/A,No TLS ahead
+22.2,bus,N/A,7211352#0_0,N/A,8.63,no,N/A,No TLS ahead
+22.25,bus,N/A,7211352#0_0,N/A,8.67,no,N/A,No TLS ahead
+22.3,bus,N/A,7211352#0_0,N/A,8.7,no,N/A,No TLS ahead
+22.35,bus,N/A,7211352#0_0,N/A,8.74,no,N/A,No TLS ahead
+22.4,bus,N/A,7211352#0_0,N/A,8.79,no,N/A,No TLS ahead
+22.45,bus,N/A,7211352#0_0,N/A,8.85,no,N/A,No TLS ahead
+22.5,bus,N/A,7211352#0_0,N/A,8.89,no,N/A,No TLS ahead
+22.55,bus,N/A,7211352#0_0,N/A,8.94,no,N/A,No TLS ahead
+22.6,bus,N/A,7211352#0_0,N/A,8.97,no,N/A,No TLS ahead
+22.65,bus,N/A,7211352#0_0,N/A,9.01,no,N/A,No TLS ahead
+22.7,bus,N/A,7211352#0_0,N/A,9.06,no,N/A,No TLS ahead
+22.75,bus,N/A,7211352#0_0,N/A,9.1,no,N/A,No TLS ahead
+22.8,bus,N/A,7211352#0_0,N/A,9.16,no,N/A,No TLS ahead
+22.85,bus,N/A,7211352#0_0,N/A,9.21,no,N/A,No TLS ahead
+22.9,bus,N/A,7211352#0_0,N/A,9.26,no,N/A,No TLS ahead
+22.95,bus,N/A,7211352#0_0,N/A,9.3,no,N/A,No TLS ahead
+23.0,bus,N/A,7211352#0_0,N/A,9.35,no,N/A,No TLS ahead
+23.05,bus,N/A,7211352#0_0,N/A,9.4,no,N/A,No TLS ahead
+23.1,bus,N/A,7211352#0_0,N/A,9.46,no,N/A,No TLS ahead
+23.15,bus,N/A,7211352#0_0,N/A,9.51,no,N/A,No TLS ahead
+23.2,bus,N/A,7211352#0_0,N/A,9.54,no,N/A,No TLS ahead
+23.25,bus,N/A,7211352#0_0,N/A,9.6,no,N/A,No TLS ahead
+23.3,bus,N/A,7211352#0_0,N/A,9.64,no,N/A,No TLS ahead
+23.35,bus,N/A,7211352#0_0,N/A,9.69,no,N/A,No TLS ahead
+23.4,bus,N/A,7211352#0_0,N/A,9.75,no,N/A,No TLS ahead
+23.45,bus,N/A,7211352#0_0,N/A,9.78,no,N/A,No TLS ahead
+23.5,bus,N/A,7211352#0_0,N/A,9.83,no,N/A,No TLS ahead
+23.55,bus,N/A,7211352#0_0,N/A,9.89,no,N/A,No TLS ahead
+23.6,bus,N/A,7211352#0_0,N/A,9.92,no,N/A,No TLS ahead
+23.65,bus,N/A,7211352#0_0,N/A,9.96,no,N/A,No TLS ahead
+23.7,bus,N/A,7211352#0_0,N/A,10.02,no,N/A,No TLS ahead
+23.75,bus,N/A,7211352#0_0,N/A,10.07,no,N/A,No TLS ahead
+23.8,bus,N/A,7211352#0_0,N/A,10.12,no,N/A,No TLS ahead
+23.85,bus,N/A,7211352#0_0,N/A,10.16,no,N/A,No TLS ahead
+23.9,bus,N/A,7211352#0_0,N/A,10.21,no,N/A,No TLS ahead
+23.95,bus,N/A,7211352#0_0,N/A,10.27,no,N/A,No TLS ahead
+24.0,bus,N/A,7211352#0_0,N/A,10.31,no,N/A,No TLS ahead
+24.05,bus,N/A,7211352#0_0,N/A,10.37,no,N/A,No TLS ahead
+24.1,bus,N/A,7211352#0_0,N/A,10.41,no,N/A,No TLS ahead
+24.15,bus,N/A,7211352#0_0,N/A,10.46,no,N/A,No TLS ahead
+24.2,bus,N/A,7211352#0_0,N/A,10.51,no,N/A,No TLS ahead
+24.25,bus,N/A,7211352#0_0,N/A,10.54,no,N/A,No TLS ahead
+24.3,bus,N/A,7211352#0_0,N/A,10.6,no,N/A,No TLS ahead
+24.35,bus,N/A,7211352#0_0,N/A,10.65,no,N/A,No TLS ahead
+24.4,bus,N/A,7211352#0_0,N/A,10.71,no,N/A,No TLS ahead
+24.45,bus,N/A,7211352#0_0,N/A,10.74,no,N/A,No TLS ahead
+24.5,bus,N/A,7211352#0_0,N/A,10.8,no,N/A,No TLS ahead
+24.55,bus,N/A,7211352#0_0,N/A,10.84,no,N/A,No TLS ahead
+24.6,bus,N/A,7211352#0_0,N/A,10.9,no,N/A,No TLS ahead
+24.65,bus,N/A,7211352#0_0,N/A,10.95,no,N/A,No TLS ahead
+24.7,bus,N/A,7211352#0_0,N/A,10.99,no,N/A,No TLS ahead
+24.75,bus,N/A,7211352#0_0,N/A,11.03,no,N/A,No TLS ahead
+24.8,bus,N/A,7211352#0_0,N/A,11.07,no,N/A,No TLS ahead
+24.85,bus,N/A,7211352#0_0,N/A,11.11,no,N/A,No TLS ahead
+24.9,bus,N/A,7211352#0_0,N/A,11.16,no,N/A,No TLS ahead
+24.95,bus,N/A,7211352#0_0,N/A,11.2,no,N/A,No TLS ahead
+25.0,bus,N/A,7211352#0_0,N/A,11.23,no,N/A,No TLS ahead
+25.05,bus,N/A,7211352#0_0,N/A,11.28,no,N/A,No TLS ahead
+25.1,bus,N/A,7211352#0_0,N/A,11.31,no,N/A,No TLS ahead
+25.15,bus,N/A,7211352#0_0,N/A,11.34,no,N/A,No TLS ahead
+25.2,bus,N/A,7211352#0_0,N/A,11.38,no,N/A,No TLS ahead
+25.25,bus,N/A,7211352#0_0,N/A,11.42,no,N/A,No TLS ahead
+25.3,bus,N/A,7211352#0_0,N/A,11.48,no,N/A,No TLS ahead
+25.35,bus,N/A,7211352#0_0,N/A,11.52,no,N/A,No TLS ahead
+25.4,bus,N/A,7211352#0_0,N/A,11.56,no,N/A,No TLS ahead
+25.45,bus,N/A,7211352#0_0,N/A,11.6,no,N/A,No TLS ahead
+25.5,bus,N/A,7211352#0_0,N/A,11.65,no,N/A,No TLS ahead
+25.55,bus,N/A,7211352#0_0,N/A,11.68,no,N/A,No TLS ahead
+25.6,bus,N/A,7211352#0_0,N/A,11.73,no,N/A,No TLS ahead
+25.65,bus,N/A,7211352#0_0,N/A,11.78,no,N/A,No TLS ahead
+25.7,bus,N/A,7211352#0_0,N/A,11.82,no,N/A,No TLS ahead
+25.75,bus,N/A,7211352#0_0,N/A,11.87,no,N/A,No TLS ahead
+25.8,bus,N/A,7211352#0_0,N/A,11.92,no,N/A,No TLS ahead
+25.85,bus,N/A,7211352#0_0,N/A,11.96,no,N/A,No TLS ahead
+25.9,bus,N/A,7211352#0_0,N/A,12.01,no,N/A,No TLS ahead
+25.95,bus,N/A,7211352#0_0,N/A,12.07,no,N/A,No TLS ahead
+26.0,bus,N/A,7211352#0_0,N/A,12.11,no,N/A,No TLS ahead
+26.05,bus,N/A,7211352#0_0,N/A,12.16,no,N/A,No TLS ahead
+26.1,bus,N/A,7211352#0_0,N/A,12.2,no,N/A,No TLS ahead
+26.15,bus,N/A,7211352#0_0,N/A,12.24,no,N/A,No TLS ahead
+26.2,bus,N/A,7211352#0_0,N/A,12.27,no,N/A,No TLS ahead
+26.25,bus,N/A,7211352#0_0,N/A,12.32,no,N/A,No TLS ahead
+26.3,bus,N/A,7211352#0_0,N/A,12.37,no,N/A,No TLS ahead
+26.35,bus,N/A,7211352#0_0,N/A,12.4,no,N/A,No TLS ahead
+26.4,bus,N/A,7211352#0_0,N/A,12.44,no,N/A,No TLS ahead
+26.45,bus,N/A,7211352#0_0,N/A,12.49,no,N/A,No TLS ahead
+26.5,bus,N/A,7211352#0_0,N/A,12.54,no,N/A,No TLS ahead
+26.55,bus,N/A,7211352#0_0,N/A,12.59,no,N/A,No TLS ahead
+26.6,bus,N/A,7211352#0_0,N/A,12.64,no,N/A,No TLS ahead
+26.65,bus,N/A,7211352#0_0,N/A,12.69,no,N/A,No TLS ahead
+26.7,bus,N/A,7211352#0_0,N/A,12.73,no,N/A,No TLS ahead
+26.75,bus,N/A,7211352#0_0,N/A,12.77,no,N/A,No TLS ahead
+26.8,bus,N/A,7211352#0_0,N/A,12.81,no,N/A,No TLS ahead
+26.85,bus,N/A,7211352#0_0,N/A,12.86,no,N/A,No TLS ahead
+26.9,bus,N/A,7211352#0_0,N/A,12.92,no,N/A,No TLS ahead
+26.95,bus,N/A,7211352#0_0,N/A,12.97,no,N/A,No TLS ahead
+27.0,bus,N/A,7211352#0_0,N/A,13.02,no,N/A,No TLS ahead
+27.05,bus,N/A,7211352#0_0,N/A,13.05,no,N/A,No TLS ahead
+27.1,bus,N/A,7211352#0_0,N/A,13.08,no,N/A,No TLS ahead
+27.15,bus,N/A,7211352#0_0,N/A,13.12,no,N/A,No TLS ahead
+27.2,bus,N/A,7211352#0_0,N/A,13.16,no,N/A,No TLS ahead
+27.25,bus,N/A,7211352#0_0,N/A,13.2,no,N/A,No TLS ahead
+27.3,bus,N/A,7211352#0_0,N/A,13.25,no,N/A,No TLS ahead
+27.35,bus,N/A,7211352#0_0,N/A,13.3,no,N/A,No TLS ahead
+27.4,bus,N/A,7211352#0_0,N/A,13.34,no,N/A,No TLS ahead
+27.45,bus,N/A,7211352#0_0,N/A,13.38,no,N/A,No TLS ahead
+27.5,bus,N/A,7211352#0_0,N/A,13.44,no,N/A,No TLS ahead
+27.55,bus,N/A,7211352#0_0,N/A,13.49,no,N/A,No TLS ahead
+27.6,bus,N/A,7211352#0_0,N/A,13.53,no,N/A,No TLS ahead
+27.65,bus,N/A,7211352#0_0,N/A,13.56,no,N/A,No TLS ahead
+27.7,bus,N/A,7211352#0_0,N/A,13.6,no,N/A,No TLS ahead
+27.75,bus,N/A,7211352#0_0,N/A,13.65,no,N/A,No TLS ahead
+27.8,bus,N/A,7211352#0_0,N/A,13.69,no,N/A,No TLS ahead
+27.85,bus,N/A,7211352#0_0,N/A,13.74,no,N/A,No TLS ahead
+27.9,bus,N/A,7211352#0_0,N/A,13.77,no,N/A,No TLS ahead
+27.95,bus,N/A,7211352#0_0,N/A,13.8,no,N/A,No TLS ahead
+28.0,bus,N/A,7211352#0_0,N/A,13.85,no,N/A,No TLS ahead
+28.05,bus,N/A,7211352#0_0,N/A,13.9,no,N/A,No TLS ahead
+28.1,bus,N/A,7211352#0_0,N/A,13.96,no,N/A,No TLS ahead
+28.15,bus,N/A,7211352#0_0,N/A,14.0,no,N/A,No TLS ahead
+28.2,bus,N/A,7211352#0_0,N/A,14.04,no,N/A,No TLS ahead
+28.25,bus,N/A,7211352#0_0,N/A,14.09,no,N/A,No TLS ahead
+28.3,bus,N/A,7211352#0_0,N/A,14.13,no,N/A,No TLS ahead
+28.35,bus,N/A,7211352#0_0,N/A,14.18,no,N/A,No TLS ahead
+28.4,bus,N/A,7211352#0_0,N/A,14.21,no,N/A,No TLS ahead
+28.45,bus,N/A,:54513043_0_0,N/A,14.25,no,N/A,No TLS ahead
+28.5,bus,N/A,:54513043_0_0,N/A,14.29,no,N/A,No TLS ahead
+28.55,bus,N/A,:54513043_0_0,N/A,14.35,no,N/A,No TLS ahead
+28.6,bus,N/A,:54513043_0_0,N/A,14.39,no,N/A,No TLS ahead
+28.65,bus,N/A,:54513043_0_0,N/A,14.45,no,N/A,No TLS ahead
+28.7,bus,N/A,:54513043_0_0,N/A,14.48,no,N/A,No TLS ahead
+28.75,bus,N/A,:54513043_0_0,N/A,14.51,no,N/A,No TLS ahead
+28.8,bus,N/A,:54513043_0_0,N/A,14.55,no,N/A,No TLS ahead
+28.85,bus,N/A,:54513043_0_0,N/A,14.6,no,N/A,No TLS ahead
+28.9,bus,N/A,:54513043_0_0,N/A,14.65,no,N/A,No TLS ahead
+28.95,bus,N/A,:54513043_0_0,N/A,14.71,no,N/A,No TLS ahead
+29.0,bus,N/A,:54513043_0_0,N/A,14.76,no,N/A,No TLS ahead
+29.05,bus,N/A,:54513043_0_0,N/A,14.79,no,N/A,No TLS ahead
+29.1,bus,N/A,:54513043_0_0,N/A,14.83,no,N/A,No TLS ahead
+29.15,bus,N/A,:54513043_0_0,N/A,14.87,no,N/A,No TLS ahead
+29.2,bus,N/A,:54513043_0_0,N/A,14.92,no,N/A,No TLS ahead
+29.25,bus,N/A,:54513043_0_0,N/A,14.95,no,N/A,No TLS ahead
+29.3,bus,N/A,:54513043_0_0,N/A,15.0,no,N/A,No TLS ahead
+29.35,bus,N/A,:54513043_0_0,N/A,15.05,no,N/A,No TLS ahead
+29.4,bus,N/A,:54513043_0_0,N/A,15.1,no,N/A,No TLS ahead
+29.45,bus,N/A,1369937006#1_0,N/A,15.15,no,N/A,No TLS ahead
+29.5,bus,N/A,1369937006#1_0,N/A,15.2,no,N/A,No TLS ahead
+29.55,bus,N/A,1369937006#1_0,N/A,15.25,no,N/A,No TLS ahead
+29.6,bus,N/A,1369937006#1_0,N/A,15.29,no,N/A,No TLS ahead
+29.65,bus,N/A,1369937006#1_0,N/A,15.33,no,N/A,No TLS ahead
+29.7,bus,N/A,1369937006#1_0,N/A,15.37,no,N/A,No TLS ahead
+29.75,bus,N/A,1369937006#1_0,N/A,15.41,no,N/A,No TLS ahead
+29.8,bus,N/A,1369937006#1_0,N/A,15.44,no,N/A,No TLS ahead
+29.85,bus,N/A,1369937006#1_0,N/A,15.48,no,N/A,No TLS ahead
+29.9,bus,N/A,1369937006#1_0,N/A,15.51,no,N/A,No TLS ahead
+29.95,bus,N/A,1369937006#1_0,N/A,15.56,no,N/A,No TLS ahead
+30.0,bus,N/A,1369937006#1_0,N/A,15.61,no,N/A,No TLS ahead
+30.05,bus,N/A,1369937006#1_0,N/A,15.65,no,N/A,No TLS ahead
+30.1,bus,N/A,1369937006#1_0,N/A,15.71,no,N/A,No TLS ahead
+30.15,bus,N/A,1369937006#1_0,N/A,15.76,no,N/A,No TLS ahead
+30.2,bus,N/A,1369937006#1_0,N/A,15.79,no,N/A,No TLS ahead
+30.25,bus,N/A,1369937006#1_0,N/A,15.82,no,N/A,No TLS ahead
+30.3,bus,N/A,1369937006#1_0,N/A,15.88,no,N/A,No TLS ahead
+30.35,bus,N/A,1369937006#1_0,N/A,15.91,no,N/A,No TLS ahead
+30.4,bus,N/A,1369937006#1_0,N/A,15.94,no,N/A,No TLS ahead
+30.45,bus,N/A,1369937006#1_0,N/A,16.0,no,N/A,No TLS ahead
+30.5,bus,N/A,1369937006#1_0,N/A,16.03,no,N/A,No TLS ahead
+30.55,bus,N/A,1369937006#1_0,N/A,16.09,no,N/A,No TLS ahead
+30.6,bus,N/A,1369937006#1_0,N/A,16.14,no,N/A,No TLS ahead
+30.65,bus,N/A,1369937006#1_0,N/A,16.2,no,N/A,No TLS ahead
+30.7,bus,N/A,1369937006#1_0,N/A,16.25,no,N/A,No TLS ahead
+30.75,bus,N/A,1369937006#1_0,N/A,16.31,no,N/A,No TLS ahead
+30.8,bus,N/A,1369937006#1_0,N/A,16.35,no,N/A,No TLS ahead
+30.85,bus,N/A,1369937006#1_0,N/A,16.4,no,N/A,No TLS ahead
+30.9,bus,N/A,1369937006#1_0,N/A,16.46,no,N/A,No TLS ahead
+30.95,bus,N/A,1369937006#1_0,N/A,16.5,no,N/A,No TLS ahead
+31.0,bus,N/A,1369937006#1_0,N/A,16.56,no,N/A,No TLS ahead
+31.05,bus,N/A,1369937006#1_0,N/A,16.6,no,N/A,No TLS ahead
+31.1,bus,N/A,1369937006#1_0,N/A,16.66,no,N/A,No TLS ahead
+31.15,bus,N/A,1369937006#1_0,N/A,16.7,no,N/A,No TLS ahead
+31.2,bus,N/A,1369937006#1_0,N/A,16.76,no,N/A,No TLS ahead
+31.25,bus,N/A,1369937006#1_0,N/A,16.81,no,N/A,No TLS ahead
+31.3,bus,N/A,1369937006#1_0,N/A,16.84,no,N/A,No TLS ahead
+31.35,bus,N/A,1369937006#1_0,N/A,16.88,no,N/A,No TLS ahead
+31.4,bus,N/A,1369937006#1_0,N/A,16.92,no,N/A,No TLS ahead
+31.45,bus,N/A,1369937006#1_0,N/A,16.97,no,N/A,No TLS ahead
+31.5,bus,N/A,1369937006#1_0,N/A,17.03,no,N/A,No TLS ahead
+31.55,bus,N/A,1369937006#1_0,N/A,17.06,no,N/A,No TLS ahead
+31.6,bus,N/A,1369937006#1_0,N/A,17.1,no,N/A,No TLS ahead
+31.65,bus,N/A,1369937006#1_0,N/A,17.13,no,N/A,No TLS ahead
+31.7,bus,N/A,1369937006#1_0,N/A,17.17,no,N/A,No TLS ahead
+31.75,bus,N/A,1369937006#1_0,N/A,17.22,no,N/A,No TLS ahead
+31.8,bus,N/A,1369937006#1_0,N/A,17.27,no,N/A,No TLS ahead
+31.85,bus,N/A,1369937006#1_0,N/A,17.31,no,N/A,No TLS ahead
+31.9,bus,N/A,1369937006#1_0,N/A,17.36,no,N/A,No TLS ahead
+31.95,bus,N/A,1369937006#1_0,N/A,17.41,no,N/A,No TLS ahead
+32.0,bus,N/A,1369937006#1_0,N/A,17.45,no,N/A,No TLS ahead
+32.05,bus,N/A,1369937006#1_0,N/A,17.48,no,N/A,No TLS ahead
+32.1,bus,N/A,1369937006#1_0,N/A,17.53,no,N/A,No TLS ahead
+32.15,bus,N/A,1369937006#1_0,N/A,17.35,no,N/A,No TLS ahead
+32.2,bus,N/A,1369937006#1_0,N/A,17.15,no,N/A,No TLS ahead
+32.25,bus,N/A,1369937006#1_0,N/A,16.96,no,N/A,No TLS ahead
+32.3,bus,N/A,1369937006#1_0,N/A,16.76,no,N/A,No TLS ahead
+32.35,bus,N/A,1369937006#1_0,N/A,16.56,no,N/A,No TLS ahead
+32.4,bus,N/A,1369937006#1_0,N/A,16.36,no,N/A,No TLS ahead
+32.45,bus,N/A,1369937006#1_0,N/A,16.16,no,N/A,No TLS ahead
+32.5,bus,N/A,1369937006#1_0,N/A,15.96,no,N/A,No TLS ahead
+32.55,bus,N/A,1369937006#1_0,N/A,15.76,no,N/A,No TLS ahead
+32.6,bus,N/A,1369937006#1_0,N/A,15.56,no,N/A,No TLS ahead
+32.65,bus,N/A,1369937006#1_0,N/A,15.36,no,N/A,No TLS ahead
+32.7,bus,N/A,1369937006#1_0,N/A,15.17,no,N/A,No TLS ahead
+32.75,bus,N/A,1369937006#1_0,N/A,14.97,no,N/A,No TLS ahead
+32.8,bus,N/A,1369937006#1_0,N/A,14.77,no,N/A,No TLS ahead
+32.85,bus,N/A,1369937006#1_0,N/A,14.57,no,N/A,No TLS ahead
+32.9,bus,N/A,1369937006#1_0,N/A,14.37,no,N/A,No TLS ahead
+32.95,bus,N/A,1369937006#1_0,N/A,14.17,no,N/A,No TLS ahead
+33.0,bus,N/A,1369937006#1_0,N/A,13.97,no,N/A,No TLS ahead
+33.05,bus,N/A,1369937006#1_0,N/A,13.77,no,N/A,No TLS ahead
+33.1,bus,N/A,1369937006#1_0,N/A,13.57,no,N/A,No TLS ahead
+33.15,bus,N/A,1369937006#1_0,N/A,13.37,no,N/A,No TLS ahead
+33.2,bus,N/A,1369937006#1_0,N/A,13.17,no,N/A,No TLS ahead
+33.25,bus,N/A,1369937006#1_0,N/A,12.97,no,N/A,No TLS ahead
+33.3,bus,N/A,1369937006#1_0,N/A,12.77,no,N/A,No TLS ahead
+33.35,bus,N/A,1369937006#1_0,N/A,12.57,no,N/A,No TLS ahead
+33.4,bus,N/A,1369937006#1_0,N/A,12.37,no,N/A,No TLS ahead
+33.45,bus,N/A,1369937006#1_0,N/A,12.17,no,N/A,No TLS ahead
+33.5,bus,N/A,1369937006#1_0,N/A,11.97,no,N/A,No TLS ahead
+33.55,bus,N/A,1369937006#1_0,N/A,11.77,no,N/A,No TLS ahead
+33.6,bus,N/A,1369937006#1_0,N/A,11.57,no,N/A,No TLS ahead
+33.65,bus,N/A,1369937006#1_0,N/A,11.37,no,N/A,No TLS ahead
+33.7,bus,N/A,1369937006#1_0,N/A,11.17,no,N/A,No TLS ahead
+33.75,bus,N/A,1369937006#1_0,N/A,10.97,no,N/A,No TLS ahead
+33.8,bus,N/A,1369937006#1_0,N/A,10.77,no,N/A,No TLS ahead
+33.85,bus,N/A,1369937006#1_0,N/A,10.57,no,N/A,No TLS ahead
+33.9,bus,N/A,1369937006#1_0,N/A,10.37,no,N/A,No TLS ahead
+33.95,bus,N/A,1369937006#1_0,N/A,10.17,no,N/A,No TLS ahead
+34.0,bus,N/A,1369937006#1_0,N/A,9.97,no,N/A,No TLS ahead
+34.05,bus,N/A,1369937006#1_0,N/A,9.77,no,N/A,No TLS ahead
+34.1,bus,N/A,1369937006#1_0,N/A,9.57,no,N/A,No TLS ahead
+34.15,bus,N/A,1369937006#1_0,N/A,9.37,no,N/A,No TLS ahead
+34.2,bus,N/A,1369937006#1_0,N/A,9.17,no,N/A,No TLS ahead
+34.25,bus,N/A,1369937006#1_0,N/A,8.97,no,N/A,No TLS ahead
+34.3,bus,N/A,1369937006#1_0,N/A,8.77,no,N/A,No TLS ahead
+34.35,bus,N/A,1369937006#1_0,N/A,8.57,no,N/A,No TLS ahead
+34.4,bus,N/A,1369937006#1_0,N/A,8.37,no,N/A,No TLS ahead
+34.45,bus,N/A,1369937006#1_0,N/A,8.17,no,N/A,No TLS ahead
+34.5,bus,N/A,1369937006#1_0,N/A,7.97,no,N/A,No TLS ahead
+34.55,bus,N/A,1369937006#1_0,N/A,7.77,no,N/A,No TLS ahead
+34.6,bus,N/A,1369937006#1_0,N/A,7.57,no,N/A,No TLS ahead
+34.65,bus,N/A,1369937006#1_0,N/A,7.37,no,N/A,No TLS ahead
+34.7,bus,N/A,1369937006#1_0,N/A,7.17,no,N/A,No TLS ahead
+34.75,bus,N/A,1369937006#1_0,N/A,6.97,no,N/A,No TLS ahead
+34.8,bus,N/A,1369937006#1_0,N/A,6.77,no,N/A,No TLS ahead
+34.85,bus,N/A,1369937006#1_0,N/A,6.57,no,N/A,No TLS ahead
+34.9,bus,N/A,1369937006#1_0,N/A,6.37,no,N/A,No TLS ahead
+34.95,bus,N/A,1369937006#1_0,N/A,6.17,no,N/A,No TLS ahead
+35.0,bus,N/A,1369937006#1_0,N/A,5.97,no,N/A,No TLS ahead
+35.05,bus,N/A,1369937006#1_0,N/A,6.03,no,N/A,No TLS ahead
+35.1,bus,N/A,1369937006#1_0,N/A,6.09,no,N/A,No TLS ahead
+35.15,bus,N/A,1369937006#1_0,N/A,6.15,no,N/A,No TLS ahead
+35.2,bus,N/A,1369937006#1_0,N/A,6.21,no,N/A,No TLS ahead
+35.25,bus,N/A,1369937006#1_0,N/A,6.27,no,N/A,No TLS ahead
+35.3,bus,N/A,1369937006#1_0,N/A,6.33,no,N/A,No TLS ahead
+35.35,bus,N/A,1369937006#1_0,N/A,6.39,no,N/A,No TLS ahead
+35.4,bus,N/A,1369937006#1_0,N/A,6.45,no,N/A,No TLS ahead
+35.45,bus,N/A,1369937006#1_0,N/A,6.51,no,N/A,No TLS ahead
+35.5,bus,N/A,1369937006#1_0,N/A,6.57,no,N/A,No TLS ahead
+35.55,bus,N/A,1369937006#1_0,N/A,6.63,no,N/A,No TLS ahead
+35.6,bus,N/A,1369937006#1_0,N/A,6.69,no,N/A,No TLS ahead
+35.65,bus,N/A,1369937006#1_0,N/A,6.75,no,N/A,No TLS ahead
+35.7,bus,N/A,:54513045_12_0,N/A,6.81,no,N/A,No TLS ahead
+35.75,bus,N/A,:54513045_12_0,N/A,6.86,no,N/A,No TLS ahead
+35.8,bus,N/A,:54513045_12_0,N/A,6.9,no,N/A,No TLS ahead
+35.85,bus,N/A,:54513045_12_0,N/A,6.96,no,N/A,No TLS ahead
+35.9,bus,N/A,:54513045_12_0,N/A,7.02,no,N/A,No TLS ahead
+35.95,bus,N/A,:54513045_12_0,N/A,7.06,no,N/A,No TLS ahead
+36.0,bus,N/A,:54513045_12_0,N/A,7.11,no,N/A,No TLS ahead
+36.05,bus,N/A,:54513045_12_0,N/A,7.15,no,N/A,No TLS ahead
+36.1,bus,N/A,:54513045_12_0,N/A,7.18,no,N/A,No TLS ahead
+36.15,bus,N/A,:54513045_12_0,N/A,7.22,no,N/A,No TLS ahead
+36.2,bus,N/A,:54513045_12_0,N/A,7.2,no,N/A,No TLS ahead
+36.25,bus,N/A,:54513045_12_0,N/A,7.21,no,N/A,No TLS ahead
+36.3,bus,N/A,:54513045_12_0,N/A,7.21,no,N/A,No TLS ahead
+36.35,bus,N/A,:54513045_12_0,N/A,7.21,no,N/A,No TLS ahead
+36.4,bus,N/A,:54513045_12_0,N/A,7.2,no,N/A,No TLS ahead
+36.45,bus,N/A,:54513045_12_0,N/A,7.2,no,N/A,No TLS ahead
+36.5,bus,N/A,:54513045_12_0,N/A,7.22,no,N/A,No TLS ahead
+36.55,bus,N/A,:54513045_12_0,N/A,7.22,no,N/A,No TLS ahead
+36.6,bus,N/A,:54513045_12_0,N/A,7.21,no,N/A,No TLS ahead
+36.65,bus,N/A,:54513045_12_0,N/A,7.2,no,N/A,No TLS ahead
+36.7,bus,N/A,:54513045_12_0,N/A,7.2,no,N/A,No TLS ahead
+36.75,bus,N/A,:54513045_12_0,N/A,7.2,no,N/A,No TLS ahead
+36.8,bus,N/A,:54513045_12_0,N/A,7.2,no,N/A,No TLS ahead
+36.85,bus,N/A,:54513045_12_0,N/A,7.21,no,N/A,No TLS ahead
+36.9,bus,N/A,:54513045_12_0,N/A,7.22,no,N/A,No TLS ahead
+36.95,bus,N/A,:54513045_12_0,N/A,7.21,no,N/A,No TLS ahead
+37.0,bus,N/A,:54513045_12_0,N/A,7.21,no,N/A,No TLS ahead
+37.05,bus,N/A,:54513045_12_0,N/A,7.2,no,N/A,No TLS ahead
+37.1,bus,N/A,:54513045_12_0,N/A,7.2,no,N/A,No TLS ahead
+37.15,bus,N/A,:54513045_12_0,N/A,7.19,no,N/A,No TLS ahead
+37.2,bus,N/A,:54513045_12_0,N/A,7.19,no,N/A,No TLS ahead
+37.25,bus,N/A,:54513045_12_0,N/A,7.21,no,N/A,No TLS ahead
+37.3,bus,N/A,-474901194_0,N/A,7.22,no,N/A,No TLS ahead
+37.35,bus,N/A,-474901194_0,N/A,7.25,no,N/A,No TLS ahead
+37.4,bus,N/A,-474901194_0,N/A,7.3,no,N/A,No TLS ahead
+37.45,bus,N/A,-474901194_0,N/A,7.36,no,N/A,No TLS ahead
+37.5,bus,N/A,-474901194_0,N/A,7.41,no,N/A,No TLS ahead
+37.55,bus,N/A,-474901194_0,N/A,7.45,no,N/A,No TLS ahead
+37.6,bus,N/A,-474901194_0,N/A,7.48,no,N/A,No TLS ahead
+37.65,bus,N/A,-474901194_0,N/A,7.53,no,N/A,No TLS ahead
+37.7,bus,N/A,-474901194_0,N/A,7.58,no,N/A,No TLS ahead
+37.75,bus,N/A,-474901194_0,N/A,7.62,no,N/A,No TLS ahead
+37.8,bus,N/A,-474901194_0,N/A,7.67,no,N/A,No TLS ahead
+37.85,bus,N/A,-474901194_0,N/A,7.71,no,N/A,No TLS ahead
+37.9,bus,N/A,-474901194_0,N/A,7.77,no,N/A,No TLS ahead
+37.95,bus,N/A,-474901194_0,N/A,7.82,no,N/A,No TLS ahead
+38.0,bus,N/A,-474901194_0,N/A,7.87,no,N/A,No TLS ahead
+38.05,bus,N/A,-474901194_0,N/A,7.93,no,N/A,No TLS ahead
+38.1,bus,N/A,-474901194_0,N/A,7.96,no,N/A,No TLS ahead
+38.15,bus,N/A,-474901194_0,N/A,8.0,no,N/A,No TLS ahead
+38.2,bus,N/A,-474901194_0,N/A,8.04,no,N/A,No TLS ahead
+38.25,bus,N/A,-474901194_0,N/A,8.1,no,N/A,No TLS ahead
+38.3,bus,N/A,-474901194_0,N/A,8.16,no,N/A,No TLS ahead
+38.35,bus,N/A,-474901194_0,N/A,8.21,no,N/A,No TLS ahead
+38.4,bus,N/A,-474901194_0,N/A,8.24,no,N/A,No TLS ahead
+38.45,bus,N/A,-474901194_0,N/A,8.29,no,N/A,No TLS ahead
+38.5,bus,N/A,-474901194_0,N/A,8.32,no,N/A,No TLS ahead
+38.55,bus,N/A,-474901194_0,N/A,8.36,no,N/A,No TLS ahead
+38.6,bus,N/A,-474901194_0,N/A,8.4,no,N/A,No TLS ahead
+38.65,bus,N/A,-474901194_0,N/A,8.45,no,N/A,No TLS ahead
+38.7,bus,N/A,-474901194_0,N/A,8.49,no,N/A,No TLS ahead
+38.75,bus,N/A,-474901194_0,N/A,8.52,no,N/A,No TLS ahead
+38.8,bus,N/A,-474901194_0,N/A,8.57,no,N/A,No TLS ahead
+38.85,bus,N/A,-474901194_0,N/A,8.61,no,N/A,No TLS ahead
+38.9,bus,N/A,-474901194_0,N/A,8.67,no,N/A,No TLS ahead
+38.95,bus,N/A,-474901194_0,N/A,8.73,no,N/A,No TLS ahead
+39.0,bus,N/A,-474901194_0,N/A,8.77,no,N/A,No TLS ahead
+39.05,bus,N/A,-474901194_0,N/A,8.81,no,N/A,No TLS ahead
+39.1,bus,N/A,-474901194_0,N/A,8.85,no,N/A,No TLS ahead
+39.15,bus,N/A,-474901194_0,N/A,8.9,no,N/A,No TLS ahead
+39.2,bus,N/A,-474901194_0,N/A,8.94,no,N/A,No TLS ahead
+39.25,bus,N/A,-474901194_0,N/A,8.99,no,N/A,No TLS ahead
+39.3,bus,N/A,-474901194_0,N/A,9.03,no,N/A,No TLS ahead
+39.35,bus,N/A,-474901194_0,N/A,9.08,no,N/A,No TLS ahead
+39.4,bus,N/A,-474901194_0,N/A,9.13,no,N/A,No TLS ahead
+39.45,bus,N/A,-474901194_0,N/A,9.18,no,N/A,No TLS ahead
+39.5,bus,N/A,-474901194_0,N/A,9.23,no,N/A,No TLS ahead
+39.55,bus,N/A,-474901194_0,N/A,9.27,no,N/A,No TLS ahead
+39.6,bus,N/A,-474901194_0,N/A,9.32,no,N/A,No TLS ahead
+39.65,bus,N/A,-474901194_0,N/A,9.36,no,N/A,No TLS ahead
+39.7,bus,N/A,-474901194_0,N/A,9.4,no,N/A,No TLS ahead
+39.75,bus,N/A,-474901194_0,N/A,9.44,no,N/A,No TLS ahead
+39.8,bus,N/A,-474901194_0,N/A,9.5,no,N/A,No TLS ahead
+39.85,bus,N/A,-474901194_0,N/A,9.54,no,N/A,No TLS ahead
+39.9,bus,N/A,-474901194_0,N/A,9.6,no,N/A,No TLS ahead
+39.95,bus,N/A,-474901194_0,N/A,9.65,no,N/A,No TLS ahead
+40.0,bus,N/A,-474901194_0,N/A,9.7,no,N/A,No TLS ahead
+40.05,bus,N/A,-474901194_0,N/A,9.73,no,N/A,No TLS ahead
+40.1,bus,N/A,-474901194_0,N/A,9.77,no,N/A,No TLS ahead
+40.15,bus,N/A,-474901194_0,N/A,9.82,no,N/A,No TLS ahead
+40.2,bus,N/A,-474901194_0,N/A,9.85,no,N/A,No TLS ahead
+40.25,bus,N/A,-474901194_0,N/A,9.89,no,N/A,No TLS ahead
+40.3,bus,N/A,-474901194_0,N/A,9.95,no,N/A,No TLS ahead
+40.35,bus,N/A,-474901194_0,N/A,9.99,no,N/A,No TLS ahead
+40.4,bus,N/A,-474901194_0,N/A,10.05,no,N/A,No TLS ahead
+40.45,bus,N/A,-474901194_0,N/A,10.09,no,N/A,No TLS ahead
+40.5,bus,N/A,-474901194_0,N/A,10.12,no,N/A,No TLS ahead
+40.55,bus,N/A,-474901194_0,N/A,10.17,no,N/A,No TLS ahead
+40.6,bus,N/A,-474901194_0,N/A,10.22,no,N/A,No TLS ahead
+40.65,bus,N/A,-474901194_0,N/A,10.25,no,N/A,No TLS ahead
+40.7,bus,N/A,-474901194_0,N/A,10.28,no,N/A,No TLS ahead
+40.75,bus,N/A,-474901194_0,N/A,10.33,no,N/A,No TLS ahead
+40.8,bus,N/A,:4687606113_0_0,N/A,10.38,no,N/A,No TLS ahead
+40.85,bus,N/A,:4687606113_0_0,N/A,10.41,no,N/A,No TLS ahead
+40.9,bus,N/A,:4687606113_0_0,N/A,10.46,no,N/A,No TLS ahead
+40.95,bus,N/A,:4687606113_0_0,N/A,10.5,no,N/A,No TLS ahead
+41.0,bus,N/A,:4687606113_0_0,N/A,10.53,no,N/A,No TLS ahead
+41.05,bus,N/A,:4687606113_0_0,N/A,10.59,no,N/A,No TLS ahead
+41.1,bus,N/A,:4687606113_0_0,N/A,10.64,no,N/A,No TLS ahead
+41.15,bus,N/A,:4687606113_0_0,N/A,10.7,no,N/A,No TLS ahead
+41.2,bus,N/A,:4687606113_0_0,N/A,10.75,no,N/A,No TLS ahead
+41.25,bus,N/A,:4687606113_0_0,N/A,10.79,no,N/A,No TLS ahead
+41.3,bus,N/A,:4687606113_0_0,N/A,10.84,no,N/A,No TLS ahead
+41.35,bus,N/A,:4687606113_0_0,N/A,10.89,no,N/A,No TLS ahead
+41.4,bus,N/A,:4687606113_0_0,N/A,10.93,no,N/A,No TLS ahead
+41.45,bus,N/A,:4687606113_0_0,N/A,10.98,no,N/A,No TLS ahead
+41.5,bus,N/A,:4687606113_0_0,N/A,11.02,no,N/A,No TLS ahead
+41.55,bus,N/A,-474901196#1_0,N/A,11.05,no,N/A,No TLS ahead
+41.6,bus,N/A,-474901196#1_0,N/A,11.1,no,N/A,No TLS ahead
+41.65,bus,N/A,-474901196#1_0,N/A,11.14,no,N/A,No TLS ahead
+41.7,bus,N/A,-474901196#1_0,N/A,11.19,no,N/A,No TLS ahead
+41.75,bus,N/A,-474901196#1_0,N/A,11.23,no,N/A,No TLS ahead
+41.8,bus,N/A,-474901196#1_0,N/A,11.27,no,N/A,No TLS ahead
+41.85,bus,N/A,-474901196#1_0,N/A,11.32,no,N/A,No TLS ahead
+41.9,bus,N/A,-474901196#1_0,N/A,11.37,no,N/A,No TLS ahead
+41.95,bus,N/A,-474901196#1_0,N/A,11.4,no,N/A,No TLS ahead
+42.0,bus,N/A,-474901196#1_0,N/A,11.45,no,N/A,No TLS ahead
+42.05,bus,N/A,-474901196#1_0,N/A,11.5,no,N/A,No TLS ahead
+42.1,bus,N/A,-474901196#1_0,N/A,11.54,no,N/A,No TLS ahead
+42.15,bus,N/A,-474901196#1_0,N/A,11.6,no,N/A,No TLS ahead
+42.2,bus,N/A,-474901196#1_0,N/A,11.64,no,N/A,No TLS ahead
+42.25,bus,N/A,-474901196#1_0,N/A,11.69,no,N/A,No TLS ahead
+42.3,bus,N/A,-474901196#1_0,N/A,11.74,no,N/A,No TLS ahead
+42.35,bus,N/A,-474901196#1_0,N/A,11.8,no,N/A,No TLS ahead
+42.4,bus,N/A,-474901196#1_0,N/A,11.83,no,N/A,No TLS ahead
+42.45,bus,N/A,:4687606114_0_0,N/A,11.87,no,N/A,No TLS ahead
+42.5,bus,N/A,:4687606114_0_0,N/A,11.91,no,N/A,No TLS ahead
+42.55,bus,N/A,:4687606114_0_0,N/A,11.94,no,N/A,No TLS ahead
+42.6,bus,N/A,:4687606114_0_0,N/A,11.99,no,N/A,No TLS ahead
+42.65,bus,N/A,:4687606114_0_0,N/A,12.03,no,N/A,No TLS ahead
+42.7,bus,N/A,:4687606114_0_0,N/A,12.08,no,N/A,No TLS ahead
+42.75,bus,N/A,:4687606114_0_0,N/A,12.14,no,N/A,No TLS ahead
+42.8,bus,N/A,:4687606114_0_0,N/A,12.17,no,N/A,No TLS ahead
+42.85,bus,N/A,:4687606114_0_0,N/A,12.22,no,N/A,No TLS ahead
+42.9,bus,N/A,:4687606114_0_0,N/A,12.28,no,N/A,No TLS ahead
+42.95,bus,N/A,:4687606114_0_0,N/A,12.31,no,N/A,No TLS ahead
+43.0,bus,N/A,:4687606114_0_0,N/A,12.37,no,N/A,No TLS ahead
+43.05,bus,N/A,:4687606114_0_0,N/A,12.42,no,N/A,No TLS ahead
+43.1,bus,N/A,:4687606114_0_0,N/A,12.48,no,N/A,No TLS ahead
+43.15,bus,N/A,-474901195#1_0,N/A,12.54,no,N/A,No TLS ahead
+43.2,bus,N/A,-474901195#1_0,N/A,12.59,no,N/A,No TLS ahead
+43.25,bus,N/A,-474901195#1_0,N/A,12.64,no,N/A,No TLS ahead
+43.3,bus,N/A,-474901195#1_0,N/A,12.69,no,N/A,No TLS ahead
+43.35,bus,N/A,-474901195#1_0,N/A,12.72,no,N/A,No TLS ahead
+43.4,bus,N/A,-474901195#1_0,N/A,12.76,no,N/A,No TLS ahead
+43.45,bus,N/A,-474901195#1_0,N/A,12.8,no,N/A,No TLS ahead
+43.5,bus,N/A,-474901195#1_0,N/A,12.85,no,N/A,No TLS ahead
+43.55,bus,N/A,-474901195#1_0,N/A,12.9,no,N/A,No TLS ahead
+43.6,bus,N/A,-474901195#1_0,N/A,12.96,no,N/A,No TLS ahead
+43.65,bus,N/A,-474901195#1_0,N/A,12.99,no,N/A,No TLS ahead
+43.7,bus,N/A,-474901195#1_0,N/A,13.04,no,N/A,No TLS ahead
+43.75,bus,N/A,-474901195#1_0,N/A,13.08,no,N/A,No TLS ahead
+43.8,bus,N/A,-474901195#1_0,N/A,13.13,no,N/A,No TLS ahead
+43.85,bus,N/A,-474901195#1_0,N/A,13.16,no,N/A,No TLS ahead
+43.9,bus,N/A,-474901195#1_0,N/A,13.2,no,N/A,No TLS ahead
+43.95,bus,N/A,-474901195#1_0,N/A,13.24,no,N/A,No TLS ahead
+44.0,bus,N/A,-474901195#1_0,N/A,13.28,no,N/A,No TLS ahead
+44.05,bus,N/A,-474901195#1_0,N/A,13.33,no,N/A,No TLS ahead
+44.1,bus,N/A,-474901195#1_0,N/A,13.37,no,N/A,No TLS ahead
+44.15,bus,N/A,-474901195#1_0,N/A,13.43,no,N/A,No TLS ahead
+44.2,bus,N/A,-474901195#1_0,N/A,13.46,no,N/A,No TLS ahead
+44.25,bus,N/A,-474901195#1_0,N/A,13.5,no,N/A,No TLS ahead
+44.3,bus,N/A,-474901195#1_0,N/A,13.54,no,N/A,No TLS ahead
+44.35,bus,N/A,-474901195#1_0,N/A,13.58,no,N/A,No TLS ahead
+44.4,bus,N/A,-474901195#1_0,N/A,13.63,no,N/A,No TLS ahead
+44.45,bus,N/A,-474901195#1_0,N/A,13.69,no,N/A,No TLS ahead
+44.5,bus,N/A,-474901195#1_0,N/A,13.74,no,N/A,No TLS ahead
+44.55,bus,N/A,-474901195#1_0,N/A,13.78,no,N/A,No TLS ahead
+44.6,bus,N/A,-474901195#1_0,N/A,13.84,no,N/A,No TLS ahead
+44.65,bus,N/A,-474901195#1_0,N/A,13.89,no,N/A,No TLS ahead
+44.7,bus,N/A,-474901195#1_0,N/A,13.93,no,N/A,No TLS ahead
+44.75,bus,N/A,-474901195#1_0,N/A,13.96,no,N/A,No TLS ahead
+44.8,bus,N/A,-474901195#1_0,N/A,14.01,no,N/A,No TLS ahead
+44.85,bus,N/A,-474901195#1_0,N/A,14.06,no,N/A,No TLS ahead
+44.9,bus,N/A,-474901195#1_0,N/A,14.09,no,N/A,No TLS ahead
+44.95,bus,N/A,-474901195#1_0,N/A,14.13,no,N/A,No TLS ahead
+45.0,bus,N/A,-474901195#1_0,N/A,14.16,no,N/A,No TLS ahead
+45.05,bus,N/A,-474901195#1_0,N/A,14.2,no,N/A,No TLS ahead
+45.1,bus,N/A,-474901195#1_0,N/A,14.26,no,N/A,No TLS ahead
+45.15,bus,N/A,-474901195#1_0,N/A,14.3,no,N/A,No TLS ahead
+45.2,bus,N/A,-474901195#1_0,N/A,14.36,no,N/A,No TLS ahead
+45.25,bus,N/A,-474901195#1_0,N/A,14.4,no,N/A,No TLS ahead
+45.3,bus,N/A,-474901195#1_0,N/A,14.45,no,N/A,No TLS ahead
+45.35,bus,N/A,-474901195#1_0,N/A,14.49,no,N/A,No TLS ahead
+45.4,bus,N/A,-474901195#1_0,N/A,14.53,no,N/A,No TLS ahead
+45.45,bus,N/A,:54640676_2_0,N/A,14.59,no,N/A,No TLS ahead
+45.5,bus,N/A,:54640676_2_0,N/A,14.63,no,N/A,No TLS ahead
+45.55,bus,N/A,:54640676_2_0,N/A,14.68,no,N/A,No TLS ahead
+45.6,bus,N/A,:54640676_2_0,N/A,14.72,no,N/A,No TLS ahead
+45.65,bus,N/A,:54640676_2_0,N/A,14.76,no,N/A,No TLS ahead
+45.7,bus,N/A,:54640676_2_0,N/A,14.8,no,N/A,No TLS ahead
+45.75,bus,N/A,:54640676_2_0,N/A,14.84,no,N/A,No TLS ahead
+45.8,bus,N/A,:54640676_2_0,N/A,14.88,no,N/A,No TLS ahead
+45.85,bus,N/A,:54640676_2_0,N/A,14.92,no,N/A,No TLS ahead
+45.9,bus,N/A,:54640676_2_0,N/A,14.96,no,N/A,No TLS ahead
+45.95,bus,N/A,:54640676_2_0,N/A,15.01,no,N/A,No TLS ahead
+46.0,bus,N/A,:54640676_2_0,N/A,15.06,no,N/A,No TLS ahead
+46.05,bus,N/A,:54640676_2_0,N/A,15.11,no,N/A,No TLS ahead
+46.1,bus,N/A,:54640676_2_0,N/A,15.17,no,N/A,No TLS ahead
+46.15,bus,N/A,:54640676_2_0,N/A,15.22,no,N/A,No TLS ahead
+46.2,bus,N/A,:54640676_2_0,N/A,15.28,no,N/A,No TLS ahead
+46.25,bus,N/A,-474901193_0,N/A,15.31,no,N/A,No TLS ahead
+46.3,bus,N/A,-474901193_0,N/A,15.36,no,N/A,No TLS ahead
+46.35,bus,N/A,-474901193_0,N/A,15.42,no,N/A,No TLS ahead
+46.4,bus,N/A,-474901193_0,N/A,15.45,no,N/A,No TLS ahead
+46.45,bus,N/A,-474901193_0,N/A,15.5,no,N/A,No TLS ahead
+46.5,bus,N/A,-474901193_0,N/A,15.56,no,N/A,No TLS ahead
+46.55,bus,N/A,-474901193_0,N/A,15.59,no,N/A,No TLS ahead
+46.6,bus,N/A,-474901193_0,N/A,15.64,no,N/A,No TLS ahead
+46.65,bus,N/A,-474901193_0,N/A,15.68,no,N/A,No TLS ahead
+46.7,bus,N/A,-474901193_0,N/A,15.71,no,N/A,No TLS ahead
+46.75,bus,N/A,-474901193_0,N/A,15.76,no,N/A,No TLS ahead
+46.8,bus,N/A,-474901193_0,N/A,15.8,no,N/A,No TLS ahead
+46.85,bus,N/A,-474901193_0,N/A,15.85,no,N/A,No TLS ahead
+46.9,bus,N/A,-474901193_0,N/A,15.89,no,N/A,No TLS ahead
+46.95,bus,N/A,-474901193_0,N/A,15.93,no,N/A,No TLS ahead
+47.0,bus,N/A,-474901193_0,N/A,15.98,no,N/A,No TLS ahead
+47.05,bus,N/A,-474901193_0,N/A,16.02,no,N/A,No TLS ahead
+47.1,bus,N/A,-474901193_0,N/A,16.06,no,N/A,No TLS ahead
+47.15,bus,N/A,-474901193_0,N/A,16.11,no,N/A,No TLS ahead
+47.2,bus,N/A,-474901193_0,N/A,16.16,no,N/A,No TLS ahead
+47.25,bus,N/A,-474901193_0,N/A,16.21,no,N/A,No TLS ahead
+47.3,bus,N/A,-474901193_0,N/A,16.26,no,N/A,No TLS ahead
+47.35,bus,N/A,-474901193_0,N/A,16.32,no,N/A,No TLS ahead
+47.4,bus,N/A,-474901193_0,N/A,16.35,no,N/A,No TLS ahead
+47.45,bus,N/A,-474901193_0,N/A,16.39,no,N/A,No TLS ahead
+47.5,bus,N/A,-474901193_0,N/A,16.42,no,N/A,No TLS ahead
+47.55,bus,N/A,-474901193_0,N/A,16.46,no,N/A,No TLS ahead
+47.6,bus,N/A,-474901193_0,N/A,16.51,no,N/A,No TLS ahead
+47.65,bus,N/A,-474901193_0,N/A,16.55,no,N/A,No TLS ahead
+47.7,bus,N/A,-474901193_0,N/A,16.61,no,N/A,No TLS ahead
+47.75,bus,N/A,-474901193_0,N/A,16.66,no,N/A,No TLS ahead
+47.8,bus,N/A,-474901193_0,N/A,16.71,no,N/A,No TLS ahead
+47.85,bus,N/A,-474901193_0,N/A,16.76,no,N/A,No TLS ahead
+47.9,bus,N/A,-474901193_0,N/A,16.8,no,N/A,No TLS ahead
+47.95,bus,N/A,-474901193_0,N/A,16.84,no,N/A,No TLS ahead
+48.0,bus,N/A,-474901193_0,N/A,16.89,no,N/A,No TLS ahead
+48.05,bus,N/A,-474901193_0,N/A,16.94,no,N/A,No TLS ahead
+48.1,bus,N/A,-474901193_0,N/A,17.0,no,N/A,No TLS ahead
+48.15,bus,N/A,-474901193_0,N/A,17.04,no,N/A,No TLS ahead
+48.2,bus,N/A,-474901193_0,N/A,17.1,no,N/A,No TLS ahead
+48.25,bus,N/A,-474901193_0,N/A,17.14,no,N/A,No TLS ahead
+48.3,bus,N/A,-474901193_0,N/A,17.17,no,N/A,No TLS ahead
+48.35,bus,N/A,-474901193_0,N/A,17.21,no,N/A,No TLS ahead
+48.4,bus,N/A,-474901193_0,N/A,17.25,no,N/A,No TLS ahead
+48.45,bus,N/A,-474901193_0,N/A,17.3,no,N/A,No TLS ahead
+48.5,bus,N/A,-474901193_0,N/A,17.36,no,N/A,No TLS ahead
+48.55,bus,N/A,-474901193_0,N/A,17.41,no,N/A,No TLS ahead
+48.6,bus,N/A,-474901193_0,N/A,17.46,no,N/A,No TLS ahead
+48.65,bus,N/A,-474901193_0,N/A,17.51,no,N/A,No TLS ahead
+48.7,bus,N/A,-474901193_0,N/A,17.56,no,N/A,No TLS ahead
+48.75,bus,N/A,-474901193_0,N/A,17.59,no,N/A,No TLS ahead
+48.8,bus,N/A,-474901193_0,N/A,17.63,no,N/A,No TLS ahead
+48.85,bus,N/A,-474901193_0,N/A,17.66,no,N/A,No TLS ahead
+48.9,bus,N/A,-474901193_0,N/A,17.69,no,N/A,No TLS ahead
+48.95,bus,N/A,-474901193_0,N/A,17.72,no,N/A,No TLS ahead
+49.0,bus,N/A,-474901193_0,N/A,17.54,no,N/A,No TLS ahead
+49.05,bus,N/A,-474901193_0,N/A,17.34,no,N/A,No TLS ahead
+49.1,bus,N/A,-474901193_0,N/A,17.15,no,N/A,No TLS ahead
+49.15,bus,N/A,-474901193_0,N/A,16.95,no,N/A,No TLS ahead
+49.2,bus,N/A,-474901193_0,N/A,16.76,no,N/A,No TLS ahead
+49.25,bus,N/A,-474901193_0,N/A,16.56,no,N/A,No TLS ahead
+49.3,bus,N/A,-474901193_0,N/A,16.36,no,N/A,No TLS ahead
+49.35,bus,N/A,-474901193_0,N/A,16.16,no,N/A,No TLS ahead
+49.4,bus,N/A,-474901193_0,N/A,15.96,no,N/A,No TLS ahead
+49.45,bus,N/A,-474901193_0,N/A,15.76,no,N/A,No TLS ahead
+49.5,bus,N/A,-474901193_0,N/A,15.56,no,N/A,No TLS ahead
+49.55,bus,N/A,-474901193_0,N/A,15.36,no,N/A,No TLS ahead
+49.6,bus,N/A,-474901193_0,N/A,15.16,no,N/A,No TLS ahead
+49.65,bus,N/A,-474901193_0,N/A,14.96,no,N/A,No TLS ahead
+49.7,bus,N/A,-474901193_0,N/A,14.76,no,N/A,No TLS ahead
+49.75,bus,N/A,-474901193_0,N/A,14.56,no,N/A,No TLS ahead
+49.8,bus,N/A,-474901193_0,N/A,14.36,no,N/A,No TLS ahead
+49.85,bus,N/A,-474901193_0,N/A,14.16,no,N/A,No TLS ahead
+49.9,bus,N/A,-474901193_0,N/A,13.96,no,N/A,No TLS ahead
+49.95,bus,N/A,-474901193_0,N/A,13.76,no,N/A,No TLS ahead
+50.0,bus,N/A,-474901193_0,N/A,13.56,no,N/A,No TLS ahead
+50.05,bus,N/A,-474901193_0,N/A,13.36,no,N/A,No TLS ahead
+50.1,bus,N/A,-474901193_0,N/A,13.16,no,N/A,No TLS ahead
+50.15,bus,N/A,-474901193_0,N/A,12.96,no,N/A,No TLS ahead
+50.2,bus,N/A,-474901193_0,N/A,12.76,no,N/A,No TLS ahead
+50.25,bus,N/A,-474901193_0,N/A,12.56,no,N/A,No TLS ahead
+50.3,bus,N/A,-474901193_0,N/A,12.36,no,N/A,No TLS ahead
+50.35,bus,N/A,-474901193_0,N/A,12.16,no,N/A,No TLS ahead
+50.4,bus,N/A,:4687606112_0_0,N/A,11.96,no,N/A,No TLS ahead
+50.45,bus,N/A,:4687606112_0_0,N/A,11.76,no,N/A,No TLS ahead
+50.5,bus,N/A,:4687606112_0_0,N/A,11.56,no,N/A,No TLS ahead
+50.55,bus,N/A,:4687606112_0_0,N/A,11.36,no,N/A,No TLS ahead
+50.6,bus,N/A,:4687606112_0_0,N/A,11.16,no,N/A,No TLS ahead
+50.65,bus,N/A,:4687606112_0_0,N/A,10.96,no,N/A,No TLS ahead
+50.7,bus,N/A,:4687606112_0_0,N/A,10.76,no,N/A,No TLS ahead
+50.75,bus,N/A,:4687606112_0_0,N/A,10.56,no,N/A,No TLS ahead
+50.8,bus,N/A,:4687606112_0_0,N/A,10.36,no,N/A,No TLS ahead
+50.85,bus,N/A,:4687606112_0_0,N/A,10.16,no,N/A,No TLS ahead
+50.9,bus,N/A,:4687606112_0_0,N/A,9.96,no,N/A,No TLS ahead
+50.95,bus,N/A,:4687606112_0_0,N/A,9.76,no,N/A,No TLS ahead
+51.0,bus,N/A,:4687606112_0_0,N/A,9.56,no,N/A,No TLS ahead
+51.05,bus,N/A,:4687606112_0_0,N/A,9.36,no,N/A,No TLS ahead
+51.1,bus,N/A,:4687606112_0_0,N/A,9.16,no,N/A,No TLS ahead
+51.15,bus,N/A,:4687606112_0_0,N/A,8.96,no,N/A,No TLS ahead
+51.2,bus,N/A,:4687606112_0_0,N/A,8.76,no,N/A,No TLS ahead
+51.25,bus,54487384,-474635936_0,1.16,8.56,yes,0,Priority granted (ETA=1.2s)
+51.3,bus,54487384,-474635936_0,1.1,8.62,no,N/A,Cooldown active
+51.35,bus,54487384,-474635936_0,1.05,8.65,no,N/A,Cooldown active
+51.4,bus,54487384,-474635936_0,1.0,8.69,no,N/A,Cooldown active
+51.45,bus,54487384,-474635936_0,0.94,8.74,no,N/A,Cooldown active
+51.5,bus,54487384,-474635936_0,0.89,8.77,no,N/A,Cooldown active
+51.55,bus,54487384,-474635936_0,0.83,8.83,no,N/A,Cooldown active
+51.6,bus,54487384,-474635936_0,0.78,8.86,no,N/A,Cooldown active
+51.65,bus,54487384,-474635936_0,0.72,8.92,no,N/A,Cooldown active
+51.7,bus,54487384,-474635936_0,0.67,8.96,no,N/A,Cooldown active
+51.75,bus,54487384,-474635936_0,0.62,9.0,no,N/A,Cooldown active
+51.8,bus,54487384,-474635936_0,0.56,9.05,no,N/A,Cooldown active
+51.85,bus,54487384,-474635936_0,0.51,9.1,no,N/A,Cooldown active
+51.9,bus,54487384,-474635936_0,0.46,9.13,no,N/A,Cooldown active
+51.95,bus,54487384,-474635936_0,0.41,9.19,no,N/A,Cooldown active
+52.0,bus,54487384,-474635936_0,0.35,9.24,no,N/A,Cooldown active
+52.05,bus,54487384,-474635936_0,0.3,9.27,no,N/A,Cooldown active
+52.1,bus,54487384,-474635936_0,0.26,9.08,no,N/A,Cooldown active
+52.15,bus,54487384,-474635936_0,0.21,8.88,no,N/A,Cooldown active
+52.2,bus,54487384,-474635936_0,0.17,8.68,no,N/A,Cooldown active
+52.25,bus,54487384,-474635936_0,0.12,8.48,no,N/A,Cooldown active
+52.3,bus,54487384,-474635936_0,0.08,8.28,no,N/A,Cooldown active
+52.35,bus,54487384,-474635936_0,0.03,8.08,no,N/A,Cooldown active
+52.4,bus,N/A,:54487384_5_0,N/A,7.88,no,N/A,No TLS ahead
+52.45,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+52.5,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+52.55,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+52.6,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+52.65,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+52.7,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+52.75,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+52.8,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+52.85,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+52.9,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+52.95,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+53.0,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+53.05,bus,N/A,:54487384_5_0,N/A,7.85,no,N/A,No TLS ahead
+53.1,bus,N/A,:54487384_5_0,N/A,7.85,no,N/A,No TLS ahead
+53.15,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+53.2,bus,N/A,:54487384_5_0,N/A,7.85,no,N/A,No TLS ahead
+53.25,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+53.3,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+53.35,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+53.4,bus,N/A,:54487384_5_0,N/A,7.88,no,N/A,No TLS ahead
+53.45,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+53.5,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+53.55,bus,N/A,:54487384_5_0,N/A,7.85,no,N/A,No TLS ahead
+53.6,bus,N/A,:54487384_5_0,N/A,7.88,no,N/A,No TLS ahead
+53.65,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+53.7,bus,N/A,:54487384_5_0,N/A,7.88,no,N/A,No TLS ahead
+53.75,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+53.8,bus,N/A,:54487384_5_0,N/A,7.88,no,N/A,No TLS ahead
+53.85,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+53.9,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+53.95,bus,N/A,:54487384_5_0,N/A,7.87,no,N/A,No TLS ahead
+54.0,bus,N/A,:54487384_5_0,N/A,7.85,no,N/A,No TLS ahead
+54.05,bus,N/A,:54487384_5_0,N/A,7.88,no,N/A,No TLS ahead
+54.1,bus,N/A,:54487384_5_0,N/A,7.86,no,N/A,No TLS ahead
+54.15,bus,54487386,7194835#0_0,10.0,7.88,no,N/A,ETA too high (10.0s)
+54.2,bus,54487386,7194835#0_0,9.89,7.92,no,N/A,ETA too high (9.9s)
+54.25,bus,54487386,7194835#0_0,9.79,7.97,no,N/A,ETA too high (9.8s)
+54.3,bus,54487386,7194835#0_0,9.67,8.03,no,N/A,ETA too high (9.7s)
+54.35,bus,54487386,7194835#0_0,9.58,8.06,no,N/A,ETA too high (9.6s)
+54.4,bus,54487386,7194835#0_0,9.49,8.1,no,N/A,ETA too high (9.5s)
+54.45,bus,54487386,7194835#0_0,9.38,8.15,no,N/A,ETA too high (9.4s)
+54.5,bus,54487386,7194835#0_0,9.27,8.2,no,N/A,ETA too high (9.3s)
+54.55,bus,54487386,7194835#0_0,9.17,8.24,no,N/A,ETA too high (9.2s)
+54.6,bus,54487386,7194835#0_0,9.06,8.29,no,N/A,ETA too high (9.1s)
+54.65,bus,54487386,7194835#0_0,8.97,8.33,no,N/A,ETA too high (9.0s)
+54.7,bus,54487386,7194835#0_0,8.87,8.38,no,N/A,ETA too high (8.9s)
+54.75,bus,54487386,7194835#0_0,8.77,8.42,no,N/A,ETA too high (8.8s)
+54.8,bus,54487386,7194835#0_0,8.69,8.46,no,N/A,ETA too high (8.7s)
+54.85,bus,54487386,7194835#0_0,8.59,8.51,no,N/A,ETA too high (8.6s)
+54.9,bus,54487386,7194835#0_0,8.48,8.56,no,N/A,ETA too high (8.5s)
+54.95,bus,54487386,7194835#0_0,8.38,8.62,no,N/A,ETA too high (8.4s)
+55.0,bus,54487386,7194835#0_0,8.3,8.65,no,N/A,ETA too high (8.3s)
+55.05,bus,54487386,7194835#0_0,8.2,8.69,no,N/A,ETA too high (8.2s)
+55.1,bus,54487386,7194835#0_0,8.11,8.74,no,N/A,ETA too high (8.1s)
+55.15,bus,54487386,7194835#0_0,8.01,8.8,no,N/A,ETA too high (8.0s)
+55.2,bus,54487386,7194835#0_0,7.92,8.84,no,N/A,ETA too high (7.9s)
+55.25,bus,54487386,7194835#0_0,7.82,8.9,no,N/A,ETA too high (7.8s)
+55.3,bus,54487386,7194835#0_0,7.72,8.95,no,N/A,ETA too high (7.7s)
+55.35,bus,54487386,7194835#0_0,7.64,8.98,no,N/A,ETA too high (7.6s)
+55.4,bus,54487386,7194835#0_0,7.56,9.03,no,N/A,ETA too high (7.6s)
+55.45,bus,54487386,7194835#0_0,7.48,9.06,no,N/A,ETA too high (7.5s)
+55.5,bus,54487386,7194835#0_0,7.38,9.11,no,N/A,ETA too high (7.4s)
+55.55,bus,54487386,7194835#0_0,7.31,9.15,no,N/A,ETA too high (7.3s)
+55.6,bus,54487386,7194835#0_0,7.21,9.2,no,N/A,ETA too high (7.2s)
+55.65,bus,54487386,7194835#0_0,7.14,9.24,no,N/A,ETA too high (7.1s)
+55.7,bus,54487386,7194835#0_0,7.05,9.28,no,N/A,ETA too high (7.1s)
+55.75,bus,54487386,7194835#0_0,6.96,9.34,no,N/A,ETA too high (7.0s)
+55.8,bus,54487386,7194835#0_0,6.87,9.39,no,N/A,ETA too high (6.9s)
+55.85,bus,54487386,7194835#0_0,6.8,9.42,no,N/A,ETA too high (6.8s)
+55.9,bus,54487386,7194835#0_0,6.71,9.47,no,N/A,ETA too high (6.7s)
+55.95,bus,54487386,7194835#0_0,6.64,9.51,no,N/A,ETA too high (6.6s)
+56.0,bus,54487386,7194835#0_0,6.55,9.56,no,N/A,ETA too high (6.6s)
+56.05,bus,54487386,7194835#0_0,6.46,9.61,no,N/A,ETA too high (6.5s)
+56.1,bus,54487386,7194835#0_0,6.39,9.65,no,N/A,ETA too high (6.4s)
+56.15,bus,54487386,7194835#0_0,6.32,9.68,no,N/A,ETA too high (6.3s)
+56.2,bus,54487386,7194835#0_0,6.23,9.74,no,N/A,ETA too high (6.2s)
+56.25,bus,54487386,7194835#0_0,6.16,9.77,no,N/A,ETA too high (6.2s)
+56.3,bus,54487386,7194835#0_0,6.08,9.82,no,N/A,ETA too high (6.1s)
+56.35,bus,54487386,7194835#0_0,6.01,9.86,no,N/A,ETA too high (6.0s)
+56.4,bus,54487386,7194835#0_0,5.93,9.9,no,N/A,ETA too high (5.9s)
+56.45,bus,54487386,7194835#0_0,5.85,9.95,no,N/A,ETA too high (5.9s)
+56.5,bus,54487386,7194835#0_0,5.78,9.98,no,N/A,ETA too high (5.8s)
+56.55,bus,54487386,7194835#0_0,5.71,10.02,no,N/A,ETA too high (5.7s)
+56.6,bus,54487386,7194835#0_0,5.64,10.05,no,N/A,ETA too high (5.6s)
+56.65,bus,54487386,7194835#0_0,5.56,10.1,no,N/A,ETA too high (5.6s)
+56.7,bus,54487386,7194835#0_0,5.49,10.15,no,N/A,ETA too high (5.5s)
+56.75,bus,54487386,7194835#0_0,5.42,10.19,no,N/A,ETA too high (5.4s)
+56.8,bus,54487386,7194835#0_0,5.35,10.22,no,N/A,ETA too high (5.3s)
+56.85,bus,54487386,7194835#0_0,5.27,10.27,no,N/A,ETA too high (5.3s)
+56.9,bus,54487386,7194835#0_0,5.2,10.32,no,N/A,ETA too high (5.2s)
+56.95,bus,54487386,7194835#0_0,5.13,10.36,no,N/A,ETA too high (5.1s)
+57.0,bus,54487386,7194835#0_0,5.05,10.42,no,N/A,ETA too high (5.1s)
+57.05,bus,54487386,7194835#0_0,4.98,10.45,yes,0,Priority granted (ETA=5.0s)
+57.1,bus,54487386,7194835#0_0,4.91,10.51,no,N/A,Cooldown active
+57.15,bus,54487386,7194835#0_0,4.84,10.55,no,N/A,Cooldown active
+57.2,bus,54487386,7194835#0_0,4.77,10.58,no,N/A,Cooldown active
+57.25,bus,54487386,7194835#0_0,4.7,10.62,no,N/A,Cooldown active
+57.3,bus,54487386,7194835#0_0,4.64,10.66,no,N/A,Cooldown active
+57.35,bus,54487386,7194835#0_0,4.57,10.7,no,N/A,Cooldown active
+57.4,bus,54487386,7194835#0_0,4.51,10.73,no,N/A,Cooldown active
+57.45,bus,54487386,7194835#0_0,4.44,10.76,no,N/A,Cooldown active
+57.5,bus,54487386,7194835#0_0,4.38,10.8,no,N/A,Cooldown active
+57.55,bus,54487386,7194835#0_0,4.32,10.83,no,N/A,Cooldown active
+57.6,bus,54487386,7194835#0_0,4.25,10.88,no,N/A,Cooldown active
+57.65,bus,54487386,7194835#0_0,4.18,10.94,no,N/A,Cooldown active
+57.7,bus,54487386,7194835#0_0,4.1,11.0,no,N/A,Cooldown active
+57.75,bus,54487386,7194835#0_0,4.04,11.03,no,N/A,Cooldown active
+57.8,bus,54487386,7194835#0_0,3.97,11.09,no,N/A,Cooldown active
+57.85,bus,54487386,7194835#0_0,3.9,11.13,no,N/A,Cooldown active
+57.9,bus,54487386,7194835#0_0,3.84,11.17,no,N/A,Cooldown active
+57.95,bus,54487386,7194835#0_0,3.79,11.17,no,N/A,Cooldown active
+58.0,bus,54487386,7194835#0_0,3.75,11.15,no,N/A,Cooldown active
+58.05,bus,54487386,7194835#0_0,3.69,11.17,no,N/A,Cooldown active
+58.1,bus,54487386,7194835#0_0,3.65,11.15,no,N/A,Cooldown active
+58.15,bus,54487386,7194835#0_0,3.6,11.15,no,N/A,Cooldown active
+58.2,bus,54487386,7194835#0_0,3.54,11.17,no,N/A,Cooldown active
+58.25,bus,54487386,7194835#0_0,3.49,11.17,no,N/A,Cooldown active
+58.3,bus,54487386,7194835#0_0,3.45,11.15,no,N/A,Cooldown active
+58.35,bus,54487386,7194835#0_0,3.39,11.18,no,N/A,Cooldown active
+58.4,bus,54487386,7194835#0_0,3.34,11.17,no,N/A,Cooldown active
+58.45,bus,54487386,7194835#0_0,3.29,11.17,no,N/A,Cooldown active
+58.5,bus,54487386,7194835#0_0,3.24,11.17,no,N/A,Cooldown active
+58.55,bus,54487386,7194835#0_0,3.19,11.17,no,N/A,Cooldown active
+58.6,bus,54487386,7194835#0_0,3.15,11.15,no,N/A,Cooldown active
+58.65,bus,54487386,7194835#0_0,3.09,11.17,no,N/A,Cooldown active
+58.7,bus,54487386,7194835#0_0,3.04,11.16,no,N/A,Cooldown active
+58.75,bus,54487386,7194835#0_0,2.99,11.16,no,N/A,Cooldown active
+58.8,bus,54487386,7194835#0_0,2.94,11.16,no,N/A,Cooldown active
+58.85,bus,54487386,7194835#0_0,2.9,11.15,no,N/A,Cooldown active
+58.9,bus,54487386,7194835#0_0,2.84,11.16,no,N/A,Cooldown active
+58.95,bus,54487386,7194835#0_0,2.79,11.16,no,N/A,Cooldown active
+59.0,bus,54487386,7194835#0_0,2.74,11.18,no,N/A,Cooldown active
+59.05,bus,54487386,7194835#0_0,2.69,11.16,no,N/A,Cooldown active
+59.1,bus,54487386,7194835#0_0,2.64,11.17,yes,0,Priority granted (ETA=2.6s)
+59.15,bus,54487386,7194835#0_0,2.59,11.17,no,N/A,Cooldown active
+59.2,bus,54487386,7194835#0_0,2.54,11.16,no,N/A,Cooldown active
+59.25,bus,54487386,7194835#0_0,2.49,11.15,no,N/A,Cooldown active
+59.3,bus,54487386,7194835#0_0,2.44,11.17,no,N/A,Cooldown active
+59.35,bus,54487386,7194835#0_0,2.4,11.15,no,N/A,Cooldown active
+59.4,bus,54487386,7194835#0_0,2.34,11.17,no,N/A,Cooldown active
+59.45,bus,54487386,7194835#0_0,2.29,11.17,no,N/A,Cooldown active
+59.5,bus,54487386,7194835#0_0,2.24,11.17,no,N/A,Cooldown active
+59.55,bus,54487386,7194835#0_0,2.19,11.16,no,N/A,Cooldown active
+59.6,bus,54487386,7194835#0_0,2.14,11.18,no,N/A,Cooldown active
+59.65,bus,54487386,7194835#0_0,2.09,11.16,no,N/A,Cooldown active
+59.7,bus,54487386,7194835#0_0,2.04,11.17,no,N/A,Cooldown active
+59.75,bus,54487386,7194835#0_0,1.99,11.17,no,N/A,Cooldown active
+59.8,bus,54487386,7194835#0_0,1.94,11.15,no,N/A,Cooldown active
+59.85,bus,54487386,7194835#0_0,1.89,11.16,no,N/A,Cooldown active
+59.9,bus,54487386,7194835#0_0,1.84,11.15,no,N/A,Cooldown active
+59.95,bus,54487386,7194835#0_0,1.79,11.16,no,N/A,Cooldown active
+60.0,bus,54487386,7194835#0_0,1.74,11.15,no,N/A,Cooldown active
+60.05,bus,54487386,7194835#0_0,1.69,11.16,no,N/A,Cooldown active
+60.1,bus,54487386,7194835#0_0,1.64,11.17,no,N/A,Cooldown active
+60.15,bus,54487386,7194835#0_0,1.59,11.17,no,N/A,Cooldown active
+60.2,bus,54487386,7194835#0_0,1.54,11.18,no,N/A,Cooldown active
+60.25,bus,54487386,7194835#0_0,1.49,11.16,no,N/A,Cooldown active
+60.3,bus,54487386,7194835#0_0,1.44,11.18,no,N/A,Cooldown active
+60.35,bus,54487386,7194835#0_0,1.39,11.18,no,N/A,Cooldown active
+60.4,bus,54487386,7194835#0_0,1.34,11.16,no,N/A,Cooldown active
+60.45,bus,54487386,7194835#0_0,1.29,11.16,no,N/A,Cooldown active
+60.5,bus,54487386,7194835#0_0,1.24,11.16,no,N/A,Cooldown active
+60.55,bus,54487386,7194835#0_0,1.19,11.16,no,N/A,Cooldown active
+60.6,bus,54487386,7194835#0_0,1.14,11.17,no,N/A,Cooldown active
+60.65,bus,54487386,7194835#0_0,1.09,11.17,no,N/A,Cooldown active
+60.7,bus,54487386,7194835#0_0,1.04,11.15,no,N/A,Cooldown active
+60.75,bus,54487386,7194835#0_0,0.99,11.17,no,N/A,Cooldown active
+60.8,bus,54487386,7194835#0_0,0.94,11.15,no,N/A,Cooldown active
+60.85,bus,54487386,7194835#0_0,0.89,11.17,no,N/A,Cooldown active
+60.9,bus,54487386,7194835#0_0,0.84,11.17,no,N/A,Cooldown active
+60.95,bus,54487386,7194835#0_0,0.79,11.16,no,N/A,Cooldown active
+61.0,bus,54487386,7194835#0_0,0.74,11.16,no,N/A,Cooldown active
+61.05,bus,54487386,7194835#0_0,0.69,11.16,no,N/A,Cooldown active
+61.1,bus,54487386,7194835#0_0,0.64,11.17,no,N/A,Cooldown active
+61.15,bus,54487386,7194835#0_0,0.59,11.17,yes,0,Priority granted (ETA=0.6s)
+61.2,bus,54487386,7194835#0_0,0.54,11.17,no,N/A,Cooldown active
+61.25,bus,54487386,7194835#0_0,0.49,11.15,no,N/A,Cooldown active
+61.3,bus,54487386,7194835#0_0,0.44,11.18,no,N/A,Cooldown active
+61.35,bus,54487386,7194835#0_0,0.39,11.17,no,N/A,Cooldown active
+61.4,bus,54487386,7194835#0_0,0.34,11.16,no,N/A,Cooldown active
+61.45,bus,54487386,7194835#0_0,0.29,11.16,no,N/A,Cooldown active
+61.5,bus,54487386,7194835#0_0,0.24,11.18,no,N/A,Cooldown active
+61.55,bus,54487386,7194835#0_0,0.19,11.16,no,N/A,Cooldown active
+61.6,bus,54487386,7194835#0_0,0.14,11.16,no,N/A,Cooldown active
+61.65,bus,54487386,7194835#0_0,0.09,11.15,no,N/A,Cooldown active
+61.7,bus,54487386,7194835#0_0,0.04,11.16,no,N/A,Cooldown active
+61.75,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+61.8,bus,N/A,:54487386_5_0,N/A,11.18,no,N/A,No TLS ahead
+61.85,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+61.9,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+61.95,bus,N/A,:54487386_5_0,N/A,11.18,no,N/A,No TLS ahead
+62.0,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+62.05,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+62.1,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+62.15,bus,N/A,:54487386_5_0,N/A,11.18,no,N/A,No TLS ahead
+62.2,bus,N/A,:54487386_5_0,N/A,11.17,no,N/A,No TLS ahead
+62.25,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+62.3,bus,N/A,:54487386_5_0,N/A,11.17,no,N/A,No TLS ahead
+62.35,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+62.4,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+62.45,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+62.5,bus,N/A,:54487386_5_0,N/A,11.17,no,N/A,No TLS ahead
+62.55,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+62.6,bus,N/A,:54487386_5_0,N/A,11.15,no,N/A,No TLS ahead
+62.65,bus,N/A,:54487386_5_0,N/A,11.17,no,N/A,No TLS ahead
+62.7,bus,N/A,:54487386_5_0,N/A,11.18,no,N/A,No TLS ahead
+62.75,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+62.8,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+62.85,bus,N/A,:54487386_5_0,N/A,11.15,no,N/A,No TLS ahead
+62.9,bus,N/A,:54487386_5_0,N/A,11.17,no,N/A,No TLS ahead
+62.95,bus,N/A,:54487386_5_0,N/A,11.16,no,N/A,No TLS ahead
+63.0,bus,N/A,:54487386_5_0,N/A,11.17,no,N/A,No TLS ahead
+63.05,bus,cluster_54487387_6133907629,7194835#1_0,6.65,11.17,no,N/A,ETA too high (6.7s)
+63.1,bus,cluster_54487387_6133907629,7194835#1_0,6.61,11.16,no,N/A,ETA too high (6.6s)
+63.15,bus,cluster_54487387_6133907629,7194835#1_0,6.56,11.16,no,N/A,ETA too high (6.6s)
+63.2,bus,cluster_54487387_6133907629,7194835#1_0,6.51,11.15,no,N/A,ETA too high (6.5s)
+63.25,bus,cluster_54487387_6133907629,7194835#1_0,6.45,11.17,no,N/A,ETA too high (6.5s)
+63.3,bus,cluster_54487387_6133907629,7194835#1_0,6.4,11.17,no,N/A,ETA too high (6.4s)
+63.35,bus,cluster_54487387_6133907629,7194835#1_0,6.35,11.17,no,N/A,ETA too high (6.4s)
+63.4,bus,cluster_54487387_6133907629,7194835#1_0,6.3,11.17,no,N/A,ETA too high (6.3s)
+63.45,bus,cluster_54487387_6133907629,7194835#1_0,6.25,11.17,no,N/A,ETA too high (6.3s)
+63.5,bus,cluster_54487387_6133907629,7194835#1_0,6.2,11.18,no,N/A,ETA too high (6.2s)
+63.55,bus,cluster_54487387_6133907629,7194835#1_0,6.15,11.18,no,N/A,ETA too high (6.1s)
+63.6,bus,cluster_54487387_6133907629,7194835#1_0,6.11,11.16,no,N/A,ETA too high (6.1s)
+63.65,bus,cluster_54487387_6133907629,7194835#1_0,6.06,11.16,no,N/A,ETA too high (6.1s)
+63.7,bus,cluster_54487387_6133907629,7194835#1_0,6.01,11.16,no,N/A,ETA too high (6.0s)
+63.75,bus,cluster_54487387_6133907629,7194835#1_0,5.95,11.17,no,N/A,ETA too high (6.0s)
+63.8,bus,cluster_54487387_6133907629,7194835#1_0,5.9,11.18,no,N/A,ETA too high (5.9s)
+63.85,bus,cluster_54487387_6133907629,7194835#1_0,5.86,11.16,no,N/A,ETA too high (5.9s)
+63.9,bus,cluster_54487387_6133907629,7194835#1_0,5.8,11.17,no,N/A,ETA too high (5.8s)
+63.95,bus,cluster_54487387_6133907629,7194835#1_0,5.76,11.15,no,N/A,ETA too high (5.8s)
+64.0,bus,cluster_54487387_6133907629,7194835#1_0,5.7,11.17,no,N/A,ETA too high (5.7s)
+64.05,bus,cluster_54487387_6133907629,7194835#1_0,5.66,11.17,no,N/A,ETA too high (5.7s)
+64.1,bus,cluster_54487387_6133907629,7194835#1_0,5.61,11.16,no,N/A,ETA too high (5.6s)
+64.15,bus,cluster_54487387_6133907629,7194835#1_0,5.55,11.18,no,N/A,ETA too high (5.5s)
+64.2,bus,cluster_54487387_6133907629,7194835#1_0,5.5,11.17,no,N/A,ETA too high (5.5s)
+64.25,bus,cluster_54487387_6133907629,7194835#1_0,5.45,11.17,no,N/A,ETA too high (5.5s)
+64.3,bus,cluster_54487387_6133907629,7194835#1_0,5.4,11.18,no,N/A,ETA too high (5.4s)
+64.35,bus,cluster_54487387_6133907629,7194835#1_0,5.35,11.17,no,N/A,ETA too high (5.4s)
+64.4,bus,cluster_54487387_6133907629,7194835#1_0,5.3,11.18,no,N/A,ETA too high (5.3s)
+64.45,bus,cluster_54487387_6133907629,7194835#1_0,5.25,11.17,no,N/A,ETA too high (5.3s)
+64.5,bus,cluster_54487387_6133907629,7194835#1_0,5.2,11.17,no,N/A,ETA too high (5.2s)
+64.55,bus,cluster_54487387_6133907629,7194835#1_0,5.15,11.17,no,N/A,ETA too high (5.2s)
+64.6,bus,cluster_54487387_6133907629,7194835#1_0,5.11,11.15,no,N/A,ETA too high (5.1s)
+64.65,bus,cluster_54487387_6133907629,7194835#1_0,5.05,11.17,no,N/A,ETA too high (5.1s)
+64.7,bus,cluster_54487387_6133907629,7194835#1_0,5.01,11.17,no,N/A,ETA too high (5.0s)
+64.75,bus,cluster_54487387_6133907629,7194835#1_0,4.95,11.17,yes,2,Priority granted (ETA=5.0s)
+64.8,bus,cluster_54487387_6133907629,7194835#1_0,4.91,11.16,no,N/A,Cooldown active
+64.85,bus,cluster_54487387_6133907629,7194835#1_0,4.86,11.16,no,N/A,Cooldown active
+64.9,bus,cluster_54487387_6133907629,7194835#1_0,4.81,11.15,no,N/A,Cooldown active
+64.95,bus,cluster_54487387_6133907629,7194835#1_0,4.75,11.18,no,N/A,Cooldown active
+65.0,bus,cluster_54487387_6133907629,7194835#1_0,4.7,11.17,no,N/A,Cooldown active
+65.05,bus,cluster_54487387_6133907629,7194835#1_0,4.65,11.17,no,N/A,Cooldown active
+65.1,bus,cluster_54487387_6133907629,7194835#1_0,4.6,11.17,no,N/A,Cooldown active
+65.15,bus,cluster_54487387_6133907629,7194835#1_0,4.55,11.18,no,N/A,Cooldown active
+65.2,bus,cluster_54487387_6133907629,7194835#1_0,4.51,11.15,no,N/A,Cooldown active
+65.25,bus,cluster_54487387_6133907629,7194835#1_0,4.46,11.15,no,N/A,Cooldown active
+65.3,bus,cluster_54487387_6133907629,7194835#1_0,4.4,11.18,no,N/A,Cooldown active
+65.35,bus,cluster_54487387_6133907629,7194835#1_0,4.35,11.17,no,N/A,Cooldown active
+65.4,bus,cluster_54487387_6133907629,7194835#1_0,4.3,11.17,no,N/A,Cooldown active
+65.45,bus,cluster_54487387_6133907629,7194835#1_0,4.25,11.17,no,N/A,Cooldown active
+65.5,bus,cluster_54487387_6133907629,7194835#1_0,4.21,11.16,no,N/A,Cooldown active
+65.55,bus,cluster_54487387_6133907629,7194835#1_0,4.16,11.16,no,N/A,Cooldown active
+65.6,bus,cluster_54487387_6133907629,7194835#1_0,4.1,11.17,no,N/A,Cooldown active
+65.65,bus,cluster_54487387_6133907629,7194835#1_0,4.06,11.16,no,N/A,Cooldown active
+65.7,bus,cluster_54487387_6133907629,7194835#1_0,4.0,11.17,no,N/A,Cooldown active
+65.75,bus,cluster_54487387_6133907629,7194835#1_0,3.96,11.16,no,N/A,Cooldown active
+65.8,bus,cluster_54487387_6133907629,7194835#1_0,3.9,11.17,no,N/A,Cooldown active
+65.85,bus,cluster_54487387_6133907629,7194835#1_0,3.86,11.16,no,N/A,Cooldown active
+65.9,bus,cluster_54487387_6133907629,7194835#1_0,3.81,11.16,no,N/A,Cooldown active
+65.95,bus,cluster_54487387_6133907629,7194835#1_0,3.75,11.18,no,N/A,Cooldown active
+66.0,bus,cluster_54487387_6133907629,7194835#1_0,3.7,11.17,no,N/A,Cooldown active
+66.05,bus,cluster_54487387_6133907629,7194835#1_0,3.65,11.18,no,N/A,Cooldown active
+66.1,bus,cluster_54487387_6133907629,7194835#1_0,3.61,11.16,no,N/A,Cooldown active
+66.15,bus,cluster_54487387_6133907629,7194835#1_0,3.56,11.15,no,N/A,Cooldown active
+66.2,bus,cluster_54487387_6133907629,7194835#1_0,3.51,11.16,no,N/A,Cooldown active
+66.25,bus,cluster_54487387_6133907629,7194835#1_0,3.46,11.16,no,N/A,Cooldown active
+66.3,bus,cluster_54487387_6133907629,7194835#1_0,3.4,11.17,no,N/A,Cooldown active
+66.35,bus,cluster_54487387_6133907629,7194835#1_0,3.35,11.17,no,N/A,Cooldown active
+66.4,bus,cluster_54487387_6133907629,7194835#1_0,3.31,11.16,no,N/A,Cooldown active
+66.45,bus,cluster_54487387_6133907629,7194835#1_0,3.26,11.16,no,N/A,Cooldown active
+66.5,bus,cluster_54487387_6133907629,7194835#1_0,3.2,11.18,no,N/A,Cooldown active
+66.55,bus,cluster_54487387_6133907629,7194835#1_0,3.15,11.17,no,N/A,Cooldown active
+66.6,bus,cluster_54487387_6133907629,7194835#1_0,3.11,11.15,no,N/A,Cooldown active
+66.65,bus,cluster_54487387_6133907629,7194835#1_0,3.06,11.16,no,N/A,Cooldown active
+66.7,bus,cluster_54487387_6133907629,7194835#1_0,3.0,11.17,no,N/A,Cooldown active
+66.75,bus,cluster_54487387_6133907629,7194835#1_0,2.96,11.15,no,N/A,Cooldown active
+66.8,bus,cluster_54487387_6133907629,7194835#1_0,2.91,11.16,yes,2,Priority granted (ETA=2.9s)
+66.85,bus,cluster_54487387_6133907629,7194835#1_0,2.85,11.17,no,N/A,Cooldown active
+66.9,bus,cluster_54487387_6133907629,7194835#1_0,2.81,11.17,no,N/A,Cooldown active
+66.95,bus,cluster_54487387_6133907629,7194835#1_0,2.76,11.15,no,N/A,Cooldown active
+67.0,bus,cluster_54487387_6133907629,7194835#1_0,2.7,11.18,no,N/A,Cooldown active
+67.05,bus,cluster_54487387_6133907629,7194835#1_0,2.66,11.16,no,N/A,Cooldown active
+67.1,bus,cluster_54487387_6133907629,7194835#1_0,2.6,11.18,no,N/A,Cooldown active
+67.15,bus,cluster_54487387_6133907629,7194835#1_0,2.55,11.18,no,N/A,Cooldown active
+67.2,bus,cluster_54487387_6133907629,7194835#1_0,2.51,11.16,no,N/A,Cooldown active
+67.25,bus,cluster_54487387_6133907629,7194835#1_0,2.45,11.17,no,N/A,Cooldown active
+67.3,bus,cluster_54487387_6133907629,7194835#1_0,2.4,11.18,no,N/A,Cooldown active
+67.35,bus,cluster_54487387_6133907629,7194835#1_0,2.36,11.16,no,N/A,Cooldown active
+67.4,bus,cluster_54487387_6133907629,7194835#1_0,2.3,11.17,no,N/A,Cooldown active
+67.45,bus,cluster_54487387_6133907629,7194835#1_0,2.25,11.18,no,N/A,Cooldown active
+67.5,bus,cluster_54487387_6133907629,7194835#1_0,2.21,11.16,no,N/A,Cooldown active
+67.55,bus,cluster_54487387_6133907629,7194835#1_0,2.16,11.16,no,N/A,Cooldown active
+67.6,bus,cluster_54487387_6133907629,7194835#1_0,2.1,11.17,no,N/A,Cooldown active
+67.65,bus,cluster_54487387_6133907629,7194835#1_0,2.06,11.15,no,N/A,Cooldown active
+67.7,bus,cluster_54487387_6133907629,7194835#1_0,2.01,11.15,no,N/A,Cooldown active
+67.75,bus,cluster_54487387_6133907629,7194835#1_0,1.95,11.17,no,N/A,Cooldown active
+67.8,bus,cluster_54487387_6133907629,7194835#1_0,1.9,11.18,no,N/A,Cooldown active
+67.85,bus,cluster_54487387_6133907629,7194835#1_0,1.85,11.17,no,N/A,Cooldown active
+67.9,bus,cluster_54487387_6133907629,7194835#1_0,1.8,11.17,no,N/A,Cooldown active
+67.95,bus,cluster_54487387_6133907629,7194835#1_0,1.76,11.15,no,N/A,Cooldown active
+68.0,bus,cluster_54487387_6133907629,7194835#1_0,1.71,11.16,no,N/A,Cooldown active
+68.05,bus,cluster_54487387_6133907629,7194835#1_0,1.65,11.18,no,N/A,Cooldown active
+68.1,bus,cluster_54487387_6133907629,7194835#1_0,1.61,11.16,no,N/A,Cooldown active
+68.15,bus,cluster_54487387_6133907629,7194835#1_0,1.56,11.15,no,N/A,Cooldown active
+68.2,bus,cluster_54487387_6133907629,7194835#1_0,1.5,11.17,no,N/A,Cooldown active
+68.25,bus,cluster_54487387_6133907629,7194835#1_0,1.46,11.16,no,N/A,Cooldown active
+68.3,bus,cluster_54487387_6133907629,7194835#1_0,1.4,11.17,no,N/A,Cooldown active
+68.35,bus,cluster_54487387_6133907629,7194835#1_0,1.36,11.16,no,N/A,Cooldown active
+68.4,bus,cluster_54487387_6133907629,7194835#1_0,1.3,11.17,no,N/A,Cooldown active
+68.45,bus,cluster_54487387_6133907629,7194835#1_0,1.25,11.17,no,N/A,Cooldown active
+68.5,bus,cluster_54487387_6133907629,7194835#1_0,1.21,11.16,no,N/A,Cooldown active
+68.55,bus,cluster_54487387_6133907629,7194835#1_0,1.16,11.16,no,N/A,Cooldown active
+68.6,bus,cluster_54487387_6133907629,7194835#1_0,1.11,11.16,no,N/A,Cooldown active
+68.65,bus,cluster_54487387_6133907629,7194835#1_0,1.06,11.16,no,N/A,Cooldown active
+68.7,bus,cluster_54487387_6133907629,7194835#1_0,1.0,11.18,no,N/A,Cooldown active
+68.75,bus,cluster_54487387_6133907629,7194835#1_0,0.96,11.16,no,N/A,Cooldown active
+68.8,bus,cluster_54487387_6133907629,7194835#1_0,0.91,11.15,no,N/A,Cooldown active
+68.85,bus,cluster_54487387_6133907629,7194835#1_0,0.86,11.15,yes,2,Priority granted (ETA=0.9s)
+68.9,bus,cluster_54487387_6133907629,7194835#1_0,0.81,11.16,no,N/A,Cooldown active
+68.95,bus,cluster_54487387_6133907629,7194835#1_0,0.76,11.17,no,N/A,Cooldown active
+69.0,bus,cluster_54487387_6133907629,7194835#1_0,0.71,11.16,no,N/A,Cooldown active
+69.05,bus,cluster_54487387_6133907629,7194835#1_0,0.66,11.17,no,N/A,Cooldown active
+69.1,bus,cluster_54487387_6133907629,7194835#1_0,0.61,11.16,no,N/A,Cooldown active
+69.15,bus,cluster_54487387_6133907629,7194835#1_0,0.56,11.15,no,N/A,Cooldown active
+69.2,bus,cluster_54487387_6133907629,7194835#1_0,0.51,11.17,no,N/A,Cooldown active
+69.25,bus,cluster_54487387_6133907629,7194835#1_0,0.46,11.17,no,N/A,Cooldown active
+69.3,bus,cluster_54487387_6133907629,7194835#1_0,0.41,11.17,no,N/A,Cooldown active
+69.35,bus,cluster_54487387_6133907629,7194835#1_0,0.36,11.17,no,N/A,Cooldown active
+69.4,bus,cluster_54487387_6133907629,7194835#1_0,0.31,11.16,no,N/A,Cooldown active
+69.45,bus,cluster_54487387_6133907629,7194835#1_0,0.26,11.16,no,N/A,Cooldown active
+69.5,bus,cluster_54487387_6133907629,7194835#1_0,0.21,11.18,no,N/A,Cooldown active
+69.55,bus,cluster_54487387_6133907629,7194835#1_0,0.16,11.16,no,N/A,Cooldown active
+69.6,bus,cluster_54487387_6133907629,7194835#1_0,0.11,11.16,no,N/A,Cooldown active
+69.65,bus,cluster_54487387_6133907629,7194835#1_0,0.06,11.15,no,N/A,Cooldown active

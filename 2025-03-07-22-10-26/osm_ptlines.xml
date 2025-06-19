@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-07 22:11:03 by Eclipse SUMO netconvert Version 1.22.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="15534612" name="Green Line -Huntington/ Baldwin (Weekday)" line="Green" type="bus" vClass="bus" completeness="1.00">
+        <route edges="1149567881#0 1149567881#1 1149567881#2 -786116216 525615993 405546353 405546349 405546354 405546355 405546348 405546356#0 405546356#1 405546356#2 405546356#3 405546347#0 334631554#0 604060294 1036500992 414764043 405544793#1 405544795#0 415101865#0 415101865#2 1029507042 406215608 406215604 406215675#0 406215675#1 406215647 406215694 1063171539 406215598 406215613#0 406216724#0 406216724#2 406215688 406215698#0 406215698#1 406215698#2 406215685#0 406215685#1 406215685#2 406215685#3 406215666#0 406215666#1 406215666#2 406215666#3 406215666#4 406215666#5 406215666#6 406215666#7 406215666#8 406215636#0 406215636#1 406215636#2 406215636#3 406215616#0 406215616#1 406215616#2 406215616#3 406215616#4 406215616#5 406215616#6 406215621#0 406215621#1 406215634#0 406215634#1 292716907 414764044#0 414764044#2 405545577#0 405545577#1 405545577#2 405545577#3 405545577#4 604060295#0 604060295#1 604060296#0 604060296#1 604060296#4 604060296#5 604060296#6 604060296#7 604060296#8 604060296#9 405545583#0 405545584#0 405545584#2 1014617514#0 1014617514#1 1014617514#2 405545580#0 405545580#1 604060293 604060288 604060287 1264201012#0 1264201012#1 604060286#0 604060286#1 405545581#0 405545581#1 405545581#2 405545581#3 406234624#0 630143605 406233348 406233343 406233349#0 406232664#0 406232647#1 406232647#2 406232641#0 599510795#0 599510795#3 604060313 604060314#0 604060314#1 604060314#2 604060314#4 604060314#5 -406234630#2 -243612604#3 -243612604#2 -243612604#1 -243612604#0 -4480316#1 406233346#0 406233346#1 334631993#1 406233344 640278675 192503244#0 192503244#2 192503244#3 405546351 405546352 405546350#0 405546350#1 405546357#0 405546357#1 405546357#2 405546357#3 405546357#4 405546357#5 405546357#6 -187986225#2 -187986225#0 187986237"/>
+        <busStop id="10694238030" name="Huntington &amp; Santa Anita Eastbound"/>
+        <busStop id="10694238031" name="Westbound Santa Clara Street, West of 1st Avenue"/>
+        <busStop id="10694238032" name="City Hall Parking Lot"/>
+        <busStop id="10694238033" name="Huntington Drive at West of Centennial"/>
+        <busStop id="10694238034" name="Huntington Drive at West of Holly Avenue"/>
+        <busStop id="4224888196" name="Metro 268;Westfield Mall - North Bound Baldwin"/>
+        <busStop id="10694238036" name="Arboretum: Parking/Main entrance"/>
+        <busStop id="4224873296" name="Metro 268;Westfield Mall - South Bound Baldwin"/>
+        <busStop id="10694224760" name="Huntington Drive at East of Holly Avenue"/>
+        <busStop id="10694224761" name="Huntington Drive at Methodist Hospital"/>
+        <busStop id="10694224762" name="Huntington Drive at Police Station"/>
+    </ptLine>
+</ptLines>

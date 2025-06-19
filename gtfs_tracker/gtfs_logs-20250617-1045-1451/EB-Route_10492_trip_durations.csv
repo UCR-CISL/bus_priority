@@ -1,0 +1,2 @@
+trip_id,vehicle_id,start_stop_id,end_stop_id,start_time,end_time,duration_min
+t4D8-b16027-sl4,2300,1171,2028,2025-06-17 12:40:47,2025-06-17 14:25:02,104.25

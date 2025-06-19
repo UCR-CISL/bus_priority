@@ -1,0 +1,2 @@
+trip_id,vehicle_id,start_stop_id,end_stop_id,start_time,end_time,duration_min
+t640-b1602C-sl3,2209,1171,2028,2025-06-16 15:57:40,2025-06-16 17:55:25,117.75

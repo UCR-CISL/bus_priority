@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-29 11:02:05 by Eclipse SUMO netconvert Version 1.22.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="10694224761" name="Huntington Drive at Methodist Hospital" lane="604060292_0" startPos="6.48" endPos="21.48" friendlyPos="true"/>
+    <busStop id="10694224762" name="Huntington Drive at Police Station" lane="405545578_0" startPos="10.12" endPos="25.12" friendlyPos="true"/>
+    <busStop id="10694238030" name="Huntington &amp; Santa Anita Eastbound" lane="406232664#0_0" startPos="1.95" endPos="16.95" friendlyPos="true"/>
+    <busStop id="10694238033" name="Huntington Drive at West of Centennial" lane="405546357#2_0" startPos="8.82" endPos="23.82" friendlyPos="true"/>
+    <busStop id="10694238034" name="Huntington Drive at West of Holly Avenue" lane="334631554#0_0" startPos="21.78" endPos="36.78" friendlyPos="true"/>
+    <busStop id="10716018716" name="Santa Anita &amp; Genoa Southbound" lane="406242635#8_0" startPos="84.21" endPos="99.21" friendlyPos="true"/>
+    <busStop id="10716018720" name="Santa Anita &amp; Diamond Northbound" lane="406241587#8_0" startPos="10.24" endPos="25.24" friendlyPos="true"/>
+    <busStop id="4224076594" name="Foothill Transit 187" lane="259846930#0_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="4224077190" name="Foothill Transit 187" lane="192503240_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="4224081494" name="Metro 79; Foothill Transit 187" lane="1065518636#0_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="4317281700" name="Metro 79;Foothill Transit 187" lane="405546357#6_0" startPos="0.00" endPos="14.64" friendlyPos="true"/>
+    <busStop id="4317286104" name="Metro 79" lane="406242646#0_0" startPos="8.67" endPos="23.67" friendlyPos="true"/>
+    <busStop id="4317293801" name="Metro 79" lane="405546357#2_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="6978428566" name="Metro 79;Foothill Transit 187" lane="334631554#0_0" startPos="33.74" endPos="48.74" friendlyPos="true"/>
+    <busStop id="7095131709" name="Metro 79;Foothill Transit 187" lane="630143605_0" startPos="4.62" endPos="19.62" friendlyPos="true"/>
+    <busStop id="7095131710" name="Metro 79" lane="405545578_0" startPos="8.20" endPos="23.20" friendlyPos="true"/>
+    <busStop id="7095131711" name="Metro 79" lane="604060292_0" startPos="11.31" endPos="26.31" friendlyPos="true"/>
+</additional>

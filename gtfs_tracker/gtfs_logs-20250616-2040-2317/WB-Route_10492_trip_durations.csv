@@ -1,0 +1,2 @@
+trip_id,vehicle_id,start_stop_id,end_stop_id,start_time,end_time,duration_min
+t843-b15F96-sl3,3122,2028,1171,2025-06-16 21:16:22,2025-06-16 22:37:05,80.72
