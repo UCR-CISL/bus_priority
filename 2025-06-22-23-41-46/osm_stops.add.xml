@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-22 23:42:38 by Eclipse SUMO netconvert Version 1.22.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertUrbanDe.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertPedestrians.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+</netconvertConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-10142178937" name="Metro 76, 267" lane="-401276132_0" startPos="4.25" endPos="19.25" friendlyPos="true">
+        <access lane="-686418673_0" pos="79.96" length="67.64" friendlyPos="1"/>
+        <access lane="-717200013#1_0" pos="0.00" length="69.75" friendlyPos="1"/>
+        <access lane="-739365818_0" pos="101.92" length="57.46" friendlyPos="1"/>
+        <access lane="681635916_0" pos="16.76" length="72.44" friendlyPos="1"/>
+        <access lane="739365818_0" pos="18.99" length="53.11" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-10682633081" name="Bisby &amp; Arden Drive" lane="-13430467#0_0" startPos="12.88" endPos="27.88" friendlyPos="true">
+        <access lane="-59149270#0_0" pos="325.09" length="35.93" friendlyPos="1"/>
+        <access lane="-715797638_0" pos="30.81" length="84.34" friendlyPos="1"/>
+        <access lane="59149270#0_0" pos="0.00" length="40.69" friendlyPos="1"/>
+        <access lane="715797637_0" pos="29.29" length="129.18" friendlyPos="1"/>
+        <access lane="715797638_0" pos="96.16" length="79.54" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-10682654663" name="McGirk Avenue &amp; Cypress Avenue" lane="-1148156395#8_0" startPos="0.46" endPos="15.46" friendlyPos="true">
+        <access lane="-365551452_0" pos="88.85" length="75.98" friendlyPos="1"/>
+        <access lane="-365607840#1_0" pos="0.00" length="79.61" friendlyPos="1"/>
+        <access lane="365551452_0" pos="5.58" length="80.78" friendlyPos="1"/>
+        <access lane="365607840#1_0" pos="62.36" length="84.18" friendlyPos="1"/>
+        <access lane="809428056_0" pos="13.61" length="103.59" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-10682702399" name="Tyler Avenue &amp; Valley Mall" lane="-24706043#4_0" startPos="10.20" endPos="25.20" friendlyPos="true">
+        <access lane="-716680421_0" pos="17.88" length="61.82" friendlyPos="1"/>
+        <access lane="44555623_0" pos="3.64" length="82.50" friendlyPos="1"/>
+        <access lane="716680421_0" pos="0.00" length="66.13" friendlyPos="1"/>
+        <access lane="716680425_0" pos="0.00" length="87.76" friendlyPos="1"/>
+        <access lane="716680427_0" pos="34.99" length="76.47" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-10682702400" name="Ramona Boulevard &amp; Santa Anita Avenue" lane="-401280477#1_0" startPos="0.00" endPos="12.25" friendlyPos="true">
+        <access lane="-690500893_0" pos="61.80" length="28.86" friendlyPos="1"/>
+        <access lane="-738991267#0_0" pos="0.00" length="29.44" friendlyPos="1"/>
+        <access lane="-738991267#1_0" pos="14.25" length="24.99" friendlyPos="1"/>
+        <access lane="690500893_0" pos="0.00" length="28.45" friendlyPos="1"/>
+        <access lane="738991268_0" pos="0.00" length="27.52" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-10684580641" name="Rio Hondo Parkway &amp; Mildred Street" lane="-1148387482_0" startPos="59.46" endPos="74.46" friendlyPos="true">
+        <access lane="-792119878_0" pos="105.11" length="29.53" friendlyPos="1"/>
+        <access lane="792119878_0" pos="0.00" length="24.74" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-10684690613" name="Tyler Avenue &amp; Ramona Boulevard" lane="-1002506672_0" startPos="7.36" endPos="22.36" friendlyPos="true">
+        <access lane="-738991252#2_0" pos="41.74" length="93.86" friendlyPos="1"/>
+        <access lane="738991252#1_0" pos="63.87" length="111.15" friendlyPos="1"/>
+        <access lane="738991252#2_0" pos="21.60" length="89.34" friendlyPos="1"/>
+        <access lane="738991254#0_0" pos="0.00" length="113.99" friendlyPos="1"/>
+        <access lane="738991255_0" pos="0.00" length="41.68" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-10692001832" name="Valley Boulevard &amp; Johnson Avenue" lane="-404952602#0_0" startPos="14.89" endPos="29.89" friendlyPos="true">
+        <access lane="-903828386_0" pos="59.43" length="129.22" friendlyPos="1"/>
+        <access lane="-903828387_0" pos="119.95" length="55.71" friendlyPos="1"/>
+        <access lane="1118410547_0" pos="32.51" length="116.74" friendlyPos="1"/>
+        <access lane="723720236_0" pos="0.00" length="108.24" friendlyPos="1"/>
+        <access lane="903828387_0" pos="0.00" length="52.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-10715921355" name="North of Las Tunas Northbound" lane="-1350437828#2_0" startPos="10.45" endPos="25.45" friendlyPos="true">
+        <access lane="-1350437824_0" pos="30.40" length="173.16" friendlyPos="1"/>
+        <access lane="1350437824_0" pos="39.87" length="178.09" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4226754194" name="Metro 78; Foothill Transit 492" lane="-13299221#1_0" startPos="3.10" endPos="18.10" friendlyPos="true">
+        <access lane="-935873770_0" pos="0.00" length="54.48" friendlyPos="1"/>
+        <access lane="182043872#0_0" pos="9.10" length="117.91" friendlyPos="1"/>
+        <access lane="182043872#1_0" pos="0.00" length="119.56" friendlyPos="1"/>
+        <access lane="717174259_0" pos="21.69" length="115.71" friendlyPos="1"/>
+        <access lane="935873770_0" pos="40.35" length="53.51" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4231956397" name="Ramona Blvd and Tyler Ave" lane="-405492967_0" startPos="6.13" endPos="21.13" friendlyPos="true" lines="7">
+        <access lane="-44555642#4_0" pos="25.54" length="74.75" friendlyPos="1"/>
+        <access lane="-738991252#2_0" pos="42.52" length="66.02" friendlyPos="1"/>
+        <access lane="-738991253#2_0" pos="0.00" length="71.27" friendlyPos="1"/>
+        <access lane="738991252#2_0" pos="30.79" length="61.79" friendlyPos="1"/>
+        <access lane="738991253#2_0" pos="17.15" length="67.01" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4231972192" name="Metro 76, 176, 268;Foothill Transit 178, 190, 194, 270, 282,488" lane="-405492989_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-44555642#2_0" pos="0.28" length="115.51" friendlyPos="1"/>
+        <access lane="-44555642#3_0" pos="30.09" length="115.92" friendlyPos="1"/>
+        <access lane="-738991252#2_0" pos="41.74" length="110.49" friendlyPos="1"/>
+        <access lane="738991252#2_0" pos="21.60" length="105.98" friendlyPos="1"/>
+        <access lane="738991255_0" pos="0.00" length="37.08" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4231974895" name="Metro 76, 176, 268;Foothill Transit 178, 190, 194, 270, 282, 488" lane="-401280471_0" startPos="3.39" endPos="18.39" friendlyPos="true">
+        <access lane="738991257#1_0" pos="43.35" length="17.22" friendlyPos="1"/>
+        <access lane="738991257#2_0" pos="0.00" length="47.33" friendlyPos="1"/>
+        <access lane="738991261_0" pos="17.20" length="56.94" friendlyPos="1"/>
+        <access lane="738991262_0" pos="15.38" length="51.90" friendlyPos="1"/>
+        <access lane="844266945_0" pos="90.19" length="38.36" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4234982793" name="Foothill Transit 178, 194, 270, 282" lane="-648979716#1_0" startPos="0.18" endPos="15.18" friendlyPos="true">
+        <access lane="-648979692_0" pos="7.12" length="18.05" friendlyPos="1"/>
+        <access lane="-648979695_0" pos="27.59" length="27.72" friendlyPos="1"/>
+        <access lane="-648979724_0" pos="9.27" length="20.76" friendlyPos="1"/>
+        <access lane="648979692_0" pos="20.51" length="13.25" friendlyPos="1"/>
+        <access lane="648979724_0" pos="5.20" length="15.96" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4234987690" name="Foothill Transit 178, 194, 270, 282" lane="-404952602#0_0" startPos="23.91" endPos="38.91" friendlyPos="true">
+        <access lane="-903828386_0" pos="59.43" length="120.37" friendlyPos="1"/>
+        <access lane="-903828387_0" pos="119.95" length="68.68" friendlyPos="1"/>
+        <access lane="1118410547_0" pos="38.26" length="113.51" friendlyPos="1"/>
+        <access lane="723720236_0" pos="0.00" length="122.19" friendlyPos="1"/>
+        <access lane="903828387_0" pos="0.00" length="65.03" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4246710296" name="Metro 70; Foothill Transit 269, 486" lane="-1161301917_0" startPos="0.00" endPos="9.59" friendlyPos="true">
+        <access lane="-1370792547_0" pos="0.00" length="80.57" friendlyPos="1"/>
+        <access lane="-959781649_0" pos="4.58" length="7.72" friendlyPos="1"/>
+        <access lane="1370792548_0" pos="11.34" length="77.33" friendlyPos="1"/>
+        <access lane="911114137_0" pos="0.00" length="49.56" friendlyPos="1"/>
+        <access lane="959781649_0" pos="59.42" length="12.52" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4248396091" name="Metro 70, 577" lane="-400823791#1_0" startPos="0.15" endPos="15.15" friendlyPos="true">
+        <access lane="-723730802_0" pos="10.62" length="16.36" friendlyPos="1"/>
+        <access lane="-738991280#3_0" pos="0.00" length="21.08" friendlyPos="1"/>
+        <access lane="-738991280#4_0" pos="16.09" length="22.84" friendlyPos="1"/>
+        <access lane="723730802_0" pos="5.89" length="21.16" friendlyPos="1"/>
+        <access lane="738991280#3_0" pos="5.00" length="25.80" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4264441507" name="Metro 268" lane="-1148156396#10_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-724026142#0_0" pos="11.51" length="78.73" friendlyPos="1"/>
+        <access lane="-844252539_0" pos="63.36" length="75.12" friendlyPos="1"/>
+        <access lane="24742735_0" pos="31.64" length="57.52" friendlyPos="1"/>
+        <access lane="724026142#0_0" pos="0.00" length="83.44" friendlyPos="1"/>
+        <access lane="844252539_0" pos="0.00" length="70.39" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4264441794" name="Tyler / Bryant" lane="-45481508#7_0" startPos="2.75" endPos="17.75" friendlyPos="true">
+        <access lane="-771576970#0_0" pos="13.35" length="114.54" friendlyPos="1"/>
+        <access lane="-771576970#1_0" pos="15.98" length="118.23" friendlyPos="1"/>
+        <access lane="771576970#0_0" pos="4.90" length="109.74" friendlyPos="1"/>
+        <access lane="771576970#1_0" pos="0.00" length="113.59" friendlyPos="1"/>
+        <access lane="911114926_0" pos="32.45" length="44.91" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4264441795" name="Tyler / Basye" lane="-1148156396#5_0" startPos="24.85" endPos="39.85" friendlyPos="true">
+        <access lane="-844252542_0" pos="54.24" length="53.26" friendlyPos="1"/>
+        <access lane="-844252545_0" pos="0.00" length="16.18" friendlyPos="1"/>
+        <access lane="844252542_0" pos="5.18" length="58.06" friendlyPos="1"/>
+        <access lane="844252545_0" pos="54.72" length="13.35" friendlyPos="1"/>
+        <access lane="892940856_0" pos="10.23" length="92.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4264446330" name="Metro 268" lane="-405493065_0" startPos="3.55" endPos="18.55" friendlyPos="true">
+        <access lane="1183922692_0" pos="39.76" length="48.81" friendlyPos="1"/>
+        <access lane="1183922694_0" pos="0.00" length="73.55" friendlyPos="1"/>
+        <access lane="1183922695_0" pos="7.69" length="73.66" friendlyPos="1"/>
+        <access lane="766186250#6_0" pos="14.72" length="70.09" friendlyPos="1"/>
+        <access lane="844980411_0" pos="103.99" length="43.52" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4264448400" name="Metro 76" lane="-400996404_0" startPos="0.00" endPos="13.07" friendlyPos="true">
+        <access lane="-724018717_0" pos="34.20" length="20.78" friendlyPos="1"/>
+        <access lane="724018716#0_0" pos="5.15" length="65.72" friendlyPos="1"/>
+        <access lane="724018716#1_0" pos="0.00" length="69.04" friendlyPos="1"/>
+        <access lane="724018717_0" pos="39.47" length="15.95" friendlyPos="1"/>
+        <access lane="905679695_0" pos="67.69" length="59.38" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4264448495" name="Metro 76, 268" lane="-24706043#4_0" startPos="2.39" endPos="17.39" friendlyPos="true">
+        <access lane="-716680421_0" pos="17.88" length="72.90" friendlyPos="1"/>
+        <access lane="44555623_0" pos="3.49" length="94.22" friendlyPos="1"/>
+        <access lane="716680421_0" pos="0.00" length="77.31" friendlyPos="1"/>
+        <access lane="716680427_0" pos="44.46" length="78.16" friendlyPos="1"/>
+        <access lane="844142996_0" pos="59.83" length="95.39" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4264448510" name="Tyler / Montecito" lane="-45481508#1_0" startPos="42.70" endPos="57.70" friendlyPos="true">
+        <access lane="844142994#0_0" pos="25.38" length="85.41" friendlyPos="1"/>
+        <access lane="844142995_0" pos="0.00" length="80.02" friendlyPos="1"/>
+        <access lane="844921474#3_0" pos="10.02" length="104.24" friendlyPos="1"/>
+        <access lane="844921474#4_0" pos="7.26" length="97.99" friendlyPos="1"/>
+        <access lane="844921477_0" pos="139.81" length="105.52" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4271025489" name="Metro 78" lane="-30140011#1_0" startPos="0.00" endPos="4.27" friendlyPos="true">
+        <access lane="-653872903_0" pos="89.64" length="23.78" friendlyPos="1"/>
+        <access lane="30173595#1_0" pos="3.00" length="31.74" friendlyPos="1"/>
+        <access lane="30173595#2_0" pos="0.20" length="29.29" friendlyPos="1"/>
+        <access lane="653872902#0_0" pos="0.00" length="24.21" friendlyPos="1"/>
+        <access lane="724304262_0" pos="86.39" length="26.58" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-579354908" name="Metro 76, 267" lane="-792866928#0_0" startPos="0.00" endPos="12.84" friendlyPos="true">
+        <access lane="-644419550#0_0" pos="3.10" length="27.29" friendlyPos="1"/>
+        <access lane="-644419550#1_0" pos="0.20" length="32.69" friendlyPos="1"/>
+        <access lane="-644419551_0" pos="15.10" length="14.06" friendlyPos="1"/>
+        <access lane="-644419556_0" pos="76.99" length="9.26" friendlyPos="1"/>
+        <access lane="644419550#0_0" pos="0.71" length="32.09" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-579354919" name="Metro 76, 267" lane="-106367746#1_0" startPos="5.37" endPos="20.37" friendlyPos="true">
+        <access lane="-649609264_0" pos="135.72" length="13.11" friendlyPos="1"/>
+        <access lane="-739365877_0" pos="0.00" length="55.64" friendlyPos="1"/>
+        <access lane="649609263_0" pos="3.52" length="8.31" friendlyPos="1"/>
+        <access lane="649609266_0" pos="0.00" length="69.19" friendlyPos="1"/>
+        <access lane="739365877_0" pos="62.41" length="59.45" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-579458019" name="Metro 190;Foothill Transit 488;Metro" lane="-405497700_0" startPos="18.10" endPos="33.10" friendlyPos="true">
+        <access lane="-45481510#0_0" pos="12.09" length="91.38" friendlyPos="1"/>
+        <access lane="-844176766_0" pos="143.99" length="33.88" friendlyPos="1"/>
+        <access lane="45481510#0_0" pos="0.00" length="88.52" friendlyPos="1"/>
+        <access lane="771549106#0_0" pos="16.47" length="97.79" friendlyPos="1"/>
+        <access lane="844176766_0" pos="0.00" length="34.04" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10142178934" name="Metro 267" lane="1365257229#0_0" startPos="154.03" endPos="169.03" friendlyPos="true">
+        <access lane="-723702396#2_0" pos="3.39" length="22.33" friendlyPos="1"/>
+        <access lane="-723702397#1_0" pos="4.90" length="20.35" friendlyPos="1"/>
+        <access lane="723702396#2_0" pos="10.22" length="17.53" friendlyPos="1"/>
+        <access lane="723702397#1_0" pos="3.63" length="25.15" friendlyPos="1"/>
+        <access lane="723702398_0" pos="0.00" length="25.95" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10142178935" name="Metro 76" lane="41735693#0_0" startPos="26.94" endPos="41.94" friendlyPos="true">
+        <access lane="-146653538_0" pos="188.28" length="15.88" friendlyPos="1"/>
+        <access lane="-723702395#0_0" pos="118.87" length="104.81" friendlyPos="1"/>
+        <access lane="-815400445#0_0" pos="92.18" length="119.20" friendlyPos="1"/>
+        <access lane="146653538_0" pos="13.68" length="12.88" friendlyPos="1"/>
+        <access lane="723702395#0_0" pos="0.00" length="104.38" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10142178936" name="Metro 76" lane="401276160_0" startPos="13.81" endPos="28.81" friendlyPos="true">
+        <access lane="-649609264_0" pos="139.24" length="59.06" friendlyPos="1"/>
+        <access lane="-649609266_0" pos="113.82" length="29.25" friendlyPos="1"/>
+        <access lane="1086617349_0" pos="0.00" length="72.85" friendlyPos="1"/>
+        <access lane="649609263_0" pos="0.00" length="62.38" friendlyPos="1"/>
+        <access lane="649609266_0" pos="22.23" length="24.45" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10142178938" name="Metro 76, 267" lane="401276173_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-723331632_0" pos="0.00" length="18.42" friendlyPos="1"/>
+        <access lane="-723331633_0" pos="28.94" length="27.98" friendlyPos="1"/>
+        <access lane="723331631#1_0" pos="6.78" length="41.49" friendlyPos="1"/>
+        <access lane="723331632_0" pos="17.10" length="22.42" friendlyPos="1"/>
+        <access lane="723331633_0" pos="18.57" length="23.31" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10682633075" name="El Monte Trolley Station" lane="1148149215_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-1148149214_0" pos="30.71" length="30.89" friendlyPos="1"/>
+        <access lane="-1148149217_0" pos="4.80" length="25.94" friendlyPos="1"/>
+        <access lane="1148149212_0" pos="23.07" length="11.67" friendlyPos="1"/>
+        <access lane="1148149213_0" pos="28.09" length="14.31" friendlyPos="1"/>
+        <access lane="1148149217_0" pos="5.67" length="30.74" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10682633076" name="Valley Boulevard &amp; Arden Drive" lane="401276160_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-1086617349_0" pos="56.71" length="46.39" friendlyPos="1"/>
+        <access lane="-649609264_0" pos="139.24" length="90.74" friendlyPos="1"/>
+        <access lane="-649609266_0" pos="88.82" length="31.50" friendlyPos="1"/>
+        <access lane="1086617349_0" pos="0.00" length="42.88" friendlyPos="1"/>
+        <access lane="649609266_0" pos="47.23" length="26.70" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10682633082" name="Arden Way &amp; Lower Azusa Road" lane="13289482#3_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-844126636_0" pos="85.95" length="20.79" friendlyPos="1"/>
+        <access lane="-905694636_0" pos="0.00" length="24.23" friendlyPos="1"/>
+        <access lane="717052935#2_0" pos="0.00" length="26.70" friendlyPos="1"/>
+        <access lane="844126636_0" pos="4.16" length="25.59" friendlyPos="1"/>
+        <access lane="905694636_0" pos="25.46" length="25.06" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10684580640" name="Merced Avenue &amp; Towneway Drive" lane="13377960#2_0" startPos="64.33" endPos="79.33" friendlyPos="true"/>
+    <busStop id="10684643684" name="El Monte Trolley Station" lane="1148149216_0" startPos="0.00" endPos="12.83" friendlyPos="true">
+        <access lane="-1148149214_0" pos="30.71" length="50.64" friendlyPos="1"/>
+        <access lane="-1148149217_0" pos="10.47" length="33.45" friendlyPos="1"/>
+        <access lane="1148149212_0" pos="20.77" length="36.48" friendlyPos="1"/>
+        <access lane="1148149213_0" pos="25.10" length="10.33" friendlyPos="1"/>
+        <access lane="1148149217_0" pos="0.00" length="37.71" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10687374515" name="Tyler Avenue &amp; Valley Mall" lane="24706043#3_0" startPos="26.07" endPos="41.07" friendlyPos="true">
+        <access lane="-716680421_0" pos="15.93" length="56.52" friendlyPos="1"/>
+        <access lane="716680421_0" pos="1.95" length="61.32" friendlyPos="1"/>
+        <access lane="716680425_0" pos="0.00" length="71.59" friendlyPos="1"/>
+        <access lane="716680427_0" pos="36.97" length="45.42" friendlyPos="1"/>
+        <access lane="844142996_0" pos="59.83" length="71.46" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10692033321" name="Santa Anita Avenue &amp; Bryant Road" lane="405493022#0_0" startPos="7.48" endPos="22.48" friendlyPos="true">
+        <access lane="-365605960#0_0" pos="5.29" length="205.26" friendlyPos="1"/>
+        <access lane="-365605960#1_0" pos="92.66" length="210.91" friendlyPos="1"/>
+        <access lane="365605960#0_0" pos="0.00" length="209.96" friendlyPos="1"/>
+        <access lane="365605960#1_0" pos="0.00" length="215.49" friendlyPos="1"/>
+        <access lane="365605961_0" pos="0.00" length="217.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10692042870" name="Tyler Avenue &amp; Ramona Boulevard" lane="291312372_0" startPos="9.00" endPos="24.00" friendlyPos="true">
+        <access lane="-738991252#2_0" pos="41.74" length="23.90" friendlyPos="1"/>
+        <access lane="-738991254#0_0" pos="36.21" length="52.82" friendlyPos="1"/>
+        <access lane="738991252#1_0" pos="63.87" length="51.93" friendlyPos="1"/>
+        <access lane="738991252#2_0" pos="21.60" length="19.56" friendlyPos="1"/>
+        <access lane="738991254#0_0" pos="0.00" length="49.15" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10692061783" name="Ramona Boulevard &amp; Peck Road" lane="45481511_0" startPos="103.31" endPos="118.31" friendlyPos="true">
+        <access lane="-723993800#0_0" pos="4.91" length="78.84" friendlyPos="1"/>
+        <access lane="-723993800#1_0" pos="23.34" length="93.05" friendlyPos="1"/>
+        <access lane="-723993803_0" pos="45.11" length="56.04" friendlyPos="1"/>
+        <access lane="723993800#0_0" pos="0.00" length="82.78" friendlyPos="1"/>
+        <access lane="723993803_0" pos="30.16" length="60.91" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10711459376" name="Live Oak &amp; Tyler Eastbound" lane="405337826_0" startPos="4.61" endPos="19.61" friendlyPos="true">
+        <access lane="-386891035_0" pos="0.00" length="46.18" friendlyPos="1"/>
+        <access lane="-386891041#0_0" pos="12.33" length="30.49" friendlyPos="1"/>
+        <access lane="-386891041#1_0" pos="16.09" length="44.63" friendlyPos="1"/>
+        <access lane="386891041#0_0" pos="3.74" length="35.29" friendlyPos="1"/>
+        <access lane="386891041#1_0" pos="0.00" length="48.04" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10711459377" name="Live Oak &amp; 2nd Westbound" lane="405337823_0" startPos="5.42" endPos="20.42" friendlyPos="true">
+        <access lane="-803175989#1_0" pos="0.00" length="47.71" friendlyPos="1"/>
+        <access lane="-844909923_0" pos="70.81" length="50.12" friendlyPos="1"/>
+        <access lane="803175989#1_0" pos="17.79" length="47.19" friendlyPos="1"/>
+        <access lane="844909923_0" pos="0.00" length="51.21" friendlyPos="1"/>
+        <access lane="844909924#1_0" pos="22.57" length="52.94" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10711459378" name="Live Oak &amp; Greenfield Westbound" lane="405337862#2_0" startPos="166.74" endPos="181.74" friendlyPos="true">
+        <access lane="-935873770_0" pos="0.00" length="56.97" friendlyPos="1"/>
+        <access lane="182043872#0_0" pos="12.90" length="122.54" friendlyPos="1"/>
+        <access lane="182043872#1_0" pos="0.00" length="122.40" friendlyPos="1"/>
+        <access lane="717174259_0" pos="21.69" length="110.17" friendlyPos="1"/>
+        <access lane="935873770_0" pos="40.35" length="57.23" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10711459379" name="Live Oak &amp; Myrtus Eastbound" lane="405337863#1_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-905047778_0" pos="16.87" length="87.38" friendlyPos="1"/>
+        <access lane="-905047780_0" pos="6.40" length="67.08" friendlyPos="1"/>
+        <access lane="905047777_0" pos="3.80" length="9.40" friendlyPos="1"/>
+        <access lane="905047778_0" pos="0.00" length="82.69" friendlyPos="1"/>
+        <access lane="905047780_0" pos="0.00" length="67.74" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10711459380" name="Live Oak &amp; Santa Anita" lane="405337852#0_0" startPos="8.66" endPos="23.66" friendlyPos="true">
+        <access lane="-1365737620#0_0" pos="20.91" length="27.89" friendlyPos="1"/>
+        <access lane="-723765601#1_0" pos="0.00" length="45.81" friendlyPos="1"/>
+        <access lane="1365737620#0_0" pos="26.27" length="23.09" friendlyPos="1"/>
+        <access lane="723765600#0_0" pos="3.51" length="45.22" friendlyPos="1"/>
+        <access lane="723765601#1_0" pos="64.13" length="45.46" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10711459381" name="Live Oak &amp; Santa Anita (East of Santa Anita)" lane="405337859#0_0" startPos="0.00" endPos="12.52" friendlyPos="true">
+        <access lane="-723765600#0_0" pos="14.69" length="48.05" friendlyPos="1"/>
+        <access lane="-723765601#1_0" pos="2.06" length="22.10" friendlyPos="1"/>
+        <access lane="723765600#0_0" pos="0.00" length="46.09" friendlyPos="1"/>
+        <access lane="723765601#1_0" pos="62.07" length="26.90" friendlyPos="1"/>
+        <access lane="723765603_0" pos="56.53" length="46.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10715921335" name="Las Tunas West of Live Oak Westbound" lane="182043865#3_0" startPos="20.51" endPos="35.51" friendlyPos="true">
+        <access lane="-1095830294_0" pos="94.32" length="46.54" friendlyPos="1"/>
+        <access lane="-1345404745_0" pos="0.00" length="25.38" friendlyPos="1"/>
+        <access lane="-649097784_0" pos="226.21" length="80.39" friendlyPos="1"/>
+        <access lane="1095830294_0" pos="5.27" length="51.34" friendlyPos="1"/>
+        <access lane="1345404745_0" pos="47.68" length="27.06" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10715921347" name="East of El Monte Eastbound" lane="405324322#0_0" startPos="21.47" endPos="36.47" friendlyPos="true">
+        <access lane="-716700144#0_0" pos="31.81" length="71.15" friendlyPos="1"/>
+        <access lane="-716700147#0_0" pos="21.84" length="28.27" friendlyPos="1"/>
+        <access lane="-716700147#1_0" pos="49.51" length="61.14" friendlyPos="1"/>
+        <access lane="716700147#0_0" pos="49.56" length="23.47" friendlyPos="1"/>
+        <access lane="716700147#1_0" pos="2.90" length="65.94" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10715921348" name="West of El Monte Westbound" lane="72029287#0_0" startPos="15.16" endPos="30.16" friendlyPos="true">
+        <access lane="-779838383#0_0" pos="24.40" length="25.96" friendlyPos="1"/>
+        <access lane="-779838383#1_0" pos="0.66" length="54.48" friendlyPos="1"/>
+        <access lane="779838383#0_0" pos="0.06" length="21.16" friendlyPos="1"/>
+        <access lane="779838383#1_0" pos="6.74" length="59.28" friendlyPos="1"/>
+        <access lane="779838384_0" pos="0.00" length="64.25" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10715921352" name="East of Warren Westbound" lane="405324339#0_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="10715921353" name="East of Warren Eastbound" lane="405324313#0_0" startPos="13.57" endPos="28.57" friendlyPos="true"/>
+    <busStop id="10715921354" name="East of Holly Eastbound" lane="485453805#0_0" startPos="19.23" endPos="34.23" friendlyPos="true">
+        <access lane="-1350437824_0" pos="37.10" length="137.22" friendlyPos="1"/>
+        <access lane="1350437824_0" pos="0.00" length="141.81" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974165" lane="608749309#0_0" startPos="228.18" endPos="243.18" friendlyPos="true">
+        <access lane="-146653521#0_0" pos="0.00" length="47.35" friendlyPos="1"/>
+        <access lane="-471004306_0" pos="142.61" length="104.68" friendlyPos="1"/>
+        <access lane="-761241663_0" pos="89.40" length="49.67" friendlyPos="1"/>
+        <access lane="146653521#2_0" pos="0.00" length="45.59" friendlyPos="1"/>
+        <access lane="146653524_0" pos="92.29" length="42.87" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974166" lane="608749309#0_0" startPos="254.42" endPos="269.42" friendlyPos="true">
+        <access lane="-471004306_0" pos="142.61" length="76.16" friendlyPos="1"/>
+        <access lane="-761241663_0" pos="88.41" length="71.79" friendlyPos="1"/>
+        <access lane="146653521#2_0" pos="0.99" length="66.99" friendlyPos="1"/>
+        <access lane="146653524_0" pos="92.29" length="78.98" friendlyPos="1"/>
+        <access lane="471004233_0" pos="102.31" length="81.63" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974167" lane="608749309#0_0" startPos="279.76" endPos="294.76" friendlyPos="true">
+        <access lane="-471004306_0" pos="142.61" length="61.35" friendlyPos="1"/>
+        <access lane="-761241663_0" pos="75.84" length="100.38" friendlyPos="1"/>
+        <access lane="146653521#2_0" pos="13.77" length="95.58" friendlyPos="1"/>
+        <access lane="146653524_0" pos="92.29" length="115.87" friendlyPos="1"/>
+        <access lane="471004233_0" pos="102.31" length="66.48" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974168" lane="608749309#0_0" startPos="311.90" endPos="326.90" friendlyPos="true">
+        <access lane="-448565809_0" pos="0.00" length="118.24" friendlyPos="1"/>
+        <access lane="-471004306_0" pos="169.61" length="60.79" friendlyPos="1"/>
+        <access lane="471004233_0" pos="77.12" length="65.59" friendlyPos="1"/>
+        <access lane="604060321_0" pos="61.64" length="118.17" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="0.00" length="119.62" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974169" lane="608749309#0_0" startPos="346.08" endPos="361.08" friendlyPos="true">
+        <access lane="-448565809_0" pos="0.00" length="70.92" friendlyPos="1"/>
+        <access lane="-471004306_0" pos="203.79" length="60.71" friendlyPos="1"/>
+        <access lane="448565809_0" pos="169.91" length="73.37" friendlyPos="1"/>
+        <access lane="471004233_0" pos="42.94" length="65.51" friendlyPos="1"/>
+        <access lane="604060321_0" pos="27.46" length="118.34" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974170" lane="608749309#0_0" startPos="374.14" endPos="389.14" friendlyPos="true">
+        <access lane="-448565809_0" pos="0.00" length="40.13" friendlyPos="1"/>
+        <access lane="-471004306_0" pos="231.84" length="60.65" friendlyPos="1"/>
+        <access lane="448565809_0" pos="169.91" length="44.36" friendlyPos="1"/>
+        <access lane="471004233_0" pos="14.89" length="65.45" friendlyPos="1"/>
+        <access lane="608501581#1_0" pos="73.64" length="118.15" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974171" lane="608749309#0_0" startPos="390.60" endPos="405.60" friendlyPos="true">
+        <access lane="-448565809_0" pos="2.91" length="32.34" friendlyPos="1"/>
+        <access lane="-471004306_0" pos="246.73" length="57.91" friendlyPos="1"/>
+        <access lane="448565809_0" pos="167.00" length="37.14" friendlyPos="1"/>
+        <access lane="471004233_0" pos="0.00" length="62.71" friendlyPos="1"/>
+        <access lane="608501581#1_0" pos="56.86" length="121.04" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974172" lane="608749309#1_0" startPos="38.95" endPos="53.95" friendlyPos="true">
+        <access lane="-448565809_0" pos="37.90" length="76.64" friendlyPos="1"/>
+        <access lane="-608501581#1_0" pos="51.99" length="81.93" friendlyPos="1"/>
+        <access lane="448565809_0" pos="132.01" length="81.44" friendlyPos="1"/>
+        <access lane="608501581#1_0" pos="21.67" length="77.13" friendlyPos="1"/>
+        <access lane="738991256_0" pos="27.53" length="64.14" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974173" lane="608749309#1_0" startPos="89.87" endPos="104.87" friendlyPos="true">
+        <access lane="-604060322#0_0" pos="64.28" length="52.44" friendlyPos="1"/>
+        <access lane="-608501581#1_0" pos="25.45" length="35.75" friendlyPos="1"/>
+        <access lane="1365889299_0" pos="73.36" length="54.26" friendlyPos="1"/>
+        <access lane="604060321_0" pos="0.00" length="49.35" friendlyPos="1"/>
+        <access lane="608501581#1_0" pos="48.22" length="30.95" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974174" lane="608749309#0_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-604060322#0_0" pos="58.00" length="33.92" friendlyPos="1"/>
+        <access lane="-608501581#1_0" pos="0.00" length="35.31" friendlyPos="1"/>
+        <access lane="1365889299_0" pos="91.87" length="67.03" friendlyPos="1"/>
+        <access lane="604060321_0" pos="6.28" length="29.12" friendlyPos="1"/>
+        <access lane="608501581#1_0" pos="73.64" length="30.76" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974175" lane="608749309#0_0" startPos="27.66" endPos="42.66" friendlyPos="true">
+        <access lane="-604060322#0_0" pos="20.81" length="34.33" friendlyPos="1"/>
+        <access lane="-738991277#0_0" pos="29.93" length="53.05" friendlyPos="1"/>
+        <access lane="604060321_0" pos="43.43" length="29.53" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="0.00" length="54.20" friendlyPos="1"/>
+        <access lane="738991277#0_0" pos="0.00" length="56.39" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974176" lane="608749309#0_0" startPos="67.03" endPos="82.03" friendlyPos="true">
+        <access lane="-604060322#0_0" pos="0.00" length="44.38" friendlyPos="1"/>
+        <access lane="-604060322#1_0" pos="135.48" length="34.79" friendlyPos="1"/>
+        <access lane="604060321_0" pos="64.24" length="40.75" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="8.89" length="29.99" friendlyPos="1"/>
+        <access lane="738991277#0_0" pos="0.00" length="43.36" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974177" lane="608749309#0_0" startPos="100.08" endPos="115.08" friendlyPos="true">
+        <access lane="-604060322#1_0" pos="102.44" length="35.54" friendlyPos="1"/>
+        <access lane="-738991277#0_0" pos="29.93" length="82.78" friendlyPos="1"/>
+        <access lane="604060321_0" pos="64.24" length="83.00" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="41.92" length="30.74" friendlyPos="1"/>
+        <access lane="738991277#0_0" pos="0.00" length="78.58" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10962974178" lane="608749309#0_0" startPos="125.42" endPos="140.42" friendlyPos="true">
+        <access lane="-604060322#1_0" pos="77.10" length="36.07" friendlyPos="1"/>
+        <access lane="-738991273_0" pos="75.31" length="77.70" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="67.27" length="31.27" friendlyPos="1"/>
+        <access lane="738991273_0" pos="0.00" length="73.90" friendlyPos="1"/>
+        <access lane="738991274_0" pos="0.00" length="98.45" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225440699" name="Metro 76" lane="946725603#0_0" startPos="0.00" endPos="0.20" friendlyPos="true">
+        <access lane="-146653538_0" pos="139.00" length="124.48" friendlyPos="1"/>
+        <access lane="-815400445#0_0" pos="84.21" length="3.81" friendlyPos="1"/>
+        <access lane="146653538_0" pos="63.24" length="121.46" friendlyPos="1"/>
+        <access lane="401279541_0" pos="0.48" length="108.56" friendlyPos="1"/>
+        <access lane="815400445#0_0" pos="7.97" length="8.61" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225445391" name="Metro 487;Foothill Transit 492" lane="401279534#0_0" startPos="46.70" endPos="61.70" friendlyPos="true">
+        <access lane="-146653538_0" pos="102.00" length="32.75" friendlyPos="1"/>
+        <access lane="-815400445#0_0" pos="92.18" length="120.89" friendlyPos="1"/>
+        <access lane="146653538_0" pos="100.05" length="29.75" friendlyPos="1"/>
+        <access lane="401279541_0" pos="19.09" length="60.18" friendlyPos="1"/>
+        <access lane="815400445#0_0" pos="0.00" length="125.39" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225447590" name="Metro 487;Foothill Transit 492" lane="182050922#0_0" startPos="27.76" endPos="42.76" friendlyPos="true">
+        <access lane="-365590146#0_0" pos="160.33" length="283.68" friendlyPos="1"/>
+        <access lane="365590146#0_0" pos="0.00" length="288.36" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225454690" name="Metro 76" lane="401276183#0_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-1083537081_0" pos="24.26" length="57.11" friendlyPos="1"/>
+        <access lane="1083115313#0_0" pos="0.00" length="92.01" friendlyPos="1"/>
+        <access lane="1083537081_0" pos="62.62" length="62.16" friendlyPos="1"/>
+        <access lane="401279541_0" pos="0.00" length="26.81" friendlyPos="1"/>
+        <access lane="505468208_0" pos="17.53" length="92.81" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225454691" name="Metro 76" lane="946724660#0_0" startPos="20.12" endPos="35.12" friendlyPos="true">
+        <access lane="-146653538_0" pos="196.30" length="55.14" friendlyPos="1"/>
+        <access lane="-723702395#0_0" pos="118.87" length="93.02" friendlyPos="1"/>
+        <access lane="-815400445#0_0" pos="92.18" length="93.25" friendlyPos="1"/>
+        <access lane="146653538_0" pos="5.65" length="52.14" friendlyPos="1"/>
+        <access lane="815400445#0_0" pos="0.00" length="92.33" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225485310" name="Santa Anita / McGirk" lane="405493001#2_0" startPos="20.02" endPos="35.02" friendlyPos="true">
+        <access lane="-724026144_0" pos="35.01" length="85.76" friendlyPos="1"/>
+        <access lane="-769791635#0_0" pos="43.87" length="53.94" friendlyPos="1"/>
+        <access lane="-936294031_0" pos="9.21" length="37.78" friendlyPos="1"/>
+        <access lane="769791635#0_0" pos="0.00" length="55.34" friendlyPos="1"/>
+        <access lane="936294031_0" pos="86.19" length="42.58" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225485311" name="Santa Anita / McGirk" lane="405493034_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-769791635#0_0" pos="41.57" length="21.50" friendlyPos="1"/>
+        <access lane="-769791636_0" pos="24.94" length="67.57" friendlyPos="1"/>
+        <access lane="769791635#0_0" pos="2.30" length="26.30" friendlyPos="1"/>
+        <access lane="769791635#1_0" pos="0.00" length="74.74" friendlyPos="1"/>
+        <access lane="769791636_0" pos="9.88" length="72.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225485397" name="Lower Azusa / Santa Anita" lane="405330566#0_0" startPos="4.16" endPos="19.16" friendlyPos="true">
+        <access lane="-643623794_0" pos="65.57" length="99.38" friendlyPos="1"/>
+        <access lane="-911103859_0" pos="38.35" length="55.16" friendlyPos="1"/>
+        <access lane="680311699#0_0" pos="0.00" length="76.90" friendlyPos="1"/>
+        <access lane="680311699#1_0" pos="0.00" length="97.70" friendlyPos="1"/>
+        <access lane="911103859_0" pos="65.19" length="49.90" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225504219" name="Foothill Transit 492; 487" lane="405336664#0_0" startPos="5.71" endPos="20.71" friendlyPos="true">
+        <access lane="-1315126407_0" pos="0.00" length="146.12" friendlyPos="1"/>
+        <access lane="-844126698_0" pos="55.54" length="95.36" friendlyPos="1"/>
+        <access lane="-911101903_0" pos="41.91" length="130.92" friendlyPos="1"/>
+        <access lane="844126698_0" pos="5.92" length="100.16" friendlyPos="1"/>
+        <access lane="911101903_0" pos="14.30" length="135.72" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225513205" name="Foothill Transit 492; 487" lane="405336654#0_0" startPos="27.54" endPos="42.54" friendlyPos="true">
+        <access lane="-643708729_0" pos="96.16" length="157.45" friendlyPos="1"/>
+        <access lane="-844126698_0" pos="61.46" length="107.45" friendlyPos="1"/>
+        <access lane="643708729_0" pos="0.00" length="152.65" friendlyPos="1"/>
+        <access lane="727743737_0" pos="54.97" length="155.18" friendlyPos="1"/>
+        <access lane="844126698_0" pos="0.00" length="111.88" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225768107" name="Foothill Transit 492; 487" lane="405336652#1_0" startPos="0.00" endPos="4.72" friendlyPos="true">
+        <access lane="-723765599#4_0" pos="0.00" length="42.92" friendlyPos="1"/>
+        <access lane="-808268840_0" pos="0.00" length="30.82" friendlyPos="1"/>
+        <access lane="762781464_0" pos="7.14" length="41.84" friendlyPos="1"/>
+        <access lane="808268835#1_0" pos="16.96" length="38.56" friendlyPos="1"/>
+        <access lane="808268839_0" pos="28.08" length="26.04" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225769207" name="Foothill Transit 492; 487" lane="405336648_0" startPos="21.11" endPos="36.11" friendlyPos="true">
+        <access lane="-647622737_0" pos="0.00" length="164.75" friendlyPos="1"/>
+        <access lane="-715784927_0" pos="0.00" length="154.63" friendlyPos="1"/>
+        <access lane="-717182912_0" pos="63.06" length="91.81" friendlyPos="1"/>
+        <access lane="715784927_0" pos="65.40" length="156.59" friendlyPos="1"/>
+        <access lane="717182912_0" pos="3.49" length="87.01" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225769208" name="Foothill Transit 487" lane="405336638#1_0" startPos="47.17" endPos="62.17" friendlyPos="true">
+        <access lane="-723765601#0_0" pos="19.13" length="22.70" friendlyPos="1"/>
+        <access lane="-723765601#1_0" pos="54.74" length="38.17" friendlyPos="1"/>
+        <access lane="723765601#0_0" pos="8.71" length="17.90" friendlyPos="1"/>
+        <access lane="723765601#1_0" pos="8.80" length="33.37" friendlyPos="1"/>
+        <access lane="723765602#0_0" pos="0.00" length="46.40" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225794595" name="Metro 78; Foothill Transit 492" lane="405337852#0_0" startPos="16.33" endPos="31.33" friendlyPos="true">
+        <access lane="-1365737620#0_0" pos="28.57" length="27.28" friendlyPos="1"/>
+        <access lane="-723765600#0_0" pos="11.08" length="38.51" friendlyPos="1"/>
+        <access lane="1365737620#0_0" pos="18.62" length="22.48" friendlyPos="1"/>
+        <access lane="723765600#0_0" pos="3.61" length="33.71" friendlyPos="1"/>
+        <access lane="723765600#1_0" pos="0.00" length="45.61" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4225805593" name="Foothill Transit 492; 487" lane="405336657#0_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-647622737_0" pos="4.33" length="155.97" friendlyPos="1"/>
+        <access lane="-715784927_0" pos="0.00" length="107.93" friendlyPos="1"/>
+        <access lane="-717182912_0" pos="66.55" length="104.36" friendlyPos="1"/>
+        <access lane="715784927_0" pos="65.40" length="110.52" friendlyPos="1"/>
+        <access lane="717182912_0" pos="0.00" length="100.05" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4226758990" name="Metro 78; Foothill Transit 492" lane="405337863#1_0" startPos="5.94" endPos="20.94" friendlyPos="true">
+        <access lane="-905047778_0" pos="16.87" length="90.63" friendlyPos="1"/>
+        <access lane="-905047780_0" pos="6.40" length="69.46" friendlyPos="1"/>
+        <access lane="905047777_0" pos="4.74" length="24.62" friendlyPos="1"/>
+        <access lane="905047778_0" pos="0.00" length="86.18" friendlyPos="1"/>
+        <access lane="905047780_0" pos="0.00" length="71.13" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4226761489" name="Metro 78; Foothill Transit 492" lane="405337826_0" startPos="15.70" endPos="30.70" friendlyPos="true">
+        <access lane="-386891041#0_0" pos="9.75" length="47.08" friendlyPos="1"/>
+        <access lane="-386891041#1_0" pos="16.09" length="55.16" friendlyPos="1"/>
+        <access lane="-803175990_0" pos="22.19" length="44.51" friendlyPos="1"/>
+        <access lane="386891041#0_0" pos="6.31" length="51.88" friendlyPos="1"/>
+        <access lane="803175990_0" pos="0.00" length="46.89" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4226761490" name="Metro 78; Foothill Transit 492" lane="405337823_0" startPos="14.71" endPos="29.71" friendlyPos="true">
+        <access lane="-803175989#1_0" pos="0.00" length="48.87" friendlyPos="1"/>
+        <access lane="-844909923_0" pos="70.81" length="36.33" friendlyPos="1"/>
+        <access lane="803175989#1_0" pos="17.79" length="49.74" friendlyPos="1"/>
+        <access lane="844909923_0" pos="0.00" length="37.76" friendlyPos="1"/>
+        <access lane="844909924#1_0" pos="21.90" length="66.91" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4231956397" name="Ramona Blvd and Tyler Ave" lane="405492967_0" startPos="15.63" endPos="30.63" friendlyPos="true" lines="190">
+        <access lane="-44555642#4_0" pos="25.54" length="74.75" friendlyPos="1"/>
+        <access lane="-738991252#2_0" pos="42.52" length="66.02" friendlyPos="1"/>
+        <access lane="-738991253#2_0" pos="0.00" length="71.27" friendlyPos="1"/>
+        <access lane="738991252#2_0" pos="30.79" length="61.79" friendlyPos="1"/>
+        <access lane="738991253#2_0" pos="17.15" length="67.01" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4231971092" name="Foothill Transit 190, 488" lane="45481511_0" startPos="109.35" endPos="124.35" friendlyPos="true">
+        <access lane="-723993800#0_0" pos="4.91" length="87.34" friendlyPos="1"/>
+        <access lane="-723993800#1_0" pos="23.34" length="100.11" friendlyPos="1"/>
+        <access lane="-723993803_0" pos="41.83" length="58.28" friendlyPos="1"/>
+        <access lane="723993800#0_0" pos="0.00" length="91.49" friendlyPos="1"/>
+        <access lane="723993803_0" pos="32.82" length="63.08" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4231972191" name="Ramona Blvd and Main St W" lane="976576366#1_0" startPos="0.00" endPos="13.32" friendlyPos="true" lines="7">
+        <access lane="-365924924#2_0" pos="0.00" length="33.27" friendlyPos="1"/>
+        <access lane="-797354640_0" pos="41.02" length="95.12" friendlyPos="1"/>
+        <access lane="365924924#2_0" pos="204.57" length="32.87" friendlyPos="1"/>
+        <access lane="797354640_0" pos="34.39" length="90.32" friendlyPos="1"/>
+        <access lane="844898839_0" pos="60.21" length="34.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4231972191@8452978" name="Ramona Blvd and Main St W" lane="13330404#1_0" startPos="29.00" endPos="44.00" friendlyPos="true" lines="190">
+        <access lane="-365924924#2_0" pos="0.00" length="33.27" friendlyPos="1"/>
+        <access lane="-797354640_0" pos="41.02" length="95.12" friendlyPos="1"/>
+        <access lane="365924924#2_0" pos="204.57" length="32.87" friendlyPos="1"/>
+        <access lane="797354640_0" pos="34.39" length="90.32" friendlyPos="1"/>
+        <access lane="844898839_0" pos="60.21" length="34.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4231975693" name="Foothill Transit 190, 488" lane="405497700_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-723993805#0_0" pos="0.00" length="96.44" friendlyPos="1"/>
+        <access lane="-723993805#1_0" pos="35.78" length="70.52" friendlyPos="1"/>
+        <access lane="-844176766_0" pos="143.99" length="8.54" friendlyPos="1"/>
+        <access lane="723993805#1_0" pos="34.37" length="75.32" friendlyPos="1"/>
+        <access lane="844176766_0" pos="0.00" length="13.15" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4231975694" name="Metro 76, 176, 268" lane="401280472_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-690500893_0" pos="53.14" length="19.14" friendlyPos="1"/>
+        <access lane="-738991267#0_0" pos="5.68" length="66.40" friendlyPos="1"/>
+        <access lane="-738991268_0" pos="13.48" length="70.06" friendlyPos="1"/>
+        <access lane="690500893_0" pos="8.67" length="23.94" friendlyPos="1"/>
+        <access lane="738991268_0" pos="0.00" length="66.24" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4231990389" name="Ramona Blvd and Valley Blvd E" lane="1026947678_0" startPos="398.28" endPos="413.28" friendlyPos="true" lines="488">
+        <access lane="-687300869_0" pos="0.50" length="30.49" friendlyPos="1"/>
+        <access lane="-687300870_0" pos="69.75" length="11.29" friendlyPos="1"/>
+        <access lane="687300869_0" pos="6.29" length="25.69" friendlyPos="1"/>
+        <access lane="687300870_0" pos="13.92" length="6.49" friendlyPos="1"/>
+        <access lane="687300873_0" pos="0.00" length="31.19" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4231990390" name="Metro 76, 176, 268;Foothill Transit 178, 190, 194, 270,282, 488, 494" lane="401280482_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-738991261_0" pos="12.02" length="97.75" friendlyPos="1"/>
+        <access lane="738991257#1_0" pos="44.89" length="81.54" friendlyPos="1"/>
+        <access lane="738991257#2_0" pos="0.00" length="108.18" friendlyPos="1"/>
+        <access lane="738991261_0" pos="36.18" length="94.03" friendlyPos="1"/>
+        <access lane="844266945_0" pos="82.94" length="36.29" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4234987091" name="Foothill Transit 178, 194, 282" lane="648979716#1_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-648979689_0" pos="15.76" length="44.93" friendlyPos="1"/>
+        <access lane="-801669560_0" pos="12.55" length="18.44" friendlyPos="1"/>
+        <access lane="648979689_0" pos="0.00" length="42.38" friendlyPos="1"/>
+        <access lane="648979724_0" pos="14.48" length="48.99" friendlyPos="1"/>
+        <access lane="801669560_0" pos="25.42" length="13.64" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4234987293" name="Foothill Transit 178, 194, 270, 282" lane="404952602#0_0" startPos="2.81" endPos="17.81" friendlyPos="true">
+        <access lane="-365924923#1_0" pos="0.00" length="105.37" friendlyPos="1"/>
+        <access lane="-903828387_0" pos="115.35" length="69.42" friendlyPos="1"/>
+        <access lane="365924923#1_0" pos="41.80" length="106.35" friendlyPos="1"/>
+        <access lane="723720236_0" pos="0.00" length="128.26" friendlyPos="1"/>
+        <access lane="903828387_0" pos="4.60" length="64.62" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4234987294" name="Ramona Blvd and Valley Blvd" lane="976576367#0_0" startPos="0.00" endPos="15.00" friendlyPos="true" lines="7">
+        <access lane="-1386035347#0_0" pos="88.09" length="147.45" friendlyPos="1"/>
+        <access lane="-365924924#2_0" pos="3.54" length="43.85" friendlyPos="1"/>
+        <access lane="365924924#2_0" pos="200.89" length="39.05" friendlyPos="1"/>
+        <access lane="797354640_0" pos="36.66" length="145.83" friendlyPos="1"/>
+        <access lane="844898839_0" pos="62.42" length="83.39" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4264440920" name="Metro 268" lane="405327103#0_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-59030324#1_0" pos="0.00" length="75.93" friendlyPos="1"/>
+        <access lane="-905689983_0" pos="74.88" length="49.00" friendlyPos="1"/>
+        <access lane="59030324#1_0" pos="189.88" length="80.21" friendlyPos="1"/>
+        <access lane="59032923#0_0" pos="0.00" length="128.01" friendlyPos="1"/>
+        <access lane="905689983_0" pos="0.00" length="50.86" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4264440998" name="Metro 76, 268" lane="291312372_0" startPos="17.54" endPos="32.54" friendlyPos="true">
+        <access lane="-738991252#2_0" pos="48.65" length="21.87" friendlyPos="1"/>
+        <access lane="-738991254#0_0" pos="36.21" length="41.12" friendlyPos="1"/>
+        <access lane="738991252#1_0" pos="63.87" length="39.29" friendlyPos="1"/>
+        <access lane="738991252#2_0" pos="14.57" length="17.07" friendlyPos="1"/>
+        <access lane="738991254#0_0" pos="0.00" length="37.90" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4264441510" name="Metro 268" lane="405327159#0_0" startPos="20.39" endPos="35.39" friendlyPos="true">
+        <access lane="-780099262_0" pos="131.23" length="6.59" friendlyPos="1"/>
+        <access lane="-793665305_0" pos="91.47" length="65.93" friendlyPos="1"/>
+        <access lane="30173595#0_0" pos="0.00" length="54.50" friendlyPos="1"/>
+        <access lane="780099262_0" pos="3.36" length="1.79" friendlyPos="1"/>
+        <access lane="793665305_0" pos="9.95" length="61.13" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4264441901" name="Metro 76, 268" lane="24706043#3_0" startPos="35.78" endPos="50.78" friendlyPos="true">
+        <access lane="-716680421_0" pos="17.88" length="70.19" friendlyPos="1"/>
+        <access lane="716680421_0" pos="0.00" length="74.97" friendlyPos="1"/>
+        <access lane="716680425_0" pos="0.00" length="87.44" friendlyPos="1"/>
+        <access lane="716680427_0" pos="46.87" length="54.47" friendlyPos="1"/>
+        <access lane="844142996_0" pos="59.83" length="72.15" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4264445902" name="Valley / El Monte" lane="106343170#0_0" startPos="0.00" endPos="8.15" friendlyPos="true">
+        <access lane="-905679689_0" pos="27.20" length="57.91" friendlyPos="1"/>
+        <access lane="724018717_0" pos="43.59" length="75.54" friendlyPos="1"/>
+        <access lane="905679689_0" pos="0.00" length="62.14" friendlyPos="1"/>
+        <access lane="905679693_0" pos="0.00" length="44.85" friendlyPos="1"/>
+        <access lane="905679695_0" pos="74.77" length="29.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4264448399" name="Metro 76, 267" lane="792866925#0_0" startPos="0.00" endPos="12.34" friendlyPos="true">
+        <access lane="-723813465_0" pos="60.30" length="7.91" friendlyPos="1"/>
+        <access lane="-729957704_0" pos="1.70" length="69.21" friendlyPos="1"/>
+        <access lane="-792866927_0" pos="0.00" length="66.71" friendlyPos="1"/>
+        <access lane="723813465_0" pos="3.42" length="12.71" friendlyPos="1"/>
+        <access lane="792866927_0" pos="49.98" length="71.10" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4264448423" name="Tyler / Montecito" lane="45481508#0_0" startPos="118.37" endPos="133.37" friendlyPos="true">
+        <access lane="844142994#0_0" pos="0.54" length="116.64" friendlyPos="1"/>
+        <access lane="844921474#2_0" pos="71.30" length="114.33" friendlyPos="1"/>
+        <access lane="844921474#3_0" pos="6.94" length="112.17" friendlyPos="1"/>
+        <access lane="844921474#4_0" pos="0.00" length="112.88" friendlyPos="1"/>
+        <access lane="844921475_0" pos="21.47" length="117.70" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4264449493" name="Tyler / Bryant" lane="45481508#7_0" startPos="57.93" endPos="72.93" friendlyPos="true">
+        <access lane="-715733552_0" pos="0.00" length="107.00" friendlyPos="1"/>
+        <access lane="-771576970#0_0" pos="18.25" length="117.01" friendlyPos="1"/>
+        <access lane="715733552_0" pos="40.97" length="104.84" friendlyPos="1"/>
+        <access lane="771576970#0_0" pos="0.00" length="112.27" friendlyPos="1"/>
+        <access lane="911114926_0" pos="32.45" length="19.02" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4264449711" name="Tyler / Basye" lane="1148156396#4_0" startPos="17.05" endPos="32.05" friendlyPos="true">
+        <access lane="-844252545_0" pos="0.00" length="75.49" friendlyPos="1"/>
+        <access lane="-892940856_0" pos="110.99" length="50.98" friendlyPos="1"/>
+        <access lane="844252545_0" pos="54.72" length="71.51" friendlyPos="1"/>
+        <access lane="892940856_0" pos="0.00" length="46.50" friendlyPos="1"/>
+        <access lane="892985235_0" pos="0.00" length="98.68" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4270140394" name="Metro 78" lane="182043865#3_0" startPos="26.94" endPos="41.94" friendlyPos="true">
+        <access lane="-1095830294_0" pos="96.70" length="56.17" friendlyPos="1"/>
+        <access lane="-1345404745_0" pos="0.00" length="25.57" friendlyPos="1"/>
+        <access lane="-649097784_0" pos="226.21" length="80.98" friendlyPos="1"/>
+        <access lane="1095830294_0" pos="2.89" length="60.97" friendlyPos="1"/>
+        <access lane="1345404745_0" pos="47.68" length="25.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4270144992" name="Metro 78" lane="1036524940_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-1095830294_0" pos="99.59" length="77.49" friendlyPos="1"/>
+        <access lane="-649097784_0" pos="226.21" length="39.07" friendlyPos="1"/>
+        <access lane="-844157683_0" pos="0.00" length="67.86" friendlyPos="1"/>
+        <access lane="649097784_0" pos="0.00" length="35.92" friendlyPos="1"/>
+        <access lane="844157683_0" pos="38.98" length="63.35" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4270145192" name="Metro 78" lane="405337859#1_0" startPos="0.00" endPos="14.10" friendlyPos="true">
+        <access lane="-723765600#0_0" pos="14.69" length="74.46" friendlyPos="1"/>
+        <access lane="-723765601#1_0" pos="0.80" length="18.10" friendlyPos="1"/>
+        <access lane="1365737620#0_0" pos="32.26" length="70.32" friendlyPos="1"/>
+        <access lane="723765600#0_0" pos="0.00" length="70.53" friendlyPos="1"/>
+        <access lane="723765601#1_0" pos="63.33" length="13.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4270146990" name="Metro 78" lane="72029287#0_0" startPos="4.97" endPos="19.97" friendlyPos="true">
+        <access lane="-779838383#0_0" pos="23.86" length="41.66" friendlyPos="1"/>
+        <access lane="-779838383#1_0" pos="1.35" length="70.17" friendlyPos="1"/>
+        <access lane="779838383#0_0" pos="0.60" length="36.86" friendlyPos="1"/>
+        <access lane="779838383#1_0" pos="6.05" length="74.97" friendlyPos="1"/>
+        <access lane="779838384_0" pos="0.00" length="78.04" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4271006790" name="Metro 78" lane="485453805#0_0" startPos="7.26" endPos="22.26" friendlyPos="true">
+        <access lane="-1350437824_0" pos="37.10" length="155.35" friendlyPos="1"/>
+        <access lane="1350437824_0" pos="0.00" length="159.95" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4271007590" name="Metro 78" lane="405324339#0_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="4271007591" name="Metro 78" lane="405324327#0_0" startPos="4.41" endPos="19.41" friendlyPos="true">
+        <access lane="-1350437824_0" pos="34.14" length="215.39" friendlyPos="1"/>
+        <access lane="1350437824_0" pos="2.96" length="220.19" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4271010590" name="Metro 78" lane="405324313#0_0" startPos="5.90" endPos="20.90" friendlyPos="true"/>
+    <busStop id="4271024890" name="Metro 78" lane="405324350#2_0" startPos="4.80" endPos="19.80" friendlyPos="true">
+        <access lane="-717132864_0" pos="52.13" length="164.67" friendlyPos="1"/>
+        <access lane="717132864_0" pos="0.00" length="160.05" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4271024891" name="Metro 78" lane="405324345#0_0" startPos="5.70" endPos="20.70" friendlyPos="true">
+        <access lane="-717132864_0" pos="49.26" length="98.75" friendlyPos="1"/>
+        <access lane="717132864_0" pos="2.87" length="93.95" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4271024892" name="Metro 78" lane="72029288#0_0" startPos="0.00" endPos="0.55" friendlyPos="true">
+        <access lane="-653872901_0" pos="0.00" length="6.44" friendlyPos="1"/>
+        <access lane="30173595#1_0" pos="3.00" length="30.86" friendlyPos="1"/>
+        <access lane="30173595#2_0" pos="0.20" length="30.57" friendlyPos="1"/>
+        <access lane="653872901_0" pos="60.34" length="7.61" friendlyPos="1"/>
+        <access lane="724304262_0" pos="86.39" length="35.81" friendlyPos="1"/>
+    </busStop>
+    <busStop id="473127692" name="El Monte Station" lane="39497550_0" startPos="71.62" endPos="86.62" friendlyPos="true" lines="J">
+        <access lane="-604060322#0_0" pos="32.49" length="40.37" friendlyPos="1"/>
+        <access lane="-608501581#1_0" pos="0.00" length="62.56" friendlyPos="1"/>
+        <access lane="-738991277#0_0" pos="29.93" length="69.91" friendlyPos="1"/>
+        <access lane="604060321_0" pos="31.75" length="35.57" friendlyPos="1"/>
+        <access lane="608501581#1_0" pos="73.64" length="59.61" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5766831104" lane="608749309#1_0" startPos="0.70" endPos="15.70" friendlyPos="true">
+        <access lane="-448565809_0" pos="25.04" length="28.37" friendlyPos="1"/>
+        <access lane="-471004306_0" pos="246.73" length="64.02" friendlyPos="1"/>
+        <access lane="448565809_0" pos="144.87" length="33.17" friendlyPos="1"/>
+        <access lane="471004233_0" pos="0.00" length="68.08" friendlyPos="1"/>
+        <access lane="738991256_0" pos="25.30" length="114.84" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5766831115" lane="608749309#0_0" startPos="144.29" endPos="159.29" friendlyPos="true">
+        <access lane="-604060322#1_0" pos="58.23" length="36.54" friendlyPos="1"/>
+        <access lane="-738991273_0" pos="75.31" length="65.12" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="86.14" length="31.74" friendlyPos="1"/>
+        <access lane="738991273_0" pos="0.00" length="60.52" friendlyPos="1"/>
+        <access lane="738991274_0" pos="0.00" length="88.91" friendlyPos="1"/>
+    </busStop>
+    <busStop id="579354933" name="Metro 76, 267" lane="41735683#1_0" startPos="39.15" endPos="54.15" friendlyPos="true">
+        <access lane="-723702395#0_0" pos="118.87" length="77.54" friendlyPos="1"/>
+        <access lane="-723702395#1_0" pos="28.38" length="72.53" friendlyPos="1"/>
+        <access lane="-723702395#2_0" pos="17.28" length="102.37" friendlyPos="1"/>
+        <access lane="723702395#0_0" pos="0.00" length="82.28" friendlyPos="1"/>
+        <access lane="723702395#1_0" pos="49.85" length="78.14" friendlyPos="1"/>
+    </busStop>
+    <busStop id="579458029" name="Metro 76, 268" lane="24706043#8_0" startPos="15.80" endPos="30.80" friendlyPos="true">
+        <access lane="1183922692_0" pos="38.60" length="17.26" friendlyPos="1"/>
+        <access lane="1183922694_0" pos="0.00" length="41.94" friendlyPos="1"/>
+        <access lane="1183922695_0" pos="7.69" length="42.49" friendlyPos="1"/>
+        <access lane="766186250#6_0" pos="5.63" length="63.78" friendlyPos="1"/>
+        <access lane="844980411_0" pos="106.52" length="48.52" friendlyPos="1"/>
+    </busStop>
+    <busStop id="579458035" name="Metro 76" lane="45481506_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-724018715#3_0" pos="0.00" length="125.97" friendlyPos="1"/>
+        <access lane="-771558901#0_0" pos="27.38" length="123.07" friendlyPos="1"/>
+        <access lane="724018715#3_0" pos="17.87" length="129.77" friendlyPos="1"/>
+        <access lane="771558901#0_0" pos="0.00" length="121.08" friendlyPos="1"/>
+        <access lane="844980411_0" pos="43.30" length="124.46" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6206425477" name="El Monte Station" lane="39497550_0" startPos="192.94" endPos="207.94" friendlyPos="true">
+        <access lane="-604060322#1_0" pos="65.26" length="41.12" friendlyPos="1"/>
+        <access lane="-738991273_0" pos="75.31" length="73.06" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="79.10" length="36.32" friendlyPos="1"/>
+        <access lane="738991273_0" pos="0.00" length="68.66" friendlyPos="1"/>
+        <access lane="738991274_0" pos="0.00" length="96.08" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6206425478" name="El Monte Station" lane="39497550_0" startPos="165.13" endPos="180.13" friendlyPos="true">
+        <access lane="-604060322#1_0" pos="93.07" length="40.96" friendlyPos="1"/>
+        <access lane="-738991273_0" pos="75.31" length="97.42" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="51.29" length="36.16" friendlyPos="1"/>
+        <access lane="738991273_0" pos="0.00" length="94.16" friendlyPos="1"/>
+        <access lane="738991277#0_0" pos="0.00" length="93.45" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6206425479" name="El Monte Station" lane="39497550_0" startPos="133.92" endPos="148.92" friendlyPos="true">
+        <access lane="-604060322#0_0" pos="0.00" length="60.17" friendlyPos="1"/>
+        <access lane="-604060322#1_0" pos="124.28" length="40.68" friendlyPos="1"/>
+        <access lane="604060321_0" pos="64.24" length="57.06" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="20.08" length="35.88" friendlyPos="1"/>
+        <access lane="738991277#0_0" pos="0.00" length="57.14" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6206425480" name="El Monte Station" lane="39497550_0" startPos="102.51" endPos="117.51" friendlyPos="true">
+        <access lane="-604060322#0_0" pos="1.61" length="40.03" friendlyPos="1"/>
+        <access lane="-604060322#1_0" pos="144.36" length="43.38" friendlyPos="1"/>
+        <access lane="-738991277#0_0" pos="29.93" length="45.33" friendlyPos="1"/>
+        <access lane="604060321_0" pos="62.63" length="35.23" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="0.00" length="39.01" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6206425481" name="El Monte Station" lane="604115947_0" startPos="138.11" endPos="153.11" friendlyPos="true">
+        <access lane="-448565809_0" pos="0.00" length="51.51" friendlyPos="1"/>
+        <access lane="-471004306_0" pos="224.11" length="66.64" friendlyPos="1"/>
+        <access lane="448565809_0" pos="169.91" length="55.39" friendlyPos="1"/>
+        <access lane="471004233_0" pos="22.61" length="71.44" friendlyPos="1"/>
+        <access lane="604060321_0" pos="6.11" length="112.27" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6206425482" name="El Monte Station" lane="604115947_0" startPos="107.45" endPos="122.45" friendlyPos="true">
+        <access lane="-448565809_0" pos="0.00" length="87.37" friendlyPos="1"/>
+        <access lane="-471004306_0" pos="193.45" length="66.68" friendlyPos="1"/>
+        <access lane="448565809_0" pos="169.91" length="89.69" friendlyPos="1"/>
+        <access lane="471004233_0" pos="53.27" length="71.48" friendlyPos="1"/>
+        <access lane="604060321_0" pos="37.79" length="112.34" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6206425483" name="El Monte Station" lane="604115947_0" startPos="76.21" endPos="91.21" friendlyPos="true">
+        <access lane="-471004306_0" pos="162.22" length="66.71" friendlyPos="1"/>
+        <access lane="-604060322#0_0" pos="0.00" length="117.25" friendlyPos="1"/>
+        <access lane="471004233_0" pos="84.51" length="71.51" friendlyPos="1"/>
+        <access lane="604060321_0" pos="64.24" length="112.46" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="0.00" length="112.53" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6206425484" name="El Monte Station" lane="604115947_0" startPos="46.04" endPos="61.04" friendlyPos="true">
+        <access lane="-471004306_0" pos="142.61" length="68.61" friendlyPos="1"/>
+        <access lane="-761241663_0" pos="79.42" length="97.79" friendlyPos="1"/>
+        <access lane="146653521#2_0" pos="10.09" length="92.99" friendlyPos="1"/>
+        <access lane="146653524_0" pos="92.29" length="109.31" friendlyPos="1"/>
+        <access lane="471004233_0" pos="102.31" length="73.92" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6206425585" name="El Monte Station" lane="604115947_0" startPos="13.20" endPos="28.20" friendlyPos="true">
+        <access lane="-146653521#0_0" pos="0.00" length="67.40" friendlyPos="1"/>
+        <access lane="-471004306_0" pos="142.61" length="93.26" friendlyPos="1"/>
+        <access lane="-761241663_0" pos="89.40" length="63.49" friendlyPos="1"/>
+        <access lane="146653521#2_0" pos="0.00" length="58.86" friendlyPos="1"/>
+        <access lane="146653524_0" pos="92.29" length="63.12" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6919713540" lane="608749309#0_0" startPos="178.24" endPos="193.24" friendlyPos="true">
+        <access lane="-146653521#0_0" pos="27.72" length="61.37" friendlyPos="1"/>
+        <access lane="-604060322#1_0" pos="44.99" length="77.49" friendlyPos="1"/>
+        <access lane="146653524_0" pos="64.40" length="56.57" friendlyPos="1"/>
+        <access lane="604060322#1_0" pos="99.37" length="72.69" friendlyPos="1"/>
+        <access lane="738991272#0_0" pos="31.52" length="74.78" friendlyPos="1"/>
+    </busStop>
+    <busStop id="7105900155" name="Metro 76, 267, 287" lane="41734286_0" startPos="7.06" endPos="22.06" friendlyPos="true">
+        <access lane="-1365889297#1_0" pos="6.46" length="70.52" friendlyPos="1"/>
+        <access lane="-1365889297#2_0" pos="11.20" length="74.42" friendlyPos="1"/>
+        <access lane="-738991267#2_0" pos="4.13" length="74.51" friendlyPos="1"/>
+        <access lane="-738991269_0" pos="38.72" length="72.93" friendlyPos="1"/>
+        <access lane="738991267#2_0" pos="31.21" length="69.71" friendlyPos="1"/>
+    </busStop>
+    <busStop id="7105900156" name="Metro 76, 287" lane="401279526#0_0" startPos="0.70" endPos="15.70" friendlyPos="true">
+        <access lane="-723702395#2_0" pos="0.00" length="48.71" friendlyPos="1"/>
+        <access lane="723702395#2_0" pos="56.36" length="50.24" friendlyPos="1"/>
+        <access lane="723702396#0_0" pos="87.25" length="66.22" friendlyPos="1"/>
+        <access lane="723702397#1_0" pos="0.10" length="66.99" friendlyPos="1"/>
+        <access lane="935862068_0" pos="33.41" length="17.26" friendlyPos="1"/>
+    </busStop>
+    <busStop id="7105900157" name="Metro 487;Foothill Transit 492" lane="405493022#0_0" startPos="16.17" endPos="31.17" friendlyPos="true">
+        <access lane="-365605960#0_0" pos="5.29" length="197.42" friendlyPos="1"/>
+        <access lane="-365605960#1_0" pos="92.66" length="202.03" friendlyPos="1"/>
+        <access lane="365605960#0_0" pos="0.00" length="202.17" friendlyPos="1"/>
+        <access lane="365605960#1_0" pos="0.00" length="206.67" friendlyPos="1"/>
+        <access lane="365605961_0" pos="0.00" length="209.10" friendlyPos="1"/>
+    </busStop>
+    <busStop id="7106087038" name="Foothill Transit 270" lane="44546424_0" startPos="21.10" endPos="36.10" friendlyPos="true">
+        <access lane="-1022491853_0" pos="10.87" length="73.43" friendlyPos="1"/>
+        <access lane="-648979695_0" pos="13.95" length="64.34" friendlyPos="1"/>
+        <access lane="1022491853_0" pos="0.00" length="69.31" friendlyPos="1"/>
+        <access lane="648979695_0" pos="16.11" length="59.54" friendlyPos="1"/>
+        <access lane="648979701_0" pos="6.23" length="72.29" friendlyPos="1"/>
+    </busStop>
+    <busStop id="856317183" name="Metro 268" lane="405327113#2_0" startPos="0.00" endPos="13.84" friendlyPos="true">
+        <access lane="-653872900#0_0" pos="35.38" length="20.77" friendlyPos="1"/>
+        <access lane="-653872900#2_0" pos="0.38" length="9.24" friendlyPos="1"/>
+        <access lane="653872900#0_0" pos="0.00" length="25.56" friendlyPos="1"/>
+        <access lane="653872900#1_0" pos="59.88" length="14.04" friendlyPos="1"/>
+        <access lane="844260367_0" pos="0.22" length="32.38" friendlyPos="1"/>
+    </busStop>
+    <busStop id="857589833" name="Metro 268" lane="405327139#1_0" startPos="0.00" endPos="13.48" friendlyPos="true">
+        <access lane="-59030324#1_0" pos="0.00" length="122.32" friendlyPos="1"/>
+        <access lane="-59032923#0_0" pos="87.59" length="125.03" friendlyPos="1"/>
+        <access lane="-905689983_0" pos="72.23" length="17.94" friendlyPos="1"/>
+        <access lane="59032923#0_0" pos="2.05" length="120.23" friendlyPos="1"/>
+        <access lane="905689983_0" pos="2.65" length="22.74" friendlyPos="1"/>
+    </busStop>
+    <busStop id="857781291" name="Metro 70; Foothill Transit 269, 486" lane="399550744#2_0" startPos="0.00" endPos="9.80" friendlyPos="true">
+        <access lane="-1370792546#0_0" pos="23.53" length="14.15" friendlyPos="1"/>
+        <access lane="-1370792546#1_0" pos="7.03" length="24.55" friendlyPos="1"/>
+        <access lane="-1370792548_0" pos="3.51" length="9.31" friendlyPos="1"/>
+        <access lane="1370792546#0_0" pos="5.04" length="18.95" friendlyPos="1"/>
+        <access lane="1370792548_0" pos="7.83" length="14.11" friendlyPos="1"/>
+    </busStop>
+</additional>

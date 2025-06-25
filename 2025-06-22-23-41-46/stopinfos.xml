@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-22 23:42:44 by Eclipse SUMO sumo Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm.net.xml.gz"/>
+        <route-files value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/trips.trips.xml"/>
+        <additional-files value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/vehroutes.xml"/>
+        <stop-output value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+    <stopinfo id="2_bus_J:2" type="pt_bus" lane="39497550_0" pos="86.61" parking="0" started="44.00" ended="74.00" busStop="473127692" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="3_bus_J:3" type="pt_bus" lane="39497550_0" pos="86.61" parking="0" started="83.00" ended="113.00" busStop="473127692" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="0_bus_J:0" type="pt_bus" lane="39497550_0" pos="86.62" parking="0" started="132.00" ended="162.00" busStop="473127692" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="4_bus_76:0" type="pt_bus" lane="608749309#1_0" pos="53.94" parking="0" started="136.00" ended="166.00" busStop="10962974172" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="1_bus_J:1" type="pt_bus" lane="39497550_0" pos="86.61" parking="0" started="171.00" ended="201.00" busStop="473127692" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="7_bus_7:0" type="pt_bus" lane="608749309#0_0" pos="140.41" parking="0" started="184.00" ended="214.00" busStop="10962974178" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="5_bus_70:0" type="pt_bus" lane="608749309#1_0" pos="104.87" parking="0" started="192.00" ended="222.00" busStop="10962974173" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="6_bus_577:0" type="pt_bus" lane="608749309#0_0" pos="193.22" parking="0" started="196.00" ended="226.00" busStop="6919713540" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="8_bus_194:0" type="pt_bus" lane="608749309#0_0" pos="361.08" parking="0" started="296.00" ended="326.00" busStop="10962974169" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="12_bus_282:0" type="pt_bus" lane="608749309#1_0" pos="15.69" parking="0" started="357.00" ended="387.00" busStop="5766831104" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="9_bus_190:0" type="pt_bus" lane="608749309#0_0" pos="326.89" parking="0" started="359.00" ended="389.00" busStop="10962974168" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="11_bus_707:0" type="pt_bus" lane="39497550_0" pos="148.88" parking="0" started="374.00" ended="404.00" busStop="6206425479" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="11_bus_707:0" type="pt_bus" lane="39497550_0" pos="180.11" parking="0" started="417.00" ended="447.00" busStop="6206425478" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="10_bus_178:0" type="pt_bus" lane="608749309#0_0" pos="389.13" parking="0" started="428.00" ended="458.00" busStop="10962974170" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="13_bus_270:0" type="pt_bus" lane="608749309#0_0" pos="159.28" parking="0" started="433.00" ended="463.00" busStop="5766831115" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="15_bus_492:0" type="pt_bus" lane="604115947_0" pos="153.10" parking="0" started="456.00" ended="486.00" busStop="6206425481" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="11_bus_707:0" type="pt_bus" lane="39497550_0" pos="207.93" parking="0" started="459.00" ended="489.00" busStop="6206425477" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="16_bus_488:0" type="pt_bus" lane="604115947_0" pos="122.43" parking="0" started="480.00" ended="510.00" busStop="6206425482" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="7_bus_7:0" type="pt_bus" lane="-405492967_0" pos="21.11" parking="0" started="547.00" ended="577.00" busStop="-4231956397" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="14_bus_269:0" type="pt_bus" lane="608749309#0_0" pos="405.59" parking="0" started="551.00" ended="581.00" busStop="10962974171" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="17_bus_486:0" type="pt_bus" lane="604115947_0" pos="91.21" parking="0" started="565.00" ended="595.00" busStop="6206425483" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="7_bus_7:0" type="pt_bus" lane="976576366#1_0" pos="13.31" parking="0" started="614.00" ended="644.00" busStop="4231972191" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="9_bus_190:0" type="pt_bus" lane="405492967_0" pos="30.61" parking="0" started="621.00" ended="651.00" busStop="4231956397" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="7_bus_7:0" type="pt_bus" lane="976576367#0_0" pos="15.00" parking="0" started="653.00" ended="683.00" busStop="4234987294" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="9_bus_190:0" type="pt_bus" lane="13330404#1_0" pos="43.99" parking="0" started="678.00" ended="708.00" busStop="4231972191@8452978" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="16_bus_488:0" type="pt_bus" lane="1026947678_0" pos="413.27" parking="0" started="910.00" ended="940.00" busStop="4231990389" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+</stops>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-23 00:12:34.078170 by gtfs2fcd.py d70dd9ec0
+<configuration>
+    <gtfs value="foothill_transit_gtfs.zip"/>
+    <date value="20250624"/>
+    <network value="osm.net.xml.gz"/>
+    <route-output value="gtfs_output/routes.rou.xml"/>
+    <additional-output value="gtfs_output/stops_additional.xml"/>
+</configuration>
+-->
+
+<fcd-export>
+    <timestep time="22710"><vehicle id="t1C7-b27B4-sl4" x="-118.028245" y="34.069057" until="0" name="Valley Blvd &amp; Peck Rd" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="22759"><vehicle id="t1C7-b27B4-sl4" x="-118.030516" y="34.07082" until="49" name="Valley Blvd and Johnson Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="22829"><vehicle id="t1C7-b27B4-sl4" x="-118.033712" y="34.072325" until="119" name="Ramona Blvd and Main St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="22870"><vehicle id="t1C7-b27B4-sl4" x="-118.036294" y="34.072071" until="160" name="Ramona Blvd and Tyler Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="22924"><vehicle id="t1C7-b27B4-sl4" x="-118.039681" y="34.07204" until="214" name="Ramona Blvd and Lexington Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="23100"><vehicle id="t1C7-b27B4-sl4" x="-118.044015" y="34.072263" until="390" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="41100"><vehicle id="t1F4-b2714-sl4" x="-118.044015" y="34.072263" until="0" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="41244"><vehicle id="t1F4-b2714-sl4" x="-118.039566" y="34.071955" until="144" name="Ramona Blvd and Lexington Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="41314"><vehicle id="t1F4-b2714-sl4" x="-118.035787" y="34.072021" until="214" name="Ramona Blvd and Tyler Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="41381"><vehicle id="t1F4-b2714-sl4" x="-118.03252" y="34.072367" until="281" name="Valley Blvd and Ramona Blvd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="41432"><vehicle id="t1F4-b2714-sl4" x="-118.030606" y="34.070776" until="332" name="Valley Blvd and Johnson Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="41487"><vehicle id="t1F4-b2714-sl4" x="-118.028413" y="34.069078" until="387" name="Valley Blvd and Peck Rd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="131809"><vehicle id="t14-b2784-sl4" x="-118.026953" y="34.073622" until="0" name="Ramona Blvd and Orchard St" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="131890"><vehicle id="t14-b2784-sl4" x="-118.033712" y="34.072325" until="81" name="Ramona Blvd and Main St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="131920"><vehicle id="t14-b2784-sl4" x="-118.036294" y="34.072071" until="111" name="Ramona Blvd and Tyler Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="131959"><vehicle id="t14-b2784-sl4" x="-118.039681" y="34.07204" until="150" name="Ramona Blvd and Lexington Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="132087"><vehicle id="t14-b2784-sl4" x="-118.044015" y="34.072263" until="278" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="218787"><vehicle id="t14-b27A3-sl4" x="-118.044015" y="34.072263" until="0" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="218904"><vehicle id="t14-b27A3-sl4" x="-118.039566" y="34.071955" until="117" name="Ramona Blvd and Lexington Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="218961"><vehicle id="t14-b27A3-sl4" x="-118.035787" y="34.072021" until="174" name="Ramona Blvd and Tyler Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="219017"><vehicle id="t14-b27A3-sl4" x="-118.032247" y="34.072665" until="230" name="Ramona Blvd and Valley Blvd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="219101"><vehicle id="t14-b27A3-sl4" x="-118.02683" y="34.073549" until="314" name="Ramona Blvd and Lee Ln" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="307601"><vehicle id="t14-b27A4-sl4" x="-118.044015" y="34.072263" until="0" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="307727"><vehicle id="t14-b27A4-sl4" x="-118.039566" y="34.071955" until="126" name="Ramona Blvd and Lexington Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="307789"><vehicle id="t14-b27A4-sl4" x="-118.035787" y="34.072021" until="188" name="Ramona Blvd and Tyler Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="307848"><vehicle id="t14-b27A4-sl4" x="-118.03252" y="34.072367" until="247" name="Valley Blvd and Ramona Blvd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="307893"><vehicle id="t14-b27A4-sl4" x="-118.030606" y="34.070776" until="292" name="Valley Blvd and Johnson Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="307942"><vehicle id="t14-b27A4-sl4" x="-118.028413" y="34.069078" until="341" name="Valley Blvd and Peck Rd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="398533"><vehicle id="t15-b2812-sl4" x="-118.028245" y="34.069057" until="0" name="Valley Blvd &amp; Peck Rd" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="398580"><vehicle id="t15-b2812-sl4" x="-118.030516" y="34.07082" until="47" name="Valley Blvd and Johnson Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="398646"><vehicle id="t15-b2812-sl4" x="-118.033712" y="34.072325" until="113" name="Ramona Blvd and Main St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="398685"><vehicle id="t15-b2812-sl4" x="-118.036294" y="34.072071" until="152" name="Ramona Blvd and Tyler Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="398736"><vehicle id="t15-b2812-sl4" x="-118.039681" y="34.07204" until="203" name="Ramona Blvd and Lexington Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="398902"><vehicle id="t15-b2812-sl4" x="-118.044015" y="34.072263" until="369" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="421720"><vehicle id="t258-b2795-sl4" x="-118.04234" y="34.067321" until="0" name="Santa Anita Ave and Mildred St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="422182"><vehicle id="t258-b2795-sl4" x="-118.044015" y="34.072263" until="462" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="444082"><vehicle id="t25D-b277B-sl4" x="-118.044015" y="34.072263" until="0" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="444281"><vehicle id="t25D-b277B-sl4" x="-118.042349" y="34.067889" until="199" name="Santa Anita Ave and Asher St E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="463355"><vehicle id="t1BD-b27B3-sl4" x="-118.025462" y="34.07161" until="0" name="Peck Rd and Stewart St" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="463421"><vehicle id="t1BD-b27B3-sl4" x="-118.028245" y="34.069057" until="66" name="Valley Blvd &amp; Peck Rd" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="463467"><vehicle id="t1BD-b27B3-sl4" x="-118.030516" y="34.07082" until="112" name="Valley Blvd and Johnson Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="463531"><vehicle id="t1BD-b27B3-sl4" x="-118.033712" y="34.072325" until="176" name="Ramona Blvd and Main St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="463569"><vehicle id="t1BD-b27B3-sl4" x="-118.036294" y="34.072071" until="214" name="Ramona Blvd and Tyler Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="463619"><vehicle id="t1BD-b27B3-sl4" x="-118.039681" y="34.07204" until="264" name="Ramona Blvd and Lexington Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="463781"><vehicle id="t1BD-b27B3-sl4" x="-118.044015" y="34.072263" until="426" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="480881"><vehicle id="t1BD-b27B5-sl4" x="-118.044015" y="34.072263" until="0" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="481006"><vehicle id="t1BD-b27B5-sl4" x="-118.039566" y="34.071955" until="125" name="Ramona Blvd and Lexington Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="481067"><vehicle id="t1BD-b27B5-sl4" x="-118.035787" y="34.072021" until="186" name="Ramona Blvd and Tyler Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="481125"><vehicle id="t1BD-b27B5-sl4" x="-118.03252" y="34.072367" until="244" name="Valley Blvd and Ramona Blvd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="481169"><vehicle id="t1BD-b27B5-sl4" x="-118.030606" y="34.070776" until="288" name="Valley Blvd and Johnson Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="481228"><vehicle id="t1BD-b27B5-sl4" x="-118.027881" y="34.069006" until="347" name="Peck Rd and Valley Blvd" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="481297"><vehicle id="t1BD-b27B5-sl4" x="-118.025043" y="34.071688" until="416" name="Peck Rd and Stewart St" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="501555"><vehicle id="t1F4-b15FA4-sl4" x="-118.028245" y="34.069057" until="0" name="Valley Blvd &amp; Peck Rd" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="501596"><vehicle id="t1F4-b15FA4-sl4" x="-118.030516" y="34.07082" until="41" name="Valley Blvd and Johnson Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="501653"><vehicle id="t1F4-b15FA4-sl4" x="-118.033712" y="34.072325" until="98" name="Ramona Blvd and Main St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="501688"><vehicle id="t1F4-b15FA4-sl4" x="-118.036294" y="34.072071" until="133" name="Ramona Blvd and Tyler Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="501732"><vehicle id="t1F4-b15FA4-sl4" x="-118.039681" y="34.07204" until="177" name="Ramona Blvd and Lexington Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="501877"><vehicle id="t1F4-b15FA4-sl4" x="-118.044015" y="34.072263" until="322" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="521377"><vehicle id="t20D-b1601F-sl4" x="-118.044015" y="34.072263" until="0" name="El Monte Station Lower Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="521485"><vehicle id="t20D-b1601F-sl4" x="-118.039566" y="34.071955" until="108" name="Ramona Blvd and Lexington Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="521537"><vehicle id="t20D-b1601F-sl4" x="-118.035787" y="34.072021" until="160" name="Ramona Blvd and Tyler Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="521587"><vehicle id="t20D-b1601F-sl4" x="-118.03252" y="34.072367" until="210" name="Valley Blvd and Ramona Blvd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="521625"><vehicle id="t20D-b1601F-sl4" x="-118.030606" y="34.070776" until="248" name="Valley Blvd and Johnson Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="521667"><vehicle id="t20D-b1601F-sl4" x="-118.028413" y="34.069078" until="290" name="Valley Blvd and Peck Rd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="542065"><vehicle id="t1AE-b15F91-sl4" x="-118.04234" y="34.067321" until="0" name="Santa Anita Ave and Mildred St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="542247"><vehicle id="t1AE-b15F91-sl4" x="-118.044371" y="34.072235" until="182" name="El Monte Station Upper Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="559347"><vehicle id="t1BD-b1601C-sl4" x="-118.044371" y="34.072235" until="0" name="El Monte Station Upper Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="559585"><vehicle id="t1BD-b1601C-sl4" x="-118.042349" y="34.067889" until="238" name="Santa Anita Ave and Asher St E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="646206"><vehicle id="t960-b15F97-sl4.trimmed" x="-118.042349" y="34.067889" until="0" name="Santa Anita Ave and Asher St E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="665332"><vehicle id="t19A-b15FB9-sl4" x="-118.026953" y="34.073622" until="0" name="Ramona Blvd and Orchard St" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="665471"><vehicle id="t19A-b15FB9-sl4" x="-118.033712" y="34.072325" until="139" name="Ramona Blvd and Main St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="665523"><vehicle id="t19A-b15FB9-sl4" x="-118.036294" y="34.072071" until="191" name="Ramona Blvd and Tyler Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="665591"><vehicle id="t19A-b15FB9-sl4" x="-118.039681" y="34.07204" until="259" name="Ramona Blvd and Lexington Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="665706"><vehicle id="t19A-b15FB9-sl4" x="-118.044371" y="34.072235" until="374" name="El Monte Station Upper Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="686106"><vehicle id="t21C-b15FC1-sl4" x="-118.044371" y="34.072235" until="0" name="El Monte Station Upper Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="686247"><vehicle id="t21C-b15FC1-sl4" x="-118.039566" y="34.071955" until="141" name="Ramona Blvd and Lexington Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="686302"><vehicle id="t21C-b15FC1-sl4" x="-118.035787" y="34.072021" until="196" name="Ramona Blvd and Tyler Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="686357"><vehicle id="t21C-b15FC1-sl4" x="-118.032247" y="34.072665" until="251" name="Ramona Blvd and Valley Blvd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="686438"><vehicle id="t21C-b15FC1-sl4" x="-118.02683" y="34.073549" until="332" name="Ramona Blvd and Lee Ln" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="706571"><vehicle id="t1A9-b1601D-sl4" x="-118.02428" y="34.108366" until="0" name="Live Oak Ave and Second Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="706601"><vehicle id="t1A9-b1601D-sl4" x="-118.026938" y="34.107987" until="30" name="Live Oak Ave and Greenfield Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="706658"><vehicle id="t1A9-b1601D-sl4" x="-118.030618" y="34.106371" until="87" name="Santa Anita Ave and Live Oak Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="706701"><vehicle id="t1A9-b1601D-sl4" x="-118.029992" y="34.103863" until="130" name="Santa Anita Ave and Daines Dr W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="706764"><vehicle id="t1A9-b1601D-sl4" x="-118.029288" y="34.100179" until="193" name="Santa Anita Ave and Freer St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="706825"><vehicle id="t1A9-b1601D-sl4" x="-118.028574" y="34.096579" until="254" name="Santa Anita Ave and West Hondo Pkwy W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="706915"><vehicle id="t1A9-b1601D-sl4" x="-118.026642" y="34.091704" until="344" name="Santa Anita Ave and Lower Azusa Rd W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="706965"><vehicle id="t1A9-b1601D-sl4" x="-118.027569" y="34.088839" until="394" name="Santa Anita Ave and Mulhall St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="707044"><vehicle id="t1A9-b1601D-sl4" x="-118.030838" y="34.085299" until="473" name="Santa Anita Ave and Tyler Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="707127"><vehicle id="t1A9-b1601D-sl4" x="-118.035048" y="34.081893" until="556" name="Santa Anita Ave and Bryant Rd W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="707248"><vehicle id="t1A9-b1601D-sl4" x="-118.041011" y="34.07685" until="677" name="Santa Anita Ave and Valley Blvd W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="707378"><vehicle id="t1A9-b1601D-sl4" x="-118.044371" y="34.072235" until="807" name="El Monte Station Upper Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727178"><vehicle id="t212-b15F99-sl4" x="-118.044371" y="34.072235" until="0" name="El Monte Station Upper Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727338"><vehicle id="t212-b15F99-sl4" x="-118.041138" y="34.075676" until="160" name="Santa Anita Ave and Main St E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727477"><vehicle id="t212-b15F99-sl4" x="-118.034759" y="34.081832" until="299" name="Santa Anita Ave and Bryant Rd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727550"><vehicle id="t212-b15F99-sl4" x="-118.031062" y="34.084978" until="372" name="Santa Anita Ave and Tyler Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727637"><vehicle id="t212-b15F99-sl4" x="-118.027318" y="34.088867" until="459" name="Santa Anita Ave and Mulhall St E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727689"><vehicle id="t212-b15F99-sl4" x="-118.026288" y="34.091895" until="511" name="Santa Anita Ave and Lower Azusa Rd E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727777"><vehicle id="t212-b15F99-sl4" x="-118.028386" y="34.096773" until="599" name="Santa Anita Ave and West Hondo Pkwy E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727836"><vehicle id="t212-b15F99-sl4" x="-118.029075" y="34.100321" until="658" name="Santa Anita Ave and Freer St E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727891"><vehicle id="t212-b15F99-sl4" x="-118.029692" y="34.103598" until="713" name="Santa Anita Ave and Daines Dr E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727958"><vehicle id="t212-b15F99-sl4" x="-118.030395" y="34.107303" until="780" name="Live Oak Ave and Santa Anita Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="727990"><vehicle id="t212-b15F99-sl4" x="-118.027571" y="34.107693" until="812" name="Live Oak Ave and Myrtus Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="728021"><vehicle id="t212-b15F99-sl4" x="-118.024865" y="34.108086" until="843" name="Live Oak Ave and Tyler Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="740681"><vehicle id="t12C-b2815-sl4" x="-118.044371" y="34.072235" until="0" name="El Monte Station Upper Level" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+</fcd-export>

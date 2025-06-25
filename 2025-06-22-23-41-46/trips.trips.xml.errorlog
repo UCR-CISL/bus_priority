@@ -1,0 +1,6 @@
+Warning: At actuated tlLogic '122881292', linkIndex 2,3,4 has no controlling detector.
+Warning: At actuated tlLogic '123175397', linkIndex 2,3,4 has no controlling detector.
+Warning: At actuated tlLogic '310906213', linkIndex 11,12 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_513857302_565992148', linkIndex 14,15,16 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1923921162_271806814', linkIndex 0,1,2,7,8,9 has no controlling detector.
+Warning: 6 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.

@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="t1A9-b1601D-sl4.0" lane="405337823_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Santa Anita Ave and Live Oak Ave W">
+        <access friendlyPos="true" lane="-723765599#0_0" pos="14.21" length="66.27" />
+        <access friendlyPos="true" lane="-723765599#4_0" pos="0.00" length="39.38" />
+        <access friendlyPos="true" lane="-762781464_0" pos="122.05" length="37.62" />
+        <access friendlyPos="true" lane="-808268840_0" pos="0.00" length="40.17" />
+        <access friendlyPos="true" lane="1365737620#2_0" pos="13.72" length="67.80" />
+        <access friendlyPos="true" lane="723765599#0_0" pos="0.00" length="62.22" />
+        <access friendlyPos="true" lane="723765599#4_0" pos="14.78" length="41.19" />
+        <access friendlyPos="true" lane="762781464_0" pos="2.67" length="32.83" />
+        <access friendlyPos="true" lane="808268835#1_0" pos="16.96" length="49.80" />
+        <access friendlyPos="true" lane="808268839_0" pos="28.08" length="35.58" />
+    </busStop>
+    <busStop id="t1A9-b1601D-sl4.3" lane="405336642_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Santa Anita Ave and Daines Dr W">
+        <access friendlyPos="true" lane="-715784927_0" pos="60.02" length="131.92" />
+        <access friendlyPos="true" lane="-717182912_0" pos="66.55" length="57.46" />
+        <access friendlyPos="true" lane="715784927_0" pos="0.00" length="136.41" />
+        <access friendlyPos="true" lane="717182912_0" pos="0.00" length="54.14" />
+    </busStop>
+    <busStop id="t1A9-b1601D-sl4.4" lane="405336664#0_0" startPos="16.20" endPos="29.20" friendlyPos="true" name="Santa Anita Ave and Freer St W">
+        <access friendlyPos="true" lane="-1315126407_0" pos="0.00" length="131.79" />
+        <access friendlyPos="true" lane="-844126698_0" pos="59.04" length="119.63" />
+        <access friendlyPos="true" lane="-911101903_0" pos="25.62" length="135.49" />
+        <access friendlyPos="true" lane="1315126407_0" pos="79.24" length="135.04" />
+        <access friendlyPos="true" lane="844126698_0" pos="2.41" length="124.43" />
+        <access friendlyPos="true" lane="911101903_0" pos="30.58" length="140.30" />
+    </busStop>
+    <busStop id="t1A9-b1601D-sl4.5" lane="405336644_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Santa Anita Ave and West Hondo Pkwy W">
+        <access friendlyPos="true" lane="-643361109#0_0" pos="144.90" length="116.28" />
+        <access friendlyPos="true" lane="-723799543_0" pos="18.52" length="102.43" />
+        <access friendlyPos="true" lane="-723799545_0" pos="0.00" length="104.85" />
+        <access friendlyPos="true" lane="-795191589_0" pos="0.00" length="86.18" />
+        <access friendlyPos="true" lane="-844168528_0" pos="35.57" length="41.01" />
+        <access friendlyPos="true" lane="642223457_0" pos="6.63" length="111.48" />
+        <access friendlyPos="true" lane="723799543_0" pos="151.12" length="97.63" />
+        <access friendlyPos="true" lane="723799545_0" pos="130.02" length="109.32" />
+        <access friendlyPos="true" lane="795191589_0" pos="100.63" length="90.60" />
+        <access friendlyPos="true" lane="844168528_0" pos="6.02" length="36.21" />
+    </busStop>
+    <busStop id="t1A9-b1601D-sl4.6" lane="405337873#0_0" startPos="35.77" endPos="48.77" friendlyPos="true" name="Santa Anita Ave and Lower Azusa Rd W">
+        <access friendlyPos="true" lane="-643623793#1_0" pos="0.00" length="46.63" />
+        <access friendlyPos="true" lane="-643623794_0" pos="65.57" length="51.94" />
+        <access friendlyPos="true" lane="-799546375_0" pos="210.47" length="80.37" />
+        <access friendlyPos="true" lane="-911103859_0" pos="103.97" length="26.00" />
+        <access friendlyPos="true" lane="643623793#1_0" pos="93.35" length="44.05" />
+        <access friendlyPos="true" lane="643623794_0" pos="0.00" length="50.55" />
+        <access friendlyPos="true" lane="680311699#1_0" pos="16.10" length="96.95" />
+        <access friendlyPos="true" lane="680311699#2_0" pos="61.83" length="52.10" />
+        <access friendlyPos="true" lane="799546375_0" pos="0.00" length="84.84" />
+        <access friendlyPos="true" lane="911103859_0" pos="1.88" length="21.20" />
+    </busStop>
+    <busStop id="t1A9-b1601D-sl4.7" lane="1036530139_0" startPos="9.43" endPos="22.43" friendlyPos="true" name="Santa Anita Ave and Mulhall St W">
+        <access friendlyPos="true" lane="-1036530141_0" pos="99.14" length="95.63" />
+        <access friendlyPos="true" lane="-724026147_0" pos="82.20" length="53.57" />
+        <access friendlyPos="true" lane="-789848070_0" pos="50.98" length="133.12" />
+        <access friendlyPos="true" lane="-789848071_0" pos="8.45" length="77.21" />
+        <access friendlyPos="true" lane="-789848072_0" pos="27.40" length="92.77" />
+        <access friendlyPos="true" lane="1036530141_0" pos="0.00" length="92.58" />
+        <access friendlyPos="true" lane="724026141_0" pos="0.00" length="134.63" />
+        <access friendlyPos="true" lane="724026147_0" pos="0.00" length="57.32" />
+        <access friendlyPos="true" lane="789848071_0" pos="0.00" length="73.39" />
+        <access friendlyPos="true" lane="789848072_0" pos="0.00" length="95.71" />
+    </busStop>
+    <busStop id="t1A9-b1601D-sl4.8" lane="405493048#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Santa Anita Ave and Tyler Ave W">
+        <access friendlyPos="true" lane="-724026142#1_0" pos="89.19" length="122.19" />
+        <access friendlyPos="true" lane="-845076340_0" pos="38.87" length="24.07" />
+        <access friendlyPos="true" lane="-845594427_0" pos="65.00" length="97.24" />
+        <access friendlyPos="true" lane="-911114930#1_0" pos="0.00" length="90.92" />
+        <access friendlyPos="true" lane="-911114931_0" pos="0.00" length="110.15" />
+        <access friendlyPos="true" lane="24742735_0" pos="0.00" length="51.34" />
+        <access friendlyPos="true" lane="844252538_0" pos="0.00" length="92.99" />
+        <access friendlyPos="true" lane="845076340_0" pos="56.99" length="28.87" />
+        <access friendlyPos="true" lane="911114930#1_0" pos="58.14" length="93.02" />
+        <access friendlyPos="true" lane="911114931_0" pos="38.23" length="113.29" />
+    </busStop>
+    <busStop id="t1A9-b1601D-sl4.9" lane="182050922#0_0" startPos="12.76" endPos="25.76" friendlyPos="true" name="Santa Anita Ave and Bryant Rd W" />
+    <busStop id="t1A9-b1601D-sl4.10" lane="401279534#0_0" startPos="42.76" endPos="55.76" friendlyPos="true" name="Santa Anita Ave and Valley Blvd W">
+        <access friendlyPos="true" lane="-1083537081_0" pos="12.78" length="131.56" />
+        <access friendlyPos="true" lane="-146653538_0" pos="103.01" length="35.68" />
+        <access friendlyPos="true" lane="-505468208_0" pos="17.53" length="133.73" />
+        <access friendlyPos="true" lane="-815400445#0_0" pos="92.18" length="117.69" />
+        <access friendlyPos="true" lane="1083115313#0_0" pos="0.00" length="152.95" />
+        <access friendlyPos="true" lane="1083537081_0" pos="72.69" length="136.36" />
+        <access friendlyPos="true" lane="146653538_0" pos="99.04" length="32.68" />
+        <access friendlyPos="true" lane="401279541_0" pos="19.46" length="54.29" />
+        <access friendlyPos="true" lane="505468208_0" pos="0.00" length="129.48" />
+        <access friendlyPos="true" lane="815400445#0_0" pos="0.00" length="122.20" />
+    </busStop>
+    <busStop id="t212-b15F99-sl4.1" lane="401279526#0_0" startPos="41.49" endPos="54.49" friendlyPos="true" name="Santa Anita Ave and Main St E">
+        <access friendlyPos="true" lane="-723702395#1_0" pos="28.38" length="123.06" />
+        <access friendlyPos="true" lane="-723702395#2_0" pos="0.00" length="98.49" />
+        <access friendlyPos="true" lane="-723702396#0_0" pos="78.44" length="91.21" />
+        <access friendlyPos="true" lane="-723702396#1_0" pos="60.47" length="118.16" />
+        <access friendlyPos="true" lane="-815400445#0_0" pos="92.18" length="124.91" />
+        <access friendlyPos="true" lane="723702395#2_0" pos="56.36" length="102.71" />
+        <access friendlyPos="true" lane="723702396#0_0" pos="12.56" length="86.41" />
+        <access friendlyPos="true" lane="723702396#1_0" pos="0.00" length="115.50" />
+        <access friendlyPos="true" lane="815400445#0_0" pos="0.00" length="120.12" />
+        <access friendlyPos="true" lane="935862068_0" pos="24.98" length="81.74" />
+    </busStop>
+    <busStop id="t212-b15F99-sl4.2" lane="405493022#0_0" startPos="17.16" endPos="30.16" friendlyPos="true" name="Santa Anita Ave and Bryant Rd E" />
+    <busStop id="t212-b15F99-sl4.3" lane="405493046_0" startPos="135.00" endPos="148.00" friendlyPos="true" name="Santa Anita Ave and Tyler Ave E">
+        <access friendlyPos="true" lane="-724026142#1_0" pos="95.32" length="119.68" />
+        <access friendlyPos="true" lane="-765324280#4_0" pos="0.00" length="105.66" />
+        <access friendlyPos="true" lane="-845076340_0" pos="18.54" length="77.68" />
+        <access friendlyPos="true" lane="-911114930#1_0" pos="0.00" length="84.18" />
+        <access friendlyPos="true" lane="-911114931_0" pos="0.00" length="76.49" />
+        <access friendlyPos="true" lane="24742735_0" pos="0.00" length="29.61" />
+        <access friendlyPos="true" lane="765324280#4_0" pos="23.79" length="107.26" />
+        <access friendlyPos="true" lane="845076340_0" pos="75.61" length="82.59" />
+        <access friendlyPos="true" lane="911114930#1_0" pos="58.14" length="82.21" />
+        <access friendlyPos="true" lane="911114931_0" pos="38.23" length="76.41" />
+    </busStop>
+    <busStop id="t212-b15F99-sl4.4" lane="405493019_0" startPos="9.73" endPos="22.73" friendlyPos="true" name="Santa Anita Ave and Mulhall St E">
+        <access friendlyPos="true" lane="-1036530141_0" pos="99.14" length="60.22" />
+        <access friendlyPos="true" lane="-724026141_0" pos="107.99" length="117.88" />
+        <access friendlyPos="true" lane="-724026147_0" pos="78.44" length="53.47" />
+        <access friendlyPos="true" lane="-789848071_0" pos="8.45" length="51.32" />
+        <access friendlyPos="true" lane="-789848072_0" pos="27.40" length="60.94" />
+        <access friendlyPos="true" lane="1036530141_0" pos="0.00" length="56.20" />
+        <access friendlyPos="true" lane="724026141_0" pos="0.00" length="113.09" />
+        <access friendlyPos="true" lane="724026147_0" pos="3.76" length="58.28" />
+        <access friendlyPos="true" lane="789848071_0" pos="0.00" length="46.54" />
+        <access friendlyPos="true" lane="789848072_0" pos="0.00" length="62.38" />
+    </busStop>
+    <busStop id="t212-b15F99-sl4.5" lane="405337876#1_0" startPos="2.71" endPos="15.71" friendlyPos="true" name="Santa Anita Ave and Lower Azusa Rd E">
+        <access friendlyPos="true" lane="-643623793#0_0" pos="9.10" length="105.55" />
+        <access friendlyPos="true" lane="-643623793#1_0" pos="10.23" length="72.86" />
+        <access friendlyPos="true" lane="-643623794_0" pos="62.07" length="27.88" />
+        <access friendlyPos="true" lane="-911103859_0" pos="39.72" length="80.49" />
+        <access friendlyPos="true" lane="643623793#0_0" pos="25.32" length="100.75" />
+        <access friendlyPos="true" lane="643623793#1_0" pos="83.13" length="68.06" />
+        <access friendlyPos="true" lane="643623794_0" pos="3.49" length="32.68" />
+        <access friendlyPos="true" lane="680311699#2_0" pos="64.55" length="113.65" />
+        <access friendlyPos="true" lane="724010350_0" pos="0.00" length="133.09" />
+        <access friendlyPos="true" lane="911103859_0" pos="60.93" length="75.42" />
+    </busStop>
+    <busStop id="t212-b15F99-sl4.6" lane="1036527248_0" startPos="24.38" endPos="37.38" friendlyPos="true" name="Santa Anita Ave and West Hondo Pkwy E">
+        <access friendlyPos="true" lane="-723799543_0" pos="13.69" length="143.83" />
+        <access friendlyPos="true" lane="-723799545_0" pos="0.00" length="84.25" />
+        <access friendlyPos="true" lane="-723799546_0" pos="89.12" length="103.54" />
+        <access friendlyPos="true" lane="-795191589_0" pos="0.68" length="43.50" />
+        <access friendlyPos="true" lane="-844168528_0" pos="39.57" length="84.85" />
+        <access friendlyPos="true" lane="723799543_0" pos="156.92" length="138.86" />
+        <access friendlyPos="true" lane="723799545_0" pos="130.02" length="87.40" />
+        <access friendlyPos="true" lane="723799546_0" pos="0.00" length="99.43" />
+        <access friendlyPos="true" lane="795191589_0" pos="99.93" length="48.30" />
+        <access friendlyPos="true" lane="844168528_0" pos="0.00" length="79.50" />
+    </busStop>
+    <busStop id="t212-b15F99-sl4.7" lane="405336654#0_0" startPos="23.74" endPos="36.74" friendlyPos="true" name="Santa Anita Ave and Freer St E">
+        <access friendlyPos="true" lane="-844126698_0" pos="61.46" length="102.37" />
+        <access friendlyPos="true" lane="844126698_0" pos="0.00" length="106.88" />
+    </busStop>
+    <busStop id="t212-b15F99-sl4.8" lane="405336648_0" startPos="11.46" endPos="24.46" friendlyPos="true" name="Santa Anita Ave and Daines Dr E">
+        <access friendlyPos="true" lane="-715784927_0" pos="0.00" length="145.28" />
+        <access friendlyPos="true" lane="-717182912_0" pos="66.55" length="102.93" />
+        <access friendlyPos="true" lane="715784927_0" pos="65.40" length="146.99" />
+        <access friendlyPos="true" lane="717182912_0" pos="0.00" length="98.13" />
+    </busStop>
+    <busStop id="t212-b15F99-sl4.9" lane="405337852#0_0" startPos="10.85" endPos="23.85" friendlyPos="true" name="Live Oak Ave and Santa Anita Ave E">
+        <access friendlyPos="true" lane="-1365737620#0_0" pos="28.74" length="33.77" />
+        <access friendlyPos="true" lane="-723765600#0_0" pos="14.69" length="38.50" />
+        <access friendlyPos="true" lane="-723765600#1_0" pos="14.81" length="53.55" />
+        <access friendlyPos="true" lane="-723765601#1_0" pos="0.00" length="39.38" />
+        <access friendlyPos="true" lane="1365737620#0_0" pos="18.43" length="28.97" />
+        <access friendlyPos="true" lane="1365737621_0" pos="16.98" length="65.56" />
+        <access friendlyPos="true" lane="723765600#0_0" pos="0.00" length="33.71" />
+        <access friendlyPos="true" lane="723765600#1_0" pos="0.00" length="50.21" />
+        <access friendlyPos="true" lane="723765601#1_0" pos="64.13" length="40.36" />
+        <access friendlyPos="true" lane="723765603_0" pos="56.53" length="72.08" />
+    </busStop>
+</additional>

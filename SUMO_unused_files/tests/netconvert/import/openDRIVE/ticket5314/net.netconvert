@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-07-17 09:42:37 by Eclipse SUMO netconvert Version v1_20_0+1266-51c9329b08e
+This data file and the accompanying materials
+are made available under the terms of the Eclipse Public License v2.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v20.html
+This file may also be made available under the following Secondary
+Licenses when the conditions for such availability set forth in the Eclipse
+Public License 2.0 are satisfied: GNU General Public License, version 2
+or later which is available at
+https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html
+SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <opendrive-files value="opendrive.xodr"/>
+    </input>
+
+    <output>
+        <write-license value="true"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds.except-deadend value="true"/>
+    </junctions>
+
+    <report>
+        <xml-validation value="never"/>
+    </report>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" rectangularLaneCut="true" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="5266.50,722.39,5269.39,1245.93" origBoundary="5266.50,722.39,5269.39,1245.93" projParameter="!"/>
+
+    <type id="driving" priority="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" width="3.65"/>
+
+    <edge id="-364" from="364.begin" to="364.end" priority="1" type="driving" shape="5269.39,722.39 5269.27,724.65 5269.17,726.10 5269.01,727.83 5268.82,729.69 5268.42,733.29,0.00 5268.27,734.74,0.01 5267.78,739.81,0.04 5267.59,741.74,0.06 5267.42,743.63,0.09 5267.26,745.35,0.11 5267.14,746.82,0.14 5267.02,748.50,0.16 5266.88,750.50,0.20 5266.74,752.67,0.25 5266.62,754.84,0.30 5266.54,756.85,0.35 5266.50,758.54,0.40 5266.52,1245.93,-0.00">
+        <lane id="-364_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="523.49" width="3.20" shape="5274.19,722.65 5274.07,724.93 5273.95,726.49 5273.79,728.30 5273.59,730.21 5273.20,733.80,0.00 5273.05,735.21,0.01 5272.56,740.27,0.04 5272.37,742.20,0.06 5272.20,744.06,0.09 5272.05,745.76,0.11 5271.93,747.18,0.14 5271.81,748.84,0.16 5271.67,750.82,0.20 5271.53,752.96,0.25 5271.42,755.08,0.30 5271.33,757.00,0.35 5271.30,758.58,0.40 5271.32,1245.93,-0.00" type="driving"/>
+        <lane id="-364_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="22.22" length="523.49" width="3.20" shape="5270.99,722.48 5270.87,724.74 5270.77,726.23 5270.60,727.98 5270.41,729.86 5270.01,733.46,0.00 5269.87,734.89,0.01 5269.37,739.96,0.04 5269.18,741.89,0.06 5269.01,743.77,0.09 5268.86,745.49,0.11 5268.74,746.94,0.14 5268.62,748.61,0.16 5268.48,750.61,0.20 5268.34,752.77,0.25 5268.22,754.92,0.30 5268.14,756.90,0.35 5268.10,758.55,0.40 5268.12,1245.93,-0.00" type="driving"/>
+    </edge>
+
+    <junction id="364.begin" type="dead_end" x="5269.39" y="722.39" incLanes="" intLanes="" shape="5269.39,722.39 5275.78,722.73"/>
+    <junction id="364.end" type="dead_end" x="5266.52" y="1245.93" z="-0.00" incLanes="-364_0 -364_1" intLanes="" shape="5272.92,1245.93,-0.00 5266.52,1245.93,-0.00"/>
+
+</net>

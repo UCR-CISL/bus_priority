@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-22 23:42:44.956928 by osmWebWizard.py UNKNOWN
+<configuration>
+    <net-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm.net.xml.gz"/>
+    <ptlines-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_ptlines.xml"/>
+    <ptstops-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_stops.add.xml"/>
+    <output-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_pt.rou.xml"/>
+    <stopinfos-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/stopinfos.xml"/>
+    <routes-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/vehroutes.xml"/>
+    <trips-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_J:2" color="173,184,191" edges="39497550 604115940 448565811#0 24707236" >
+        <stop busStop="473127692" duration="20" until="57.0"/> <!-- El Monte Station -->
+    </route>
+    <route id="pt_bus_76:0" edges="608749309#1" >
+        <stop busStop="10962974172" duration="20" until="47.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_J:0" color="173,184,191" edges="645336418 580342766#1 448565810 39497550" >
+        <stop busStop="473127692" duration="20" until="147.0"/> <!-- El Monte Station -->
+    </route>
+    <route id="pt_bus_J:3" color="173,184,191" edges="39497550 604115940 448565811#0 24707236" >
+        <stop busStop="473127692" duration="20" until="61.0"/> <!-- El Monte Station -->
+    </route>
+    <route id="pt_bus_70:0" edges="608749309#1" >
+        <stop busStop="10962974173" duration="20" until="91.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_J:1" color="173,184,191" edges="645336418 580342766#1 448565810 39497550" >
+        <stop busStop="473127692" duration="20" until="180.0"/> <!-- El Monte Station -->
+    </route>
+    <route id="pt_bus_577:0" edges="608749309#0" >
+        <stop busStop="6919713540" duration="20" until="94.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_194:0" edges="608749309#0" >
+        <stop busStop="10962974169" duration="20" until="161.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_282:0" edges="608749309#1" >
+        <stop busStop="5766831104" duration="20" until="34.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_178:0" edges="608749309#0" >
+        <stop busStop="10962974170" duration="20" until="155.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_492:0" edges="604115947" >
+        <stop busStop="6206425481" duration="20" until="80.0"/> <!-- El Monte Station -->
+    </route>
+    <route id="pt_bus_707:0" edges="39497550" >
+        <stop busStop="6206425479" duration="20" until="78.0"/> <!-- El Monte Station -->
+        <stop busStop="6206425478" duration="20" until="121.0"/> <!-- El Monte Station -->
+        <stop busStop="6206425477" duration="20" until="163.0"/> <!-- El Monte Station -->
+    </route>
+    <route id="pt_bus_270:0" edges="608749309#0" >
+        <stop busStop="5766831115" duration="20" until="80.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_269:0" edges="608749309#0" >
+        <stop busStop="10962974171" duration="20" until="191.0"/> <!-- None -->
+    </route>
+    <route id="pt_bus_486:0" edges="604115947" >
+        <stop busStop="6206425483" duration="20" until="60.0"/> <!-- El Monte Station -->
+    </route>
+    <route id="pt_bus_7:0" edges="608749309#0 608749309#1 -604115944 -39497560#2 -39497560#1 -39497560#0 401279508 401279518 401280477#0 401280477#1 401280477#2 401280472 401280473 401280476 401280471 844266946 401280482 401280481 401280479#0 401280479#2 719920981 719920980 401280480#0 401280480#1 401280480#2 405492972 405492989 1002506672 405492967 405492978#0 405492978#1 -405492978#1 -405492978#0 -405492967 405492967 405492978#0 405492978#1 405492994 13330404#0 13330404#1 976576366#0 976576366#1 976576367#0" >
+        <stop busStop="10962974178" duration="20" until="75.0"/> <!-- None -->
+        <stop busStop="-4231956397" duration="20" until="438.0"/> <!-- Ramona Blvd and Tyler Ave -->
+        <stop busStop="4231972191" duration="20" until="505.0"/> <!-- Ramona Blvd and Main St W -->
+        <stop busStop="4234987294" duration="20" until="544.0"/> <!-- Ramona Blvd and Valley Blvd -->
+    </route>
+    <route id="pt_bus_190:0" edges="608749309#0 608749309#1 -604115944 -39497560#2 -39497560#1 -39497560#0 401279508 401279518 401280477#0 401280477#1 401280477#2 401280472 401280473 401280476 401280471 844266946 401280482 401280481 401280479#0 401280479#2 719920981 719920980 401280480#0 401280480#1 401280480#2 405492972 405492989 1002506672 405492967 405492978#0 405492978#1 405492994 13330404#0 13330404#1 976576366#0 976576366#1 976576367#0 405497704#0 687300872 405497708 45481513" >
+        <stop busStop="10962974168" duration="20" until="136.0"/> <!-- None -->
+        <stop busStop="4231956397" duration="20" until="398.0"/> <!-- Ramona Blvd and Tyler Ave -->
+        <stop busStop="4231972191@8452978" duration="20" until="455.0"/> <!-- Ramona Blvd and Main St W -->
+    </route>
+    <route id="pt_bus_488:0" edges="604115947 39497550 604115940 448565811#0 580342766#1 -448565809 -1365889296 -39497566 401280477#0 401280477#1 401280477#2 401280472 401280473 401280476 401280471 844266946 401280482 401280481 401280479#0 401280479#2 719920981 719920980 401280480#0 401280480#1 401280480#2 405492972 405492989 1002506672 405492967 405492978#0 405492978#1 405492994 13330404#0 13330404#1 976576366#0 976576366#1 976576367#0 405497704#0 687300872 1026947678 1026947679#0 405497704#0 687300872 405497708 45481513 844176767 405497700 -405497700 -844176767 -45481513 -405497708" >
+        <stop busStop="6206425482" duration="20" until="69.0"/> <!-- El Monte Station -->
+        <stop busStop="4231990389" duration="20" until="499.0"/> <!-- Ramona Blvd and Valley Blvd E -->
+    </route>
+    <flow id="pt_bus_J:2" type="pt_bus" route="pt_bus_J:2" begin="17.0" end="3617.0" period="600" line="J:2" >
+        <param key="name" value="Metro J Line: El Monte → Harbor Gateway"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_76:0" type="pt_bus" route="pt_bus_76:0" begin="119.0" end="3719.0" period="600" line="76:0" >
+        <param key="name" value="Metro 76"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_J:0" type="pt_bus" route="pt_bus_J:0" begin="15.0" end="3615.0" period="600" line="J:0" >
+        <param key="name" value="Metro J Line: Harbor Gateway → El Monte"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_J:3" type="pt_bus" route="pt_bus_J:3" begin="52.0" end="3652.0" period="600" line="J:3" >
+        <param key="name" value="Metro J Line: El Monte → San Pedro"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_70:0" type="pt_bus" route="pt_bus_70:0" begin="131.0" end="3731.0" period="600" line="70:0" >
+        <param key="name" value="Metro 70"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_J:1" type="pt_bus" route="pt_bus_J:1" begin="21.0" end="3621.0" period="600" line="J:1" >
+        <param key="name" value="Metro J Line: San Pedro → El Monte"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_577:0" type="pt_bus" route="pt_bus_577:0" begin="132.0" end="3732.0" period="600" line="577:0" >
+        <param key="name" value="Metro 577"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_bus_194:0" type="pt_bus" route="pt_bus_194:0" begin="165.0" end="3765.0" period="600" line="194:0" >
+        <param key="name" value="Foothill Transit 194"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_bus_282:0" type="pt_bus" route="pt_bus_282:0" begin="353.0" end="3953.0" period="600" line="282:0" >
+        <param key="name" value="Foothill Transit 282"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_bus_178:0" type="pt_bus" route="pt_bus_178:0" begin="303.0" end="3903.0" period="600" line="178:0" >
+        <param key="name" value="Foothill Transit 178"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_492:0" type="pt_bus" route="pt_bus_492:0" begin="406.0" end="4006.0" period="600" line="492:0" >
+        <param key="name" value="Foothill Transit 492"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_bus_707:0" type="pt_bus" route="pt_bus_707:0" begin="326.0" end="3926.0" period="600" line="707:0" >
+        <param key="name" value="Silver Streak"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_bus_270:0" type="pt_bus" route="pt_bus_270:0" begin="383.0" end="3983.0" period="600" line="270:0" >
+        <param key="name" value="Foothill Transit 270"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_bus_269:0" type="pt_bus" route="pt_bus_269:0" begin="390.0" end="3990.0" period="600" line="269:0" >
+        <param key="name" value="Foothill Transit 269"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_bus_486:0" type="pt_bus" route="pt_bus_486:0" begin="535.0" end="4135.0" period="600" line="486:0" >
+        <param key="name" value="Foothill Transit 486"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_bus_7:0" type="pt_bus" route="pt_bus_7:0" begin="139.0" end="3739.0" period="600" line="7:0" >
+        <param key="name" value="Norwalk Transit 7"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="pt_bus_190:0" type="pt_bus" route="pt_bus_190:0" begin="253.0" end="3853.0" period="600" line="190:0" >
+        <param key="name" value="Foothill Transit 190"/>
+        <param key="completeness" value="0.50"/>
+    </flow>
+    <flow id="pt_bus_488:0" type="pt_bus" route="pt_bus_488:0" begin="441.0" end="4041.0" period="600" line="488:0" >
+        <param key="name" value="Foothill Transit 488"/>
+        <param key="completeness" value="0.67"/>
+    </flow>
+</routes>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-22 23:42:40.981998 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ UNKNOWN
+<configuration>
+    <net-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm.net.xml.gz"/>
+    <ptlines-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_ptlines.xml"/>
+    <ptstops-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_stops.add.xml"/>
+    <output-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_pt.rou.xml"/>
+    <stopinfos-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/stopinfos.xml"/>
+    <routes-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/vehroutes.xml"/>
+    <trips-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_tram" vClass="tram" speedFactor="1.0"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_minibus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_share_taxi" vClass="taxi" speedFactor="0.95"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="0_bus_J:0" type="pt_bus" depart="15.0" departLane="best" from="645336418" to="39497550">
+        <stop busStop="473127692" duration="30"/>  <!-- El Monte Station -->
+    </trip>
+    <trip id="1_bus_J:1" type="pt_bus" depart="15.0" departLane="best" from="645336418" to="39497550">
+        <stop busStop="473127692" duration="30"/>  <!-- El Monte Station -->
+    </trip>
+    <trip id="2_bus_J:2" type="pt_bus" depart="17.0" departLane="best" from="39497550" to="24707236">
+        <stop busStop="473127692" duration="30"/>  <!-- El Monte Station -->
+    </trip>
+    <trip id="3_bus_J:3" type="pt_bus" depart="52.0" departLane="best" from="39497550" to="24707236">
+        <stop busStop="473127692" duration="30"/>  <!-- El Monte Station -->
+    </trip>
+    <trip id="4_bus_76:0" type="pt_bus" depart="119.0" departLane="best" from="608749309#1" to="608749309#1">
+        <stop busStop="10962974172" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="5_bus_70:0" type="pt_bus" depart="131.0" departLane="best" from="608749309#1" to="608749309#1">
+        <stop busStop="10962974173" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="6_bus_577:0" type="pt_bus" depart="132.0" departLane="best" from="608749309#0" to="608749309#0">
+        <stop busStop="6919713540" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="7_bus_7:0" type="pt_bus" depart="133.0" departLane="best" from="608749309#0" to="976576367#0">
+        <stop busStop="10962974178" duration="30"/>  <!-- None -->
+        <stop busStop="-4231956397" duration="30"/>  <!-- Ramona Blvd and Tyler Ave -->
+        <stop busStop="4231972191" duration="30"/>  <!-- Ramona Blvd and Main St W -->
+        <stop busStop="4234987294" duration="30"/>  <!-- Ramona Blvd and Valley Blvd -->
+    </trip>
+    <trip id="8_bus_194:0" type="pt_bus" depart="165.0" departLane="best" from="608749309#0" to="608749309#0">
+        <stop busStop="10962974169" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="9_bus_190:0" type="pt_bus" depart="253.0" departLane="best" from="608749309#0" to="45481513">
+        <stop busStop="10962974168" duration="30"/>  <!-- None -->
+        <stop busStop="4231956397" duration="30"/>  <!-- Ramona Blvd and Tyler Ave -->
+        <stop busStop="4231972191@8452978" duration="30"/>  <!-- Ramona Blvd and Main St W -->
+    </trip>
+    <trip id="10_bus_178:0" type="pt_bus" depart="303.0" departLane="best" from="608749309#0" to="608749309#0">
+        <stop busStop="10962974170" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="11_bus_707:0" type="pt_bus" depart="326.0" departLane="best" from="39497550" to="39497550">
+        <stop busStop="6206425479" duration="30"/>  <!-- El Monte Station -->
+        <stop busStop="6206425478" duration="30"/>  <!-- El Monte Station -->
+        <stop busStop="6206425477" duration="30"/>  <!-- El Monte Station -->
+    </trip>
+    <trip id="12_bus_282:0" type="pt_bus" depart="353.0" departLane="best" from="608749309#1" to="608749309#1">
+        <stop busStop="5766831104" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="13_bus_270:0" type="pt_bus" depart="383.0" departLane="best" from="608749309#0" to="608749309#0">
+        <stop busStop="5766831115" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="14_bus_269:0" type="pt_bus" depart="389.0" departLane="best" from="608749309#0" to="608749309#0">
+        <stop busStop="10962974171" duration="30"/>  <!-- None -->
+    </trip>
+    <trip id="15_bus_492:0" type="pt_bus" depart="406.0" departLane="best" from="604115947" to="604115947">
+        <stop busStop="6206425481" duration="30"/>  <!-- El Monte Station -->
+    </trip>
+    <trip id="16_bus_488:0" type="pt_bus" depart="441.0" departLane="best" from="604115947" to="-405497708">
+        <stop busStop="6206425482" duration="30"/>  <!-- El Monte Station -->
+        <stop busStop="4231990389" duration="30"/>  <!-- Ramona Blvd and Valley Blvd E -->
+    </trip>
+    <trip id="17_bus_486:0" type="pt_bus" depart="535.0" departLane="best" from="604115947" to="604115947">
+        <stop busStop="6206425483" duration="30"/>  <!-- El Monte Station -->
+    </trip>
+</routes>

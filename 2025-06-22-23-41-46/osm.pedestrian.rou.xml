@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-22 23:42:53.874080 by osmWebWizard.py UNKNOWN
+<configuration>
+    <net-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm.net.xml.gz"/>
+    <additional-files value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_stops.add.xml,/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_pt.rou.xml"/>
+    <output-trip-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm.pedestrian.trips.xml"/>
+    <route-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm.pedestrian.rou.xml"/>
+    <persontrips value="True"/>
+    <persontrip.walk-opposite-factor value="0.8"/>
+    <prefix value="ped"/>
+    <trip-attributes value="modes=&quot;public&quot;"/>
+    <vehicle-class value="pedestrian"/>
+    <fringe-factor value="1"/>
+    <insertion-density value="10.0"/>
+    <duarouter-weights.tls-penalty value="20"/>
+</configuration>
+-->
+
+<!-- generated on 2025-06-22 23:42:53 by Eclipse SUMO duarouter Version 1.22.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm.net.xml.gz"/>
+        <additional-files value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_stops.add.xml,/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm_pt.rou.xml"/>
+        <route-files value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm.pedestrian.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-22-23-41-46/osm.pedestrian.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <processing>
+        <weights.tls-penalty value="20"/>
+        <persontrip.walk-opposite-factor value="0.8"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ped_pedestrian" vClass="pedestrian"/>
+    <person id="ped182" type="ped_pedestrian" depart="247.07">
+        <walk edges="-803175989#0 -803175990" busStop="4226761489"/> <!-- Metro 78; Foothill Transit 492 -->
+        <walk edges="-386891041#1 -386891037 -386891044#1 386891038"/>
+    </person>
+    <person id="ped191" type="ped_pedestrian" depart="259.29">
+        <walk edges="-738991253#0 738991253#1 738991253#2" busStop="-4231956397"/> <!-- Ramona Blvd and Tyler Ave -->
+        <ride busStop="4234987294" lines="7:0" intended="pt_bus_7:0.0" depart="577.00"/> <!-- Ramona Blvd and Valley Blvd -->
+        <walk edges="-1386035347#0 -1247626269 1386035347#1 1386035347#2 -13318234#3 766186250#0 766186250#1 766186250#2 766186250#3 844142996" busStop="-4264448495"/> <!-- Metro 76, 268 -->
+        <walk edges="44555623 44555616#0 44555616#1 44555616#2 44555616#3 44555616#4 44555617 -44555611#2 -44555611#1 -44555611#0 844186009 -844186009"/>
+    </person>
+    <person id="ped217" type="ped_pedestrian" depart="294.58">
+        <walk edges="1365737620#1 723765599#1 723765599#2 327496784#0 327496784#1 327496784#2 327496784#3 327496784#4 -327496784#4"/>
+    </person>
+    <person id="ped322" type="ped_pedestrian" depart="437.12">
+        <walk edges="771549114 771549108#1 771549113 -45481510#1 -45481510#0" busStop="-579458019"/> <!-- Metro 190;Foothill Transit 488;Metro -->
+        <walk edges="-844176766" busStop="4231975693"/> <!-- Foothill Transit 190, 488 -->
+        <walk edges="723993805#1 799543301 1149302907"/>
+    </person>
+    <person id="ped440" type="ped_pedestrian" depart="597.31">
+        <walk edges="-723702402#4 -905679688 -723702404#1"/>
+    </person>
+    <person id="ped587" type="ped_pedestrian" depart="796.86">
+        <walk edges="-1083115313#2 -1083115313#1 1083537081" busStop="4225454690"/> <!-- Metro 76 -->
+        <walk edges="401279541" busStop="4225440699"/> <!-- Metro 76 -->
+        <walk edges="-815400445#0" busStop="4225454691"/> <!-- Metro 76 -->
+        <walk edges="-723702395#0" busStop="579354933"/> <!-- Metro 76, 267 -->
+        <walk edges="-723702395#2" busStop="7105900156"/> <!-- Metro 76, 287 -->
+        <walk edges="935862068 723702397#1"/>
+    </person>
+    <person id="ped635" type="ped_pedestrian" depart="862.03">
+        <walk edges="-905679694#1 905679695" busStop="-4264448400"/> <!-- Metro 76 -->
+        <walk edges="-724018717 724018716#1 724018718 724018715#3 -724018715#3" busStop="579458035"/> <!-- Metro 76 -->
+        <walk edges="844980411" busStop="579458029"/> <!-- Metro 76, 268 -->
+        <walk edges="1183922692 1183922694 -766186250#4 -766186250#3 -766186250#2 -766186250#1 -766186250#0 13318234#3 -1386035347#2 1386035347#1"/>
+    </person>
+    <person id="ped892" type="ped_pedestrian" depart="1210.91">
+        <walk edges="-723993805#0 723993805#1 799543301 717193289#1 -723993796"/>
+    </person>
+    <person id="ped957" type="ped_pedestrian" depart="1299.15">
+        <walk edges="1365889299 -448568967 -448565816 608501581#0 608501581#1 604060321 604060322#1" busStop="10962974178"/>
+        <ride busStop="4231972191" lines="7:0" intended="pt_bus_7:0.3" depart="2014.00"/> <!-- Ramona Blvd and Main St W -->
+        <walk edges="-365924924#2 -365924924#1 -365924924#0 365924923#1 -365924923#1" busStop="4234987293"/> <!-- Foothill Transit 178, 194, 270, 282 -->
+        <walk edges="723720236 723720234#0 723720239#0 723720239#1 723720240 792881282 -466743674#1 -466743674#0"/>
+    </person>
+    <person id="ped998" type="ped_pedestrian" depart="1354.80">
+        <walk edges="449603492#0 1365889299" busStop="10962974174"/>
+        <walk edges="604060321" busStop="6206425482"/> <!-- El Monte Station -->
+        <ride busStop="4231990389" lines="488:0" intended="pt_bus_488:0.2" depart="1710.00"/> <!-- Ramona Blvd and Valley Blvd E -->
+        <walk edges="687300869"/>
+    </person>
+    <person id="ped1026" type="ped_pedestrian" depart="1392.82">
+        <walk edges="905679692 905679693" busStop="4264445902"/> <!-- Valley / El Monte -->
+        <walk edges="724018717 724018715#1 724018715#2 724018715#3 -724018715#3" busStop="579458035"/> <!-- Metro 76 -->
+        <walk edges="844980411" busStop="579458029"/> <!-- Metro 76, 268 -->
+        <walk edges="1183922692 1183922694 -766186250#4 -766186250#3 -766186250#2 -766186250#1 -766186250#0 13318234#3 -1386035347#2 -1386035347#1 1247626269 -1386035347#0" busStop="4234987294"/> <!-- Ramona Blvd and Valley Blvd -->
+        <walk edges="-365924924#2 -365924924#1 -365924924#0 365924923#1 -365924923#1" busStop="4234987293"/> <!-- Foothill Transit 178, 194, 270, 282 -->
+        <walk edges="723720236 723720234#0 723720239#0 723720239#1 723720240 792881282 466743674#2 466743674#3 466743674#4 -466743674#5"/>
+    </person>
+    <person id="ped1043" type="ped_pedestrian" depart="1415.89">
+        <walk edges="1289853548 -1289853547#0 -1289853546#0 649609269#3"/>
+    </person>
+    <person id="ped1087" type="ped_pedestrian" depart="1475.62">
+        <walk edges="-738991272#4 -738991272#3 -738991272#2 -738991273 738991273" busStop="10962974178"/>
+        <ride busStop="4234987294" lines="7:0" intended="pt_bus_7:0.3" depart="2014.00"/> <!-- Ramona Blvd and Valley Blvd -->
+        <walk edges="-1386035347#0 -1247626269 1386035347#1 1386035347#2 -13318234#3 766186250#0 766186250#1 766186250#2 766186250#3 766186250#4 766186250#5 1183922692" busStop="579458029"/> <!-- Metro 76, 268 -->
+        <walk edges="844980411" busStop="579458035"/> <!-- Metro 76 -->
+        <walk edges="-724018715#3 -724018715#2 -724018716#2 -724018716#1 724018717" busStop="4264445902"/> <!-- Valley / El Monte -->
+        <walk edges="905679693 -905679691 905679690"/>
+    </person>
+    <person id="ped1198" type="ped_pedestrian" depart="1626.31">
+        <walk edges="44555616#0 44555623" busStop="-4264448495"/> <!-- Metro 76, 268 -->
+        <walk edges="844142996 -766186250#3 -766186250#2 -766186250#1 -766186250#0"/>
+    </person>
+    <person id="ped1351" type="ped_pedestrian" depart="1834.01">
+        <walk edges="717180944 -717180944"/>
+    </person>
+    <person id="ped1481" type="ped_pedestrian" depart="2010.49">
+        <walk edges="844992879"/>
+    </person>
+    <person id="ped1594" type="ped_pedestrian" depart="2163.89">
+        <walk edges="44555615 44555611#4 44555618 44555616#2 -44555616#1 -44555616#0 44555623" busStop="-4264448495"/> <!-- Metro 76, 268 -->
+        <walk edges="844142996 -766186250#3 -766186250#2 -766186250#1 766186251 -766186251"/>
+    </person>
+    <person id="ped1737" type="ped_pedestrian" depart="2358.01">
+        <walk edges="723765601#0 723765601#1" busStop="10711459381"/> <!-- Live Oak & Santa Anita (East of Santa Anita) -->
+        <walk edges="723765600#0 723765600#1 723765600#2 723765599#2 327496784#0 327496784#1 327496784#2 327496784#3 327496784#4 327496784#5 327496784#6 386891038"/>
+    </person>
+    <person id="ped1934" type="ped_pedestrian" depart="2625.44">
+        <walk edges="1306897809#0 810192023#1 810192023#2 -1306897814"/>
+    </person>
+    <person id="ped2088" type="ped_pedestrian" depart="2834.50">
+        <walk edges="-44555641#0 44555642#0 44555642#1 44555642#2 44555642#3 -44555642#4" busStop="-4231956397"/> <!-- Ramona Blvd and Tyler Ave -->
+        <ride busStop="4231972191" lines="7:0" intended="pt_bus_7:0.5" depart="3577.00"/> <!-- Ramona Blvd and Main St W -->
+        <walk edges="-365924924#2 -365924924#1 -365924924#0 365924923#1 -365924923#1" busStop="4234987293"/> <!-- Foothill Transit 178, 194, 270, 282 -->
+        <walk edges="723720236 723720234#0 723720239#0 723720239#1 723720240 792881282 466743674#2 466743674#3 466743674#4 466743674#5 466743674#6 844176765"/>
+    </person>
+    <person id="ped2110" type="ped_pedestrian" depart="2864.37">
+        <walk edges="-716700144#0 -716700147#0 -716700142 716700142"/>
+    </person>
+    <person id="ped2138" type="ped_pedestrian" depart="2902.38">
+        <walk edges="644419544#0 -644419544#0"/>
+    </person>
+    <person id="ped2147" type="ped_pedestrian" depart="2914.60">
+        <walk edges="-771558902 -771558901#1 -771558901#0" busStop="579458035"/> <!-- Metro 76 -->
+        <walk edges="844980411" busStop="579458029"/> <!-- Metro 76, 268 -->
+        <walk edges="1183922692 1183922694 -766186250#4 844142996" busStop="-4264448495"/> <!-- Metro 76, 268 -->
+        <walk edges="44555623 44555616#0 44555616#1 44555616#2 44555616#3 44555616#4 44555617 44555615"/>
+    </person>
+    <person id="ped2199" type="ped_pedestrian" depart="2985.19">
+        <walk edges="718798050#1 -718798050#0"/>
+    </person>
+    <person id="ped2515" type="ped_pedestrian" depart="3414.16">
+        <walk edges="717193285#1 -717193285#0 -1148708575#0 -643647914#4 596320621 -596320622#0 -596320611#2 -596320619 596320619"/>
+    </person>
+</routes>

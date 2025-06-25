@@ -1,0 +1,2862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-23 00:12:55.218136 by gtfs2pt.py d70dd9ec0
+<configuration>
+    <gtfs value="foothill_transit_gtfs.zip"/>
+    <date value="20250624"/>
+    <network value="osm.net.xml.gz"/>
+    <route-output value="gtfs_output/routes.rou.xml"/>
+    <additional-output value="gtfs_output/stops_additional.xml"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="t1C7-b27B4-sl4" edges="-648979703#1 -648979716#1 -648979728 -724306874#1 -724306874#0 -399541855 -399542189 -404952602#7 -404952602#6 -404952602#4 -404952602#3 -404952602#2 -404952602#1 -404952602#0 -404952594 13433114#0 13433114#1 13433114#2 13433114#3 608419124 404952608#0 976576365#0 976576365#2 976576365#3 -13330404#1 -13330404#0 -405492994 -405492978#1 -405492978#0 -405492967 -1002506672 -405492989 -405492983 -401280480#2 -401280480#1 -401280480#0 -719920980 -719920981 -401280479#2 -401280479#0 -401280481 -401280482 -844266946 -401280471 -401280476 -401280473 -401280472 -401280477#2 -401280477#1 -401280477#0 39497566 1365889296 448565809 448565810 39497550 604115940 604115937 608749309#1">
+        <stop busStop="t1C7-b27B4-sl4.0" duration="10" until="0"/> <!-- Valley Blvd &amp; Peck Rd -->
+        <stop busStop="t1C7-b27B4-sl4.1" duration="10" until="49"/> <!-- Valley Blvd and Johnson Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.2" duration="10" until="119"/> <!-- Ramona Blvd and Main St W -->
+        <stop busStop="t1C7-b27B4-sl4.3" duration="10" until="160"/> <!-- Ramona Blvd and Tyler Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.4" duration="10" until="214"/> <!-- Ramona Blvd and Lexington Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="390"/> <!-- El Monte Station Lower Level -->
+    </route>
+    <route id="t1F4-b2714-sl4" edges="608749309#1 -604115944 -39497560#2 -39497560#1 -39497560#0 401279508 401279518 401280477#0 401280477#1 401280477#2 401280472 401280473 401280476 401280471 844266946 401280482 401280481 401280479#0 401280479#2 719920981 719920980 401280480#0 401280480#1 401280480#2 405492972 405492989 1002506672 405492967 405492978#0 405492978#1 405492994 13330404#0 13330404#1 976576366#0 976576366#1 976576367#0 889471572#0 889471573 -13433114#3 -13433114#2 -13433114#1 -13433114#0 -1318042076 404952602#0 404952602#1 404952602#2 404952602#3 404952602#4 404952602#6 404952602#7 399542189 399541855 724306874#0 724306874#1 648979728 648979716#1">
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="0"/> <!-- El Monte Station Lower Level -->
+        <stop busStop="t1F4-b2714-sl4.1" duration="10" until="144"/> <!-- Ramona Blvd and Lexington Ave E -->
+        <stop busStop="t1F4-b2714-sl4.2" duration="10" until="214"/> <!-- Ramona Blvd and Tyler Ave E -->
+        <stop busStop="t1F4-b2714-sl4.3" duration="10" until="281"/> <!-- Valley Blvd and Ramona Blvd E -->
+        <stop busStop="t1F4-b2714-sl4.4" duration="10" until="332"/> <!-- Valley Blvd and Johnson Ave E -->
+        <stop busStop="t1F4-b2714-sl4.5" duration="10" until="387"/> <!-- Valley Blvd and Peck Rd E -->
+    </route>
+    <route id="t14-b2784-sl4" edges="-405497700 -844176767 -45481513 -405497708 1026947678 1026947679#0 976576365#0 976576365#2 976576365#3 -13330404#1 -13330404#0 -405492994 -405492978#1 -405492978#0 -405492967 -1002506672 -405492989 -405492983 -401280480#2 -401280480#1 -401280480#0 -719920980 -719920981 -401280479#2 -401280479#0 -401280481 -401280482 -844266946 -401280471 -401280476 -401280473 -401280472 -401280477#2 -401280477#1 -401280477#0 39497566 1365889296 448565809 448565810 39497550 604115940 604115937 608749309#1">
+        <stop busStop="t14-b2784-sl4.0" duration="10" until="0"/> <!-- Ramona Blvd and Orchard St -->
+        <stop busStop="t1C7-b27B4-sl4.2" duration="10" until="81"/> <!-- Ramona Blvd and Main St W -->
+        <stop busStop="t1C7-b27B4-sl4.3" duration="10" until="111"/> <!-- Ramona Blvd and Tyler Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.4" duration="10" until="150"/> <!-- Ramona Blvd and Lexington Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="278"/> <!-- El Monte Station Lower Level -->
+    </route>
+    <route id="t14-b27A3-sl4" edges="608749309#1 -604115944 -39497560#2 -39497560#1 -39497560#0 401279508 401279518 401280477#0 401280477#1 401280477#2 401280472 401280473 401280476 401280471 844266946 401280482 401280481 401280479#0 401280479#2 719920981 719920980 401280480#0 401280480#1 401280480#2 405492972 405492989 1002506672 405492967 405492978#0 405492978#1 405492994 13330404#0 13330404#1 976576366#0 976576366#1 976576367#0 405497704#0 687300872 405497708 45481513 844176767 405497700">
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="0"/> <!-- El Monte Station Lower Level -->
+        <stop busStop="t1F4-b2714-sl4.1" duration="10" until="117"/> <!-- Ramona Blvd and Lexington Ave E -->
+        <stop busStop="t1F4-b2714-sl4.2" duration="10" until="174"/> <!-- Ramona Blvd and Tyler Ave E -->
+        <stop busStop="t14-b27A3-sl4.3" duration="10" until="230"/> <!-- Ramona Blvd and Valley Blvd E -->
+        <stop busStop="t14-b27A3-sl4.4" duration="10" until="314"/> <!-- Ramona Blvd and Lee Ln -->
+    </route>
+    <route id="t14-b27A4-sl4" edges="608749309#1 -604115944 -39497560#2 -39497560#1 -39497560#0 401279508 401279518 401280477#0 401280477#1 401280477#2 401280472 401280473 401280476 401280471 844266946 401280482 401280481 401280479#0 401280479#2 719920981 719920980 401280480#0 401280480#1 401280480#2 405492972 405492989 1002506672 405492967 405492978#0 405492978#1 405492994 13330404#0 13330404#1 976576366#0 976576366#1 976576367#0 889471572#0 889471573 -13433114#3 -13433114#2 -13433114#1 -13433114#0 -1318042076 404952602#0 404952602#1 404952602#2 404952602#3 404952602#4 404952602#6 404952602#7 399542189 399541855 724306874#0 724306874#1 648979728 648979716#1">
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="0"/> <!-- El Monte Station Lower Level -->
+        <stop busStop="t1F4-b2714-sl4.1" duration="10" until="126"/> <!-- Ramona Blvd and Lexington Ave E -->
+        <stop busStop="t1F4-b2714-sl4.2" duration="10" until="188"/> <!-- Ramona Blvd and Tyler Ave E -->
+        <stop busStop="t1F4-b2714-sl4.3" duration="10" until="247"/> <!-- Valley Blvd and Ramona Blvd E -->
+        <stop busStop="t1F4-b2714-sl4.4" duration="10" until="292"/> <!-- Valley Blvd and Johnson Ave E -->
+        <stop busStop="t1F4-b2714-sl4.5" duration="10" until="341"/> <!-- Valley Blvd and Peck Rd E -->
+    </route>
+    <route id="t15-b2812-sl4" edges="-648979703#1 -648979716#1 -648979728 -724306874#1 -724306874#0 -399541855 -399542189 -404952602#7 -404952602#6 -404952602#4 -404952602#3 -404952602#2 -404952602#1 -404952602#0 -404952594 13433114#0 13433114#1 13433114#2 13433114#3 608419124 404952608#0 976576365#0 976576365#2 976576365#3 -13330404#1 -13330404#0 -405492994 -405492978#1 -405492978#0 -405492967 -1002506672 -405492989 -405492983 -401280480#2 -401280480#1 -401280480#0 -719920980 -719920981 -401280479#2 -401280479#0 -401280481 -401280482 -844266946 -401280471 -401280476 -401280473 -401280472 -401280477#2 -401280477#1 -401280477#0 39497566 1365889296 448565809 448565810 39497550 604115940 604115937 608749309#1">
+        <stop busStop="t1C7-b27B4-sl4.0" duration="10" until="0"/> <!-- Valley Blvd &amp; Peck Rd -->
+        <stop busStop="t1C7-b27B4-sl4.1" duration="10" until="47"/> <!-- Valley Blvd and Johnson Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.2" duration="10" until="113"/> <!-- Ramona Blvd and Main St W -->
+        <stop busStop="t1C7-b27B4-sl4.3" duration="10" until="152"/> <!-- Ramona Blvd and Tyler Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.4" duration="10" until="203"/> <!-- Ramona Blvd and Lexington Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="369"/> <!-- El Monte Station Lower Level -->
+    </route>
+    <route id="t258-b2795-sl4" edges="-399550744#2 -399550744#1 -399550744#0 -400823777#3 -400823777#2 -400823777#0 -72157799#1 -72157799#0 -28312221 400823782 400823791#0 400823791#1 1043712199 1043712198 400823780 770601483#1 39497560#0 39497560#1 39497560#2 39497561 608749309#0 608749309#1">
+        <stop busStop="t258-b2795-sl4.0" duration="10" until="0"/> <!-- Santa Anita Ave and Mildred St W -->
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="462"/> <!-- El Monte Station Lower Level -->
+    </route>
+    <route id="t25D-b277B-sl4" edges="608749309#1 -604115944 -39497560#2 -39497560#1 -39497560#0 -770601483#1 -400823780 -1043712198 -1043712199 -400823791#1 -400823791#0 -400823782 28312221 72157799#0 72157799#1 400823777#0">
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="0"/> <!-- El Monte Station Lower Level -->
+        <stop busStop="t25D-b277B-sl4.1" duration="10" until="199"/> <!-- Santa Anita Ave and Asher St E -->
+    </route>
+    <route id="t1BD-b27B3-sl4" edges="405497659#1 405497651 405497681 1022491856 1022491855#1 1022491854#0 1022491854#1 -648979703#1 -648979716#1 -648979728 -724306874#1 -724306874#0 -399541855 -399542189 -404952602#7 -404952602#6 -404952602#4 -404952602#3 -404952602#2 -404952602#1 -404952602#0 -404952594 13433114#0 13433114#1 13433114#2 13433114#3 608419124 404952608#0 976576365#0 976576365#2 976576365#3 -13330404#1 -13330404#0 -405492994 -405492978#1 -405492978#0 -405492967 -1002506672 -405492989 -405492983 -401280480#2 -401280480#1 -401280480#0 -719920980 -719920981 -401280479#2 -401280479#0 -401280481 -401280482 -844266946 -401280471 -401280476 -401280473 -401280472 -401280477#2 -401280477#1 -401280477#0 39497566 1365889296 448565809 448565810 39497550 604115940 604115937 608749309#1">
+        <stop busStop="t1BD-b27B3-sl4.0" duration="10" until="0"/> <!-- Peck Rd and Stewart St -->
+        <stop busStop="t1C7-b27B4-sl4.0" duration="10" until="66"/> <!-- Valley Blvd &amp; Peck Rd -->
+        <stop busStop="t1C7-b27B4-sl4.1" duration="10" until="112"/> <!-- Valley Blvd and Johnson Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.2" duration="10" until="176"/> <!-- Ramona Blvd and Main St W -->
+        <stop busStop="t1C7-b27B4-sl4.3" duration="10" until="214"/> <!-- Ramona Blvd and Tyler Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.4" duration="10" until="264"/> <!-- Ramona Blvd and Lexington Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="426"/> <!-- El Monte Station Lower Level -->
+    </route>
+    <route id="t1BD-b27B5-sl4" edges="608749309#1 -604115944 -39497560#2 -39497560#1 -39497560#0 401279508 401279518 401280477#0 401280477#1 401280477#2 401280472 401280473 401280476 401280471 844266946 401280482 401280481 401280479#0 401280479#2 719920981 719920980 401280480#0 401280480#1 401280480#2 405492972 405492989 1002506672 405492967 405492978#0 405492978#1 405492994 13330404#0 13330404#1 976576366#0 976576366#1 976576367#0 889471572#0 889471573 -13433114#3 -13433114#2 -13433114#1 -13433114#0 -1318042076 404952602#0 404952602#1 404952602#2 404952602#3 404952602#4 404952602#6 404952602#7 399542189 399541855 724306874#0 724306874#1 648979728 648979716#1 648979703#0 44546424 1022491851 399543248 399542658 399542659 405497657#0 405497690">
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="0"/> <!-- El Monte Station Lower Level -->
+        <stop busStop="t1F4-b2714-sl4.1" duration="10" until="125"/> <!-- Ramona Blvd and Lexington Ave E -->
+        <stop busStop="t1F4-b2714-sl4.2" duration="10" until="186"/> <!-- Ramona Blvd and Tyler Ave E -->
+        <stop busStop="t1F4-b2714-sl4.3" duration="10" until="244"/> <!-- Valley Blvd and Ramona Blvd E -->
+        <stop busStop="t1F4-b2714-sl4.4" duration="10" until="288"/> <!-- Valley Blvd and Johnson Ave E -->
+        <stop busStop="t1BD-b27B5-sl4.5" duration="10" until="347"/> <!-- Peck Rd and Valley Blvd -->
+        <stop busStop="t1BD-b27B5-sl4.6" duration="10" until="416"/> <!-- Peck Rd and Stewart St -->
+    </route>
+    <route id="t1F4-b15FA4-sl4" edges="-648979703#1 -648979716#1 -648979728 -724306874#1 -724306874#0 -399541855 -399542189 -404952602#7 -404952602#6 -404952602#4 -404952602#3 -404952602#2 -404952602#1 -404952602#0 -404952594 13433114#0 13433114#1 13433114#2 13433114#3 608419124 404952608#0 976576365#0 976576365#2 976576365#3 -13330404#1 -13330404#0 -405492994 -405492978#1 -405492978#0 -405492967 -1002506672 -405492989 -405492983 -401280480#2 -401280480#1 -401280480#0 -719920980 -719920981 -401280479#2 -401280479#0 -401280481 -401280482 -844266946 -401280471 -401280476 -401280473 -401280472 -401280477#2 -401280477#1 -401280477#0 39497566 1365889296 448565809 448565810 39497550 604115940 604115937 608749309#1">
+        <stop busStop="t1C7-b27B4-sl4.0" duration="10" until="0"/> <!-- Valley Blvd &amp; Peck Rd -->
+        <stop busStop="t1C7-b27B4-sl4.1" duration="10" until="41"/> <!-- Valley Blvd and Johnson Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.2" duration="10" until="98"/> <!-- Ramona Blvd and Main St W -->
+        <stop busStop="t1C7-b27B4-sl4.3" duration="10" until="133"/> <!-- Ramona Blvd and Tyler Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.4" duration="10" until="177"/> <!-- Ramona Blvd and Lexington Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="322"/> <!-- El Monte Station Lower Level -->
+    </route>
+    <route id="t20D-b1601F-sl4" edges="608749309#1 -604115944 -39497560#2 -39497560#1 -39497560#0 401279508 401279518 401280477#0 401280477#1 401280477#2 401280472 401280473 401280476 401280471 844266946 401280482 401280481 401280479#0 401280479#2 719920981 719920980 401280480#0 401280480#1 401280480#2 405492972 405492989 1002506672 405492967 405492978#0 405492978#1 405492994 13330404#0 13330404#1 976576366#0 976576366#1 976576367#0 889471572#0 889471573 -13433114#3 -13433114#2 -13433114#1 -13433114#0 -1318042076 404952602#0 404952602#1 404952602#2 404952602#3 404952602#4 404952602#6 404952602#7 399542189 399541855 724306874#0 724306874#1 648979728 648979716#1">
+        <stop busStop="t1C7-b27B4-sl4.5" duration="10" until="0"/> <!-- El Monte Station Lower Level -->
+        <stop busStop="t1F4-b2714-sl4.1" duration="10" until="108"/> <!-- Ramona Blvd and Lexington Ave E -->
+        <stop busStop="t1F4-b2714-sl4.2" duration="10" until="160"/> <!-- Ramona Blvd and Tyler Ave E -->
+        <stop busStop="t1F4-b2714-sl4.3" duration="10" until="210"/> <!-- Valley Blvd and Ramona Blvd E -->
+        <stop busStop="t1F4-b2714-sl4.4" duration="10" until="248"/> <!-- Valley Blvd and Johnson Ave E -->
+        <stop busStop="t1F4-b2714-sl4.5" duration="10" until="290"/> <!-- Valley Blvd and Peck Rd E -->
+    </route>
+    <route id="t1AE-b15F91-sl4" edges="-399550744#2 -399550744#1 -399550744#0 -400823777#3 -400823777#2 -400823777#0 -72157799#1 -72157799#0 -28312221 400823782 400823791#0 400823791#1 1043712199 1043712198 400823780 770601483#1 401279508 401279518 39497566 1365889296 448565809 448565810 39497550">
+        <stop busStop="t258-b2795-sl4.0" duration="10" until="0"/> <!-- Santa Anita Ave and Mildred St W -->
+        <stop busStop="t1AE-b15F91-sl4.1" duration="10" until="182"/> <!-- El Monte Station Upper Level -->
+    </route>
+    <route id="t1BD-b1601C-sl4" edges="39497550 604115940 448565811#0 580342766#1 -448565809 -1365889296 -39497566 -401279518 -401279508 -770601483#1 -400823780 -1043712198 -1043712199 -400823791#1 -400823791#0 -400823782 28312221 72157799#0 72157799#1 400823777#0">
+        <stop busStop="t1AE-b15F91-sl4.1" duration="10" until="0"/> <!-- El Monte Station Upper Level -->
+        <stop busStop="t25D-b277B-sl4.1" duration="10" until="238"/> <!-- Santa Anita Ave and Asher St E -->
+    </route>
+    <route id="t960-b15F97-sl4.trimmed" edges="400823777#0">
+        <stop busStop="t25D-b277B-sl4.1" duration="10" until="0"/> <!-- Santa Anita Ave and Asher St E -->
+    </route>
+    <route id="t19A-b15FB9-sl4" edges="-405497700 -844176767 -45481513 -405497708 1026947678 1026947679#0 976576365#0 976576365#2 976576365#3 -13330404#1 -13330404#0 -405492994 -405492978#1 -405492978#0 -405492967 -1002506672 -405492989 -405492983 -401280480#2 -401280480#1 -401280480#0 -719920980 -719920981 -401280479#2 -401280479#0 -401280481 -401280482 -844266946 -401280471 -401280476 -401280473 -401280472 -401280477#2 -401280477#1 -401280477#0 39497566 1365889296 448565809 448565810 39497550">
+        <stop busStop="t14-b2784-sl4.0" duration="10" until="0"/> <!-- Ramona Blvd and Orchard St -->
+        <stop busStop="t1C7-b27B4-sl4.2" duration="10" until="139"/> <!-- Ramona Blvd and Main St W -->
+        <stop busStop="t1C7-b27B4-sl4.3" duration="10" until="191"/> <!-- Ramona Blvd and Tyler Ave W -->
+        <stop busStop="t1C7-b27B4-sl4.4" duration="10" until="259"/> <!-- Ramona Blvd and Lexington Ave W -->
+        <stop busStop="t1AE-b15F91-sl4.1" duration="10" until="374"/> <!-- El Monte Station Upper Level -->
+    </route>
+    <route id="t21C-b15FC1-sl4" edges="39497550 604115940 448565811#0 580342766#1 -448565809 -1365889296 -39497566 401280477#0 401280477#1 401280477#2 401280472 401280473 401280476 401280471 844266946 401280482 401280481 401280479#0 401280479#2 719920981 719920980 401280480#0 401280480#1 401280480#2 405492972 405492989 1002506672 405492967 405492978#0 405492978#1 405492994 13330404#0 13330404#1 976576366#0 976576366#1 976576367#0 405497704#0 687300872 405497708 45481513 844176767 405497700">
+        <stop busStop="t1AE-b15F91-sl4.1" duration="10" until="0"/> <!-- El Monte Station Upper Level -->
+        <stop busStop="t1F4-b2714-sl4.1" duration="10" until="141"/> <!-- Ramona Blvd and Lexington Ave E -->
+        <stop busStop="t1F4-b2714-sl4.2" duration="10" until="196"/> <!-- Ramona Blvd and Tyler Ave E -->
+        <stop busStop="t14-b27A3-sl4.3" duration="10" until="251"/> <!-- Ramona Blvd and Valley Blvd E -->
+        <stop busStop="t14-b27A3-sl4.4" duration="10" until="332"/> <!-- Ramona Blvd and Lee Ln -->
+    </route>
+    <route id="t1A9-b1601D-sl4" edges="405337823 405337862#0 405337862#1 405337862#2 405337862#3 405337855 405337866#0 405337866#1 405337866#2 405337866#3 405337866#4 405337859#0 405337859#1 405336655#1 405336655#2 405336652#0 405336652#1 405336661#0 405336661#1 405336661#3 405336661#4 405336661#5 405336661#6 1221691599 405336642 405336657#0 405336657#1 405336657#2 405336657#3 405336657#4 405336639#0 405336639#1 405336664#0 405336664#3 405336664#4 405336644 405336660 1036527249#0 1036527249#1 25003116 405337880#1 405337880#2 405337880#3 405337880#4 405337867#0 405337877#0 405337877#1 405337878#0 405337873#0 405337873#1 680311701 405337868 405493036#0 405493036#1 1036530139 405493012 405493043#0 405493043#1 405493043#2 405493004 1094481473 405493034 405493030#0 405493048#0 405493048#1 405493025 405493041 405493017#0 182050922#0 401279512 1083115312 401279511 401279534#0 946725601#0 401279521#0 401279531#0 -1365257229#1 -1365257229#0 -739030982 -41734286 -401279523#1 -401279523#0 39497566 1365889296 448565809 448565810 39497550">
+        <stop busStop="t1A9-b1601D-sl4.0" duration="10" until="0"/> <!-- Live Oak Ave and Second Ave W -->
+        <stop busStop="t1A9-b1601D-sl4.1" duration="10" until="30"/> <!-- Live Oak Ave and Greenfield Ave W -->
+        <stop busStop="t1A9-b1601D-sl4.2" duration="10" until="87"/> <!-- Santa Anita Ave and Live Oak Ave W -->
+        <stop busStop="t1A9-b1601D-sl4.3" duration="10" until="130"/> <!-- Santa Anita Ave and Daines Dr W -->
+        <stop busStop="t1A9-b1601D-sl4.4" duration="10" until="193"/> <!-- Santa Anita Ave and Freer St W -->
+        <stop busStop="t1A9-b1601D-sl4.5" duration="10" until="254"/> <!-- Santa Anita Ave and West Hondo Pkwy W -->
+        <stop busStop="t1A9-b1601D-sl4.6" duration="10" until="344"/> <!-- Santa Anita Ave and Lower Azusa Rd W -->
+        <stop busStop="t1A9-b1601D-sl4.7" duration="10" until="394"/> <!-- Santa Anita Ave and Mulhall St W -->
+        <stop busStop="t1A9-b1601D-sl4.8" duration="10" until="473"/> <!-- Santa Anita Ave and Tyler Ave W -->
+        <stop busStop="t1A9-b1601D-sl4.9" duration="10" until="556"/> <!-- Santa Anita Ave and Bryant Rd W -->
+        <stop busStop="t1A9-b1601D-sl4.10" duration="10" until="677"/> <!-- Santa Anita Ave and Valley Blvd W -->
+        <stop busStop="t1AE-b15F91-sl4.1" duration="10" until="807"/> <!-- El Monte Station Upper Level -->
+    </route>
+    <route id="t212-b15F99-sl4" edges="39497550 604115940 448565811#0 580342766#1 -448565809 -1365889296 -39497566 401279523#0 401279523#1 41734286 739030982 1365257229#0 1365257229#1 401279526#0 401279510 401279509 401279514 946725603#0 401279529#0 401279513 25003117#0 25003117#1 405493022#0 405493039 1036711156 405493009 405493046 405493027#0 415101867 405493001#0 405493001#1 405493001#2 1094481475#0 1094481475#1 1094481475#2 1094481475#3 405493014 405493032#0 405493032#1 405493032#2 405493019 405493007 1036530140#0 1036530140#1 1036530140#2 405337869 405337870#0 405337870#1 405337870#2 405337876#0 405337876#1 405337879 405337871#0 405337874 405337875#0 405337875#1 405337875#2 -25003116 405336663#1 405336663#2 405336663#3 1036527248 405336640#0 405336640#1 405336662#0 405336654#0 405336651 405336659#1 405336659#2 405336659#3 405336648 405336647#0 405336647#1 405336641 405336658#0 405336658#1 405336658#2 405336658#3 405336658#4 405336650 405336656#0 405337852#0 405337852#1 405337842 405337863#0 405337863#1 405337863#2 405337847 405337865#0 405337865#1 405337865#2 405337826">
+        <stop busStop="t1AE-b15F91-sl4.1" duration="10" until="0"/> <!-- El Monte Station Upper Level -->
+        <stop busStop="t212-b15F99-sl4.1" duration="10" until="160"/> <!-- Santa Anita Ave and Main St E -->
+        <stop busStop="t212-b15F99-sl4.2" duration="10" until="299"/> <!-- Santa Anita Ave and Bryant Rd E -->
+        <stop busStop="t212-b15F99-sl4.3" duration="10" until="372"/> <!-- Santa Anita Ave and Tyler Ave E -->
+        <stop busStop="t212-b15F99-sl4.4" duration="10" until="459"/> <!-- Santa Anita Ave and Mulhall St E -->
+        <stop busStop="t212-b15F99-sl4.5" duration="10" until="511"/> <!-- Santa Anita Ave and Lower Azusa Rd E -->
+        <stop busStop="t212-b15F99-sl4.6" duration="10" until="599"/> <!-- Santa Anita Ave and West Hondo Pkwy E -->
+        <stop busStop="t212-b15F99-sl4.7" duration="10" until="658"/> <!-- Santa Anita Ave and Freer St E -->
+        <stop busStop="t212-b15F99-sl4.8" duration="10" until="713"/> <!-- Santa Anita Ave and Daines Dr E -->
+        <stop busStop="t212-b15F99-sl4.9" duration="10" until="780"/> <!-- Live Oak Ave and Santa Anita Ave E -->
+        <stop busStop="t212-b15F99-sl4.10" duration="10" until="812"/> <!-- Live Oak Ave and Myrtus Ave E -->
+        <stop busStop="t212-b15F99-sl4.11" duration="10" until="843"/> <!-- Live Oak Ave and Tyler Ave E -->
+    </route>
+    <route id="t12C-b2815-sl4" edges="39497550">
+        <stop busStop="t1AE-b15F91-sl4.1" duration="10" until="0"/> <!-- El Monte Station Upper Level -->
+    </route>
+    <vehicle id="t1C7-b27B4-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="22700" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1F4-b2714-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="17990" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t20D-b2791-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="24832" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t212-b2726-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="19790" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t22B-b2716-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="26692" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t258-b2718-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="21590" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t271-b2717-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="28492" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t276-b2719-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="23390" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t28F-b2714-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="30592" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t2BC-b2715-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="25190" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t2D5-b2778-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="32212" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2DA-b2729-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="26990" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t2F3-b2718-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="34312" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t320-b2712-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="28790" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t339-b2719-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="35872" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t33E-b2711-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="30590" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t357-b271A-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="37972" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t384-b27C6-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="32390" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t39D-b2715-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="39472" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3A2-b2736-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="34190" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t3BB-b2712-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="41272" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3E8-b2775-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="35990" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t401-b2711-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="43372" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t406-b27B3-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="37790" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t41F-b2713-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="44872" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t44C-b2796-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="39590" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t465-b27DB-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="46972" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t46A-b2715-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="41390" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t483-b27DC-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="48892" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t4B0-b2762-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="43190" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t4C9-b27C7-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="50692" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t4CE-b2711-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="44990" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t4E7-b2716-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="52072" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t514-b271A-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="46790" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t52D-b2717-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="54292" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t532-b271D-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="48590" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t54B-b2762-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="55672" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t578-b27E2-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="50390" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t591-b271F-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="57892" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t596-b27E3-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="52190" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t5AF-b27AF-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="59692" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t5DC-b271B-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="53990" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t5F6-b27AE-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="61552" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t5FA-b271C-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="55790" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t640-b27B1-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="57590" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t640-b27C3-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="63172" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t65E-b2722-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="59390" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t663-b271D-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="65692" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t6A4-b271F-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="61190" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t6A9-b271B-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="67612" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t6C2-b2713-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="62990" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t6C7-b271C-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="69352" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t708-b271E-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="64790" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t70D-b27B1-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="71152" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station via Baldwin"/>
+    </vehicle>
+    <vehicle id="t726-b2720-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="66590" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall via Baldwin"/>
+    </vehicle>
+    <vehicle id="t72B-b2722-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="72532" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t76C-b2721-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="68390" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t771-b27DF-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="74212" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t78A-b27A2-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="70190" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t78F-b2713-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="75952" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7D0-b271D-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="71990" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t7D5-b271E-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="77632" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7EE-b27B2-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="73790" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t7F3-b2720-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="79432" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t834-b2789-sl4.0" route="t1F4-b2714-sl4" type="bus" depart="75590" line="t1F4-b2714-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t839-b2731-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="81232" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t857-b2721-sl4.0" route="t1C7-b27B4-sl4" type="bus" depart="83032" line="t1C7-b27B4-sl4">
+        <param key="gtfs.route_name" value="178"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1B8-b2775-sl4.0" route="t14-b2784-sl4" type="bus" depart="19803" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1FE-b2776-sl4.0" route="t14-b2784-sl4" type="bus" depart="21783" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1FE-b2777-sl4.0" route="t14-b27A3-sl4" type="bus" depart="18590" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t212-b2790-sl4.0" route="t14-b2784-sl4" type="bus" depart="22983" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t21C-b2779-sl4.0" route="t14-b27A3-sl4" type="bus" depart="20390" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t226-b2715-sl4.0" route="t14-b2784-sl4" type="bus" depart="24377" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t258-b2774-sl4.0" route="t14-b27A3-sl4" type="bus" depart="21590" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t262-b2729-sl4.0" route="t14-b2784-sl4" type="bus" depart="25577" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t26C-b2776-sl4.0" route="t14-b27A3-sl4" type="bus" depart="22790" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t276-b2777-sl4.0" route="t14-b2784-sl4" type="bus" depart="26934" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t280-b2775-sl4.0" route="t14-b27A3-sl4" type="bus" depart="23990" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t285-b277C-sl4.0" route="t14-b2784-sl4" type="bus" depart="27834" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2BC-b2779-sl4.0" route="t14-b2784-sl4" type="bus" depart="28854" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2BC-b277D-sl4.0" route="t14-b27A3-sl4" type="bus" depart="25190" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t2CB-b2774-sl4.0" route="t14-b2784-sl4" type="bus" depart="29994" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2D0-b277B-sl4.0" route="t14-b27A3-sl4" type="bus" depart="26390" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t2DF-b277E-sl4.0" route="t14-b2784-sl4" type="bus" depart="31194" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2E4-b277F-sl4.0" route="t14-b27A3-sl4" type="bus" depart="27590" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t2E9-b27B3-sl4.0" route="t14-b2784-sl4" type="bus" depart="31794" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t320-b2775-sl4.0" route="t14-b2784-sl4" type="bus" depart="32754" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t320-b277A-sl4.0" route="t14-b27A3-sl4" type="bus" depart="28790" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t32F-b2776-sl4.0" route="t14-b2784-sl4" type="bus" depart="33654" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t334-b2779-sl4.0" route="t14-b27A3-sl4" type="bus" depart="29990" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t33E-b277D-sl4.0" route="t14-b2784-sl4" type="bus" depart="34554" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t348-b2774-sl4.0" route="t14-b27A3-sl4" type="bus" depart="31190" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t34D-b277B-sl4.0" route="t14-b2784-sl4" type="bus" depart="35454" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t384-b277E-sl4.0" route="t14-b27A3-sl4" type="bus" depart="32390" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t384-b278D-sl4.0" route="t14-b2784-sl4" type="bus" depart="36474" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t398-b275B-sl4.0" route="t14-b27A3-sl4" type="bus" depart="33590" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t3A2-b277F-sl4.0" route="t14-b2784-sl4" type="bus" depart="38454" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3B6-b2778-sl4.0" route="t14-b27A3-sl4" type="bus" depart="35390" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t3E8-b2774-sl4.0" route="t14-b2784-sl4" type="bus" depart="40254" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3FC-b278D-sl4.0" route="t14-b27A3-sl4" type="bus" depart="37190" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t406-b2779-sl4.0" route="t14-b2784-sl4" type="bus" depart="42054" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t41A-b2781-sl4.0" route="t14-b27A3-sl4" type="bus" depart="38990" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t44C-b275B-sl4.0" route="t14-b2784-sl4" type="bus" depart="43854" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t460-b2725-sl4.0" route="t14-b27A3-sl4" type="bus" depart="40790" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t46A-b2778-sl4.0" route="t14-b2784-sl4" type="bus" depart="45654" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t47E-b2714-sl4.0" route="t14-b27A3-sl4" type="bus" depart="42590" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t4B0-b2782-sl4.0" route="t14-b2784-sl4" type="bus" depart="47454" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4C4-b275B-sl4.0" route="t14-b27A3-sl4" type="bus" depart="44390" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t4CE-b2781-sl4.0" route="t14-b2784-sl4" type="bus" depart="49254" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4E2-b27F2-sl4.0" route="t14-b27A3-sl4" type="bus" depart="46190" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t514-b271C-sl4.0" route="t14-b2784-sl4" type="bus" depart="51054" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t528-b2713-sl4.0" route="t14-b27A3-sl4" type="bus" depart="47990" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t532-b2765-sl4.0" route="t14-b2784-sl4" type="bus" depart="52854" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t546-b2782-sl4.0" route="t14-b27A3-sl4" type="bus" depart="49790" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t578-b271E-sl4.0" route="t14-b2784-sl4" type="bus" depart="54654" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t587-b2787-sl4.0" route="t14-b2784-sl4" type="bus" depart="55554" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t58C-b2788-sl4.0" route="t14-b27A3-sl4" type="bus" depart="51590" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t596-b2763-sl4.0" route="t14-b2784-sl4" type="bus" depart="56454" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5A0-b2780-sl4.0" route="t14-b27A3-sl4" type="bus" depart="52790" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t5A5-b279B-sl4.0" route="t14-b2784-sl4" type="bus" depart="57354" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5DC-b2765-sl4.0" route="t14-b27A3-sl4" type="bus" depart="53990" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t5DC-b27A0-sl4.0" route="t14-b2784-sl4" type="bus" depart="58254" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5F0-b2721-sl4.0" route="t14-b27A3-sl4" type="bus" depart="55190" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t5F5-b2782-sl4.0" route="t14-b2784-sl4" type="bus" depart="59754" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5FA-b27F6-sl4.0" route="t14-b2784-sl4" type="bus" depart="60054" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t604-b27B7-sl4.0" route="t14-b27A3-sl4" type="bus" depart="56390" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t609-b278A-sl4.0" route="t14-b2784-sl4" type="bus" depart="60954" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t640-b2713-sl4.0" route="t14-b2784-sl4" type="bus" depart="61854" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t640-b2786-sl4.0" route="t14-b27A3-sl4" type="bus" depart="57590" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t654-b2780-sl4.0" route="t14-b2784-sl4" type="bus" depart="63054" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t654-b2787-sl4.0" route="t14-b27A3-sl4" type="bus" depart="58790" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t668-b2783-sl4.0" route="t14-b27A3-sl4" type="bus" depart="59990" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t668-b2788-sl4.0" route="t14-b2784-sl4" type="bus" depart="64254" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6A4-b2721-sl4.0" route="t14-b2784-sl4" type="bus" depart="65454" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6A4-b2789-sl4.0" route="t14-b27A3-sl4" type="bus" depart="61190" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t6B8-b278B-sl4.0" route="t14-b27A3-sl4" type="bus" depart="62390" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t6B8-b27B7-sl4.0" route="t14-b2784-sl4" type="bus" depart="66557" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6CC-b2784-sl4.0" route="t14-b27A3-sl4" type="bus" depart="63590" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t6CC-b2786-sl4.0" route="t14-b2784-sl4" type="bus" depart="67757" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t708-b2787-sl4.0" route="t14-b2784-sl4" type="bus" depart="68777" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t708-b27C3-sl4.0" route="t14-b27A3-sl4" type="bus" depart="64790" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t71C-b2783-sl4.0" route="t14-b2784-sl4" type="bus" depart="69977" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t71C-b2788-sl4.0" route="t14-b27A3-sl4" type="bus" depart="65990" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t730-b2789-sl4.0" route="t14-b2784-sl4" type="bus" depart="71177" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t730-b27AE-sl4.0" route="t14-b27A3-sl4" type="bus" depart="67190" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t76C-b27B6-sl4.0" route="t14-b27A3-sl4" type="bus" depart="68390" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t771-b278B-sl4.0" route="t14-b2784-sl4" type="bus" depart="72340" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t78A-b2784-sl4.0" route="t14-b2784-sl4" type="bus" depart="73840" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7D0-b2783-sl4.0" route="t14-b27A3-sl4" type="bus" depart="71990" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t7D0-b27C3-sl4.0" route="t14-b2784-sl4" type="bus" depart="75206" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t834-b2784-sl4.0" route="t14-b27A3-sl4" type="bus" depart="75590" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t834-b27B6-sl4.0" route="t14-b2784-sl4" type="bus" depart="78806" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t8A2-b2784-sl4.0" route="t14-b2784-sl4" type="bus" depart="82512" line="t14-b2784-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t8A2-b27A3-sl4.0" route="t14-b27A3-sl4" type="bus" depart="79790" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t90B-b2784-sl4.0" route="t14-b27A3-sl4" type="bus" depart="83690" line="t14-b27A3-sl4">
+        <param key="gtfs.route_name" value="190"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t19F-b2774-sl4.0" route="t15-b2812-sl4" type="bus" depart="18060" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1A9-b278D-sl4.0" route="t14-b27A4-sl4" type="bus" depart="15890" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t1BD-b2711-sl4.0" route="t15-b2812-sl4" type="bus" depart="19860" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1C2-b2712-sl4.0" route="t14-b27A4-sl4" type="bus" depart="17390" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t203-b278F-sl4.0" route="t15-b2812-sl4" type="bus" depart="21660" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t208-b2792-sl4.0" route="t14-b27A4-sl4" type="bus" depart="19190" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t217-b278D-sl4.0" route="t15-b2812-sl4" type="bus" depart="23479" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t217-b2793-sl4.0" route="t14-b27A4-sl4" type="bus" depart="20090" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t226-b2794-sl4.0" route="t14-b27A4-sl4" type="bus" depart="20990" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t22B-b2712-sl4.0" route="t15-b2812-sl4" type="bus" depart="24679" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t25D-b2796-sl4.0" route="t14-b27A4-sl4" type="bus" depart="21890" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t26C-b277A-sl4.0" route="t15-b2812-sl4" type="bus" depart="26375" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t26C-b278F-sl4.0" route="t14-b27A4-sl4" type="bus" depart="22790" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t27B-b2740-sl4.0" route="t14-b27A4-sl4" type="bus" depart="23690" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t27B-b2792-sl4.0" route="t15-b2812-sl4" type="bus" depart="27215" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t28A-b278D-sl4.0" route="t14-b27A4-sl4" type="bus" depart="24590" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t28F-b2793-sl4.0" route="t15-b2812-sl4" type="bus" depart="28775" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2C1-b2797-sl4.0" route="t14-b27A4-sl4" type="bus" depart="25490" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t2CB-b2794-sl4.0" route="t15-b2812-sl4" type="bus" depart="29975" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2D0-b2790-sl4.0" route="t14-b27A4-sl4" type="bus" depart="26390" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t2DF-b2796-sl4.0" route="t15-b2812-sl4" type="bus" depart="31175" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2DF-b2798-sl4.0" route="t14-b27A4-sl4" type="bus" depart="27290" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t2EE-b2792-sl4.0" route="t14-b27A4-sl4" type="bus" depart="28190" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t2F3-b2740-sl4.0" route="t15-b2812-sl4" type="bus" depart="32735" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t325-b277C-sl4.0" route="t14-b27A4-sl4" type="bus" depart="29090" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t32F-b278E-sl4.0" route="t15-b2812-sl4" type="bus" depart="33935" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t334-b279A-sl4.0" route="t14-b27A4-sl4" type="bus" depart="29990" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t348-b2795-sl4.0" route="t14-b27A4-sl4" type="bus" depart="31190" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t348-b2797-sl4.0" route="t15-b2812-sl4" type="bus" depart="35435" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t357-b2790-sl4.0" route="t15-b2812-sl4" type="bus" depart="36335" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t384-b2793-sl4.0" route="t14-b27A4-sl4" type="bus" depart="32390" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t398-b2714-sl4.0" route="t14-b27A4-sl4" type="bus" depart="33590" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t39D-b2798-sl4.0" route="t15-b2812-sl4" type="bus" depart="38135" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3AC-b2791-sl4.0" route="t14-b27A4-sl4" type="bus" depart="34790" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t3BB-b279A-sl4.0" route="t15-b2812-sl4" type="bus" depart="39935" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3F2-b278E-sl4.0" route="t14-b27A4-sl4" type="bus" depart="36590" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t401-b2795-sl4.0" route="t15-b2812-sl4" type="bus" depart="41735" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t410-b2776-sl4.0" route="t14-b27A4-sl4" type="bus" depart="38390" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t41F-b279B-sl4.0" route="t15-b2812-sl4" type="bus" depart="43535" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t456-b2790-sl4.0" route="t14-b27A4-sl4" type="bus" depart="40190" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t465-b2791-sl4.0" route="t15-b2812-sl4" type="bus" depart="45335" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t474-b27AC-sl4.0" route="t14-b27A4-sl4" type="bus" depart="41990" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t483-b279C-sl4.0" route="t15-b2812-sl4" type="bus" depart="47135" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4BA-b2795-sl4.0" route="t14-b27A4-sl4" type="bus" depart="43790" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t4C9-b279D-sl4.0" route="t15-b2812-sl4" type="bus" depart="48935" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4D8-b279B-sl4.0" route="t14-b27A4-sl4" type="bus" depart="45590" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t4E7-b271B-sl4.0" route="t15-b2812-sl4" type="bus" depart="50735" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t51E-b2791-sl4.0" route="t14-b27A4-sl4" type="bus" depart="47390" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t52D-b272A-sl4.0" route="t15-b2812-sl4" type="bus" depart="52535" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t53C-b279C-sl4.0" route="t14-b27A4-sl4" type="bus" depart="49190" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t54B-b279F-sl4.0" route="t15-b2812-sl4" type="bus" depart="54335" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t582-b2720-sl4.0" route="t14-b27A4-sl4" type="bus" depart="50990" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t591-b2799-sl4.0" route="t15-b2812-sl4" type="bus" depart="56135" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5A0-b279E-sl4.0" route="t14-b27A4-sl4" type="bus" depart="52790" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t5AF-b2791-sl4.0" route="t15-b2812-sl4" type="bus" depart="57935" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5DC-b279D-sl4.0" route="t14-b27A4-sl4" type="bus" depart="53990" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t5F0-b2798-sl4.0" route="t14-b27A4-sl4" type="bus" depart="55190" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t5F5-b277F-sl4.0" route="t15-b2812-sl4" type="bus" depart="59735" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t604-b27A2-sl4.0" route="t14-b27A4-sl4" type="bus" depart="56390" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t609-b2741-sl4.0" route="t15-b2812-sl4" type="bus" depart="60935" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t640-b2799-sl4.0" route="t14-b27A4-sl4" type="bus" depart="57590" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t645-b279E-sl4.0" route="t15-b2812-sl4" type="bus" depart="62135" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t654-b2755-sl4.0" route="t14-b27A4-sl4" type="bus" depart="58790" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t659-b2720-sl4.0" route="t15-b2812-sl4" type="bus" depart="63335" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t668-b2762-sl4.0" route="t14-b27A4-sl4" type="bus" depart="59990" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t668-b279D-sl4.0" route="t15-b2812-sl4" type="bus" depart="64235" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t677-b27A3-sl4.0" route="t15-b2812-sl4" type="bus" depart="65135" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t677-b27A4-sl4.0" route="t14-b27A4-sl4" type="bus" depart="60890" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Valley Blvd and Lemon Ave"/>
+    </vehicle>
+    <vehicle id="t6AE-b2798-sl4.0" route="t15-b2812-sl4" type="bus" depart="66035" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6AF-b277F-sl4.0" route="t14-b27A4-sl4" type="bus" depart="61850" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Valley Blvd and Lemon Ave"/>
+    </vehicle>
+    <vehicle id="t6BD-b27A0-sl4.0" route="t14-b27A4-sl4" type="bus" depart="62690" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t6BD-b27A2-sl4.0" route="t15-b2812-sl4" type="bus" depart="66935" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6CC-b2799-sl4.0" route="t15-b2812-sl4" type="bus" depart="67835" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6CC-b279E-sl4.0" route="t14-b27A4-sl4" type="bus" depart="63590" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t6DB-b27A5-sl4.0" route="t15-b2812-sl4" type="bus" depart="68735" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t708-b27F6-sl4.0" route="t14-b27A4-sl4" type="bus" depart="64790" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t712-b2755-sl4.0" route="t15-b2812-sl4" type="bus" depart="69496" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t71C-b279D-sl4.0" route="t14-b27A4-sl4" type="bus" depart="65990" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t721-b2762-sl4.0" route="t15-b2812-sl4" type="bus" depart="70396" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t730-b27A3-sl4.0" route="t14-b27A4-sl4" type="bus" depart="67190" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t735-b27A4-sl4.0" route="t15-b2812-sl4" type="bus" depart="71596" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t76C-b271B-sl4.0" route="t14-b27A4-sl4" type="bus" depart="68390" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t771-b27A0-sl4.0" route="t15-b2812-sl4" type="bus" depart="72376" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t785-b279E-sl4.0" route="t15-b2812-sl4" type="bus" depart="73576" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t78A-b27A5-sl4.0" route="t14-b27A4-sl4" type="bus" depart="70190" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t799-b279D-sl4.0" route="t15-b2812-sl4" type="bus" depart="74776" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7D5-b2762-sl4.0" route="t14-b27A4-sl4" type="bus" depart="72290" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t7DA-b27F0-sl4.0" route="t15-b2812-sl4" type="bus" depart="75638" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t839-b27B1-sl4.0" route="t14-b27A4-sl4" type="bus" depart="75890" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t83A-b2802-sl4.0" route="t15-b2812-sl4" type="bus" depart="78881" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t8A2-b2802-sl4.0" route="t14-b27A4-sl4" type="bus" depart="79790" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t8A3-b2812-sl4.0" route="t15-b2812-sl4" type="bus" depart="82781" line="t15-b2812-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t90B-b2812-sl4.0" route="t14-b27A4-sl4" type="bus" depart="83690" line="t14-b27A4-sl4">
+        <param key="gtfs.route_name" value="194"/>
+        <param key="gtfs.trip_headsign" value="East: Cal Poly Pomona"/>
+    </vehicle>
+    <vehicle id="t258-b2795-sl4.0" route="t258-b2795-sl4" type="bus" depart="22808" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t25D-b277B-sl4.0" route="t25D-b277B-sl4" type="bus" depart="21890" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t276-b277B-sl4.0" route="t258-b2795-sl4" type="bus" depart="24608" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t27B-b27B4-sl4.0" route="t25D-b277B-sl4" type="bus" depart="23690" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t2BC-b27B4-sl4.0" route="t258-b2795-sl4" type="bus" depart="26408" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2C1-b2736-sl4.0" route="t25D-b277B-sl4" type="bus" depart="25490" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t2DA-b2736-sl4.0" route="t258-b2795-sl4" type="bus" depart="28208" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2DF-b2795-sl4.0" route="t25D-b277B-sl4" type="bus" depart="27290" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t320-b2795-sl4.0" route="t258-b2795-sl4" type="bus" depart="30008" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t325-b2736-sl4.0" route="t25D-b277B-sl4" type="bus" depart="29090" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t33E-b2736-sl4.0" route="t258-b2795-sl4" type="bus" depart="31808" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t343-b2794-sl4.0" route="t25D-b277B-sl4" type="bus" depart="30890" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t384-b2794-sl4.0" route="t258-b2795-sl4" type="bus" depart="33608" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t389-b27B3-sl4.0" route="t25D-b277B-sl4" type="bus" depart="32690" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t3A2-b27B3-sl4.0" route="t258-b2795-sl4" type="bus" depart="35408" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3A7-b2796-sl4.0" route="t25D-b277B-sl4" type="bus" depart="34490" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t3E8-b2796-sl4.0" route="t258-b2795-sl4" type="bus" depart="37208" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t40B-b27AC-sl4.0" route="t25D-b277B-sl4" type="bus" depart="38090" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t44C-b27AC-sl4.0" route="t258-b2795-sl4" type="bus" depart="40868" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t46F-b2809-sl4.0" route="t25D-b277B-sl4" type="bus" depart="41690" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t4B0-b2809-sl4.0" route="t258-b2795-sl4" type="bus" depart="44468" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4D3-b2798-sl4.0" route="t25D-b277B-sl4" type="bus" depart="45290" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t514-b2798-sl4.0" route="t258-b2795-sl4" type="bus" depart="48068" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t519-b27BC-sl4.0" route="t25D-b277B-sl4" type="bus" depart="47090" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t532-b27BC-sl4.0" route="t258-b2795-sl4" type="bus" depart="49868" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t537-b2786-sl4.0" route="t25D-b277B-sl4" type="bus" depart="48890" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t578-b2786-sl4.0" route="t258-b2795-sl4" type="bus" depart="51668" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t57D-b27B1-sl4.0" route="t25D-b277B-sl4" type="bus" depart="50690" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t596-b27B1-sl4.0" route="t258-b2795-sl4" type="bus" depart="53468" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t59B-b2789-sl4.0" route="t25D-b277B-sl4" type="bus" depart="52490" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t5DC-b2789-sl4.0" route="t258-b2795-sl4" type="bus" depart="55268" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5E1-b27EA-sl4.0" route="t25D-b277B-sl4" type="bus" depart="54290" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t5FA-b27EA-sl4.0" route="t258-b2795-sl4" type="bus" depart="57068" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5FF-b2717-sl4.0" route="t25D-b277B-sl4" type="bus" depart="56090" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t640-b2717-sl4.0" route="t258-b2795-sl4" type="bus" depart="58868" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t645-b278B-sl4.0" route="t25D-b277B-sl4" type="bus" depart="57890" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t65E-b278B-sl4.0" route="t258-b2795-sl4" type="bus" depart="60668" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t663-b271E-sl4.0" route="t25D-b277B-sl4" type="bus" depart="59690" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t6A4-b271E-sl4.0" route="t258-b2795-sl4" type="bus" depart="62468" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6A9-b27AF-sl4.0" route="t25D-b277B-sl4" type="bus" depart="61490" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t6C2-b27AF-sl4.0" route="t258-b2795-sl4" type="bus" depart="64268" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6C7-b27AE-sl4.0" route="t25D-b277B-sl4" type="bus" depart="63290" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t708-b27AE-sl4.0" route="t258-b2795-sl4" type="bus" depart="66068" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t70D-b27B2-sl4.0" route="t25D-b277B-sl4" type="bus" depart="65090" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t726-b27B2-sl4.0" route="t258-b2795-sl4" type="bus" depart="67868" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t72B-b271D-sl4.0" route="t25D-b277B-sl4" type="bus" depart="66890" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t76C-b271D-sl4.0" route="t258-b2795-sl4" type="bus" depart="69608" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t771-b27B2-sl4.0" route="t25D-b277B-sl4" type="bus" depart="68690" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t78A-b27B2-sl4.0" route="t258-b2795-sl4" type="bus" depart="71408" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t78F-b271C-sl4.0" route="t25D-b277B-sl4" type="bus" depart="70490" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t7D0-b271C-sl4.0" route="t258-b2795-sl4" type="bus" depart="73208" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7D5-b27B1-sl4.0" route="t25D-b277B-sl4" type="bus" depart="72290" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t7F3-b27E7-sl4.0" route="t25D-b277B-sl4" type="bus" depart="74090" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t834-b27E7-sl4.0" route="t258-b2795-sl4" type="bus" depart="76808" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t857-b27B0-sl4.0" route="t25D-b277B-sl4" type="bus" depart="77690" line="t25D-b277B-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="South: Shops at Montebello"/>
+    </vehicle>
+    <vehicle id="t898-b27B0-sl4.0" route="t258-b2795-sl4" type="bus" depart="80408" line="t258-b2795-sl4">
+        <param key="gtfs.route_name" value="269"/>
+        <param key="gtfs.trip_headsign" value="North: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1BD-b27B3-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="19064" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1BD-b27B5-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="17090" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t221-b2711-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="20690" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t221-b27B5-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="22911" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t285-b2711-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="26511" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t285-b27B5-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="24290" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t2E9-b2791-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="27890" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t2E9-b27B5-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="30132" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t34D-b2791-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="33732" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t34D-b27B4-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="31490" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t3B1-b27B4-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="37332" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3B1-b27B5-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="35090" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t415-b2740-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="38690" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t415-b27B5-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="40932" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t479-b27B4-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="44538" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t479-b27B5-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="42290" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t4DD-b2766-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="45890" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t4DD-b279E-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="48138" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t541-b27B6-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="49490" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t541-b27B7-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="51738" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5A5-b2752-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="53090" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t5A5-b27B8-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="55338" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t609-b2784-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="56690" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t609-b27B6-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="58985" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t66D-b2784-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="62585" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t66D-b27B6-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="60290" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t6D1-b2782-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="63890" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t6D1-b27B6-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="66185" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t735-b2782-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="69771" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t735-b27B7-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="67490" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t799-b2782-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="71090" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t799-b27B7-sl4.0" route="t1BD-b27B3-sl4" type="bus" depart="73371" line="t1BD-b27B3-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="South: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7FD-b27B7-sl4.0" route="t1BD-b27B5-sl4" type="bus" depart="74690" line="t1BD-b27B5-sl4">
+        <param key="gtfs.route_name" value="270"/>
+        <param key="gtfs.trip_headsign" value="North: Arcadia Station"/>
+    </vehicle>
+    <vehicle id="t1F4-b15FA4-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="20248" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t20D-b1601F-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="19490" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t221-b15F9B-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="22948" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t25D-b15FA4-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="21890" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t267-b1601F-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="24748" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t285-b15FB5-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="24290" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t285-b15FC0-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="26548" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2CB-b15FA5-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="28545" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2CB-b15FCF-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="26090" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t2E9-b15FA4-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="30345" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2E9-b15FFD-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="27890" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t32F-b15FA3-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="29690" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t32F-b15FA6-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="32145" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t34D-b15FA7-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="33945" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t34D-b15FC1-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="31490" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t393-b15F9E-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="33290" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t393-b15FB2-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="35801" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3B1-b15FC2-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="35090" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t3B1-b15FF8-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="37601" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3F7-b15FA3-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="39401" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3F7-b15FA8-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="36890" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t45B-b15FA8-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="43160" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t45B-b15FC0-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="40490" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t4BF-b15FA5-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="44090" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t4BF-b15FC0-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="46760" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t523-b15FA5-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="50420" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t523-b15FDD-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="47690" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t541-b15FA8-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="52220" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t541-b1602C-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="49490" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t587-b15FAE-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="54020" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t587-b15FF0-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="51290" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t5A5-b15FA5-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="53090" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t5A5-b1602C-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="55820" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5EB-b15FAD-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="57543" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5EB-b15FD7-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="54890" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t609-b15FAC-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="56690" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t609-b15FE7-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="59343" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t64F-b15FB0-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="61143" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t64F-b16011-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="58490" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t66D-b15FAF-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="60290" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t66D-b15FE9-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="62943" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6B3-b15FA9-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="62090" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t6B4-b15FC7-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="64665" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6D1-b15FB8-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="63890" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t6D2-b15FAF-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="66465" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t717-b15FA9-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="68205" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t717-b16012-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="65690" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t735-b15FAA-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="70005" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t735-b15FAF-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="67490" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t77B-b15FF2-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="69290" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t77B-b1602D-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="71368" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t799-b15FAA-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="71090" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t799-b15FAB-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="73168" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7DF-b15FE7-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="72890" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t7DF-b16012-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="74968" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7FD-b15FAA-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="76768" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7FD-b15FAB-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="74690" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t843-b15FE9-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="76490" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t843-b15FFC-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="78431" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t89D-b15FFC-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="79490" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t8A7-b15FB1-sl4.0" route="t1F4-b15FA4-sl4" type="bus" depart="82031" line="t1F4-b15FA4-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t901-b15FB1-sl4.0" route="t20D-b1601F-sl4" type="bus" depart="83090" line="t20D-b1601F-sl4">
+        <param key="gtfs.route_name" value="282"/>
+        <param key="gtfs.trip_headsign" value="East: Puente Hills Mall"/>
+    </vehicle>
+    <vehicle id="t1AE-b15F91-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="20388" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1BD-b1601C-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="17090" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t1F4-b15FA3-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="17990" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t1F4-b15FFA-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="22234" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t203-b15FDC-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="23254" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t203-b15FF6-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="18890" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t212-b15FF7-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="19790" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t212-b15FFE-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="24274" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t221-b15FB9-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="20690" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t221-b15FDF-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="25294" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t258-b15F91-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="21590" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t258-b16000-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="26374" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t267-b15FF3-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="22490" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t267-b15FF5-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="27274" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t276-b15FA3-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="28294" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t276-b15FFA-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="23390" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t285-b15FDC-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="24290" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t285-b16001-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="29254" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2BC-b15FDD-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="30214" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2BC-b15FFE-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="25190" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t2CB-b15FDF-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="26090" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t2CB-b16003-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="31114" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2DA-b15FFB-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="26990" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t2DA-b15FFC-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="32014" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2E9-b15F91-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="32914" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2E9-b16000-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="27890" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t320-b15FF5-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="28790" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t320-b16004-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="33754" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t32F-b15FE0-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="29690" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t32F-b15FFA-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="34654" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t33E-b15FF3-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="35494" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t33E-b16001-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="30590" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t34D-b15FDD-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="31490" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t34D-b15FF6-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="36500" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t384-b15FA4-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="32390" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t384-b15FCA-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="37460" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t393-b15FF4-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="38360" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t393-b15FFC-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="33290" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t3A2-b15FFE-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="39260" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3A2-b16002-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="34190" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t3B1-b15FFD-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="40206" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3B1-b16004-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="35090" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t3E8-b15FA7-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="35990" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t3E8-b15FF9-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="41106" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3F7-b15FF3-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="36890" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t3F7-b15FF5-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="42006" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t406-b15FF6-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="37790" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t406-b15FFF-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="42966" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t415-b15FA4-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="43866" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t415-b15FCA-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="38690" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t44C-b15FF4-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="39590" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t44C-b15FFA-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="44826" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t45B-b15FF8-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="45726" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t45B-b15FFE-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="40490" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t46A-b15FA9-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="46626" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t46A-b15FFD-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="41390" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t479-b15FF9-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="42290" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t479-b15FFC-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="47526" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4B0-b15FF5-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="43190" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t4B0-b16006-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="48486" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4BF-b16005-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="44090" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t4BF-b16007-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="49446" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4CE-b15FFF-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="44990" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t4CE-b16008-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="50346" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4DD-b15FAA-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="51246" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4DD-b15FFA-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="45890" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t514-b15FBE-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="52146" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t514-b15FF8-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="46790" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t523-b15FA9-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="47690" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t523-b16009-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="53046" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t532-b15FF9-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="53946" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t532-b15FFC-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="48590" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t541-b15FF5-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="54846" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t541-b16006-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="49490" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t578-b15FBF-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="55746" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t578-b16007-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="50390" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t587-b15FE1-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="56646" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t587-b16008-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="51290" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t596-b15FAA-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="52190" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t596-b15FFA-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="57546" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5A5-b15FBE-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="53090" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t5A5-b16005-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="58446" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5DC-b15FE3-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="59346" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5DC-b16009-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="53990" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t5EB-b15FF9-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="54890" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t5EB-b15FFC-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="60246" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5FA-b15FF5-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="55790" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t5FA-b16004-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="61086" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t609-b15FBF-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="56690" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t609-b15FE2-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="61986" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t640-b15FB1-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="62706" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t640-b15FE1-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="57590" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t64F-b15FFA-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="58490" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t64F-b16006-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="63606" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t65E-b16005-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="59390" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t65E-b16007-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="64506" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t66D-b15FE3-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="60290" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t66D-b16008-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="65406" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6A4-b15FFC-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="61190" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t6A4-b1600E-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="66306" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6B3-b16004-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="62090" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t6B3-b1600A-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="67206" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6C2-b15FBA-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="68046" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6C2-b15FE2-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="62990" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t6D1-b15FF9-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="68946" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6D1-b1600D-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="63890" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t708-b15FB1-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="64790" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t708-b15FE1-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="69786" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t726-b16005-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="71466" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t726-b16028-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="66590" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t76C-b16009-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="73206" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t76C-b1600E-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="68390" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t78A-b15FF5-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="74826" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t78A-b15FF9-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="70190" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t7D0-b1600A-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="76386" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7D0-b1600B-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="71990" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t7EE-b15FF1-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="78186" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7EE-b1602E-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="73790" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t834-b15FF5-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="75590" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t834-b1600C-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="79986" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t852-b1600A-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="77390" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t852-b1600B-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="81666" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t898-b15F9D-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="83328" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t898-b15FF1-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="79190" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t8B6-b15F97-sl4.0" route="t1AE-b15F91-sl4" type="bus" depart="85188" line="t1AE-b15F91-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t8B6-b1600C-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="80990" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t8FC-b15F96-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="82790" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t91A-b15F9D-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="84590" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t960-b15F97-sl4.0" route="t1BD-b1601C-sl4" type="bus" depart="86390" line="t1BD-b1601C-sl4">
+        <param key="gtfs.route_name" value="486"/>
+        <param key="gtfs.trip_headsign" value="East: Pomona MtSac/ CalPoly Pomona"/>
+    </vehicle>
+    <vehicle id="t19A-b15FB9-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="19116" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1FE-b15FB5-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="22836" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t217-b15FCF-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="24516" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t21C-b15FC1-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="20390" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t258-b15FFD-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="26196" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t267-b1600F-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="22490" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t271-b15FCA-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="27696" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t285-b15F9B-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="24290" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t28A-b15F98-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="29248" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2C1-b16020-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="25490" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t2C6-b15FC1-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="30448" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2D5-b15FD0-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="26690" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t2DA-b15F9E-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="31648" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2E9-b15FC0-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="27890" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t320-b1600F-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="33508" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t325-b16010-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="29090" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t33E-b15FA5-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="30590" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t343-b15F9B-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="35608" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3A2-b15FA6-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="34190" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t3A7-b15FC0-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="39208" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t406-b15FB2-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="37790" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t40B-b15FA5-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="42808" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t46A-b15FA3-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="41390" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t46F-b15FDD-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="46468" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4CE-b16011-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="44990" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t4D3-b15FF0-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="50188" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t532-b15FC0-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="48590" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t532-b15FD7-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="53608" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t578-b15FAC-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="55408" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t587-b15FB8-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="51290" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t596-b16011-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="57208" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t59B-b16012-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="52490" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t5AF-b15FA8-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="53690" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t5DC-b16013-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="59068" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5EB-b16014-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="54890" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t5FA-b16015-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="60868" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t609-b15FF2-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="56690" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t640-b15FB8-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="62488" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t651-b15FAD-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="58610" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t65E-b16012-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="64108" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t66F-b15FE7-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="60410" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t6A6-b16014-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="65908" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6B5-b15FB0-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="62210" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t6C4-b15FF2-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="67708" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6D3-b15FE9-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="64010" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t719-b15FC7-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="65810" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t726-b15FE7-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="71068" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t778-b15FA9-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="69110" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t78A-b15FE9-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="74548" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7D7-b1602D-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="72410" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t7EE-b15FC7-sl4.0" route="t19A-b15FB9-sl4" type="bus" depart="77968" line="t19A-b15FB9-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t836-b16012-sl4.0" route="t21C-b15FC1-sl4" type="bus" depart="75710" line="t21C-b15FC1-sl4">
+        <param key="gtfs.route_name" value="488"/>
+        <param key="gtfs.trip_headsign" value="East: Glendora Citrus College"/>
+    </vehicle>
+    <vehicle id="t1A9-b1601D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="20123" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1BD-b1601E-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="21323" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1F9-b16021-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="22523" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t20D-b15F9A-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="23723" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t212-b15F99-sl4.0" route="t212-b15F99-sl4" type="bus" depart="19790" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t221-b16022-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="24923" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t258-b1601D-sl4.0" route="t212-b15F99-sl4" type="bus" depart="21590" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t25D-b16024-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="26243" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t26C-b1601E-sl4.0" route="t212-b15F99-sl4" type="bus" depart="22790" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t271-b15FE0-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="27443" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t280-b16021-sl4.0" route="t212-b15F99-sl4" type="bus" depart="23990" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t286-b15F9D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="28703" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2BC-b15F9A-sl4.0" route="t212-b15F99-sl4" type="bus" depart="25190" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t2C3-b16025-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="30289" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2D0-b1601F-sl4.0" route="t212-b15F99-sl4" type="bus" depart="26390" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t2D7-b16026-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="31489" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2E4-b16022-sl4.0" route="t212-b15F99-sl4" type="bus" depart="27590" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t2EA-b15FC9-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="32629" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t320-b16024-sl4.0" route="t212-b15F99-sl4" type="bus" depart="28790" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t325-b1601C-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="33829" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t334-b16023-sl4.0" route="t212-b15F99-sl4" type="bus" depart="29990" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t339-b1601D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="35029" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t348-b15F9D-sl4.0" route="t212-b15F99-sl4" type="bus" depart="31190" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t34D-b1601E-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="36229" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t384-b16025-sl4.0" route="t212-b15F99-sl4" type="bus" depart="32390" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t389-b16021-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="37549" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t398-b16026-sl4.0" route="t212-b15F99-sl4" type="bus" depart="33590" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t39D-b16017-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="38749" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3AC-b15FC9-sl4.0" route="t212-b15F99-sl4" type="bus" depart="34790" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t3B1-b16020-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="39949" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3E8-b1601C-sl4.0" route="t212-b15F99-sl4" type="bus" depart="35990" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t3ED-b1601F-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="41149" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3FC-b1601D-sl4.0" route="t212-b15F99-sl4" type="bus" depart="37190" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t401-b16022-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="42349" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t410-b1601E-sl4.0" route="t212-b15F99-sl4" type="bus" depart="38390" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t415-b16027-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="43549" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t44C-b16021-sl4.0" route="t212-b15F99-sl4" type="bus" depart="39590" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t451-b1600F-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="44689" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t460-b16017-sl4.0" route="t212-b15F99-sl4" type="bus" depart="40790" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t465-b15F9D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="45889" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t474-b16020-sl4.0" route="t212-b15F99-sl4" type="bus" depart="41990" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t479-b16028-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="47089" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4B0-b1601F-sl4.0" route="t212-b15F99-sl4" type="bus" depart="43190" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t4B5-b15FDE-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="48349" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4C4-b16022-sl4.0" route="t212-b15F99-sl4" type="bus" depart="44390" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t4C9-b16029-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="49549" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4D8-b16027-sl4.0" route="t212-b15F99-sl4" type="bus" depart="45590" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t4DD-b1602A-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="50749" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t514-b1600F-sl4.0" route="t212-b15F99-sl4" type="bus" depart="46790" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t519-b15FA0-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="52009" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t528-b15F9D-sl4.0" route="t212-b15F99-sl4" type="bus" depart="47990" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t52D-b1602B-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="53209" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t53C-b16028-sl4.0" route="t212-b15F99-sl4" type="bus" depart="49190" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t541-b1602E-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="54409" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t578-b1602D-sl4.0" route="t212-b15F99-sl4" type="bus" depart="50390" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t57D-b16030-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="55789" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t58C-b16029-sl4.0" route="t212-b15F99-sl4" type="bus" depart="51590" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t591-b16031-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="56989" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5A0-b1602A-sl4.0" route="t212-b15F99-sl4" type="bus" depart="52790" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t5A5-b15FAF-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="58189" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5DC-b15FA0-sl4.0" route="t212-b15F99-sl4" type="bus" depart="53990" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t5E1-b16033-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="59389" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5F0-b1602B-sl4.0" route="t212-b15F99-sl4" type="bus" depart="55190" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t5F5-b16027-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="60589" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t604-b1602E-sl4.0" route="t212-b15F99-sl4" type="bus" depart="56390" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t609-b1600D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="61789" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t640-b1602C-sl4.0" route="t212-b15F99-sl4" type="bus" depart="57590" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t645-b15F99-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="63169" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t654-b16030-sl4.0" route="t212-b15F99-sl4" type="bus" depart="58790" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t659-b16028-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="64369" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t668-b16031-sl4.0" route="t212-b15F99-sl4" type="bus" depart="59990" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t66D-b1602D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="65569" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6A4-b16013-sl4.0" route="t212-b15F99-sl4" type="bus" depart="61190" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t6A9-b16029-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="66829" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6B8-b16033-sl4.0" route="t212-b15F99-sl4" type="bus" depart="62390" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t6BD-b1602A-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="68029" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6CC-b16027-sl4.0" route="t212-b15F99-sl4" type="bus" depart="63590" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t6D1-b1600B-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="69229" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t708-b15F99-sl4.0" route="t212-b15F99-sl4" type="bus" depart="64790" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t70D-b16032-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="69889" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t71C-b16007-sl4.0" route="t212-b15F99-sl4" type="bus" depart="65990" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t721-b1602E-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="71089" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t730-b16008-sl4.0" route="t212-b15F99-sl4" type="bus" depart="67190" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t735-b1602C-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="72289" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t76C-b16029-sl4.0" route="t212-b15F99-sl4" type="bus" depart="68390" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t771-b15FA5-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="73309" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t78A-b1602A-sl4.0" route="t212-b15F99-sl4" type="bus" depart="70190" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t78F-b1602F-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="75109" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7D0-b16032-sl4.0" route="t212-b15F99-sl4" type="bus" depart="71990" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t7D5-b15FAC-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="76626" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7EE-b1602C-sl4.0" route="t212-b15F99-sl4" type="bus" depart="73790" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t7F8-b15F99-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="78726" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t834-b16009-sl4.0" route="t212-b15F99-sl4" type="bus" depart="75590" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t843-b15F96-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="80826" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t852-b1602F-sl4.0" route="t212-b15F99-sl4" type="bus" depart="77390" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t861-b16032-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="82626" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+</routes>
