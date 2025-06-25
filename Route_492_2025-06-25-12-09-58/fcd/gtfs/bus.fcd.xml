@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-25 12:17:12.785452 by gtfs2fcd.py f911e7709
+<configuration>
+    <gtfs value="foothill_transit_gtfs.zip"/>
+    <date value="20250624"/>
+    <network value="osm.net.xml.gz"/>
+    <route-output value="gtfs_output/routes.rou.xml"/>
+    <additional-output value="gtfs_output/stops_additional.xml"/>
+</configuration>
+-->
+
+<fcd-export>
+    <timestep time="19997"><vehicle id="t1A9-b1601D-sl4" x="-118.011925" y="34.110102" until="0" name="Live Oak Ave and Tenth Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="20027"><vehicle id="t1A9-b1601D-sl4" x="-118.014648" y="34.109721" until="30" name="Live Oak Ave and Foss Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="20066"><vehicle id="t1A9-b1601D-sl4" x="-118.018185" y="34.109238" until="69" name="Live Oak Ave and Sixth Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="20133"><vehicle id="t1A9-b1601D-sl4" x="-118.02428" y="34.108366" until="136" name="Live Oak Ave and Second Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="20163"><vehicle id="t1A9-b1601D-sl4" x="-118.026938" y="34.107987" until="166" name="Live Oak Ave and Greenfield Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="20220"><vehicle id="t1A9-b1601D-sl4" x="-118.030618" y="34.106371" until="223" name="Santa Anita Ave and Live Oak Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="40800"><vehicle id="t212-b15F99-sl4" x="-118.030395" y="34.107303" until="0" name="Live Oak Ave and Santa Anita Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="40832"><vehicle id="t212-b15F99-sl4" x="-118.027571" y="34.107693" until="32" name="Live Oak Ave and Myrtus Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="40863"><vehicle id="t212-b15F99-sl4" x="-118.024865" y="34.108086" until="63" name="Live Oak Ave and Tyler Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="40936"><vehicle id="t212-b15F99-sl4" x="-118.018457" y="34.108992" until="136" name="Live Oak Ave and Hempstead Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="40975"><vehicle id="t212-b15F99-sl4" x="-118.015008" y="34.109518" until="175" name="Live Oak Ave and Center St E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="41005"><vehicle id="t212-b15F99-sl4" x="-118.012428" y="34.109928" until="205" name="Live Oak Ave and Tenth Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+</fcd-export>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-25 00:13:22.655784 by osmWebWizard.py UNKNOWN
+<configuration>
+    <net-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/osm.net.xml.gz"/>
+    <ptlines-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/osm_ptlines.xml"/>
+    <ptstops-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/osm_stops.add.xml"/>
+    <output-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/osm_pt.rou.xml"/>
+    <stopinfos-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/stopinfos.xml"/>
+    <routes-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/vehroutes.xml"/>
+    <trips-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_Green:0" edges="1149567881#0 406232664#0 406232647#1 406232647#2 406232641#0 599510795#0 599510795#3 604060313 604060314#0 604060314#1 604060314#2 604060314#4 604060314#5 -406234630#2 -243612604#3 -243612604#2 -243612604#1 -243612604#0 -4480316#1 406233346#0 406233346#1 334631993#1 406233344 640278675 192503244#0 192503244#2 192503244#3 405546351 405546352 405546350#0 1149567881#0 1149567881#1 405546357#2 405546357#3 405546357#4 405546357#5 405546357#6 525615994 525615993 405546353 405546349 405546354 405546355 405546348 405546356#0 405546356#1 405546356#2 405546356#3 405546347#0 334631554#0 604060294#0 1036500992 414764043 405544793#1 405544795#0 415101865#0 415101865#2 1029507042 406215608 406215604 406215675#0 406215675#1 406215647#0 406215694 1063171539 406215598 406215613#0 406216724#0 406216724#2 406215688 406215698#0 406215698#1 406215698#2 406215685#0 406215685#1 406215685#2 406215685#3 406215666#0 406215666#2 406215666#3 406215666#4 406215666#5 406215666#6 406215666#7 406215666#8 406215666#9 406215636#0 406215636#1 406215636#2 406215636#4 406215616#0 406215616#1 406215616#2 406215616#3 406215616#4 406215616#5 406215616#6 406215621#0 406215621#1 406215634#0 406215634#1 292716907 414764044#0 414764044#2 405545577#0 405545577#1 405545577#2 405545577#3 405545577#4 604060295#0 604060295#1 604060296#0 604060296#1 604060296#3 604060296#4 604060296#5 604060296#6 604060296#7 604060296#8 604060296#9 405545583#0 405545584#0 405545584#2 1014617514#0 1014617514#1 1014617514#2 405545580#0 405545580#1 604060292 604060288 24672357#0 24672357#1 405546357#2 405546357#3 405546357#4 405546357#5 405546357#6" >
+        <stop busStop="10694238030" duration="20" until="341.0"/> <!-- Huntington & Santa Anita Eastbound -->
+        <stop busStop="10694238031" duration="20" until="479.0"/> <!-- Westbound Santa Clara Street, West of 1st Avenue -->
+        <stop busStop="10694238032" duration="20" until="701.0"/> <!-- City Hall Parking Lot -->
+        <stop busStop="10694238033" duration="20" until="1036.0"/> <!-- Huntington Drive at West of Centennial -->
+        <stop busStop="10694238034" duration="20" until="1128.0"/> <!-- Huntington Drive at West of Holly Avenue -->
+        <stop busStop="4224888196" duration="20" until="1274.0"/> <!-- Metro 268;Westfield Mall - North Bound Baldwin -->
+    </route>
+    <flow id="pt_bus_Green:0" type="pt_bus" route="pt_bus_Green:0" begin="383.0" end="3983.0" period="600" line="Green:0" >
+        <param key="name" value="Green Line -Huntington/ Baldwin (Weekday)"/>
+        <param key="completeness" value="0.55"/>
+    </flow>
+</routes>

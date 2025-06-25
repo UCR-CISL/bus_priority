@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="t1A9-b1601D-sl4.0" lane="-405337861#1_0" startPos="104.20" endPos="117.20" friendlyPos="true" name="Live Oak Ave and Tenth Ave W" />
+    <busStop id="t1A9-b1601D-sl4.1" lane="-405337844_0" startPos="81.64" endPos="94.64" friendlyPos="true" name="Live Oak Ave and Foss Ave W" />
+    <busStop id="t1A9-b1601D-sl4.2" lane="405337851_0" startPos="67.46" endPos="80.46" friendlyPos="true" name="Live Oak Ave and Sixth Ave W" />
+    <busStop id="t1A9-b1601D-sl4.3" lane="405337823_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Live Oak Ave and Second Ave W" />
+    <busStop id="t1A9-b1601D-sl4.4" lane="405337862#2_0" startPos="164.62" endPos="177.62" friendlyPos="true" name="Live Oak Ave and Greenfield Ave W" />
+    <busStop id="t1A9-b1601D-sl4.5" lane="405336661#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Santa Anita Ave and Live Oak Ave W" />
+    <busStop id="t212-b15F99-sl4.0" lane="405337852#0_0" startPos="10.85" endPos="23.85" friendlyPos="true" name="Live Oak Ave and Santa Anita Ave E" />
+    <busStop id="t212-b15F99-sl4.1" lane="405337863#1_0" startPos="8.65" endPos="21.65" friendlyPos="true" name="Live Oak Ave and Myrtus Ave E" />
+    <busStop id="t212-b15F99-sl4.2" lane="405337826_0" startPos="2.97" endPos="15.97" friendlyPos="true" name="Live Oak Ave and Tyler Ave E" />
+    <busStop id="t212-b15F99-sl4.3" lane="405337827_0" startPos="1.85" endPos="14.85" friendlyPos="true" name="Live Oak Ave and Hempstead Ave E" />
+    <busStop id="t212-b15F99-sl4.4" lane="405337831#1_0" startPos="35.63" endPos="48.63" friendlyPos="true" name="Live Oak Ave and Center St E" />
+    <busStop id="t212-b15F99-sl4.5" lane="405337822_0" startPos="126.25" endPos="139.25" friendlyPos="true" name="Live Oak Ave and Tenth Ave E" />
+</additional>

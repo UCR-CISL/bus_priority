@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="t163-b2736-sl4.0" lane="59712267#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Huntington Dr and Sunset Blvd  E" />
+    <busStop id="t163-b2736-sl4.1" lane="405544796#0_0" startPos="5.11" endPos="18.11" friendlyPos="true" name="Huntington Dr and Golden West Ave E" />
+    <busStop id="t163-b2736-sl4.2" lane="414764044#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Huntington Dr and Baldwin Ave E" />
+    <busStop id="t163-b2736-sl4.3" lane="604060294#0_0" startPos="113.28" endPos="126.28" friendlyPos="true" name="The Shops at Santa Anita" />
+    <busStop id="t163-b2736-sl4.4" lane="405545583#0_0" startPos="54.15" endPos="67.15" friendlyPos="true" name="Huntington Dr and Holly Ave  E" />
+    <busStop id="t163-b2736-sl4.5" lane="604060287_0" startPos="23.03" endPos="36.03" friendlyPos="true" name="Huntington Dr and Centennial Way E" />
+    <busStop id="t163-b2736-sl4.6" lane="630143605_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Huntington Dr and Santa Clara St E" />
+    <busStop id="t163-b2736-sl4.7" lane="406232664#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Huntington Dr and Santa Anita Ave E" />
+    <busStop id="t163-b2736-sl4.8" lane="406232649#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Huntington Dr and First Ave E" />
+    <busStop id="t163-b2736-sl4.9" lane="406232645_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Huntington Dr and Second Ave E" />
+    <busStop id="t163-b2736-sl4.10" lane="43080181#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Huntington Dr and Fifth Ave E" />
+    <busStop id="t1B3-b2739-sl4.0" lane="755844281#0_0" startPos="29.63" endPos="42.63" friendlyPos="true" name="Huntington Dr and Fifth Ave W" />
+    <busStop id="t1B3-b2739-sl4.1" lane="755844262#0_0" startPos="16.54" endPos="29.54" friendlyPos="true" name="Huntington Dr and Second Ave W" />
+    <busStop id="t1B3-b2739-sl4.2" lane="755844274_0" startPos="8.20" endPos="21.20" friendlyPos="true" name="Huntington Dr and First Ave W" />
+    <busStop id="t1B3-b2739-sl4.3" lane="1065518636#0_0" startPos="18.49" endPos="31.49" friendlyPos="true" name="Huntington Dr and Santa Clara St W" />
+    <busStop id="t1B3-b2739-sl4.4" lane="525615993_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Huntington Dr and Santa Anita Medical Pl" />
+    <busStop id="t1B3-b2739-sl4.5" lane="334631554#0_0" startPos="14.01" endPos="27.01" friendlyPos="true" name="Huntington Dr and Holly Ave W" />
+    <busStop id="t1B3-b2739-sl4.7" lane="334267468#2_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Huntington Dr and Baldwin Ave W" />
+    <busStop id="t1B3-b2739-sl4.8" lane="59712271#0_0" startPos="4.34" endPos="17.34" friendlyPos="true" name="Huntington Dr and Golden West Ave W" />
+    <busStop id="t1B3-b2739-sl4.9" lane="59712276#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Huntington Dr and Sunset Blvd W" />
+    </additional>

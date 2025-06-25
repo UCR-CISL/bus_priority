@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-25 00:13:19.171400 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ UNKNOWN
+<configuration>
+    <net-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/osm.net.xml.gz"/>
+    <ptlines-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/osm_ptlines.xml"/>
+    <ptstops-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/osm_stops.add.xml"/>
+    <output-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/osm_pt.rou.xml"/>
+    <stopinfos-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/stopinfos.xml"/>
+    <routes-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/vehroutes.xml"/>
+    <trips-file value="/Users/nedasarbalavandeymir/Sumo/2025-06-25-00-12-39/trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_tram" vClass="tram" speedFactor="1.0"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_minibus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_share_taxi" vClass="taxi" speedFactor="0.95"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="0_bus_Green:0" type="pt_bus" depart="383.0" departLane="best" from="1149567881#0" to="405546357#6">
+        <stop busStop="10694238030" duration="30"/>  <!-- Huntington & Santa Anita Eastbound -->
+        <stop busStop="10694238031" duration="30"/>  <!-- Westbound Santa Clara Street, West of 1st Avenue -->
+        <stop busStop="10694238032" duration="30"/>  <!-- City Hall Parking Lot -->
+        <stop busStop="10694238033" duration="30"/>  <!-- Huntington Drive at West of Centennial -->
+        <stop busStop="10694238034" duration="30"/>  <!-- Huntington Drive at West of Holly Avenue -->
+        <stop busStop="4224888196" duration="30"/>  <!-- Metro 268;Westfield Mall - North Bound Baldwin -->
+    </trip>
+</routes>

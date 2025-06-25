@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-25 12:17:14.404285 by gtfs2pt.py f911e7709
+<configuration>
+    <gtfs value="foothill_transit_gtfs.zip"/>
+    <date value="20250624"/>
+    <network value="osm.net.xml.gz"/>
+    <route-output value="gtfs_output/routes.rou.xml"/>
+    <additional-output value="gtfs_output/stops_additional.xml"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="t1A9-b1601D-sl4" edges="-405337861#1 -405337837#1 -405337844 -405337819 -405337831#0 47529158 405337851 405337828#0 405337828#1 405337838#0 405337838#1 405337838#2 405337838#3 182043874#0 182043874#1 182043874#2 524847621#0 524847621#1 524847621#2 524847622#0 524847622#1 524847622#2 405337823 405337862#0 405337862#1 405337862#2 405337862#3 405337855 405337866#0 405337866#1 405337866#2 405337866#3 405337866#4 405337859#0 405337859#1 405336655#1 405336655#2 405336652#0 405336652#1 405336661#0">
+        <stop busStop="t1A9-b1601D-sl4.0" duration="10" until="0"/> <!-- Live Oak Ave and Tenth Ave W -->
+        <stop busStop="t1A9-b1601D-sl4.1" duration="10" until="30"/> <!-- Live Oak Ave and Foss Ave W -->
+        <stop busStop="t1A9-b1601D-sl4.2" duration="10" until="69"/> <!-- Live Oak Ave and Sixth Ave W -->
+        <stop busStop="t1A9-b1601D-sl4.3" duration="10" until="136"/> <!-- Live Oak Ave and Second Ave W -->
+        <stop busStop="t1A9-b1601D-sl4.4" duration="10" until="166"/> <!-- Live Oak Ave and Greenfield Ave W -->
+        <stop busStop="t1A9-b1601D-sl4.5" duration="10" until="223"/> <!-- Santa Anita Ave and Live Oak Ave W -->
+    </route>
+    <route id="t212-b15F99-sl4" edges="405337852#0 405337852#1 405337842 405337863#0 405337863#1 405337863#2 405337847 405337865#0 405337865#1 405337865#2 405337826 524847623#0 524847623#1 405337858#0 405337858#1 524847620#0 524847620#1 405337821 405337860 1013754695 405337827 182050923 1012376671 405337831#0 405337831#1 405337850 405337822">
+        <stop busStop="t212-b15F99-sl4.0" duration="10" until="0"/> <!-- Live Oak Ave and Santa Anita Ave E -->
+        <stop busStop="t212-b15F99-sl4.1" duration="10" until="32"/> <!-- Live Oak Ave and Myrtus Ave E -->
+        <stop busStop="t212-b15F99-sl4.2" duration="10" until="63"/> <!-- Live Oak Ave and Tyler Ave E -->
+        <stop busStop="t212-b15F99-sl4.3" duration="10" until="136"/> <!-- Live Oak Ave and Hempstead Ave E -->
+        <stop busStop="t212-b15F99-sl4.4" duration="10" until="175"/> <!-- Live Oak Ave and Center St E -->
+        <stop busStop="t212-b15F99-sl4.5" duration="10" until="205"/> <!-- Live Oak Ave and Tenth Ave E -->
+    </route>
+    <vehicle id="t1A9-b1601D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="19987" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1BD-b1601E-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="21187" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t1F9-b16021-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="22387" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t20D-b15F9A-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="23587" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t212-b15F99-sl4.0" route="t212-b15F99-sl4" type="bus" depart="20570" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t221-b16022-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="24787" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t258-b1601D-sl4.0" route="t212-b15F99-sl4" type="bus" depart="22490" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t25D-b16024-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="26107" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t26C-b1601E-sl4.0" route="t212-b15F99-sl4" type="bus" depart="23690" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t271-b15FE0-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="27307" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t280-b16021-sl4.0" route="t212-b15F99-sl4" type="bus" depart="24890" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t286-b15F9D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="28567" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2BC-b15F9A-sl4.0" route="t212-b15F99-sl4" type="bus" depart="26150" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t2C3-b16025-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="30097" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2D0-b1601F-sl4.0" route="t212-b15F99-sl4" type="bus" depart="27350" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t2D7-b16026-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="31297" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t2E4-b16022-sl4.0" route="t212-b15F99-sl4" type="bus" depart="28550" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t2EA-b15FC9-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="32437" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t320-b16024-sl4.0" route="t212-b15F99-sl4" type="bus" depart="29750" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t325-b1601C-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="33637" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t334-b16023-sl4.0" route="t212-b15F99-sl4" type="bus" depart="30950" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t339-b1601D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="34837" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t348-b15F9D-sl4.0" route="t212-b15F99-sl4" type="bus" depart="32150" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t34D-b1601E-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="36037" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t384-b16025-sl4.0" route="t212-b15F99-sl4" type="bus" depart="33350" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t389-b16021-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="37357" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t398-b16026-sl4.0" route="t212-b15F99-sl4" type="bus" depart="34550" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t39D-b16017-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="38557" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3AC-b15FC9-sl4.0" route="t212-b15F99-sl4" type="bus" depart="35750" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t3B1-b16020-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="39757" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3E8-b1601C-sl4.0" route="t212-b15F99-sl4" type="bus" depart="36950" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t3ED-b1601F-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="40957" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t3FC-b1601D-sl4.0" route="t212-b15F99-sl4" type="bus" depart="38150" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t401-b16022-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="42157" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t410-b1601E-sl4.0" route="t212-b15F99-sl4" type="bus" depart="39350" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t415-b16027-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="43357" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t44C-b16021-sl4.0" route="t212-b15F99-sl4" type="bus" depart="40550" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t451-b1600F-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="44497" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t460-b16017-sl4.0" route="t212-b15F99-sl4" type="bus" depart="41750" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t465-b15F9D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="45697" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t474-b16020-sl4.0" route="t212-b15F99-sl4" type="bus" depart="42950" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t479-b16028-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="46897" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4B0-b1601F-sl4.0" route="t212-b15F99-sl4" type="bus" depart="44150" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t4B5-b15FDE-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="48157" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4C4-b16022-sl4.0" route="t212-b15F99-sl4" type="bus" depart="45350" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t4C9-b16029-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="49357" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t4D8-b16027-sl4.0" route="t212-b15F99-sl4" type="bus" depart="46550" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t4DD-b1602A-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="50557" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t514-b1600F-sl4.0" route="t212-b15F99-sl4" type="bus" depart="47750" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t519-b15FA0-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="51817" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t528-b15F9D-sl4.0" route="t212-b15F99-sl4" type="bus" depart="48950" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t52D-b1602B-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="53017" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t53C-b16028-sl4.0" route="t212-b15F99-sl4" type="bus" depart="50150" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t541-b1602E-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="54217" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t578-b1602D-sl4.0" route="t212-b15F99-sl4" type="bus" depart="51350" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t57D-b16030-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="55597" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t58C-b16029-sl4.0" route="t212-b15F99-sl4" type="bus" depart="52550" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t591-b16031-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="56797" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5A0-b1602A-sl4.0" route="t212-b15F99-sl4" type="bus" depart="53750" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t5A5-b15FAF-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="57997" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5DC-b15FA0-sl4.0" route="t212-b15F99-sl4" type="bus" depart="54950" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t5E1-b16033-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="59197" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t5F0-b1602B-sl4.0" route="t212-b15F99-sl4" type="bus" depart="56150" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t5F5-b16027-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="60397" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t604-b1602E-sl4.0" route="t212-b15F99-sl4" type="bus" depart="57350" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t609-b1600D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="61597" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t640-b1602C-sl4.0" route="t212-b15F99-sl4" type="bus" depart="58610" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t645-b15F99-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="62977" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t654-b16030-sl4.0" route="t212-b15F99-sl4" type="bus" depart="59810" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t659-b16028-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="64177" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t668-b16031-sl4.0" route="t212-b15F99-sl4" type="bus" depart="61010" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t66D-b1602D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="65377" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6A4-b16013-sl4.0" route="t212-b15F99-sl4" type="bus" depart="62150" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t6A9-b16029-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="66637" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6B8-b16033-sl4.0" route="t212-b15F99-sl4" type="bus" depart="63350" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t6BD-b1602A-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="67837" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t6CC-b16027-sl4.0" route="t212-b15F99-sl4" type="bus" depart="64550" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t6D1-b1600B-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="69037" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t708-b15F99-sl4.0" route="t212-b15F99-sl4" type="bus" depart="65750" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t70D-b16032-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="69697" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t71C-b16007-sl4.0" route="t212-b15F99-sl4" type="bus" depart="66950" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t721-b1602E-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="70897" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t730-b16008-sl4.0" route="t212-b15F99-sl4" type="bus" depart="68150" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t735-b1602C-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="72097" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t76C-b16029-sl4.0" route="t212-b15F99-sl4" type="bus" depart="69290" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t771-b15FA5-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="73117" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t78A-b1602A-sl4.0" route="t212-b15F99-sl4" type="bus" depart="71090" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t78F-b1602F-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="74917" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7D0-b16032-sl4.0" route="t212-b15F99-sl4" type="bus" depart="72890" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t7D5-b15FAC-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="76462" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t7EE-b1602C-sl4.0" route="t212-b15F99-sl4" type="bus" depart="74690" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t7F8-b15F99-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="78562" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t834-b16009-sl4.0" route="t212-b15F99-sl4" type="bus" depart="76490" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t843-b15F96-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="80662" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+    <vehicle id="t852-b1602F-sl4.0" route="t212-b15F99-sl4" type="bus" depart="78290" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center"/>
+    </vehicle>
+    <vehicle id="t861-b16032-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="82462" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492"/>
+        <param key="gtfs.trip_headsign" value="West: El Monte Station"/>
+    </vehicle>
+</routes>

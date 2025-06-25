@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-25 00:19:46.016714 by gtfs2pt.py f911e7709
+<configuration>
+    <gtfs value="foothill_transit_gtfs.zip"/>
+    <date value="20250624"/>
+    <network value="osm.net.xml.gz"/>
+    <route-output value="gtfs_output/routes.rou.xml"/>
+    <additional-output value="gtfs_output/stops_additional.xml"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="t163-b2736-sl4" edges="59712267#0 59712267#1 59712267#2 59712267#3 59712267#5 59712267#6 59712267#7 59712267#8 59712267#9 405544796#0 405544796#2 405544796#3 405544796#4 405544796#5 405544796#6 405544796#7 405544796#8 405544796#8-AddedOffRampEdge 405544796#9 405544796#10 405544792#0 414764044#0 414764044#2 405545577#0 405545577#1 405545577#2 405545577#3 405545577#4 604060295#0 604060295#1 604060297 604060294#0 1036500992 414764043 59714507#0 -406215639#2 -690987761 -406215627 -406504587 -72011935#9 -72011935#8 -72011935#7 -72011935#6 -72011935#5 -72011935#4 -72011935#3 -72011935#2 -72011935#1 -72011935#0 72011935#0 72011935#1 72011935#2 72011935#3 72011935#4 72011935#5 72011935#6 72011935#7 72011935#8 72011935#9 406504587 690987758 690987761 406215639#0 414764044#0 414764044#2 405545577#0 405545577#1 405545577#2 405545577#3 405545577#4 604060295#0 604060295#1 604060296#0 604060296#1 604060296#3 604060296#4 604060296#5 604060296#6 604060296#7 604060296#8 604060296#9 405545583#0 405545584#0 405545584#2 1014617514#0 1014617514#1 1014617514#2 405545580#0 405545580#1 604060292 604060288 604060287 1264201012#0 1264201012#1 604060286#0 604060286#1 405545581#0 405545581#1 405545581#2 405545581#3 406234624#0 630143605 406233348 406233343 406233349#0 406232664#0 406232647#1 406232647#2 406232641#0 406232649#0 1014021506 406232653#1 406232653#2 406232653#3 406232653#4 406232656 406232643#0 406232645 4619023#1 4619023#2 406232660 406232651 406232662#1 406232662#2 406232658#0 43080181#0">
+        <stop busStop="t163-b2736-sl4.0" duration="10" until="0"/> <!-- Huntington Dr and Sunset Blvd  E -->
+        <stop busStop="t163-b2736-sl4.1" duration="10" until="49"/> <!-- Huntington Dr and Golden West Ave E -->
+        <stop busStop="t163-b2736-sl4.2" duration="10" until="118"/> <!-- Huntington Dr and Baldwin Ave E -->
+        <stop busStop="t163-b2736-sl4.3" duration="10" until="196"/> <!-- The Shops at Santa Anita -->
+        <stop busStop="t163-b2736-sl4.4" duration="10" until="275"/> <!-- Huntington Dr and Holly Ave  E -->
+        <stop busStop="t163-b2736-sl4.5" duration="10" until="370"/> <!-- Huntington Dr and Centennial Way E -->
+        <stop busStop="t163-b2736-sl4.6" duration="10" until="437"/> <!-- Huntington Dr and Santa Clara St E -->
+        <stop busStop="t163-b2736-sl4.7" duration="10" until="477"/> <!-- Huntington Dr and Santa Anita Ave E -->
+        <stop busStop="t163-b2736-sl4.8" duration="10" until="509"/> <!-- Huntington Dr and First Ave E -->
+        <stop busStop="t163-b2736-sl4.9" duration="10" until="545"/> <!-- Huntington Dr and Second Ave E -->
+        <stop busStop="t163-b2736-sl4.10" duration="10" until="592"/> <!-- Huntington Dr and Fifth Ave E -->
+    </route>
+    <route id="t1B3-b2739-sl4" edges="755844281#0 755844267 755844268#0 755844268#1 755844268#2 755844268#3 755844263 1018517761 755844278#0 755844278#1 755844278#2 755844262#0 755844277#0 755844275#0 755844275#1 755844275#2 755844261#0 755844274 755844260#0 259846930#0 259846930#2 259846930#3 1008405679 406233345#0 406233345#1 1065518636#0 406233346#0 406233346#1 334631993#1 406233344 640278675 192503244#0 192503244#2 192503244#3 405546351 405546352 405546350#0 405546350#1 405546357#0 405546357#1 405546357#2 405546357#3 405546357#4 405546357#5 405546357#6 525615994 525615993 405546353 405546349 405546354 405546355 405546348 405546356#0 405546356#1 405546356#2 405546356#3 405546347#0 334631554#0 604060294#0 1036500992 414764043 405544793#1 405544795#0 334267468#0 334267468#2 334267468#3 334267468#4 334267468#5 334267468#6 334267468#7 334267468#8 334267468#9 334267468#10 334267468#11 334267468#12 59712271#0 59712271#2 59712271#3 59712271#4 59712271#5 59712271#6 59712271#7 982784187#0 982784187#1 405543904#0 59712276#0">
+        <stop busStop="t1B3-b2739-sl4.0" duration="10" until="0"/> <!-- Huntington Dr and Fifth Ave W -->
+        <stop busStop="t1B3-b2739-sl4.1" duration="10" until="46"/> <!-- Huntington Dr and Second Ave W -->
+        <stop busStop="t1B3-b2739-sl4.2" duration="10" until="84"/> <!-- Huntington Dr and First Ave W -->
+        <stop busStop="t1B3-b2739-sl4.3" duration="10" until="149"/> <!-- Huntington Dr and Santa Clara St W -->
+        <stop busStop="t1B3-b2739-sl4.4" duration="10" until="256"/> <!-- Huntington Dr and Santa Anita Medical Pl -->
+        <stop busStop="t1B3-b2739-sl4.5" duration="10" until="309"/> <!-- Huntington Dr and Holly Ave W -->
+        <stop busStop="t163-b2736-sl4.3" duration="10" until="364"/> <!-- The Shops at Santa Anita -->
+        <stop busStop="t1B3-b2739-sl4.7" duration="10" until="413"/> <!-- Huntington Dr and Baldwin Ave W -->
+        <stop busStop="t1B3-b2739-sl4.8" duration="10" until="482"/> <!-- Huntington Dr and Golden West Ave W -->
+        <stop busStop="t1B3-b2739-sl4.9" duration="10" until="529"/> <!-- Huntington Dr and Sunset Blvd W -->
+    </route>
+    <route id="t1BD-b27B3-sl4" edges="604060314#4">
+        <stop busStop="t1BD-b27B3-sl4.0" duration="10" until="0"/> <!-- Arcadia Station -->
+    </route>
+    <vehicle id="t163-b2736-sl4.0" route="t163-b2736-sl4" type="bus" depart="15574" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t1A9-b2737-sl4.0" route="t163-b2736-sl4" type="bus" depart="17374" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t1B3-b2739-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="17686" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t1C7-b273A-sl4.0" route="t163-b2736-sl4" type="bus" depart="19174" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t1F9-b273B-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="19653" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t20D-b273C-sl4.0" route="t163-b2736-sl4" type="bus" depart="21085" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t217-b2737-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="21453" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t22B-b2739-sl4.0" route="t163-b2736-sl4" type="bus" depart="22986" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t25D-b273D-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="23313" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t267-b273B-sl4.0" route="t163-b2736-sl4" type="bus" depart="24237" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t271-b273F-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="24609" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t278-b273E-sl4.0" route="t163-b2736-sl4" type="bus" depart="25367" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t285-b273A-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="25880" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t289-b2737-sl4.0" route="t163-b2736-sl4" type="bus" depart="26387" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t2C1-b272C-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="27140" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t2C2-b2741-sl4.0" route="t163-b2736-sl4" type="bus" depart="27518" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t2D0-b273D-sl4.0" route="t163-b2736-sl4" type="bus" depart="28469" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t2D5-b273C-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="28436" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t2DE-b2742-sl4.0" route="t163-b2736-sl4" type="bus" depart="29359" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t2E9-b273B-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="29636" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t2ED-b273F-sl4.0" route="t163-b2736-sl4" type="bus" depart="30310" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t324-b2743-sl4.0" route="t163-b2736-sl4" type="bus" depart="31261" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t325-b273E-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="30836" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t333-b273A-sl4.0" route="t163-b2736-sl4" type="bus" depart="32161" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t334-b2739-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="31676" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t342-b272C-sl4.0" route="t163-b2736-sl4" type="bus" depart="33010" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t343-b2741-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="32576" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t352-b273D-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="33476" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t352-b2744-sl4.0" route="t163-b2736-sl4" type="bus" depart="33970" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t389-b2737-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="34376" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t389-b273C-sl4.0" route="t163-b2736-sl4" type="bus" depart="34870" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t398-b2742-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="35276" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t398-b2746-sl4.0" route="t163-b2736-sl4" type="bus" depart="35770" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t3A7-b2743-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="36176" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t3A7-b2747-sl4.0" route="t163-b2736-sl4" type="bus" depart="36670" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t3B6-b2739-sl4.0" route="t163-b2736-sl4" type="bus" depart="37570" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t3B6-b2748-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="37076" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t3ED-b273B-sl4.0" route="t163-b2736-sl4" type="bus" depart="38581" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t3ED-b273F-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="37976" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t3FC-b2738-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="38876" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t3FC-b273E-sl4.0" route="t163-b2736-sl4" type="bus" depart="39481" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t40B-b273A-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="39776" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t40F-b2737-sl4.0" route="t163-b2736-sl4" type="bus" depart="40671" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t41A-b273C-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="40676" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t422-b273D-sl4.0" route="t163-b2736-sl4" type="bus" depart="41862" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t451-b280C-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="41576" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t45D-b2748-sl4.0" route="t163-b2736-sl4" type="bus" depart="43002" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t461-b27D7-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="42536" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t470-b2747-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="43436" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t471-b274A-sl4.0" route="t163-b2736-sl4" type="bus" depart="44202" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t483-b2744-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="44576" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t484-b274C-sl4.0" route="t163-b2736-sl4" type="bus" depart="45342" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t4BE-b2742-sl4.0" route="t163-b2736-sl4" type="bus" depart="46422" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t4BF-b274D-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="45776" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t4D1-b273F-sl4.0" route="t163-b2736-sl4" type="bus" depart="47562" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t4D3-b2746-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="47012" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t4E0-b2743-sl4.0" route="t163-b2736-sl4" type="bus" depart="48462" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t4E7-b2748-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="48212" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t519-b274E-sl4.0" route="t163-b2736-sl4" type="bus" depart="49482" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t523-b2739-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="49412" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t528-b2745-sl4.0" route="t163-b2736-sl4" type="bus" depart="50382" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t537-b273E-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="50612" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t537-b274F-sl4.0" route="t163-b2736-sl4" type="bus" depart="51282" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t546-b2744-sl4.0" route="t163-b2736-sl4" type="bus" depart="52182" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t54B-b2740-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="51812" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t57D-b2746-sl4.0" route="t163-b2736-sl4" type="bus" depart="53082" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t582-b2742-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="52712" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t58C-b2751-sl4.0" route="t163-b2736-sl4" type="bus" depart="54033" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t591-b273D-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="53612" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t59B-b2748-sl4.0" route="t163-b2736-sl4" type="bus" depart="54983" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t5A0-b2749-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="54512" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t5AB-b27EB-sl4.0" route="t163-b2736-sl4" type="bus" depart="55943" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t5AF-b274C-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="55412" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t5E3-b273E-sl4.0" route="t163-b2736-sl4" type="bus" depart="56954" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t5E7-b27ED-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="56372" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t5F2-b2740-sl4.0" route="t163-b2736-sl4" type="bus" depart="57854" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t5F7-b274E-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="57332" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t601-b27D6-sl4.0" route="t163-b2736-sl4" type="bus" depart="58754" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t607-b2750-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="58292" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t610-b273D-sl4.0" route="t163-b2736-sl4" type="bus" depart="59654" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t616-b2745-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="59192" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t647-b2749-sl4.0" route="t163-b2736-sl4" type="bus" depart="60554" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t64F-b274B-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="60212" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t656-b274C-sl4.0" route="t163-b2736-sl4" type="bus" depart="61454" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t660-b274F-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="61172" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t665-b2754-sl4.0" route="t163-b2736-sl4" type="bus" depart="62354" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t670-b2746-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="62132" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t674-b27ED-sl4.0" route="t163-b2736-sl4" type="bus" depart="63254" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t6A7-b2751-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="63032" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t6AC-b274E-sl4.0" route="t163-b2736-sl4" type="bus" depart="64214" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t6B6-b2752-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="63896" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t6BC-b2750-sl4.0" route="t163-b2736-sl4" type="bus" depart="65174" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t6C5-b27D6-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="64760" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t6CB-b2745-sl4.0" route="t163-b2736-sl4" type="bus" depart="65973" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t6D4-b273D-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="65624" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t6DA-b274B-sl4.0" route="t163-b2736-sl4" type="bus" depart="66822" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t70B-b2766-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="66524" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t711-b274F-sl4.0" route="t163-b2736-sl4" type="bus" depart="67671" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t71A-b274C-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="67424" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t720-b2746-sl4.0" route="t163-b2736-sl4" type="bus" depart="68511" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t729-b2754-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="68324" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t72F-b2751-sl4.0" route="t163-b2736-sl4" type="bus" depart="69361" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t73A-b276F-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="69309" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t73E-b2752-sl4.0" route="t163-b2736-sl4" type="bus" depart="70210" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t775-b27D6-sl4.0" route="t163-b2736-sl4" type="bus" depart="71110" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t776-b2750-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="70449" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t78A-b274B-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="71649" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t78A-b276D-sl4.0" route="t163-b2736-sl4" type="bus" depart="72319" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t79E-b274C-sl4.0" route="t163-b2736-sl4" type="bus" depart="73409" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t79E-b274F-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="72849" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t7DA-b276E-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="73917" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t7DA-b276F-sl4.0" route="t163-b2736-sl4" type="bus" depart="74558" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t7EE-b2750-sl4.0" route="t163-b2736-sl4" type="bus" depart="75707" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t7EE-b2786-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="75117" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t802-b274B-sl4.0" route="t163-b2736-sl4" type="bus" depart="76907" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t802-b2756-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="76317" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t83E-b274F-sl4.0" route="t163-b2736-sl4" type="bus" depart="78057" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t83F-b2811-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="77517" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t857-b2755-sl4.0" route="t163-b2736-sl4" type="bus" depart="79395" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t857-b2788-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="78922" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t89D-b2756-sl4.0" route="t163-b2736-sl4" type="bus" depart="81145" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t89D-b27A4-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="80722" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t8BB-b274F-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="82486" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+    <vehicle id="t8BB-b2811-sl4.0" route="t163-b2736-sl4" type="bus" depart="82885" line="t163-b2736-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="East: Azusa"/>
+    </vehicle>
+    <vehicle id="t901-b2755-sl4.0" route="t1B3-b2739-sl4" type="bus" depart="84286" line="t1B3-b2739-sl4">
+        <param key="gtfs.route_name" value="187"/>
+        <param key="gtfs.trip_headsign" value="West: Pasadena"/>
+    </vehicle>
+</routes>

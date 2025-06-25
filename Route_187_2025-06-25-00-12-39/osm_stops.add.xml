@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-25 00:13:17 by Eclipse SUMO netconvert Version 1.22.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-10711451385" name="Arcadia Gold Line Station (North of Santa Clara Street)" lane="-13346560#1_0" startPos="0.00" endPos="8.86" friendlyPos="true"/>
+    <busStop id="-10711471420" name="First Avenue Middle School/ North of Diamond Northbound" lane="-1264201017_0" startPos="7.85" endPos="22.85" friendlyPos="true"/>
+    <busStop id="-10711471435" name="S/O Fano Northbound" lane="-13373063#8_0" startPos="1.18" endPos="16.18" friendlyPos="true"/>
+    <busStop id="-10711471437" name="North of Duarte and 1st Northbound" lane="-13373063#16_0" startPos="1.00" endPos="16.00" friendlyPos="true"/>
+    <busStop id="-4224888195" name="Metro 268" lane="-690987761_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="-7096966059" name="Metro 264" lane="-406219017#2_0" startPos="12.08" endPos="27.08" friendlyPos="true"/>
+    <busStop id="10694224760" name="Huntington Drive at East of Holly Avenue" lane="405545584#2_0" startPos="29.65" endPos="44.65" friendlyPos="true"/>
+    <busStop id="10694224761" name="Huntington Drive at Methodist Hospital" lane="604060292_0" startPos="9.84" endPos="24.84" friendlyPos="true"/>
+    <busStop id="10694224762" name="Huntington Drive at Police Station" lane="405545578_0" startPos="16.40" endPos="31.40" friendlyPos="true"/>
+    <busStop id="10694238030" name="Huntington &amp; Santa Anita Eastbound" lane="406232664#0_0" startPos="6.38" endPos="21.38" friendlyPos="true" lines="Green"/>
+    <busStop id="10694238031" name="Westbound Santa Clara Street, West of 1st Avenue" lane="604060314#1_0" startPos="0.00" endPos="15.00" friendlyPos="true" lines="Green"/>
+    <busStop id="10694238032" name="City Hall Parking Lot" lane="1149567881#1_0" startPos="0.00" endPos="14.11" friendlyPos="true" lines="Green"/>
+    <busStop id="10694238033" name="Huntington Drive at West of Centennial" lane="405546357#2_0" startPos="13.24" endPos="28.24" friendlyPos="true" lines="Green"/>
+    <busStop id="10694238034" name="Huntington Drive at West of Holly Avenue" lane="334631554#0_0" startPos="18.36" endPos="33.36" friendlyPos="true" lines="Green"/>
+    <busStop id="10711451386" name="Arcadia Gold Line Station (North East Corner 1st &amp; Santa Clara))" lane="13346560#0_0" startPos="27.58" endPos="42.58" friendlyPos="true"/>
+    <busStop id="10711471434" name="S/O Fano Southbound" lane="13373063#9_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="10711471449" name="South of Duarte Southbound" lane="271237819_0" startPos="0.00" endPos="6.67" friendlyPos="true"/>
+    <busStop id="10716009499" name="Westbound Duarte &amp; Santa Anita Westbound" lane="406259058#3_0" startPos="0.00" endPos="11.61" friendlyPos="true"/>
+    <busStop id="10716009500" name="North of Duarte Northbound" lane="406241601#0_0" startPos="18.82" endPos="33.82" friendlyPos="true"/>
+    <busStop id="10716013323" name="Westbound on Huntington (@ 1st Avenue) Southbound" lane="755844274_0" startPos="48.88" endPos="63.88" friendlyPos="true"/>
+    <busStop id="10716018715" name="Santa Anita &amp; Genoa Northbound" lane="406241587#1_0" startPos="80.24" endPos="95.24" friendlyPos="true"/>
+    <busStop id="10716018716" name="Santa Anita &amp; Genoa Southbound" lane="406242635#8_0" startPos="105.27" endPos="120.27" friendlyPos="true"/>
+    <busStop id="10716018720" name="Santa Anita &amp; Diamond Northbound" lane="406241587#10_0" startPos="15.61" endPos="30.61" friendlyPos="true"/>
+    <busStop id="1210999812" lane="1036761436_0" startPos="0.48" endPos="15.48" friendlyPos="true"/>
+    <busStop id="1247809232" name="Metro 179, 268;Foothill Transit 187" lane="414764044#0_0" startPos="11.65" endPos="26.65" friendlyPos="true"/>
+    <busStop id="1247811851" name="Metro 79;Foothill Transit 187" lane="405545583#0_0" startPos="45.82" endPos="60.82" friendlyPos="true"/>
+    <busStop id="4159092342" name="Duarte Santa Anita" lane="406259058#3_0" startPos="0.00" endPos="11.61" friendlyPos="true"/>
+    <busStop id="4159092343" name="Duarte Santa Anita" lane="406259065#0_0" startPos="19.50" endPos="34.50" friendlyPos="true"/>
+    <busStop id="4224076593" name="Foothill Transit 187" lane="755844281#0_0" startPos="23.65" endPos="38.65" friendlyPos="true"/>
+    <busStop id="4224076594" name="Foothill Transit 187" lane="259846930#0_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="4224077190" name="Foothill Transit 187" lane="192503240_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="4224081494" name="Metro 79; Foothill Transit 187" lane="1065518636#0_0" startPos="0.39" endPos="15.39" friendlyPos="true"/>
+    <busStop id="4224086190" name="Foothill Transit 187" lane="755844262#0_0" startPos="14.54" endPos="29.54" friendlyPos="true"/>
+    <busStop id="4224086191" name="Foothill Transit 187" lane="755844274_0" startPos="27.56" endPos="42.56" friendlyPos="true"/>
+    <busStop id="4224873296" name="Metro 268;Westfield Mall - South Bound Baldwin" lane="406215616#0_0" startPos="0.00" endPos="2.88" friendlyPos="true"/>
+    <busStop id="4224873297" name="Metro 268" lane="406215613#0_0" startPos="52.59" endPos="67.59" friendlyPos="true"/>
+    <busStop id="4224888196" name="Metro 268;Westfield Mall - North Bound Baldwin" lane="406215675#1_0" startPos="7.69" endPos="22.69" friendlyPos="true" lines="Green"/>
+    <busStop id="4264655394" name="Metro 268" lane="415101865#0_0" startPos="12.51" endPos="27.51" friendlyPos="true"/>
+    <busStop id="4317281700" name="Metro 79;Foothill Transit 187" lane="405546357#6_0" startPos="2.78" endPos="17.78" friendlyPos="true"/>
+    <busStop id="4317286104" name="Metro 79" lane="406242646#0_0" startPos="12.99" endPos="27.99" friendlyPos="true"/>
+    <busStop id="4317293801" name="Metro 79" lane="405546357#2_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="4317295401" name="Metro 79, 264;Foothill Transit 187" lane="59712271#0_0" startPos="18.10" endPos="33.10" friendlyPos="true"/>
+    <busStop id="4317298691" name="Metro 79" lane="604060314#1_0" startPos="18.12" endPos="33.12" friendlyPos="true"/>
+    <busStop id="4317298692" name="Metro 79,267;Foothill Transit 187" lane="59712276#0_0" startPos="17.63" endPos="32.63" friendlyPos="true"/>
+    <busStop id="4317331589" name="Metro 179;Foothill Transit 187" lane="334267468#2_0" startPos="3.27" endPos="18.27" friendlyPos="true"/>
+    <busStop id="6978428566" name="Metro 79;Foothill Transit 187" lane="334631554#0_0" startPos="32.86" endPos="47.86" friendlyPos="true"/>
+    <busStop id="7095131709" name="Metro 79;Foothill Transit 187" lane="630143605_0" startPos="10.45" endPos="25.45" friendlyPos="true"/>
+    <busStop id="7095131710" name="Metro 79" lane="405545578_0" startPos="14.12" endPos="29.12" friendlyPos="true"/>
+    <busStop id="7095131711" name="Metro 79" lane="604060292_0" startPos="15.71" endPos="30.71" friendlyPos="true"/>
+    <busStop id="7096966060" name="Metro 267" lane="405543905#0_0" startPos="38.94" endPos="53.94" friendlyPos="true"/>
+    <busStop id="7096966061" name="Metro 79, 264;Foothill Transit 187" lane="59712267#0_0" startPos="18.67" endPos="33.67" friendlyPos="true"/>
+    <busStop id="741072217" name="Metro 79, 264;Foothill Transit 187" lane="405544796#0_0" startPos="24.13" endPos="39.13" friendlyPos="true"/>
+</additional>

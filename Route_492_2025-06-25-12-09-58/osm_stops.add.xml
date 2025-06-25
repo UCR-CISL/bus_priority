@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-25 12:10:42 by Eclipse SUMO netconvert Version 1.22.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-10711459339" name="North of Longden and 6th Street Northbound" lane="-13399273#5_0" startPos="10.50" endPos="25.50" friendlyPos="true"/>
+    <busStop id="-10711459341" name="North of Live Oak Northbound" lane="-13399273#13_0" startPos="13.97" endPos="28.97" friendlyPos="true"/>
+    <busStop id="-4226743394" name="Metro 78; Foothill Transit 492" lane="-405337844_0" startPos="96.79" endPos="111.79" friendlyPos="true"/>
+    <busStop id="-4226752001" name="Metro 78; Foothill Transit 492" lane="-405337861#1_0" startPos="113.06" endPos="128.06" friendlyPos="true"/>
+    <busStop id="-4226754194" name="Metro 78; Foothill Transit 492" lane="-13299221#1_0" startPos="3.10" endPos="18.10" friendlyPos="true"/>
+    <busStop id="10711459340" name="South of Longden Southbound" lane="13399273#6_0" startPos="33.01" endPos="48.01" friendlyPos="true"/>
+    <busStop id="10711459346" name="Live Oak &amp; 4th Avenue Westbound" lane="405337838#3_0" startPos="99.68" endPos="114.68" friendlyPos="true"/>
+    <busStop id="10711459347" name="Live Oak &amp; Farna Eastbound" lane="405337821_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="10711459376" name="Live Oak &amp; Tyler Eastbound" lane="405337826_0" startPos="4.61" endPos="19.61" friendlyPos="true"/>
+    <busStop id="10711459377" name="Live Oak &amp; 2nd Westbound" lane="405337823_0" startPos="5.42" endPos="20.42" friendlyPos="true"/>
+    <busStop id="10711459378" name="Live Oak &amp; Greenfield Westbound" lane="405337862#2_0" startPos="166.74" endPos="181.74" friendlyPos="true"/>
+    <busStop id="10711459379" name="Live Oak &amp; Myrtus Eastbound" lane="405337863#1_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="10711459380" name="Live Oak &amp; Santa Anita" lane="405337852#0_0" startPos="8.66" endPos="23.66" friendlyPos="true"/>
+    <busStop id="10711459381" name="Live Oak &amp; Santa Anita (East of Santa Anita)" lane="405337859#0_0" startPos="0.00" endPos="12.52" friendlyPos="true"/>
+    <busStop id="10715921335" name="Las Tunas West of Live Oak Westbound" lane="182043865#3_0" startPos="17.76" endPos="32.76" friendlyPos="true"/>
+    <busStop id="4225768107" name="Foothill Transit 492; 487" lane="405336652#1_0" startPos="0.00" endPos="4.72" friendlyPos="true"/>
+    <busStop id="4225769208" name="Foothill Transit 487" lane="405336638#1_0" startPos="47.17" endPos="62.17" friendlyPos="true"/>
+    <busStop id="4225794595" name="Metro 78; Foothill Transit 492" lane="405337852#0_0" startPos="16.33" endPos="31.33" friendlyPos="true"/>
+    <busStop id="4226741992" name="Metro 78; Foothill Transit 492" lane="405337831#1_0" startPos="42.97" endPos="57.97" friendlyPos="true"/>
+    <busStop id="4226752191" name="Metro 78; Foothill Transit 492" lane="405337827_0" startPos="6.62" endPos="21.62" friendlyPos="true"/>
+    <busStop id="4226752192" name="Metro 78; Foothill Transit 492" lane="405337851_0" startPos="73.83" endPos="88.83" friendlyPos="true"/>
+    <busStop id="4226758990" name="Metro 78; Foothill Transit 492" lane="405337863#1_0" startPos="5.94" endPos="20.94" friendlyPos="true"/>
+    <busStop id="4226761489" name="Metro 78; Foothill Transit 492" lane="405337826_0" startPos="15.70" endPos="30.70" friendlyPos="true"/>
+    <busStop id="4226761490" name="Metro 78; Foothill Transit 492" lane="405337823_0" startPos="14.71" endPos="29.71" friendlyPos="true"/>
+    <busStop id="4226763690" name="Metro 78; Foothill Transit 492" lane="405337822_0" startPos="138.03" endPos="153.03" friendlyPos="true"/>
+    <busStop id="4270140393" name="Metro 78" lane="405337821_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="4270144991" name="Metro 78" lane="405337838#3_0" startPos="113.78" endPos="128.78" friendlyPos="true"/>
+    <busStop id="4270145192" name="Metro 78" lane="405337859#1_0" startPos="0.00" endPos="14.10" friendlyPos="true"/>
+</additional>

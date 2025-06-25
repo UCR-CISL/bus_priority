@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus" vClass="bus" accel="1.0" decel="4.5" length="12" minGap="3.0" maxSpeed="25"/>
+    <route id="t1A9-b1601D-sl4" edges="-405337861#1 -405337837#1 -405337844 -405337819 -405337831#0 47529158 405337851 405337828#0 405337828#1 405337838#0 405337838#1 405337838#2 405337838#3 182043874#0 182043874#1 182043874#2 524847621#0 524847621#1 524847621#2 524847622#0 524847622#1 524847622#2 405337823 405337862#0 405337862#1 405337862#2 405337862#3 405337855 405337866#0 405337866#1 405337866#2 405337866#3 405337866#4 405337859#0 405337859#1 405336655#1 405336655#2 405336652#0 405336652#1 405336661#0">
+        <stop busStop="t1A9-b1601D-sl4.0" duration="10" until="0" /> 
+        <stop busStop="t1A9-b1601D-sl4.1" duration="10" until="30" /> 
+        <stop busStop="t1A9-b1601D-sl4.2" duration="10" until="69" /> 
+        <stop busStop="t1A9-b1601D-sl4.3" duration="10" until="136" /> 
+        <stop busStop="t1A9-b1601D-sl4.4" duration="10" until="166" /> 
+        <stop busStop="t1A9-b1601D-sl4.5" duration="10" until="223" /> 
+    </route>
+    <route id="t212-b15F99-sl4" edges="405337852#0 405337852#1 405337842 405337863#0 405337863#1 405337863#2 405337847 405337865#0 405337865#1 405337865#2 405337826 524847623#0 524847623#1 405337858#0 405337858#1 524847620#0 524847620#1 405337821 405337860 1013754695 405337827 182050923 1012376671 405337831#0 405337831#1 405337850 405337822">
+        <stop busStop="t212-b15F99-sl4.0" duration="10" until="0" /> 
+        <stop busStop="t212-b15F99-sl4.1" duration="10" until="32" /> 
+        <stop busStop="t212-b15F99-sl4.2" duration="10" until="63" /> 
+        <stop busStop="t212-b15F99-sl4.3" duration="10" until="136" /> 
+        <stop busStop="t212-b15F99-sl4.4" duration="10" until="175" /> 
+        <stop busStop="t212-b15F99-sl4.5" duration="10" until="205" /> 
+    </route>
+    <vehicle id="t1A9-b1601D-sl4.0" route="t1A9-b1601D-sl4" type="bus" depart="2" line="t1A9-b1601D-sl4">
+        <param key="gtfs.route_name" value="492" />
+        <param key="gtfs.trip_headsign" value="West: El Monte Station" />
+    </vehicle>
+    <vehicle id="t212-b15F99-sl4.0" route="t212-b15F99-sl4" type="bus" depart="3" line="t212-b15F99-sl4">
+        <param key="gtfs.route_name" value="492" />
+        <param key="gtfs.trip_headsign" value="East: Montclair Transit Center" />
+    </vehicle>
+    </routes>

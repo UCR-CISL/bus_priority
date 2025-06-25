@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-25 00:19:43.070549 by gtfs2fcd.py f911e7709
+<configuration>
+    <gtfs value="foothill_transit_gtfs.zip"/>
+    <date value="20250624"/>
+    <network value="osm.net.xml.gz"/>
+    <route-output value="gtfs_output/routes.rou.xml"/>
+    <additional-output value="gtfs_output/stops_additional.xml"/>
+</configuration>
+-->
+
+<fcd-export>
+    <timestep time="15584"><vehicle id="t163-b2736-sl4" x="-118.064906" y="34.130761" until="0" name="Huntington Dr and Sunset Blvd  E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="15633"><vehicle id="t163-b2736-sl4" x="-118.060523" y="34.131054" until="49" name="Huntington Dr and Golden West Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="15702"><vehicle id="t163-b2736-sl4" x="-118.054337" y="34.131514" until="118" name="Huntington Dr and Baldwin Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="15780"><vehicle id="t163-b2736-sl4" x="-118.050792" y="34.13288" until="196" name="The Shops at Santa Anita" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="15859"><vehicle id="t163-b2736-sl4" x="-118.046055" y="34.131497" until="275" name="Huntington Dr and Holly Ave  E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="15954"><vehicle id="t163-b2736-sl4" x="-118.039205" y="34.135892" until="370" name="Huntington Dr and Centennial Way E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="16021"><vehicle id="t163-b2736-sl4" x="-118.035102" y="34.139929" until="437" name="Huntington Dr and Santa Clara St E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="16061"><vehicle id="t163-b2736-sl4" x="-118.03131" y="34.139962" until="477" name="Huntington Dr and Santa Anita Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="16093"><vehicle id="t163-b2736-sl4" x="-118.028285" y="34.140033" until="509" name="Huntington Dr and First Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="16129"><vehicle id="t163-b2736-sl4" x="-118.024766" y="34.14006" until="545" name="Huntington Dr and Second Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="16176"><vehicle id="t163-b2736-sl4" x="-118.020319" y="34.140105" until="592" name="Huntington Dr and Fifth Ave E" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="33872"><vehicle id="t1B3-b2739-sl4" x="-118.020263" y="34.140294" until="0" name="Huntington Dr and Fifth Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="33918"><vehicle id="t1B3-b2739-sl4" x="-118.02483" y="34.140211" until="46" name="Huntington Dr and Second Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="33956"><vehicle id="t1B3-b2739-sl4" x="-118.028607" y="34.140172" until="84" name="Huntington Dr and First Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="34021"><vehicle id="t1B3-b2739-sl4" x="-118.034989" y="34.140117" until="149" name="Huntington Dr and Santa Clara St W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="34128"><vehicle id="t1B3-b2739-sl4" x="-118.04265" y="34.134706" until="256" name="Huntington Dr and Santa Anita Medical Pl" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="34181"><vehicle id="t1B3-b2739-sl4" x="-118.046399" y="34.131826" until="309" name="Huntington Dr and Holly Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="34236"><vehicle id="t1B3-b2739-sl4" x="-118.050792" y="34.13288" until="364" name="The Shops at Santa Anita" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="34285"><vehicle id="t1B3-b2739-sl4" x="-118.054688" y="34.131854" until="413" name="Huntington Dr and Baldwin Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="34354"><vehicle id="t1B3-b2739-sl4" x="-118.061063" y="34.13144" until="482" name="Huntington Dr and Golden West Ave W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="34401"><vehicle id="t1B3-b2739-sl4" x="-118.065373" y="34.131151" until="529" name="Huntington Dr and Sunset Blvd W" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+    <timestep time="50901"><vehicle id="t1BD-b27B3-sl4" x="-118.030216" y="34.142308" until="0" name="Arcadia Station" fareZone="" fareSymbol="" startFare="" speed="20"/></timestep>
+</fcd-export>

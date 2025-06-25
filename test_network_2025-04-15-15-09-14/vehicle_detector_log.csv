@@ -1,0 +1,4 @@
+sim_time,vehicle_id,vehicle_type,tls_id,lane_id,position,speed,priority_granted,phase_index,note,actual_delay
+27,bus,bus,GS_cluster_54513042_6133907621,643274772#0_0,79.30896759776618,0.00016227121474077103,yes,0,green granted after 8s,8
+78,bus,bus,54487384,-474635936_0,26.60647855182652,8.253917854203582,yes,0,green granted after 8s,8
+90,bus,bus,54487386,7194835#0_0,60.325082607018985,11.027576201846824,yes,0,green granted after 8s,8

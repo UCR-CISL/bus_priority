@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-25 00:19:43.156735 by gtfs2pt.py f911e7709
+  options: -n osm.net.xml.gz <doubleminus>gtfs foothill_transit_gtfs.zip <doubleminus>date 20250624 <doubleminus>route-output gtfs_output/routes.rou.xml <doubleminus>additional-output gtfs_output/stops_additional.xml
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <vType id="bus" vClass="bus"/>
+</additional>

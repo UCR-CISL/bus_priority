@@ -1,0 +1,6 @@
+vehicle_id,departure_time,arrival_time,duration
+bus1,1.0,515.0,514.0
+bus2,1.0,575.0,574.0
+bus3,1.0,455.0,454.0
+bus4,1.0,409.0,408.0
+bus5,1.0,111.0,110.0
